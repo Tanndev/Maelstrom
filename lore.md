@@ -17,10 +17,28 @@ Agriculture is conducted entirely indoors with "sustainable buildings" being the
 
 Several extremist groups oppose these technologies and believe that humanity should stop interferring with the planet. These groups have various different rationales, bust most agree that humanity should either leave Earth or die out completely. Attacks on geoengineering projects, auto-farms, and power stations are common. Because of this, as well as the densely-packed population, security on the planet is extremely tight and many regions enforce harsh penalties for even small crimes.
 
+<!-- TODO Provide vital statistics about Earth -->
+
 #### Luna
-Earth's moon, now officially named Luna, was humanity's second extra-terrestrial colony and first sub-planet-scale terraforming project. Several hundred million people live and work on the surface of Luna in dense colonies. Since the small body does not have enough gravity to maintain a liveable atmosphere by itself, these colonies use atmosphere generators to fill large protective domes. In addition to providing a breathable atmosphere, most of these domes also contain artifical lighting and electrochromic glass in order to maintain an artificial Earth-like day/night cycle. Some of the newer, more comfortable settlements even include gravitics to that residents can enjoy Earth-like gravity. (One settlement attempted to use gravitics to contain the atmosphere as well and omit the dome. However, this proved fatal for all residents when the settlement's power generators failed.)
+Earth's moon, now officially named Luna, was humanity's second extra-terrestrial colony and first sub-planet-scale terraforming project. Several hundred million people live and work on the surface of Luna in dense colonies. Since the small body does not have enough gravity to maintain a liveable atmosphere by itself, these colonies use atmosphere generators to fill large protective domes. In addition to providing a breathable atmosphere, most of these domes also contain artifical lighting and electrochromic glass in order to maintain an artificial Earth-like day/night cycle. Some of the newer, more comfortable settlements even include gravitic generators so that residents can enjoy Earth-like gravity. (One settlement attempted to use gravitics to contain the atmosphere as well and omit the dome. However, this proved fatal for all residents when the settlement's power generators failed.)
 
 With very few resources available, the primary industries on Luna are research and manufacturing. The low gravity makes it easy to transport material to and from the surface, while the short distance to Earth allows for efficient real-time communication. Because of this, Luna does not have an independant government and is mostly under the shared control of various Earth-based corporations and nations.
+
+<!-- TODO Provide vital statistics about Luna -->
+
+## Mars
+The site of humanity's first permenant extra-teresstrial colony, Mars has undergone extensive terraforming and supports a breathable -- though thin -- atmosphere. Like Earth, Mars is protected by an artificial magnetic field which makes it safe for humans to travel across most of the planet without special protective equipment.
+
+With planetary gravity approximately 1/3 Earth-normal, most settlements have been equipped with permenant, fixed gravitic generators to increase local gravity to near 1G. However, like on Luna, many Martian settlements take advantage of the lower gravity to make trans-orbital shipment more efficient. 
+
+Mars operates under single independant government but maintains a friendly, cooperative relationship with most factions on Earth. Most corporations are unwilling to risk losing access to the planet's robust mineral resources and manufacturing capability, opting instead of cooperate with the government's strict but fair regulations. On the rare occasion that an outside faction attempts to cease control, the Martian government is more than capable of defending itself. This was demonstrated during the Martian Corporate War, when an conglomerate of Earth-based mega corporations attempted to annex the small planet. With one exception, the corporations involved no longer exist.
+
+### Phobos and Deimos
+Mars's tiny moons, Phobos and Deimos, are too small to support colonization. At 22km and 13km accross, respectively, they bear a closer resemblance to asteroids than they do to Earth's moon Luna. As part of the terraforming of Mars, geoengineers stabilized and circularized the orbit of Phobos in order to serve as a near-Martian transportation depot for orbital shuttles. Deimos was set up as a secondary refueling and repair outpost for interplanetary ships.
+
+With the introduction of more advanced propulsion technologies, both outposts have been mostly supplanted and have fallen into disrepair. Efforts have been proposed to make use of these structures again, but the Martian government has declared them to be of "great historical significance" and will not approve any such plans. After several reported acts of vandalism and illegal salvage, the sites are off-limits to visitors in order to prevent further damage. Naturally, there are many conspiracy theories claiming that the moons are actually being used for secret, dangerous experiments instead. However, no credible evidence supports these claims and it is unlikely that any operation could go undetected on such a small body for any length of time.
+
+<!-- TODO Provide vital statistics about Mars -->
 
 ## Alpha Centauri
 
