@@ -40,6 +40,15 @@ With the introduction of more advanced propulsion technologies, both outposts ha
 
 <!-- TODO Provide vital statistics about Mars -->
 
+## Jupiter
+Jupiter has no surface and cannot support human life directly. However, vast quanties of elemental hydrogen make the gas giant a treasure trove for gas mining operations. The vast majority of all fuel used by humanity was mined from Jupiter's atmosphere and processed on one of her moons.
+
+### Titan
+Jupiter's largest moon.
+<!-- TODO Describe Titan -->
+
+<!-- TODO Describe more planets/moons in the Sol system. -->
+
 ## Alpha Centauri
 
 <!-- TODO Describe the pre-FTL colonization of Alpha Centauri -->
