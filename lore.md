@@ -1,7 +1,7 @@
-# Lore
-Information about the people, places, and technology of the Maelstrom universe
+# Lore: Introduction
+This document contains information about the people, places, and technology of the game's universe
 
-## Places
+# Lore: Places
 
 ## Sol
 Birthplace of Humanity, the Sol system remains the most populated of all the settled systems. Major settlements include Earth, Luna, Mars, and Titan. Minor settlements are spread throughout the system on other moons, asteroids, and artificial stations.
@@ -26,24 +26,24 @@ With very few resources available, the primary industries on Luna are research a
 
 <!-- TODO Provide vital statistics about Luna -->
 
-## Mars
+### Mars
 The site of humanity's first permenant extra-teresstrial colony, Mars has undergone extensive terraforming and supports a breathable -- though thin -- atmosphere. Like Earth, Mars is protected by an artificial magnetic field which makes it safe for humans to travel across most of the planet without special protective equipment.
 
 With planetary gravity approximately 1/3 Earth-normal, most settlements have been equipped with permenant, fixed gravitic generators to increase local gravity to near 1G. However, like on Luna, many Martian settlements take advantage of the lower gravity to make trans-orbital shipment more efficient. 
 
 Mars operates under single independant government but maintains a friendly, cooperative relationship with most factions on Earth. Most corporations are unwilling to risk losing access to the planet's robust mineral resources and manufacturing capability, opting instead of cooperate with the government's strict but fair regulations. On the rare occasion that an outside faction attempts to seize control, the Martian government is more than capable of defending itself. This was demonstrated during the Martian Corporate War, when an conglomerate of Earth-based mega corporations attempted to annex the small planet. With one exception, the corporations involved no longer exist.
 
-### Phobos and Deimos
+#### Phobos and Deimos
 Mars's tiny moons, Phobos and Deimos, are too small to support colonization. At 22km and 13km accross, respectively, they bear a closer resemblance to asteroids than they do to Earth's moon Luna. As part of the terraforming of Mars, geoengineers stabilized and circularized the orbit of Phobos in order to serve as a near-Martian transportation depot for orbital shuttles. Deimos was set up as a secondary refueling and repair outpost for interplanetary ships.
 
 With the introduction of more advanced propulsion technologies, both outposts have been mostly supplanted and have fallen into disrepair. Efforts have been proposed to make use of these structures again, but the Martian government has declared them to be of "great historical significance" and will not approve any such plans. After several reported acts of vandalism and illegal salvage, the sites are off-limits to visitors in order to prevent further damage. Naturally, there are many conspiracy theories claiming that the moons are actually being used for secret, dangerous experiments instead. However, no credible evidence supports these claims and it is unlikely that any operation could go undetected on such a small body for any length of time.
 
 <!-- TODO Provide vital statistics about Mars -->
 
-## Jupiter
+### Jupiter
 Jupiter has no surface and cannot support human life directly. However, vast quanties of elemental hydrogen make the gas giant a treasure trove for gas mining operations. The vast majority of all fuel used by humanity was mined from Jupiter's atmosphere and processed on one of her moons.
 
-### Titan
+#### Titan
 Jupiter's largest moon.
 <!-- TODO Describe Titan -->
 
@@ -57,4 +57,4 @@ Jupiter's largest moon.
 
 <!-- TODO Describe Maelstrom and the Maelstrom Oasis -->
 
-## Technology
+# Lore: Technology
