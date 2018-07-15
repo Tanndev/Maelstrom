@@ -1,4 +1,4 @@
-# Lore: Introduction
+# Lore
 This document contains information about the people, places, and technology of the game's universe
 
 # Lore: Places
