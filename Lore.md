@@ -58,3 +58,33 @@ Jupiter's largest moon.
 <!-- TODO Describe Maelstrom and the Maelstrom Oasis -->
 
 # Lore: Technology
+
+## Artificial Intelligence (AI)
+Artifical Intelligence, also known as synthetic or machine intelligence, fall into a few main levels. These levels are generally used to classify AI systems for the purposes of regulation and legislation.
+
+### Level 0 - Conversational AI
+Generally consisting of scripted dialog trees and natural language processing, conversational AIs provide an approximation of human conversation. These systems are generally unable to learn, adapt, or self-improve in any way. Instead, they can only by taught new skills by adding additional scripted tasks, called "intents". These intents are usually simple tasks which a user asks for specifically, such as turning off lights, reading news articles aloud, or scheduling an appointment. A conversational AI is incapable of executing any command or question which it does not interpret as one of its pre-defined intents.
+
+This level of AI is extremely common and they are frequently used as receptionists, personal assistants, customer service agents, and any other roles where relatively simple voice-communication is useful. The most common use for them, however, is as voice computer interfaces, where they allow users to interact with a more powerful computer without the need to a keypad or screen. Used this way, they still offer limited commands but can sometimes be used to direct other, more advanced AIs. For example, many ships are equipped with a conversational AI that can access basic ship functions such as opening and closing doors, sounding alarms, providing system status, and other simple tasks. This AI is not able to perform complex tasks such as piloting the ship or engaging in combat; however, it may be used to engage the ship's autopilot or autogunner AIs, if the ship is equipped with them. It is not uncommon to hear "ship's computer" as a catch-all term for all the electronic systems installed, including the conversational and functional AIs.
+
+Due of the fixed, scripted nature of conversational AIs, they are not technically considered "true" AI. There is absolutely no risk of spontaneous self-awareness or unintended learned behaviors. Because of this, these systems are legal or unregulated in almost all jurisdictions.
+
+### Level 1 - Functional AI
+Sometimes referred to as pre-trained AIs, functional AIs are able to make decisions and perform complex tasks according to a fixed set of pre-defined parameters. Like conversational AIs, they are not capable of learning or self-improvement. However, unlike conversational AIs, functional AIs are usually designed to perform a single automated task with limited user input or interaction. In almost all cases, functional AIs are built using the neural network of a fully-trained adaptive AI which has been reduced and optimized to run on less powerful hardware. This process also tends to reduce the ability to adjust or improve the network, making it very difficult to reverse-engineer an adaptive AI from a functional one even if installed on the necessary hardware.
+
+This level AI is used extensively in applications where autonomous or semi-autonomous functionality is required but where available resources or legal restrictions prevent the use of an adaptive AI. It is not uncommon for a ship to have several functional AIs on board including an autopilot, autogunners, a reactor control system, and more. Functional AIs are also regularly used in ground vehicles, factory equipment, and autofarms where more powerful AIs would be impractical or unnecessary.
+
+Very few jurisdictions ban functional AIs outright, but regulations are common. In particular, many jurisdictions require that a functional AI may only be run on hardware which is limited to the needs of the specific AI. This is done to ensure that an adaptive AI cannot be disguised as a functional one to skirt restrictions. Some jurisdictions also require that functional AIs be shut down and electrically disconnected from all equipment. Sale and transfer of AIs or neural networks is also often illegal in these jurisdictions
+
+Since ships are often required to travel to jurisdictions where learning AIs are illegal, most ships use functional AIs rather than adaptive ones. Similarly, the AIs are usually run on separate hardware from the ship's main control systems and are connected through hardwired junction terminals which can be physically disengaged to sever power and communication to the unit. As a side effect, this has led to the standardization of AI "modules" which can be easily installed, upgraded, and traded between ships.
+
+Ironically, since functional AIs are almost always based off an adaptive AI, the jurisdictions where adaptive AIs are illegal are forced to import all their functional AIs from other jurisdictions. This gives low-restriction jurisdictions a significant technological and economic advantage due to the availability of AI research and development.
+
+### Level 2 - Adaptive AI
+<!-- TODO Describe Adaptive AIs -->
+
+### Level 3 - General AI
+<!-- TODO Describe AGIs -->
+
+### Level 4 - Sentient AI
+<!-- TODO Describe sentient AI -->
