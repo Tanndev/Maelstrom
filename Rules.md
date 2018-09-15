@@ -39,7 +39,10 @@ When you announce an action that your storteller wants you to roll for, they'll 
 <!-- TODO Describe how to roll dice to determine successes. -->
 
 ### Determining Difficulty
+<!-- TODO Describe how to determine what the difficulty should be -->
+
 ### Determining Threshold
+<!-- TODO Describe how to determine what the threshold should be, if any. -->
 
 ## Combat
 ### Turns
