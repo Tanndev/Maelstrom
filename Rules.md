@@ -24,7 +24,7 @@ The following rules provide a framework to help a storytellers and players build
 ### Equipment
 
 ## Actions
-Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll die to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilies, along with some dice, to determine if they succeed, fail, or royally screw things up.
+Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilies, along with some dice, to determine if they succeed, fail, or royally screw things up.
 
 ### Declaring an action
 The first step of performaing an action is to decide what your character is going to do and announce it. You might say, for example, "I hop on the motorcycle and fire it up." For many actions, this is all that's required. But for some actions, the storyteller may have you roll for it. The storyteller should take the situation into account as well when deciding whether players should roll. After all, it's really easy to start a motorcycle in your driveway for a lazy drive but it's a whole other thing to start it while under fire and trying to escape with your life.
