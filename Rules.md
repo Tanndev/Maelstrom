@@ -37,12 +37,33 @@ When you announce an action that your storteller wants you to roll for, they'll 
 
 ### Rolling the Dice
 <!-- TODO Describe how to roll dice to determine successes. -->
+#### Counting Successes
+#### Succeed, Fail, or Botch?
 
 ### Determining Difficulty
 <!-- TODO Describe how to determine what the difficulty should be -->
+(_Oh no! There's a section missing here! Don't worry, I'm sure it'll turn up._)
+
+At difficulty 10, a single die is as likely to botch as it is to succeed. Higher than that and success is completely impossible, since you can't roll an 11 on a ten-sided die. Because of this, it's usually a good idea to add a threshold instead of increasing the difficulty above 8 or 9.
 
 ### Determining Threshold
-<!-- TODO Describe how to determine what the threshold should be, if any. -->
+Some actions are so difficult that a simple success isn't enough and one or more successes are needed just to break even before progress can be made. For these actions, the storyteller can set a "threshold" of success. This threshold counts against any successes a character rolls, _before_ any ones are are counted. This not only makes it harder to get a success, but also makes it easier to botch. A little threshold goes a long way.
+
+Usually, a threshold is used to set a task that is just extremely difficult to perform. In these cases, the action's difficulty is also set high. Just be sure to keep in mind that, with a high difficulty, the average number of rolled successes will be low. At difficulty 9, even a threshold of 1 makes for an extremely challenging feat. The odds of a botch are high and odds of failure even higher.
+
+Thresholds can also be used to make tasks that aren't particularly difficult, but where there's a lot that can go wrong. This represents the need of the character to get a bunch of things right in order to succeed in their objective. In these cases, the action's difficulty is set lower -- somtimes even lower than normal -- and a reasonable threshold is used.
+
+> **Example**: "You climb the stairs and find yourself at the landing pad. There's no railings here, but there's a guard standing near the edge ahead of you. It's really windy all the way up here but you're pretty sure the metalic floor will make it extremely hard to sneak past him without being heard." describes the storyteller. The player decides she wants to charge the guard and push him over the edge before he can react.
+>
+> Considering the situation, the storyteller offers a choice: "It'd be so, so easy to budge him off the ledge, but you recognize that the loud, slippery floor makes this super dangerous. In game terms, it'll be strength plus athletics at difficulty 5 and a 2 threshhold. You gonna go for it?" The player's character has pretty good stats and she decides to risk it. She picks up the dice...
+>
+> With a threshold of two, the player will immediately discard two successes from her roll. If she has no remaining successes and any ones, she botches. Otherwise, she subtracts her ones from her successes as usual. There's a few possible outcomes:
+> - If she has at least one success remaining, she'll successfully push the guard off the edge. Only one success might give her a bit of a frightening close call, while more will have her move quickly and quietly.
+> - If she has no remaining successes, but didn't botch, the guard hears her coming and pushes her back. They're both still on the platform but it's probably going to be a pretty scary fight.
+> - If she botched, she successfully pushes the guard but slips and goes over the edge as well. The storyteller offers a reflex + strength check to try and grab onto the edge just in time.
+
+<!-- TODO Put in a table of average successes for die pool and difficulty -->
+
 
 ## Combat
 ### Turns
