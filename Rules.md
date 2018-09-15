@@ -31,7 +31,7 @@ The first step of performaing an action is to decide what your character is goin
 
 Some actions are also just straight up impossible. No matter how much you say "I fly like a bird!" the only thing your character will end up doing is flapping their arms like a lunatic. Generally, the storyteller won't have you roll for these and just tell you that you fail or suggest that your character would know it was impossible before you even attempt it. However, a particularly mean storyteller may have you roll anyway, purely to determine exactly how hilariously you screw up.
 
-While everything your character does is technically an action, you generally need to think about them individually. Outside of combat, players should just roleplay their characters, decide what they want to do, and do it. Try to avoid things like "Can I make a stealth check?" or "What do I need to roll to search the room?" Instead, just describe what your character is doing: "I blend into the crowd and try to get out the back unnoticed" or "I grab my forensics kit and search the room, looking for anything that might be relevant to the case."  When a roll is needed, the storyteller will say so.
+While most things your character does are technically actions, you generally need to think about them individually. Outside of combat, players should just roleplay their characters, decide what they want to do, and do it. Try to avoid things like "Can I make a stealth check?" or "What do I need to roll to search the room?" Instead, just describe what your character is doing: "I blend into the crowd and try to get out the back unnoticed" or "I grab my forensics kit and search the room, looking for anything that might be relevant to the case."  When a roll is needed, the storyteller will say so.
 
 ### The Dice Pool
 When you announce an action that your storteller wants you to roll for, they'll decide which traits you'll need to use. Usually, this will be an attribute and an ability. However, occasionally be one or two attributes without an ability. While there may sometimes be only one trait used, there should never be more than two. The number of dice you'll roll, called your dice pool, is determined how many dots you have in each of those traits: one die per dot for each trait.
@@ -47,7 +47,25 @@ After you declare an action, the storyteller may offer a choice of different way
 ### Difficulty
 Once you've decded what you're going to do and gotten your dice pool, the storyteller should specify a difficulty. Some storytellers will use the default difficulty for most actions and only mention it when it's different, rather than saying it every time. Your storyteller should make it clear how they intend to do this.
 
-The difficulty determines what number you need to roll on your dice in order to count as a success. The number of successes then determines how well your character does. While the difficulty can be set anywhere between 2 and 10, it will usually be between 4 and 8 with most actions having the default difficulty of 6.
+While the difficulty can be set anywhere between two and ten, it will usually be between four and eight with most actions having the default difficulty of six. When you roll your dice, you will get one success for each die which shows the difficulty number or higher. Additionally, you'll also get a failure for each die which shows a one. You lose one success for each failure and the total number of successes remaining then determines how well your character does. If manage to roll a failure without getting any successes at all, you botch the roll and fail spectacularly.
+
+>**Example:** A player is taking an action with dice pool of five and a difficulty of six. He rolls and gets 1, 3, 4, 6, 7. Two dice are showing a six or better, so he gets two successes. But he also rolled a one and loses a success, for a total of one success remaining. Had the difficulty been higher, he would have wound up with zero successes and potentially botched the roll entirely.
+
+### Threshold
+For particularly challenging or dangerous actions, the story teller may specify a threshold. This represents how much effort it's going to take just to have a chance to succeed. Having a threshold means you are much more likely to fail and dramatically increases the chance of you failing catastrophically.
+
+When you have a threshold, any successes you get up to that amount are removed immediately. Not only do they not count towards your total successes, they don't even count for botched rolls.
+
+> **Example:** A player rolls for their action with a threshold of two. They roll two successes and a failure. The two successes are then immediately removed by the threshold, leaving zero successes and a failure. This is a botch, even though the roll would have been pretty good without the threshold.
+
+### Specialty
+If you use a an attribute that your character has a specialty in, you can sometimes use that specialty to increase your odds of success.
+
+You can only use a attribute's specialty if you have at least four dots in the attribute and if you are using that attribute to perform some action related to the specialty. Using a specialty doesn't directly add to the dice pool, but it does allow for a chance of getting bonus dice on good role. Whenever you role a 10 on a die while using a specialty, you have the option to roll an additional die. This includes the additional dice as well, so you could theoretically roll an unlimited number of successes.
+
+Keep in mind, however, that with great power comes great responsibility. Each additional die you roll has the potential to be a 1 and cancel out success you already got. If you've already got enough successes to perform the action you want, sometimes it's better not to roll the extra die.
+
+> **Example:** A player is trying to attack with a sniper rifle. The attack uses Precision and Firearms and has a difficulty of 8. Her character has three dots in Precision and four dots in Firearms with a specialty in sniping. Because she has at least four dots in Firearms and is taking a relevant action, she's allowed to use the speciality. She rolls seven dice as usual and gets 2, 3, 3, 5, 7, 8, and 10 for two successes. Because of the ten, she's able to roll another die as well and rolls another 8 for a total of three successes. Had she rolled a 1 instead, she'd have wound up with a single success, potentially dealing less damage.
 
 ### Resolving the Result
 Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
@@ -55,7 +73,7 @@ Once you've determined your action, dice pool, and difficulty, it's time for som
 #### Step 1: Roll
 Roll a number of ten-sided dice equal to your dice pool.
 
-If you're using one of your character's specialties, you may roll an additional die for each die that shows a ten. This includes the additional dice as well. (Theoretically, you can roll an infinite number of successes if you keep rolling tens.) Keep in mind, however, that these additional dice also have the chance to add a failure. So, if you've already got enough successes to perform the action you want, you don't have to add more dice if you don't want to.
+If you're using one of your character's specialties, you may roll an additional die for each die that shows a 10.
   
 #### Step 2: Count Successes
 Count how many dice are showing a number equal to or greater than your difficulty number; these are your successes.
@@ -63,7 +81,7 @@ Count how many dice are showing a number equal to or greater than your difficult
 If you have a threshold, immediately remove that number of successes. Any successes removed in this way don't count at all and aren't considered cancelled; they effectively never happened at all. (Note: this affects successes, not the dice themselves. So it does not prevent you from adding additional dice by using a speciality. It can still remove successes from added dice, however.)
   
 #### Step 3: Subtract Failures
-Ones are bad. Count how many dice are showing a one; these are your failures. Each failure you roll cancels one of your successes.
+Ones are bad. Count how many dice are showing a 1; these are your failures. Each failure you roll cancels one of your successes.
 
 #### Step 4: Succeed, Fail, or Botch
 If you still have any successes, then congratulations! You've suceeded your action. How well you did is determined by how many successes you still have. For most actions, a single success is enough to just barely make it while three or more means you did a really good job. The storyteller will describe your action and the potentially-glorious result.
