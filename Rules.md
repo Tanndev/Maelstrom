@@ -44,25 +44,63 @@ After you declare an action, the storyteller may offer a choice of different way
 
 > **Example:** "I'm going to make my way through the crowd and follow the target." you announce. The storyteller asks you if you'd like to push and shove people out of the way with Strength + Brawling or slip through gaps in the crowd with Precision + Streetwise. You know you'd have more dice if you brute force your way through but you also know that your character wouldn't want to make a big scene and draw attention. So, you decide to take the smaller dice pool and slip through the crowd instead.
 
-### Rolling the Dice
-<!-- TODO Describe how to roll dice to determine successes. -->
-#### Counting Successes
-#### Succeed, Fail, or Botch?
+### Difficulty
+Once you've decded what you're going to do and gotten your dice pool, the storyteller should specify a difficulty. Some storytellers will use the default difficulty for most actions and only mention it when it's different, rather than saying it every time. Your storyteller should make it clear how they intend to do this.
 
-### Determining Difficulty
+The difficulty determines what number you need to roll on your dice in order to count as a success. The number of successes then determines how well your character does. While the difficulty can be set anywhere between 2 and 10, it will usually be between 4 and 8 with most actions having the default difficulty of 6.
+
+### Resolving the Result
+Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
+
+#### Step 1: Roll
+Roll a number of ten-sided dice equal to your dice pool.
+
+If you're using one of your character's specialties, you may roll an additional die for each die that shows a ten. This includes the additional dice as well. (Theoretically, you can roll an infinite number of successes if you keep rolling tens.) Keep in mind, however, that these additional dice also have the chance to add a failure. So, if you've already got enough successes to perform the action you want, you don't have to add more dice if you don't want to.
+  
+#### Step 2: Count Successes
+Count how many dice are showing a number equal to or greater than your difficulty number; these are your successes.
+
+If you have a threshold, immediately remove that number of successes. Any successes removed in this way don't count at all and aren't considered cancelled; they effectively never happened at all. (Note: this affects successes, not the dice themselves. So it does not prevent you from adding additional dice by using a speciality. It can still remove successes from added dice, however.)
+  
+#### Step 3: Subtract Failures
+Ones are bad. Count how many dice are showing a one; these are your failures. Each failure you roll cancels one of your successes.
+
+#### Step 4: Succeed, Fail, or Botch
+If you still have any successes, then congratulations! You've suceeded your action. How well you did is determined by how many successes you still have. For most actions, a single success is enough to just barely make it while three or more means you did a really good job. The storyteller will describe your action and the potentially-glorious result.
+
+If you had no successes or failures, or if all your successes were cancelled, then you've simply failed. You weren't able to accomplish what you tried to do. You missed your shot, lost the person you were following, or couldn't hack the computer. The storyteller will describe what went wrong. Still, it could have been worse...
+
+If you rolled any failures without rolling any successes (including cancelled ones), then you've botched. Not only did you fail, but things went very wrong. Perhaps the part you were trying to fix is permentantly broke, or you gun is jammed, or you've crashed and ruined your car. Whatever it was, the storyteller will describe uncomfortable results of your utter failure ...usually in graphic detail.
+
+#### Easy Counting Trick
+All this counting of dice can sound a little complicated and slow at first.
+
+Fortunately, there's actually a really easy way to figure out your result quickly:
+1. After you've rolled your dice, pick out the successes and failures. Remove the res.
+1. If you have a threshold, take that many of the successes and remove them.
+1. If you have no successes but at least one failure, you've botched.
+1. Pair up successess with failures and remove each pair.
+1. If you have any successes left, that's how well you succeed.
+1. If you don't have any successes left, you've failed.
+
+### Storyteller Suggestions
+Even after you've figured out what traits to use for your player's action, determining what difficulties and thresholds to set can be tricky sometimes. This section provides some suggestions and tables to make it a little bit easier. However, it'll also vary greatly depending on what sort of game you're running and how much of a challenge you and your players want. Start with the guidelines here and then adjust to suit your story and your players.
+
+#### Determining Difficulty
+Importantly, the difficulty should never change _after_ the dice have been rolled.
 <!-- TODO Describe how to determine what the difficulty should be -->
 (_Oh no! There's a section missing here! Don't worry, I'm sure it'll turn up._)
 
 At difficulty 10, a single die is as likely to botch as it is to succeed. Higher than that and success is completely impossible, since you can't roll an 11 on a ten-sided die. Because of this, it's usually a good idea to add a threshold instead of increasing the difficulty above 8 or 9.
 
-### Determining Threshold
+#### Determining Thresholds
 Some actions are so difficult that a simple success isn't enough and one or more successes are needed just to break even before progress can be made. For these actions, the storyteller can set a "threshold" of success. This threshold counts against any successes a character rolls, _before_ any ones are are counted. This not only makes it harder to get a success, but also makes it easier to botch. A little threshold goes a long way.
 
 Usually, a threshold is used to set a task that is just extremely difficult to perform. In these cases, the action's difficulty is also set high. Just be sure to keep in mind that, with a high difficulty, the average number of rolled successes will be low. At difficulty 9, even a threshold of 1 makes for an extremely challenging feat. The odds of a botch are high and odds of failure even higher.
 
 Thresholds can also be used to make tasks that aren't particularly difficult, but where there's a lot that can go wrong. This represents the need of the character to get a bunch of things right in order to succeed in their objective. In these cases, the action's difficulty is set lower -- somtimes even lower than normal -- and a reasonable threshold is used.
 
-> **Example**: "You climb the stairs and find yourself at the landing pad. There's no railings here, but there's a guard standing near the edge ahead of you. It's really windy all the way up here but you're pretty sure the metalic floor will make it extremely hard to sneak past him without being heard." describes the storyteller. The player decides she wants to charge the guard and push him over the edge before he can react.
+> **Example:** "You climb the stairs and find yourself at the landing pad. There's no railings here, but there's a guard standing near the edge ahead of you. It's really windy all the way up here but you're pretty sure the metalic floor will make it extremely hard to sneak past him without being heard." describes the storyteller. The player decides she wants to charge the guard and push him over the edge before he can react.
 >
 > Considering the situation, the storyteller offers a choice: "It'd be so, so easy to budge him off the ledge, but you recognize that the loud, slippery floor makes this super dangerous. In game terms, it'll be strength plus athletics at difficulty 5 and a 2 threshhold. You gonna go for it?" The player's character has pretty good stats and she decides to risk it. She picks up the dice...
 >
