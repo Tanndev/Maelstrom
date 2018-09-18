@@ -59,15 +59,13 @@ When you have a threshold, any successes you get up to that amount are removed i
 > **Example:** A player rolls for their action with a threshold of two. They roll two successes and a failure. The two successes are then immediately removed by the threshold, leaving zero successes and a failure. This is a botch, even though the roll would have been pretty good without the threshold.
 
 ### Specialty
-If you use a an attribute that your character has a specialty in, you can sometimes use that specialty to increase your odds of success.
+If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success.
 
-You can only use an attribute's specialty if you have at least four dots in the attribute and if you are using that attribute to perform some action related to the specialty. Using a specialty doesn't directly add to the dice pool, but it does allow for a chance of getting bonus dice on a good role. Whenever you role a 10 on a die while using a specialty, you have the option to roll an additional die. This includes when rolling a 10 on the additional dice as well, so you could theoretically roll an unlimited number of successes.
+You can only use an ability's specialty if you have at least four dots in the ability and if you are using that ability to perform some action related to the specialty. Using a specialty doesn't directly add to the dice pool, but it does allow for a chance of getting bonus dice on a good role. Whenever you role a 10 on a die while using a specialty, you have the option to roll an additional die. This includes when rolling a 10 on the additional dice as well, so you could theoretically roll an unlimited number of successes.
 
 Keep in mind, however, that with great power comes great responsibility. Each additional die you roll has the potential to be a 1 and cancel out success you already got. If you've already got enough successes to perform the action you want, sometimes it's better not to roll the extra die.
 
 > **Example:** A player is trying to attack with a sniper rifle. The attack uses Precision and Firearms and has a difficulty of 8. Her character has three dots in Precision and four dots in Firearms with a specialty in sniping. Because she has at least four dots in Firearms and is taking a relevant action, she's allowed to use the speciality. She rolls seven dice as usual and gets 2, 3, 3, 5, 7, 8, and 10 for two successes. Because of the ten, she's able to roll another die as well and rolls another 8 for a total of three successes. Had she rolled a 1 instead, she'd have wound up with a single success, potentially dealing less damage.
-
-    <!-- DEVONS NOTE: your description says "attribute" but you example uses an "ability"; does this apply to any trait with 4+ dots? -->
 
 ### Resolving the Result
 Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
