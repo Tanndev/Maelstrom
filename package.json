@@ -23,7 +23,8 @@
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "http-errors": "^1.7.1",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "redis": "^2.8.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.4"
