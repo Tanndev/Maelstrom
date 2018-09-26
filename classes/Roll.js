@@ -81,7 +81,7 @@ class Roll {
     }
 
     get failed() {
-        return this.result <= 0;
+        return this.result === 0;
     }
 
     get botched() {
