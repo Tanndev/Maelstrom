@@ -33,7 +33,7 @@ Some actions are also just straight up impossible. No matter how much you say "I
 
 While most things your character does are technically actions, you generally need to think about them individually. Outside of combat, players should just roleplay their characters, decide what they want to do, and do it. Try to avoid things like "Can I make a stealth check?" or "What do I need to roll to search the room?" Instead, describe what your character is doing: "I blend into the crowd and try to get out the back unnoticed" or "I grab my forensics kit and search the room, looking for anything that might be relevant to the case."  When a roll is needed, the storyteller will say so.
 
-### The Dice Pool
+### Dice Pool
 When you announce an action that your storyteller wants you to roll for, they'll decide which traits you'll need to use. Usually, this will be an attribute and an ability. However, occasionally be one or two attributes will be used instead. While there may sometimes be only one trait used, there should never be more than two. The number of dice you'll roll, called your dice pool, is determined by how many dots you have in each of those traits: one die per dot for each trait.
 
 > **Example:** A character is taking fire and the player decides to start his motorcycle and try to get away. The storyteller thinks that getting the key in the ignition and driving off without stalling is going to require precise movements and familiarity with the bike. She says to roll Precision + Drive. The player has three dots in Precision and two dots in Drive, so his dice pool contains a total of five dice.
