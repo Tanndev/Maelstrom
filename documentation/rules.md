@@ -3,24 +3,76 @@ The following rules provide a framework to help storytellers and players build t
 
 ## Characters
 ### Backgrounds
+
 ### Traits
+Traits define what a character is capable of. They are divided into two main categories: attributes and abilities. 
+
 #### Attributes
+Attributes are the intrinsic traits that broadly define the overall capabilities of a character. All characters have at least one dot in all attributes -- except under extreme exceptions -- with two dots being the human average. Some characters may have fewer than two dots in one or more attributes, and almost all player characters will have 3-4 dots in at least one attribute.
+
 ##### Physical
+The physical attributes define the physical capabilities of a character.
+
 ###### Strength
+Strength is pure muscle power and endurance. It's used for running, lifting, carrying, punching, and other activities where the limiting factor is the raw amount of physical effort the character is able to exert.
+- **0**: Abysmal. You can barely even move under your own power. Most children are stronger than you. (Lift 20lbs)
+- **1**: Poor. You're a couch potato. (Lift 40lbs)
+- **2**: Average. You can probably do a couple pushups. (Lift 100lbs)
+- **3**: Good. You work out or do heavy work for a living. (Lift 250lbs)
+- **4**: Exceptional. You win Strong Man competitions. (Lift 400lbs)
+- **5**: Outstanding. You are the Mountain that Rides. (Lift 600lbs)
+
 ###### Precision
+Precision is hand-eye coordination and manual dexterity. It's used for acrobatics, parkour, thrown weapons, aimed shots, driving, and other activities where the limiting factor is the precision and accuracy of the character's motions.
+- **0**: Abysmal. Walking is hard. Falling down is easy.
+- **1**: Poor. You sometimes trip over perfectly smooth floors.
+- **2**: Average. You usually at least hit the dart board and you can probably cross a balance beam.
+- **3**: Good. You get bullseyes regularly and can cross a tight rope.
+- **4**: Exceptional. You win dart competitions and parkour across rooftops.
+- **5**: Outstanding. You're Deadshot, if he was in Cirque du Soleil.
+
 ###### Reflexes
-###### Fortitude
+Reflexes is the ability to react and take actions quickly. It's used for quickdraws, dodging, unaimed shots, evasive maneuvers, and other activities where the limiting factor is reaction time.
+- **0**: Abysmal. You're even surprised by your own actions.
+- **1**: Poor. Sloths respond faster than you.
+- **2**: Average. You can dodge a wrench (or a ball) if it's slow enough.
+- **3**: Good. You can shoot from a holster and handle a fighter.
+- **4**: Exceptional. You win speed shooting and drone racing competitions.
+- **5**: Outstanding. Your quickdraw is better than Wyatt Earp.
+
 ##### Mental
+###### Perception
+- **0**: Abysmal.
+- **1**: Poor.
+- **2**: Average.
+- **3**: Good.
+- **4**: Exceptional.
+- **5**: Outstanding.
 ###### Intelligence
+- **0**: Abysmal.
+- **1**: Poor.
+- **2**: Average.
+- **3**: Good.
+- **4**: Exceptional.
+- **5**: Outstanding.
 ###### Wisdom
-###### Technology
-###### Willpower
+- **0**: Abysmal.
+- **1**: Poor.
+- **2**: Average.
+- **3**: Good.
+- **4**: Exceptional.
+- **5**: Outstanding.
+
 ##### Social
+
 #### Abilities
 ##### Talents
 ##### Skills
 ##### Knowledges
-### Health
+
+### Health / Resistance
+#### Fortitude
+#### Willpower
 ### Equipment
 
 ## Actions
