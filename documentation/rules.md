@@ -8,7 +8,7 @@ The following rules provide a framework to help storytellers and players build t
 Traits define what a character is capable of. They are divided into two main categories: attributes and abilities. 
 
 #### Attributes
-Attributes are the intrinsic traits that broadly define the overall capabilities of a character. All characters have at least one dot in all attributes -- except under extreme exceptions -- with two dots being the human average. Some characters may have fewer than two dots in one or more attributes, and almost all player characters will have 3-4 dots in at least one attribute.
+Attributes are the intrinsic traits that broadly define the overall capabilities of a character. All characters have at least one dot in all attributes -- except under extreme exceptions -- with two dots being the human average. Almost all player characters will have 3-4 dots in a few attributes and some characters may have fewer than two dots in one or more attributes.
 
 ##### Physical
 The physical attributes define the physical capabilities of a character.
