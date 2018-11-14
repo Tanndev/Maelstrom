@@ -32,7 +32,7 @@ Precision is hand-eye coordination and manual dexterity. It's used for acrobatic
 - **5**: Outstanding. You're Deadshot, if he was in Cirque du Soleil.
 
 ###### Reflexes
-Reflexes is the ability to react and take actions quickly. It's used for quickdraws, dodging, unaimed shots, evasive maneuvers, and other activities where the limiting factor is reaction time.
+Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodging, unaimed shots, evasive maneuvers, and other activities where the limiting factor is reaction time.
 - **0**: Abysmal. You're even surprised by your own actions.
 - **1**: Poor. Sloths respond faster than you.
 - **2**: Average. You can dodge a wrench (or a ball) if it's slow enough.
@@ -41,21 +41,27 @@ Reflexes is the ability to react and take actions quickly. It's used for quickdr
 - **5**: Outstanding. Your quickdraw is better than Wyatt Earp.
 
 ##### Mental
+The mental attributes define the mental capabilities of a character.
+
 ###### Perception
-- **0**: Abysmal.
-- **1**: Poor.
-- **2**: Average.
-- **3**: Good.
-- **4**: Exceptional.
-- **5**: Outstanding.
+Perception is the ability to take in and process stimulus. It's used for searching, keeping watch, spotting threats, and other activities where the limiting factor is the ability see, hear, feel, or smell.
+- **0**: Abysmal. A fire alarm can go off without you noticing it.
+- **1**: Poor. People sneak up on you without meaning to.
+- **2**: Average. You lose your phone occassionally, but usually find it again.
+- **3**: Good. You could be a detective or guard.
+- **4**: Exceptional. Where's Waldo is too easy.
+- **5**: Outstanding. Nothing escapes your notice. You see all.
+
 ###### Intelligence
-- **0**: Abysmal.
-- **1**: Poor.
-- **2**: Average.
-- **3**: Good.
-- **4**: Exceptional.
-- **5**: Outstanding.
-###### Wisdom
+Intelligence is the capacity to learn and apply information. It's used for research, mathematics, logical problem solving, and other activities where the limiting factor is education or reasoning.
+- **0**: Abysmal. Ogg not know how make pointy stick. (Illiterate)
+- **1**: Poor. You ain't much fer book learnin'. (Highschool or Less)
+- **2**: Average. You can do your own taxes more or less correctly. (College/Trade School)
+- **3**: Good. You can do other people's taxes correctly. (Post-Graduate/Master)
+- **4**: Exceptional. You're a well known and respected thinker in your field.
+- **5**: Outstanding. Hawking, Einstein, Tesla, Faraday... and you.
+
+###### Wits
 - **0**: Abysmal.
 - **1**: Poor.
 - **2**: Average.
@@ -64,6 +70,27 @@ Reflexes is the ability to react and take actions quickly. It's used for quickdr
 - **5**: Outstanding.
 
 ##### Social
+###### ???
+- **0**: Abysmal.
+- **1**: Poor.
+- **2**: Average.
+- **3**: Good.
+- **4**: Exceptional.
+- **5**: Outstanding.
+###### ???
+- **0**: Abysmal.
+- **1**: Poor.
+- **2**: Average.
+- **3**: Good.
+- **4**: Exceptional.
+- **5**: Outstanding.
+###### ???
+- **0**: Abysmal.
+- **1**: Poor.
+- **2**: Average.
+- **3**: Good.
+- **4**: Exceptional.
+- **5**: Outstanding.
 
 #### Abilities
 ##### Talents
