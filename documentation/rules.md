@@ -44,7 +44,7 @@ Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodgi
 The mental attributes define the mental capabilities of a character.
 
 ###### Perception
-Perception is the ability to take in and process stimulus. It's used for searching, keeping watch, spotting threats, and other activities where the limiting factor is the ability see, hear, feel, or smell.
+Perception is the ability to take in and process stimuli. It's used for searching, keeping watch, spotting threats, and other activities where the limiting factor is the ability to see, hear, feel, or smell.
 - **0**: Abysmal. A fire alarm can go off without you noticing it.
 - **1**: Poor. People sneak up on you without meaning to.
 - **2**: Average. You lose your phone occassionally, but usually find it again.
