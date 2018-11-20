@@ -14,4 +14,4 @@ Just follow these guidelines:
 - Use the appropriate tags.
 - Reference the issue (if applicable) with the [appropriate keywords](https://help.github.com/articles/closing-issues-using-keywords/).
 - For code, be sure to match the surrounding code style.
-- For rules/lore, be sure to run a spell checker and generall match the surrounding writing style.
+- For rules/lore, be sure to run a spell checker and generally match the surrounding writing style.
