@@ -47,7 +47,7 @@ The mental attributes define the mental capabilities of a character.
 Perception is the ability to take in and process stimuli. It's used for searching, keeping watch, spotting threats, and other activities where the limiting factor is the ability to see, hear, feel, or smell.
 - **0**: Abysmal. A fire alarm can go off without you noticing it.
 - **1**: Poor. People sneak up on you without meaning to.
-- **2**: Average. You lose your phone occassionally, but usually find it again.
+- **2**: Average. You lose your phone occasionally, but usually find it again.
 - **3**: Good. You could be a detective or guard.
 - **4**: Exceptional. Where's Waldo is too easy.
 - **5**: Outstanding. Nothing escapes your notice. You see all.
@@ -55,7 +55,7 @@ Perception is the ability to take in and process stimuli. It's used for searchin
 ###### Intelligence
 Intelligence is the capacity to learn and apply information. It's used for research, mathematics, logical problem solving, and other activities where the limiting factor is education or reasoning.
 - **0**: Abysmal. Ogg not know how make pointy stick. (Illiterate)
-- **1**: Poor. You ain't much fer book learnin'. (Highschool or Less)
+- **1**: Poor. You ain't much fer book learning. (High school or Less)
 - **2**: Average. You can do your own taxes more or less correctly. (College/Trade School)
 - **3**: Good. You can do other people's taxes correctly. (Post-Graduate/Master)
 - **4**: Exceptional. You're a well known and respected thinker in your field.
