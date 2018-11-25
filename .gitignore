@@ -1,6 +1,8 @@
 # IDEs
-/.idea
 /*.iml
+/.idea/*
+!/.idea/dictionaries/
+!/.idea/scopes/
 
 # Dependencies
 node_modules
