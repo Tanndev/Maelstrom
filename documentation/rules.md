@@ -93,7 +93,48 @@ Intelligence is the capacity to learn and apply information. It's used for resea
 - **5**: Outstanding.
 
 #### Abilities
+Abilities are the learned or developed traits that define the specific things a character knows how to do.
+Many player characters will have 3-4 dots in a few abilities and almost some characters will have a couple dots in many different abilities.
+
 ##### Talents
+Talents represent abilities that come naturally to characters, but which may have been honed and trained over the years.
+When rolling for talents, there is no penalty for having zero dots -- just use the base attribute alone.
+
+###### Alertness
+Alertness represents a character's passive ability to be aware of their surroundings and notice threats or items of interest.
+This trait is almost always rolled with Perception to do things like set watch around a camp, look for followers, spot an ambush, etc.
+**Specialties:** Locations (city, forest, space, etc), followers, ambushers.
+
+###### Athletics
+Athletics represents a character's trained physical ability. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities.
+This trait is almost always rolled with a physical attribute to do things like jump, climb, throw, run, etc.
+**Specialties:** Acrobatics, Strength, Precision, Reflexes, Parkour, Thrown Weapons
+
+###### Brawling
+Brawling represents a character's talent in unarmed hand-to-hand combat.
+This trait is almost always rolled with a physical attribute as part of an attack or combat maneuver.
+**Specialities:** Punching, Kicking, Grappling, Specific martial arts or combat styles
+
+###### Dodge
+Dodge represents a character's talent for ducking, diving, weaving, and otherwise avoid being hit.
+This trait is almost always rolled with reflexes as a defensive action to avoid attacks or damage.
+**Specialties:** Unarmored, Heavy Armor, Power Armor
+
+###### Expression
+_Social traits are TBD_ <!-- Decide whether Expression should be an ability. -->
+
+###### Intimidation
+_Social traits are TBD_ <!-- Decide whether Intimidation should be an ability. -->
+
+###### Leadership
+_Social traits are TBD_ <!-- Decide whether Leadership should be an ability. -->
+
+###### Streetwise
+_Social traits are TBD_ <!-- Decide whether Streetwise should be an ability. -->
+
+###### Subterfuge
+_Social traits are TBD_ <!-- Decide whether Subterfuge should be an ability. -->
+
 ##### Skills
 ##### Knowledges
 
