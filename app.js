@@ -1,7 +1,9 @@
 const cookieParser = require('cookie-parser');
 const createError = require('http-errors');
 const express = require('express');
+const fs = require('fs');
 const logger = require('morgan');
+const Marked = require('marked');
 const path = require('path');
 const redisClient = require('./redis-client');
 
@@ -14,6 +16,12 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+const rules = Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'rules.md'), 'utf8'));
+const lore = Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'lore.md'), 'utf8'));
+app.get('/documentation/rules', (req, res) => {res.send(rules)});
+app.get('/documentation/lore', (req, res) => {res.send(lore)});
+app.use('/documentation', express.static(path.join(__dirname, 'documentation')));
 
 app.get('/', (req, res) => {
     res.send("Hi there! I'm a fancy server!");
@@ -53,7 +61,7 @@ app.use(function (req, res, next) {
 
 // error handler
 app.use(function (error, req, res, next) {
-    let {status=500, message, stack} = error;
+    let {status = 500, message, stack} = error;
     res.status(status);
     if (error.expose || app.get('env') === 'development') res.send(`(Error ${status}) ${message}.`);
     else res.send(`(Error ${status}) An error occurred.`);
