@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Roll Tests" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="roll_test.js" working-dir="$PROJECT_DIR$/test">
+    <method v="2" />
+  </configuration>
+</component>

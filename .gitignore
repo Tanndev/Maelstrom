@@ -2,6 +2,7 @@
 /*.iml
 /.idea/*
 !/.idea/dictionaries/
+!/.idea/runConfigurations/
 !/.idea/scopes/
 
 # Dependencies
