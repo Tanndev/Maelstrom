@@ -121,22 +121,93 @@ This trait is almost always rolled with reflexes as a defensive action to avoid 
 **Specialties:** Unarmored, Heavy Armor, Power Armor
 
 ###### Expression
-_Social traits are TBD_ <!-- Decide whether Expression should be an ability. -->
+_Social traits are TBD_ <!-- TODO Decide whether Expression should be an ability. -->
 
 ###### Intimidation
-_Social traits are TBD_ <!-- Decide whether Intimidation should be an ability. -->
+_Social traits are TBD_ <!-- TODO Decide whether Intimidation should be an ability. -->
 
 ###### Leadership
-_Social traits are TBD_ <!-- Decide whether Leadership should be an ability. -->
+_Social traits are TBD_ <!-- TODO Decide whether Leadership should be an ability. -->
 
 ###### Streetwise
-_Social traits are TBD_ <!-- Decide whether Streetwise should be an ability. -->
+_Social traits are TBD_ <!-- TODO Decide whether Streetwise should be an ability. -->
 
 ###### Subterfuge
-_Social traits are TBD_ <!-- Decide whether Subterfuge should be an ability. -->
+_Social traits are TBD_ <!-- TODO Decide whether Subterfuge should be an ability. -->
 
 ##### Skills
+Skills represent abilities that that characters have learned through training and practice.
+When rolling for a skill in which you have no dots, the difficulty is increased by 1. Then, use the base attribute alone.
+In some cases, the storyteller may allow an alternate roll or action to allow your character to "figure it out" and avoid the penalty.
+
+###### Aircraft Operation
+_Description TBD_ <!-- TODO Describe Aircraft Operation -->
+
+###### Firearms
+_Description TBD_ <!-- TODO Describe Firearms -->
+
+###### Ground Vehicle Operation (Drive)
+_Description TBD_ <!-- TODO Describe Drive -->
+
+###### Melee
+_Description TBD_ <!-- TODO Describe Melee -->
+
+###### Power Armor Operation
+_Description TBD_ <!-- TODO Describe Melee -->
+
+###### Spacecraft Piloting
+_Description TBD_ <!-- TODO Describe Spacecraft Piloting -->
+
+###### Spacecraft Weaponry
+_Description TBD_ <!-- TODO Describe Spacecraft Weaponry -->
+
+###### Stealth
+_Description TBD_ <!-- TODO Describe Stealth -->
+
+###### Survival
+_Description TBD_ <!-- TODO Describe Survival -->
+
+###### Technology
+_Description TBD_ <!-- TODO Describe Technology -->
+
 ##### Knowledges
+Knowledges represent things that your character has learned through research or training.
+If you would roll for a knowledge in which you have no dots, you cannot even attempt the action.
+In some cases, the storyteller may allow an alternate roll or action to allow your character to "figure it out" and use the base attribute alone with a penalty.
+
+###### Academics
+_Description TBD_ <!-- TODO Describe Academics -->
+
+###### Artificial Intelligence
+_Description TBD_ <!-- TODO Describe Artificial Intelligence -->
+
+###### Computer Systems
+_Description TBD_ <!-- TODO Describe Computer Systems -->
+
+###### Engineering
+_Description TBD_ <!-- TODO Describe Spacecraft Engineering -->
+
+###### Investigation
+_Description TBD_ <!-- TODO Describe Investigation -->
+
+###### Law
+_Description TBD_ <!-- TODO Describe Law -->
+
+###### Linguistics
+_Description TBD_ <!-- TODO Describe Linguistics -->
+
+###### Medicine
+_Description TBD_ <!-- TODO Describe Medicine -->
+
+###### Science
+_Description TBD_ <!-- TODO Describe Science -->
+
+##### Remaining Abilities
+_These abilities have not yet been categorized as Talents, Skills, or Knowledges._
+
+###### Planetary Navigation
+
+###### Interplanetary Navigation
 
 ### Health / Resistance
 #### Fortitude
