@@ -140,8 +140,8 @@ Skills represent abilities that that characters have learned through training an
 When rolling for a skill in which you have no dots, the difficulty is increased by 1. Then, use the base attribute alone.
 In some cases, the storyteller may allow an alternate roll or action to allow your character to "figure it out" and avoid the penalty.
 
-###### Aircraft Operation
-_Description TBD_ <!-- TODO Describe Aircraft Operation -->
+###### Aerospace Piloting
+_Description TBD_ <!-- TODO Describe Aerospace Piloting -->
 
 ###### Firearms
 _Description TBD_ <!-- TODO Describe Firearms -->
@@ -154,9 +154,6 @@ _Description TBD_ <!-- TODO Describe Melee -->
 
 ###### Power Armor Operation
 _Description TBD_ <!-- TODO Describe Melee -->
-
-###### Spacecraft Piloting
-_Description TBD_ <!-- TODO Describe Spacecraft Piloting -->
 
 ###### Spacecraft Weaponry
 _Description TBD_ <!-- TODO Describe Spacecraft Weaponry -->
