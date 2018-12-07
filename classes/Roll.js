@@ -33,7 +33,7 @@ class Roll {
         // Roll the dice.
         let normalDice = chance.n(chance.natural, pool, {min: 1, max: 10});
         let bonusDice = [];
-        let successes = 0 - threshold;
+        let successes = 0;
         let failures = 0;
         for (let die of normalDice) {
             // If using a specialty, 10s add bonus dice.
@@ -50,8 +50,8 @@ class Roll {
             // Bonus dice can also add successes, if they meet the difficulty. But do not add failures.
             if (die >= difficulty) successes++;
         }
-        let result = successes - failures;
-        if ((successes || !failures) && result < 0) result = 0;
+        let result = successes - threshold - failures;
+        if (result < 0 && failures === 0) result = 0;
 
         // Store the properties.
         /**

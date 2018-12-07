@@ -28,11 +28,11 @@ for (let threshold = 0; threshold <= 3; threshold++) {
                 results.push(roll.result);
             }
 
-            let averageSuccessesTotal = (successTotal / REPEAT).toFixed(2);
-            let averageSuccessesOnSuccess = (successTotal / successCount).toFixed(2);
-            let successPercent = (successCount / REPEAT * 100).toFixed(2);
-            let failurePercent = (failureCount / REPEAT * 100).toFixed(2);
-            let botchPercent = (botchCount / REPEAT * 100).toFixed(2);
+            let averageSuccessesTotal = (successTotal / REPEAT).toFixed(1);
+            let averageSuccessesOnSuccess = (successTotal / successCount).toFixed(1);
+            let successPercent = (successCount / REPEAT * 100).toFixed(1);
+            let failurePercent = (failureCount / REPEAT * 100).toFixed(1);
+            let botchPercent = (botchCount / REPEAT * 100).toFixed(1);
 
             let output = [''];
             output.push(`Pool: ${pool}, Difficulty: ${difficulty}, Threshold: ${threshold}:`);
