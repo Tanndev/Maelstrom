@@ -25,10 +25,10 @@ class Roll {
         let {pool, difficulty = 6, threshold = 0, specialty = false} = options;
 
         // Validate the inputs
-        if (!validateInteger(pool, 1, 10)) throw new Error("Roll.pool must be an integer between 1 and 10");
-        if (!validateInteger(difficulty, 2, 10)) throw new Error("Roll.difficulty must be an integer between 2 and 10");
-        if (!validateInteger(threshold)) throw new Error("Roll.threshold must be a positive integer or zero");
-        if (typeof specialty !== 'boolean') throw new Error("Roll.specialty must be a boolean value");
+        if (!validateInteger(pool, 1, 10)) throw new Error("Roll.pool must be an integer between 1 and 10.");
+        if (!validateInteger(difficulty, 2, 10)) throw new Error("Roll.difficulty must be an integer between 2 and 10.");
+        if (!validateInteger(threshold)) throw new Error("Roll.threshold must be a positive integer or zero.");
+        if (typeof specialty !== 'boolean') throw new Error("Roll.specialty must be a boolean value.");
 
         // Roll the dice.
         let normalDice = chance.n(chance.natural, pool, {min: 1, max: 10});
@@ -162,7 +162,7 @@ class Roll {
         return new Roll(this);
     }
 
-    toString(){
+    toString() {
         let resultString;
         if (this.succeeded) resultString = `Success x${this.result}`;
         else if (this.failed) resultString = "Failure";
