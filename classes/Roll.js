@@ -17,7 +17,7 @@ class Roll {
      * TODO Add record of traits used.
      * @param {Roll|object} options
      * @param {number} options.pool - integer between 1 and 10 for dice pool value (See Rules: Actions > Dice Pool)
-     * @param {number} [options.difficulty=6] - integer between 2 and 9 for difficulty value (See Rules: Actions > Difficulty)
+     * @param {number} [options.difficulty=6] - integer between 2 and 10 for difficulty value (See Rules: Actions > Difficulty)
      * @param {number} [options.threshold=0] - zero or positive integer for threshold value (See Rules: Actions > Threshold)
      * @param {boolean} [options.specialty=false] - whether or not a specialty applies (See Rules: Actions > Specialty)
      */
@@ -26,7 +26,7 @@ class Roll {
 
         // Validate the inputs
         if (!validateInteger(pool, 1, 10)) throw new Error("Roll.pool must be an integer between 1 and 10");
-        if (!validateInteger(difficulty, 2, 9)) throw new Error("Roll.difficulty must be an integer between 2 and 9");
+        if (!validateInteger(difficulty, 2, 10)) throw new Error("Roll.difficulty must be an integer between 2 and 10");
         if (!validateInteger(threshold)) throw new Error("Roll.threshold must be a positive integer or zero");
         if (typeof specialty !== 'boolean') throw new Error("Roll.specialty must be a boolean value");
 
