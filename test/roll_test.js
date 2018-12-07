@@ -24,6 +24,8 @@ for (let pool = 2; pool <= 8; pool++){
         else if (roll.botched) botchCount++;
         else throw new Error("How did it neither succeed, nor fail, nor botch?");
         results.push(roll.result);
+
+        console.log(roll.toString());
     }
 
     let successAverage =  (successTotal / successCount).toFixed(2);
