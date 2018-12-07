@@ -2,8 +2,10 @@
  * Copyright (c) 2018 James Tanner
  */
 
-const Chance = require('chance');
-const chance = new Chance();
+const util = require('util');
+
+const Die = require('./Die');
+const validateInteger = require('../helpers/validateInteger');
 
 /**
  * Stored values for a Roll instance
@@ -12,7 +14,7 @@ const chance = new Chance();
  * @property {number} difficulty
  * @property {number} threshold
  * @property {boolean} specialty
- * @property {number[]} dice
+ * @property {Die[]} dice
  * @property {number} result
  */
 
@@ -40,13 +42,21 @@ class Roll {
         if (typeof specialty !== 'boolean') throw new Error("Roll.specialty must be a boolean value");
 
         // Roll the dice.
-        let dice = chance.n(chance.natural, pool, {min: 1, max: 10});
+        let dice = Array.from({length: pool}, () => {return new Die()});
         let successes = 0 - threshold;
         let failures = 0;
-        dice.forEach(die => {
-           if (die >= difficulty) successes++;
-           else if (die === 1) failures++;
-        });
+        for (let die of dice){
+            let result = die.result;
+            // If using a specialty, 10s add bonus dice.
+            if (result === 10 && specialty) {
+                successes++;
+                dice.push(new Die({isBonus: true}));
+            }
+            // Anything equal to or greater than the difficulty adds a success.
+            else if (result >= difficulty)successes++;
+            // Ones add failures, except for bonus dice.
+            else if (result === 1 && !die.isBonus) failures++;
+        }
         let result = successes - failures;
         if ((successes || !failures) && result < 0) result = 0;
 
@@ -96,20 +106,19 @@ class Roll {
         return new Roll(values.get(this));
     }
 
-    // noinspection JSUnusedGlobalSymbols
     /**
      * Default serializer
      * @return {object}
      */
-    toJSON(){
+    toJSON() {
         let {dice, ...properties} = values.get(this);
         properties.dice = dice.slice();
         return properties;
     }
+
+    [util.inspect.custom](){
+        return this.toJSON();
+    }
 }
 
 module.exports = Roll;
-
-function validateInteger(value, min = 0, max = Number.MAX_SAFE_INTEGER) {
-    return Number.isInteger(value) && value >= min && value <= max;
-}
