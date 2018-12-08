@@ -24,7 +24,7 @@ for (let pool = 1; pool <= 7; pool++){
     let botchCount = 0;
     let results = [];
     for (let i = 0; i < REPEAT; i++){
-        let roll = new Roll({pool, difficulty, threshold});
+        let roll = new Roll(pool, {difficulty, threshold});
         if (roll.succeeded){
             successCount++;
             successTotal += roll.result;
