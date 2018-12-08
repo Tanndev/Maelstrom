@@ -43,8 +43,8 @@ class Roll {
      * Create a new roll and randomly generate a result.
      *
      * @param {number} pool - Number of dice to roll. See {@link Roll#pool}.
-     * @param [options] - Parameters to use creating the roll.
-     * @param {string} [options.label=Default] - A label for the roll. See {@link Roll#label}.
+     * @param {Object} [options] - Parameters to use creating the roll.
+     * @param {string} [options.label] - A label for the roll. See {@link Roll#label}.
      * @param {number} [options.difficulty=6] - The difficulty of the roll. See {@link Roll#difficulty}.
      * @param {number} [options.threshold=0] - The threshold for the roll. See {@link Roll#threshold}.
      * @param {boolean} [options.specialty=false] - Whether or not to use specialty rules. See {@link Roll#specialty}.
@@ -54,7 +54,7 @@ class Roll {
      * @throws Error if threshold is not a positive integer or zero.
      * @throws Error if specialty is not a boolean.
      */
-    constructor(pool, {label = "Custom Roll", difficulty = 6, threshold = 0, specialty = false} = {}) {
+    constructor(pool, {label = "Custom Roll", difficulty = 6, threshold = 0, specialty = false} = {label: "Default Roll"}) {
         // Validate the inputs
         if (!validateInteger(pool, 1, 10)) throw new Error("Parameter 'pool' must be an integer between 1 and 10.");
         if (!validateInteger(difficulty, 2, 10)) throw new Error("Parameter 'difficulty' must be an integer between 2 and 10.");
