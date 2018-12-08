@@ -47,11 +47,10 @@ fs.readdir(DOCUMENTATION_DIRECTORY, "utf8", (error, files) => {
 });
 app.get('/documentation/:document', (req, res, next) => {
     let document = documentation[req.params.document];
-    if (document){
+    if (document) {
         res.locals.documentationHtml = document;
         res.render('documentation');
-    }
-    else next();
+    } else next();
 });
 app.use('/documentation', express.static(path.join(__dirname, 'documentation')));
 
@@ -90,10 +89,11 @@ app.use(function (req, res, next) {
 
 // error handler
 app.use(function (error, req, res, next) {
-    let {status = 500, message, stack} = error;
-    res.status(status);
-    if (error.expose || app.get('env') === 'development') res.send(`(Error ${status}) ${message}.`);
-    else res.send(`(Error ${status}) An error occurred.`);
+    let {statusCode = 500, message, expose, stack} = error;
+    res.locals.statusCode = statusCode;
+    res.locals.message = message;
+    if (expose || app.get('env') === 'development') res.locals.stack = stack.split(__dirname).join('maelstrom');
+    res.status(statusCode).render('error');
 });
 
 const PORT = process.env.PORT || 3000;
