@@ -4,6 +4,7 @@
 const fs = require('fs');
 const Marked = require('marked');
 const path = require('path');
+const toc = require('markdown-toc');
 
 
 const DOCUMENTATION_EXTENSION = '.md';
@@ -15,7 +16,10 @@ fs.readdir(__dirname, "utf8", (error, files) => {
         if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
         fs.readFile(path.join(__dirname, file), 'utf8', (error, contents) => {
             if (error) console.error(error);
-            else documentation[path.basename(file, DOCUMENTATION_EXTENSION)] = Marked(contents);
+            else {
+                let markdown = toc.insert(contents, {maxdepth: 5});
+                documentation[path.basename(file, DOCUMENTATION_EXTENSION)] = Marked(markdown);
+            }
         })
     })
 });

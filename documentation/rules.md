@@ -1,6 +1,8 @@
 # Rules
 The following rules provide a framework to help storytellers and players build their characters, take challenging actions, and get in fights. As with other roleplaying games, it's important to remember that the rules are only there to support the story and not to get in the way of it; storytellers are encouraged to adjust the rules where necessary to make things more fun, cinematic, and engaging.
 
+<!-- toc -->
+
 ## Characters
 ### Backgrounds
 

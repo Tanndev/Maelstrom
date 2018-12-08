@@ -1,7 +1,7 @@
 # Lore
-This document contains information about the people, places, and technology of the game's universe
+This document contains information about the people, places, and technology of the game's universe.
 
-# Lore: Places
+<!-- toc -->
 
 ## Sol
 Birthplace of Humanity, the Sol system remains the most populated of all the settled systems. Major settlements include Earth, Luna, Mars, and Titan. Minor settlements are spread throughout the system on other moons, asteroids, and artificial stations.
