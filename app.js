@@ -2,14 +2,11 @@ const cookieParser = require('cookie-parser');
 const createError = require('http-errors');
 const express = require('express');
 const favicon = require('serve-favicon');
-const fs = require('fs');
 const logger = require('morgan');
-const Marked = require('marked');
 const path = require('path');
 const redisClient = require('./redis-client');
 
 const Roll = require('./classes/Roll');
-
 
 const app = express();
 
@@ -32,19 +29,7 @@ app.get('/', (req, res) => {
 });
 
 // Documentation
-const DOCUMENTATION_DIRECTORY = path.join(__dirname, 'documentation');
-const DOCUMENTATION_EXTENSION = '.md';
-const documentation = {};
-fs.readdir(DOCUMENTATION_DIRECTORY, "utf8", (error, files) => {
-    if (error) console.error(error);
-    else files.forEach(file => {
-        if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
-        fs.readFile(path.join(DOCUMENTATION_DIRECTORY, file), 'utf8', (error, contents) => {
-            if (error) console.error(error);
-            else documentation[path.basename(file, DOCUMENTATION_EXTENSION)] = Marked(contents);
-        })
-    })
-});
+const documentation = require('./documentation');
 app.get('/documentation/:document', (req, res, next) => {
     let document = documentation[req.params.document];
     if (document) {
