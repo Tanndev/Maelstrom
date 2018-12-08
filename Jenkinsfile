@@ -12,10 +12,10 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                script {
-                    currentBuild.displayName = "Some build"
-                    currentBuild.description = "A description of that build"
-                }
+//                script {
+//                    currentBuild.displayName = "Some build"
+//                    currentBuild.description = "A description of that build"
+//                }
                 echo 'Building...'
                 sh 'npm install'
             }
