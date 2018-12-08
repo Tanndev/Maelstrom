@@ -31,10 +31,11 @@ app.get('/', (req, res) => {
 // Documentation
 const documentation = require('./documentation');
 app.get('/documentation/:document', (req, res, next) => {
-    let document = documentation[req.params.document];
+    let documentName = req.params.document;
+    let document = documentation[documentName];
     if (document) {
         res.locals.documentationHtml = document;
-        res.render('documentation');
+        res.render('documentation', {filename: documentName, cache: true});
     } else next();
 });
 app.use('/documentation', express.static(path.join(__dirname, 'documentation')));
