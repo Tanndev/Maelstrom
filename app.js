@@ -31,10 +31,18 @@ app.get('/', (req, res) => {
 });
 
 // Rules and lore.
-const rules = Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'rules.md'), 'utf8'));
-const lore = Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'lore.md'), 'utf8'));
-app.get('/documentation/rules', (req, res) => {res.send(rules)});
-app.get('/documentation/lore', (req, res) => {res.send(lore)});
+const documentation = {
+    rules: Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'rules.md'), 'utf8')),
+    lore: Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'lore.md'), 'utf8'))
+};
+app.get('/documentation/:document', (req, res, next) => {
+    let document = documentation[req.params.document];
+    if (document){
+        res.locals.documentationHtml = document;
+        res.render('documentation');
+    }
+    else next();
+});
 app.use('/documentation', express.static(path.join(__dirname, 'documentation')));
 
 
@@ -46,8 +54,7 @@ app.get('/roll', (req, res, next) => {
         let specialty = req.query.hasOwnProperty('specialty');
         let roll = new Roll(pool, {difficulty, threshold, specialty});
         res.json(roll);
-    }
-    catch (error) {
+    } catch (error) {
         return next(createError(error));
     }
 });
