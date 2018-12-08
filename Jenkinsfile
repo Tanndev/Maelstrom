@@ -31,9 +31,11 @@ pipeline {
                 branch 'master'
             }
             steps {
-                def transfers = [
-                    sshTransfer(execCommand: 'ls -la', remoteDirectory: '/srv/maelstrom')
-                ]
+                script {
+                    transfers = [
+                        sshTransfer(execCommand: 'ls -la', remoteDirectory: '/srv/maelstrom')
+                    ]
+                }
                 sshPublisher(publishers: [sshPublisherDesc(configName: 'Maelstrom Droplet', transfers: transfers)])
             }
         }
