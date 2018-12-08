@@ -1,6 +1,7 @@
 const cookieParser = require('cookie-parser');
 const createError = require('http-errors');
 const express = require('express');
+const favicon = require('serve-favicon');
 const fs = require('fs');
 const logger = require('morgan');
 const Marked = require('marked');
@@ -11,21 +12,31 @@ const Roll = require('./classes/Roll');
 
 const app = express();
 
+// Set up view engine
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'client/views'));
+app.use(favicon(path.join(__dirname, 'client/static/icon8-favicon.ico')));
+app.use(express.static(path.join(__dirname, 'client/static')));
+
+// Set up logger and whatnot
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// Homepage
+app.get('/', (req, res) => {
+    res.render('home');
+});
+
+// Rules and lore.
 const rules = Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'rules.md'), 'utf8'));
 const lore = Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'lore.md'), 'utf8'));
 app.get('/documentation/rules', (req, res) => {res.send(rules)});
 app.get('/documentation/lore', (req, res) => {res.send(lore)});
 app.use('/documentation', express.static(path.join(__dirname, 'documentation')));
 
-app.get('/', (req, res) => {
-    res.send("Hi there! I'm a fancy server!");
-});
 
 app.get('/roll', (req, res, next) => {
     try {
@@ -33,7 +44,7 @@ app.get('/roll', (req, res, next) => {
         let difficulty = parseInt(req.query.difficulty) || undefined;
         let threshold = parseInt(req.query.threshold) || undefined;
         let specialty = req.query.hasOwnProperty('specialty');
-        let roll = new Roll({pool, difficulty, threshold, specialty});
+        let roll = new Roll(pool, {difficulty, threshold, specialty});
         res.json(roll);
     }
     catch (error) {

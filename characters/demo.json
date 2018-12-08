@@ -1,0 +1,45 @@
+{
+  "name": "Demo Character",
+  "attributes": {
+    "physical": [
+      {"name": "Strength", "dots": 2},
+      {"name": "Precision", "dots": 2},
+      {"name": "Reflexes", "dots": 2}
+    ],
+    "mental": [
+      {"name": "Perception", "dots": 2},
+      {"name": "Intelligence", "dots": 2},
+      {"name": "Wits", "dots": 2}
+    ]
+  },
+  "abilities": {
+    "talents": [
+      {"name": "Alertness", "dots": 0},
+      {"name": "Athletics", "dots": 0},
+      {"name": "Brawling", "dots": 0},
+      {"name": "Dodge", "dots": 0}
+    ],
+    "skills": [
+      {"name": "Aerospace Piloting", "dots": 0},
+      {"name": "Firearms", "dots": 0},
+      {"name": "Ground Vehicle Operation", "dots": 0},
+      {"name": "Melee", "dots": 0},
+      {"name": "Power Armor Operation", "dots": 0},
+      {"name": "Spacecraft Weaponry", "dots": 0},
+      {"name": "Stealth", "dots": 0},
+      {"name": "Survival", "dots": 0},
+      {"name": "Technology", "dots": 0}
+    ],
+    "knowledges": [
+      {"name": "Academics", "dots": 0},
+      {"name": "Artificial Intelligence", "dots": 0},
+      {"name": "Computer Systems", "dots": 0},
+      {"name": "Engineering", "dots": 0},
+      {"name": "Investigation", "dots": 0},
+      {"name": "Law", "dots": 0},
+      {"name": "Linguistics", "dots": 0},
+      {"name": "Medicine", "dots": 0},
+      {"name": "Science", "dots": 0}
+    ]
+  }
+}
