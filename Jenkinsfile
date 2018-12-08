@@ -26,19 +26,15 @@ pipeline {
                 echo 'I think it worked!'
             }
         }
-
-        stage{'Deploy'} {
+        stage('Deploy') {
             when {
                 branch 'master'
             }
             steps {
-                sshPublisher(
-                        publishers: [sshPublisherDesc(
-                                configName: 'Maelstrom Droplet',
-                                transfers: [sshTransfer(execCommand: 'ls -la', remoteDirectory: '/srv/maelstrom')])
-                        ]
-                )
-
+                def transfers = [
+                    sshTransfer(execCommand: 'ls -la', remoteDirectory: '/srv/maelstrom')
+                ]
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'Maelstrom Droplet', transfers: transfers)])
             }
         }
     }
