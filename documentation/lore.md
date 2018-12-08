@@ -3,6 +3,8 @@ This document contains information about the people, places, and technology of t
 
 <!-- toc -->
 
+# Places
+
 ## Sol
 Birthplace of Humanity, the Sol system remains the most populated of all the settled systems. Major settlements include Earth, Luna, Mars, and Titan. Minor settlements are spread throughout the system on other moons, asteroids, and artificial stations.
 
@@ -57,10 +59,10 @@ Jupiter's largest moon.
 
 <!-- TODO Describe Maelstrom and the Maelstrom Oasis -->
 
-# Lore: Technology
+# Technology
 
-## Artificial Intelligence (AI)
-Artificial Intelligence, also known as synthetic or machine intelligence, fall into a few main levels. These levels are generally used to classify AI systems for the purposes of regulation and legislation.
+## Artificial Intelligence
+Artificial Intelligence (AI), also known as synthetic or machine intelligence, fall into a few main levels. These levels are generally used to classify AI systems for the purposes of regulation and legislation.
 
 ### Level 0 - Conversational AI
 Generally consisting of scripted dialog trees and natural language processing, conversational AIs provide an approximation of human conversation. These systems are generally unable to learn, adapt, or self-improve in any way. Instead, they can only by taught new skills by adding additional scripted tasks, called "intents". These intents are usually simple tasks which a user asks for specifically, such as turning off lights, reading news articles aloud, or scheduling an appointment. A conversational AI is incapable of executing any command or question which it does not interpret as one of its pre-defined intents.
