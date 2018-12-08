@@ -17,7 +17,11 @@ fs.readdir(__dirname, "utf8", (error, files) => {
         fs.readFile(path.join(__dirname, file), 'utf8', (error, contents) => {
             if (error) console.error(error);
             else {
-                let markdown = toc.insert(contents, {maxdepth: 5});
+                // noinspection JSUnusedGlobalSymbols
+                let markdown = toc.insert(contents, {
+                    maxdepth: 5,
+                    slugify: (header) => header.toLowerCase().replace(/[^\w]+/g, '-')
+                });
                 documentation[path.basename(file, DOCUMENTATION_EXTENSION)] = Marked(markdown);
             }
         })

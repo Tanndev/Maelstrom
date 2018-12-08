@@ -2,6 +2,7 @@
   <dictionary name="jtanner">
     <words>
       <w>maxdepth</w>
+      <w>slugify</w>
     </words>
   </dictionary>
 </component>
