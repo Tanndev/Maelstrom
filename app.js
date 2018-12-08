@@ -10,6 +10,7 @@ const redisClient = require('./redis-client');
 
 const Roll = require('./classes/Roll');
 
+
 const app = express();
 
 // Set up view engine
@@ -30,11 +31,20 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
-// Rules and lore.
-const documentation = {
-    rules: Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'rules.md'), 'utf8')),
-    lore: Marked(fs.readFileSync(path.join(__dirname, 'documentation', 'lore.md'), 'utf8'))
-};
+// Documentation
+const DOCUMENTATION_DIRECTORY = path.join(__dirname, 'documentation');
+const DOCUMENTATION_EXTENSION = '.md';
+const documentation = {};
+fs.readdir(DOCUMENTATION_DIRECTORY, "utf8", (error, files) => {
+    if (error) console.error(error);
+    else files.forEach(file => {
+        if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
+        fs.readFile(path.join(DOCUMENTATION_DIRECTORY, file), 'utf8', (error, contents) => {
+            if (error) console.error(error);
+            else documentation[path.basename(file, DOCUMENTATION_EXTENSION)] = Marked(contents);
+        })
+    })
+});
 app.get('/documentation/:document', (req, res, next) => {
     let document = documentation[req.params.document];
     if (document){
@@ -46,6 +56,7 @@ app.get('/documentation/:document', (req, res, next) => {
 app.use('/documentation', express.static(path.join(__dirname, 'documentation')));
 
 
+// APIs
 app.get('/roll', (req, res, next) => {
     try {
         let pool = parseInt(req.query.pool) || undefined;
