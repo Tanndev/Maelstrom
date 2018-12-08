@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2018 James Tanner
+ */
+
+const util = require('util');
 
 const validateInteger = require('../helpers/validateInteger');
 
@@ -7,29 +12,36 @@ const validateInteger = require('../helpers/validateInteger');
  */
 const values = new WeakMap();
 
+/**
+ * Class representing a specific trait for a character.
+ * TODO Include rules reference.
+ * @see Trait.constructor
+ */
 class Trait {
 
     /**
      * Create a new trait
-     * @param options
-     * @param {string} options.name - name for the trait
-     * @param {number} [options.dots=0] - integer between 0 and 10 for the number of dots to put in the trait initially
+     * @param options - Parameters to construct the trait.
+     * @param {string} options.name - The name to give the trait. See {@link Trait#name}.
+     * @param {number} [options.dots=0] - The number of dots to put in the trait initially. See {@link Trait#dots}.
      * @throws Error if name is not a non-empty string.
      * @throws Error if dots is not an integer between 0 and 10.
      */
     constructor({name, dots = 0}){
         // Validate the inputs
-        if (!name || typeof name !== 'string') throw new Error("Trait.name must be a non-empty string.");
+        if (!name || typeof name !== 'string') throw new Error("Parameter 'name' must be a non-empty string.");
 
         // Store the properties.
         /**
-         * Name of the trait.
+         * The name for the trait as it would be on a character sheet.
+         * Must be a non-empty string.
          * @type {string}
          */
         this.name = name;
 
         /**
          * The number of dots in the trait.
+         * Must be an integer between 1 and 10.
          * @type {number}
          */
         this.dots = dots;
@@ -39,7 +51,6 @@ class Trait {
     }
 
     /**
-     * The number of dots in this trait.
      * @returns {number}
      */
     get dots() {
@@ -47,13 +58,12 @@ class Trait {
     }
 
     /**
-     * Set number of dots in this trait.
-     * @param {number} value
+     * @param {number} dots
      * @throws Error if value is not an integer between 0 and 10.
      */
-    set dots(value) {
-        if (!validateInteger(value, 0, 10)) throw new Error("Trait.value must be an integer between 0 and 10.");
-        values.set(this, value);
+    set dots(dots) {
+        if (!validateInteger(dots, 0, 10)) throw new Error("Parameter 'dots' must be an integer between 0 and 10.");
+        values.set(this, dots);
     }
 
     toString() {
