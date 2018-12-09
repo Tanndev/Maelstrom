@@ -48,8 +48,7 @@ pipeline {
             steps {
                 script {
                     transfers = [
-                        sshTransfer(sourceFiles: '**', remoteDirectory: '/srv/maelstrom'),
-                        sshTransfer(execCommand: 'cd /srv/maelstrom && docker-compose up --build -d')
+                        sshTransfer(sourceFiles: '**', execCommand: 'docker-compose up --build -d')
                     ]
                 }
                 sshPublisher(publishers: [sshPublisherDesc(configName: 'Maelstrom Droplet', transfers: transfers)])
