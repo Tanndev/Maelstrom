@@ -20,15 +20,19 @@ pipeline {
                 sh 'npm install'
 
                 // Build the image.
-                image = docker.build('jftanner/maelstrom')
+                script{
+                    def image = docker.build('jftanner/maelstrom')
+                }
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Testing...'
-                image.inside {
-                    sh 'echo "I\'m inside a container!"'
+                script{
+                    image.inside {
+                        sh 'echo "I\'m inside a container!"'
+                    }
                 }
             }
         }
@@ -38,8 +42,10 @@ pipeline {
                 branch 'master'
             }
             steps {
-                docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
-                    image.push("latest")
+                script{
+                    docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+                        image.push("latest")
+                    }
                 }
             }
         }
