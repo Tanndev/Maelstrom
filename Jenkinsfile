@@ -20,7 +20,7 @@ pipeline {
                 sh 'npm install'
 
                 // Build the image.
-                sh 'docker build . -t jftanner/maelstrom:latest'
+//                sh 'docker build . -t jftanner/maelstrom:latest'
             }
         }
 
@@ -31,16 +31,16 @@ pipeline {
             }
         }
 
-        stage('Publish') {
-            when {
-                branch 'master'
-            }
-            steps {
-                withDockerRegistry(url: "", credentialsId: "docker-hub-credentials") {
-                    sh 'docker push jftanner/maelstrom:latest'
-                }
-            }
-        }
+//        stage('Publish') {
+//            when {
+//                branch 'master'
+//            }
+//            steps {
+//                withDockerRegistry(url: "", credentialsId: "docker-hub-credentials") {
+//                    sh 'docker push jftanner/maelstrom:latest'
+//                }
+//            }
+//        }
         stage('Deploy') {
             when {
                 branch 'master'
@@ -48,7 +48,8 @@ pipeline {
             steps {
                 script {
                     transfers = [
-                        sshTransfer(execCommand: 'ls -la', remoteDirectory: '/srv/maelstrom')
+                        sshTransfer(sourceFiles: '**', remoteDirectory: '/srv/maelstrom'),
+                        sshTransfer(execCommand: 'cd /srv/maelstrom && docker-compose up --build -d')
                     ]
                 }
                 sshPublisher(publishers: [sshPublisherDesc(configName: 'Maelstrom Droplet', transfers: transfers)])
