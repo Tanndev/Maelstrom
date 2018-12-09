@@ -18,12 +18,28 @@ pipeline {
 //                }
                 echo 'Building...'
                 sh 'npm install'
+
+                // Build the image.
+                image = docker.build('docker pull jftanner/maelstrom')
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing...'
                 echo 'I think it worked!'
+            }
+            image.inside {
+                sh 'echo "I\'m inside a container!"'
+            }
+        }
+        stage('Publish') {
+            when {
+                branch 'master'
+            }
+            steps {
+                docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+                    image.push("latest")
+                }
             }
         }
         stage('Deploy') {
