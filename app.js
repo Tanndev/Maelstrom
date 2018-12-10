@@ -13,7 +13,7 @@ const app = express();
 // Set up view engine and static assets.
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'client/views'));
-app.use(favicon(path.join(__dirname, 'client/static/icon8-favicon.ico')));
+app.use(favicon(path.join(__dirname, 'client/static/images/icon8-favicon.ico')));
 app.use(express.static(path.join(__dirname, 'client/static')));
 
 // Set up logger and data parsers.
