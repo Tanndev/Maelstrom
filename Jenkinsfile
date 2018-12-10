@@ -58,10 +58,10 @@ pipeline {
 
     post {
         success {
-            slackSend color: 'good', message: 'Successfully redeployed Maelstrom App: https://maelstrom.tanndev.com'
+            slackSend color: 'good', message: 'Successfully redeployed <https://maelstrom.tanndev.com|Maelstrom>.'
         }
         failure {
-            slackSend color: 'danger', message: 'Failed to rebuild Maelstrom app.'
+            slackSend color: 'danger', message: 'Failed to redeploy Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)")'
         }
     }
 }
