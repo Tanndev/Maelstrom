@@ -75,29 +75,34 @@ Intelligence is the capacity to learn and apply information. It's used for resea
 Abilities are the learned or developed traits that define the specific things a character knows how to do.
 Many player characters will have 3-4 dots in a few abilities and almost some characters will have a couple dots in many different abilities.
 
+Most abilities have lists of specialties and advanced specialties. These can be purchased so long as you have at least one dot in the ability. <!-- TODO Add character advancement link --> See [Specialty](#specialty) for how these affect your rolls.
+
 ##### Talents
 Talents represent abilities that come naturally to characters, but which may have been honed and trained over the years.
 When rolling for talents, there is no penalty for having zero dots -- just use the base attribute alone.
 
 ###### Alertness
 Alertness represents a character's passive ability to be aware of their surroundings and notice threats or items of interest.
-This trait is almost always rolled with Perception to do things like set watch around a camp, look for followers, spot an ambush, etc.
-**Specialties:** Locations (city, forest, space, etc), followers, ambushers.
+- This trait is almost always rolled with Perception to do things like set watch around a camp, look for followers, spot an ambush, etc.
+- **General Specialties:** Locations (city, forest, space, etc), followers, ambushers.
 
 ###### Athletics
 Athletics represents a character's trained physical ability. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities.
-This trait is almost always rolled with a physical attribute to do things like jump, climb, throw, run, etc.
-**Specialties:** Acrobatics, Strength, Precision, Reflexes, Parkour, Thrown Weapons
+- This trait is almost always rolled with a physical attribute to do things like jump, climb, throw, run, etc.
+- **Advanced Specialties:** Power Armor
+- **General Specialties:** Acrobatics, Strength, Precision, Reflexes, Parkour, Thrown Weapons
 
 ###### Brawling
 Brawling represents a character's talent in unarmed hand-to-hand combat.
-This trait is almost always rolled with a physical attribute as part of an attack or combat maneuver.
-**Specialities:** Punching, Kicking, Grappling, Specific martial arts or combat styles
+- This trait is almost always rolled with a physical attribute as part of an attack or combat maneuver.
+- **Advanced Specialties:** Power Armor
+- **General Specialties:** Punching, Kicking, Grappling, Specific martial arts or combat styles
 
 ###### Dodge
 Dodge represents a character's talent for ducking, diving, weaving, and otherwise avoid being hit.
-This trait is almost always rolled with reflexes as a defensive action to avoid attacks or damage.
-**Specialties:** Unarmored, Heavy Armor, Power Armor
+- This trait is almost always rolled with reflexes as a defensive action to avoid attacks or damage.
+- **Advanced Specialties:** Power Armor
+- **General Specialties:** Unarmored, Heavy Armor
 
 ##### Skills
 Skills represent abilities that that characters have learned through training and practice.
@@ -105,25 +110,31 @@ When rolling for a skill in which you have no dots, the difficulty is increased 
 In some cases, the storyteller may allow an alternate roll or action to allow your character to "figure it out" and avoid the penalty.
 
 ###### Aerospace Piloting
-_Description TBD_ <!-- TODO Describe Aerospace Piloting -->
+Aerospace Piloting represents a character's skill in flying aircraft and spacecraft.
+With the ubiquity of high-efficiency aerospace thrusters, these craft are quite similar. Generally, any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult.
+- This trait is usually rolled with precision or reflexes in order to maneuver a aerospace vehicle.
+- **Advanced Specialties:** Atmospheric Flight, Zero-G Maneuvering, Fighters, Freighters, Power Armor
+- **General Specialties:** Space Flight, Shuttles, Frigates, Cruisers
 
 ###### Firearms
-_Description TBD_ <!-- TODO Describe Firearms -->
+Firearms represents a character's skill with guns and similar weapons. In additional to traditional firearms, it also includes other weapons which are fired in a similar way.
+- This trait is usually rolled with a physical attribute as part of an attack.
+- **Advanced Specialties:** Power Armor, Laser Weapons, Heavy Weapons
+- **General Specialties:** Pistols, Shotguns, Battle Rifles, Sniper Rifles
 
 ###### Ground Vehicle Operation (Drive)
 _Description TBD_ <!-- TODO Describe Drive -->
 
 ###### Melee
 _Description TBD_ <!-- TODO Describe Melee -->
-
-###### Power Armor Operation
-_Description TBD_ <!-- TODO Describe Melee -->
+- **Advanced Specialties:** Power Armor
 
 ###### Spacecraft Weaponry
-_Description TBD_ <!-- TODO Describe Spacecraft Weaponry -->
+_Description TBD_ <!-- TODO Describe Spacecraft Weapons -->
 
 ###### Stealth
 _Description TBD_ <!-- TODO Describe Stealth -->
+- **Advanced Specialties:** Power Armor
 
 ###### Survival
 _Description TBD_ <!-- TODO Describe Survival -->
@@ -204,13 +215,13 @@ When you have a threshold, any successes you get up to that amount are removed i
 > **Example:** A player rolls for their action with a threshold of two. They roll two successes and a failure. The two successes are then immediately removed by the threshold, leaving zero successes and a failure. This is a botch, even though the roll would have been pretty good without the threshold.
 
 ### Specialty
-If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success.
+If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Whenever you roll for an ability and your action is related to one of the ability's specialties, you can use that specialty. Using a specialty doesn't add to the dice pool directly, but it does allow for a chance of getting bonus dice on a good roll.
+ 
+When using a specialty, each time you roll a 10 you may roll an additional bonus die. Any successes rolled on your bonus dice count to your overall successes, just like regular dice. However, 1s are ignored and do not add a botch. Also, any 10s rolled on bonus dice count as well and add another bonus die - this is sometimes called "exploding tens".
 
-You can only use an ability's specialty if you have at least four dots in the ability and if you are using that ability to perform some action related to the specialty. Using a specialty doesn't directly add to the dice pool, but it does allow for a chance of getting bonus dice on a good role. Whenever you role a 10 on a die while using a specialty, you have the option to roll an additional die. This includes when rolling a 10 on the additional dice as well, so you could theoretically roll an unlimited number of successes.
+<!-- TODO Discuss multiple specialties -->
 
-Keep in mind, however, that with great power comes great responsibility. Each additional die you roll has the potential to be a 1 and cancel out success you already got. If you've already got enough successes to perform the action you want, sometimes it's better not to roll the extra die.
-
-> **Example:** A player is trying to attack with a sniper rifle. The attack uses Precision and Firearms and has a difficulty of 8. Her character has three dots in Precision and four dots in Firearms with a specialty in sniping. Because she has at least four dots in Firearms and is taking a relevant action, she's allowed to use the speciality. She rolls seven dice as usual and gets 2, 3, 3, 5, 7, 8, and 10 for two successes. Because of the ten, she's able to roll another die as well and rolls another 8 for a total of three successes. Had she rolled a 1 instead, she'd have wound up with a single success, potentially dealing less damage.
+> **Example:** A player is trying to attack with a sniper rifle. The attack uses Precision + Firearms and has a difficulty of 8. Her character has two dots in Precision and three dots in Firearms with a specialty in sniping. Because action is relevant to her specialty, she's allowed to use the speciality and gains exploding tens. She rolls five dice as usual and gets [1, 4, 8, 10, 10] for a total of two successes. Because of the tens, she's able to add two bonus dice as well. She rolls a 1 and a 10 on the bonus dice. Because it's on a bonus die, the 1 is ignored. The 10 adds a success (for a total of three) and another bonus die. On the new bonus die, she rolls an 8 for her fourth and final success.
 
 ### Resolving the Result
 Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
