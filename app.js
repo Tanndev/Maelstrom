@@ -10,36 +10,20 @@ const Roll = require('./classes/Roll');
 
 const app = express();
 
-// Set up view engine
+// Set up view engine and static assets.
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, 'client/views'));
 app.use(favicon(path.join(__dirname, 'client/static/icon8-favicon.ico')));
 app.use(express.static(path.join(__dirname, 'client/static')));
 
-// Set up logger and whatnot
+// Set up logger and data parsers.
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
-// Homepage
-app.get('/', (req, res) => {
-    res.render('home');
-});
-
-// Documentation
-const documentation = require('./documentation');
-app.get('/documentation/:document', (req, res, next) => {
-    let documentName = req.params.document;
-    let document = documentation[documentName];
-    if (document) {
-        res.locals.documentationHtml = document;
-        res.render('documentation', {filename: documentName, cache: true});
-    } else next();
-});
-app.use('/documentation', express.static(path.join(__dirname, 'documentation')));
-
+// Route client requests.
+app.use(require('./client/router'));
 
 // APIs
 app.get('/roll', (req, res, next) => {
