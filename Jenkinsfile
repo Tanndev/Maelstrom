@@ -55,4 +55,13 @@ pipeline {
             }
         }
     }
+
+    post {
+        success {
+            slackSend color: 'good', message: 'Successfully redeployed Maelstrom App: https://maelstrom.tanndev.com'
+        }
+        failure {
+            slackSend color: 'danger', message: 'Failed to rebuild Maelstrom app.'
+        }
+    }
 }
