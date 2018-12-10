@@ -3,3 +3,9 @@ extends layout
 block content
     p There's not much here yet, I'm afraid.
     p Pretty swanky server though, eh? It builds itself!
+    div
+        h2 Documentation Links:
+        ul
+            each documentName in availableDocumentation
+                li
+                    a(class='document-link' href=`/documentation/${documentName}`)=documentName
