@@ -58,10 +58,11 @@ pipeline {
 
     post {
         success {
-            slackSend color: 'good', message: 'Successfully redeployed <https://maelstrom.tanndev.com|Maelstrom>.'
+            // TODO Differentiate between master, branch, and PR builds.
+            slackSend color: 'good', message: 'Successfully built <https://maelstrom.tanndev.com|Maelstrom>.'
         }
         failure {
-            slackSend color: 'danger', message: 'Failed to redeploy Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)")'
+            slackSend color: 'danger', message: "Failed to build Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
         }
     }
 }
