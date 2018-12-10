@@ -71,29 +71,6 @@ Intelligence is the capacity to learn and apply information. It's used for resea
 - **4**: Exceptional.
 - **5**: Outstanding.
 
-##### Social
-###### ???
-- **0**: Abysmal.
-- **1**: Poor.
-- **2**: Average.
-- **3**: Good.
-- **4**: Exceptional.
-- **5**: Outstanding.
-###### ???
-- **0**: Abysmal.
-- **1**: Poor.
-- **2**: Average.
-- **3**: Good.
-- **4**: Exceptional.
-- **5**: Outstanding.
-###### ???
-- **0**: Abysmal.
-- **1**: Poor.
-- **2**: Average.
-- **3**: Good.
-- **4**: Exceptional.
-- **5**: Outstanding.
-
 #### Abilities
 Abilities are the learned or developed traits that define the specific things a character knows how to do.
 Many player characters will have 3-4 dots in a few abilities and almost some characters will have a couple dots in many different abilities.
@@ -121,21 +98,6 @@ This trait is almost always rolled with a physical attribute as part of an attac
 Dodge represents a character's talent for ducking, diving, weaving, and otherwise avoid being hit.
 This trait is almost always rolled with reflexes as a defensive action to avoid attacks or damage.
 **Specialties:** Unarmored, Heavy Armor, Power Armor
-
-###### Expression
-_Social traits are TBD_ <!-- TODO Decide whether Expression should be an ability. -->
-
-###### Intimidation
-_Social traits are TBD_ <!-- TODO Decide whether Intimidation should be an ability. -->
-
-###### Leadership
-_Social traits are TBD_ <!-- TODO Decide whether Leadership should be an ability. -->
-
-###### Streetwise
-_Social traits are TBD_ <!-- TODO Decide whether Streetwise should be an ability. -->
-
-###### Subterfuge
-_Social traits are TBD_ <!-- TODO Decide whether Subterfuge should be an ability. -->
 
 ##### Skills
 Skills represent abilities that that characters have learned through training and practice.
@@ -198,15 +160,8 @@ _Description TBD_ <!-- TODO Describe Linguistics -->
 ###### Medicine
 _Description TBD_ <!-- TODO Describe Medicine -->
 
-###### Science
+###### Physical Sciences
 _Description TBD_ <!-- TODO Describe Science -->
-
-##### Remaining Abilities
-_These abilities have not yet been categorized as Talents, Skills, or Knowledges._
-
-###### Planetary Navigation
-
-###### Interplanetary Navigation
 
 ### Health / Resistance
 #### Fortitude
