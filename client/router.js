@@ -15,6 +15,7 @@ router.get('/', (req, res) => {
 });
 
 // Serve documentation.
+router.get('/documentation', (req, res) => res.redirect('/'));
 router.get('/documentation/:document', (req, res, next) => {
     let documentName = req.params.document;
     let document = documentation[documentName];
