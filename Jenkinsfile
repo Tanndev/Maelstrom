@@ -48,10 +48,10 @@ pipeline {
             steps {
                 script {
                     transfers = [
-                            sshTransfer(cleanRemote: true, sourceFiles: '**', execCommand: 'docker-compose up --build -d')
+                            sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
                     ]
                 }
-                sshPublisher(publishers: [sshPublisherDesc(verbose: true, configName: 'Maelstrom', transfers: transfers)])
+                sshPublisher(failOnError: true, publishers: [sshPublisherDesc(verbose: true, configName: 'Tanndev Docker', transfers: transfers)])
             }
         }
     }
