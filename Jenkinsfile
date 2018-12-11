@@ -48,10 +48,10 @@ pipeline {
             steps {
                 script {
                     transfers = [
-                        sshTransfer(sourceFiles: '**', execCommand: 'docker-compose up --build -d')
+                            sshTransfer(cleanRemote: true, sourceFiles: '**', execCommand: 'docker-compose up --build -d')
                     ]
                 }
-                sshPublisher(publishers: [sshPublisherDesc(configName: 'Maelstrom', transfers: transfers)])
+                sshPublisher(publishers: [sshPublisherDesc(verbose: true, configName: 'Maelstrom', transfers: transfers)])
             }
         }
     }
@@ -59,10 +59,10 @@ pipeline {
     post {
         success {
             // TODO Differentiate between master, branch, and PR builds.
-            slackSend color: 'good', message: 'Successfully built <https://maelstrom.tanndev.com|Maelstrom>.'
+            slackSend channel: '#maelstrom', color: 'good', message: 'Successfully built <https://maelstrom.tanndev.com|Maelstrom App>.'
         }
         failure {
-            slackSend color: 'danger', message: "Failed to build Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
+            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
         }
     }
 }
