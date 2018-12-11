@@ -219,7 +219,7 @@ Willpower can be used to ignore the penalties from being wounded. Once per turn,
 Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.
 
 ##### Rolling Willpower
-When rolling for willpower, your dice pool is equal to your character's dots in _current_ willpower. Willpower is always rolled alone, never with another trait, and is affected wound penalties. <!-- TODO differentiate between wounds from limbs and trunk -->
+When rolling for willpower, your dice pool is equal to your character's dots in _current_ willpower. Willpower is always rolled alone, never with another trait, and is affected by wound penalties. <!-- TODO differentiate between wounds from limbs and trunk -->
 
 Botching a willpower roll reduces your character's current willpower by one dot per uncancelled botch. However, this can be counteracted by spending willpower instead. You'll still lose the dots, but you can potentially succeed the roll by spending additional willpower.
 
