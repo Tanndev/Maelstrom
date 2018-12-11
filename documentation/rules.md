@@ -84,7 +84,7 @@ When rolling for talents, there is no penalty for having zero dots -- just use t
 ###### Alertness
 Alertness represents a character's passive ability to be aware of their surroundings and notice threats or items of interest.
 - This trait is almost always rolled with Perception to do things like set watch around a camp, look for followers, spot an ambush, etc.
-- **General Specialties:** Locations (city, forest, space, etc), followers, ambushers.
+- **General Specialties:** Terrain (Urban, Forest, Plains, etc), Followers, Ambushes.
 
 ###### Athletics
 Athletics represents a character's trained physical ability. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities.
@@ -92,9 +92,9 @@ Athletics represents a character's trained physical ability. Where the physical 
 - **Advanced Specialties:** Power Armor, Zero-G
 - **General Specialties:** Acrobatics, Strength, Precision, Reflexes, Parkour, Thrown Weapons
 
-###### Brawling
-Brawling represents a character's talent in unarmed hand-to-hand combat.
-- This trait is almost always rolled with a physical attribute as part of an attack or combat maneuver.
+###### Brawl
+Brawl represents a character's talent in unarmed hand-to-hand combat.
+- This trait is almost always rolled with a physical attribute as part of an attack or defensive maneuver.
 - **Advanced Specialties:** Power Armor, Zero-G
 - **General Specialties:** Punching, Kicking, Grappling, Specific martial arts or combat styles
 
@@ -130,20 +130,27 @@ Ground Vehicle Operation, sometimes shortened to "drive", represents a character
 
 ###### Melee
 Melee represents a character's skill with melee weapons and shields. It is used for swords, hammers, polearms, riot shields, etc.
-- This trait is usually rolled with a physical attribute as part of an attack or combat maneuver.
+- This trait is usually rolled with a physical attribute as part of an attack or defensive maneuver.
 - **Advanced Specialties:** Power Armor, Energy Weapons
 - **General Specialties:** Swords, Shields, Spears, Clubs
 
 ###### Mounted Weapons
-Spacecraft Weaponry represents a character's skill operating the mounted weapon systems of ground and aerospace vehicles, power armor, buildings, etc.
-_Description TBD_ <!-- TODO Describe Spacecraft Weapons -->
+Mounted Weapons represents a character's skill operating the mounted weapon systems of ground and aerospace vehicles, power armor, space stations, buildings, etc.
+- This trait is usually rolled with precision or reflexes as part of an attack or defensive maneuver.
+- **Advanced Specialties:** Defensive Fire, Power Armor, Mining Equipment
+- **General Specialties:** PDCs, Missiles, Torpedoes, Rail Guns
 
 ###### Stealth
-_Description TBD_ <!-- TODO Describe Stealth -->
-- **Advanced Specialties:** Power Armor
+Stealth represents a character's skill in hiding, moving silently, and otherwise keeping out of sight.
+- This trait is usually rolled with precision to move silently or with wits to hide.
+- **Advanced Specialties:** Corridors, Power Armor
+- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Armored, Unarmored
 
 ###### Survival
-_Description TBD_ <!-- TODO Describe Survival -->
+Survival represents a character's skill surviving in harsh or austere environments.
+- This trait is usually rolled with intelligence or wits to build shelters, find food, etc.
+- **Advanced Specialties:** EVA, Non-Breathable Atmosphere, Extreme Temperatures
+- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations
 
 ###### Technology
 _Description TBD_ <!-- TODO Describe Technology -->
