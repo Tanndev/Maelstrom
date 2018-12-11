@@ -217,14 +217,14 @@ All characters have a willpower trait which represents their capacity to push th
 
 Unlike other traits, willpower is on a scale from 0 to 10 and is always rolled alone. Additionally, willpower has both permanent and current values. A character's current dots in willpower can never exceed their permanent willpower rating, but can be reduced and recovered through gameplay. When rolling or spending willpower, always use your character's _current_ dots, rather than their permanent rating.
 
-After making a willpower roll, you may choose to spend a willpower dot to cancel your roll and succeed automatically. Your number of successes is set equal to your remaining willpower dots. (You may not spend your final willpower dot in this way, as doing so would result in zero successes and fail.)
+After making a willpower roll, you may choose to [spend a willpower](#spending-willpower) dot to cancel your roll and succeed automatically. Your number of successes is set equal to your remaining willpower dots. (You may not spend your final willpower dot in this way, as doing so would result in zero successes and fail.)
 
 Botching a willpower roll reduces your character's current willpower by one dot per uncancelled botch. In addition, you cannot spend willpower dots to cancel the roll. <!-- TODO Reconsider stacking willpower botches -->
 
 ##### Spending Willpower
 Spending a willpower dot reduces your current willpower value by one dot until you recover it. This allows you to ignore wounds or guarantee success on willpower rolls, but comes at the cost of reducing the dice pools for all future willpower rolls. Spent dot can be recovered, and the dice pools increased again, but only slowly and outside of combat.
 
-In addition to spending willpower to automatically succeed willpower rolls, you may also spend it to ignore wound penalties. Once per turn, a character may spend one willpower dot to ignore their injuries and roll their next action without a wound penalty. (Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.)
+In addition to spending willpower to automatically succeed willpower rolls, you may also spend it to ignore wound penalties. Once per turn, a character may spend one willpower dot to ignore their injuries and roll their next action without a wound penalty. (Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.) If a character spends their last willpower dot in this way, they don't suffer the effects of [zero willpower](#zero-willpower) until after they complete the action.
 
 ##### Recovering Willpower
 Characters recover willpower by resting in a safe, comfortable environment. If a character feels threatened or in danger, or if they are particularly uncomfortable, they are not able to recover willpower.
@@ -232,7 +232,9 @@ Characters recover willpower by resting in a safe, comfortable environment. If a
 If a character is able to recover willpower, they regain 1 dot of willpower per day. If they actively rest and relax for a day, they may regain 1 additional dot per success on a difficulty 8 willpower roll.
 
 ##### Zero Willpower
-_Description TBD_ <!-- TODO Describe what happens at zero willpower -->
+If a character is reduced to zero dots in willpower, either by botching a willpower roll or spending their last dot to resist their injuries, they no longer have the will to carry on. Characters in this state may not make any actions and are considered incapacitated. However, they will continue to act passively to keep pressure on their own wounds, cooperate with other characters carrying or dragging them, etc.
+
+If another character is sufficiently motivating or encouraging, they may spend one dot of their own willpower to restore nearby incapacitated characters to one dot. This can only be done at the discretion of the storyteller and will usually require roleplaying the manner in which the character convinces their companies to carry on the fight.
 
 ### Equipment
 _Description TBD_ <!-- TODO Describe Equipment -->
