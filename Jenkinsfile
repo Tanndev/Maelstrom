@@ -51,7 +51,7 @@ pipeline {
                             sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
                     ]
                 }
-                sshPublisher(failOnError: true, publishers: [sshPublisherDesc(verbose: true, configName: 'Tanndev Docker', transfers: transfers)])
+                sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
             }
         }
     }
