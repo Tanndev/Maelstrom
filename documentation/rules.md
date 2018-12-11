@@ -75,7 +75,7 @@ Intelligence is the capacity to learn and apply information. It's used for resea
 Abilities are the learned or developed traits that define the specific things a character knows how to do.
 Many player characters will have 3-4 dots in a few abilities and almost some characters will have a couple dots in many different abilities.
 
-Most abilities have lists of specialties and advanced specialties. These can be purchased so long as you have at least one dot in the ability. <!-- TODO Add character advancement link --> See [Specialty](#specialty) for how these affect your rolls.
+Most abilities have lists of [general specialties](#general-specialties) and [advanced specialties](#advanced-specialties). These can be purchased so long as you have at least one dot in the ability. <!-- TODO Add character advancement link -->
 
 ##### Talents
 Talents represent abilities that come naturally to characters, but which may have been honed and trained over the years.
@@ -105,9 +105,9 @@ Dodge represents a character's talent for ducking, diving, weaving, and otherwis
 - **General Specialties:** Unarmored, Heavy Armor
 
 ##### Skills
-Skills represent abilities that that characters have learned through training and practice.
+Skills represent abilities that characters have learned through training and practice.
 When rolling for a skill in which you have no dots, the difficulty is increased by 1. Then, use the base attribute alone.
-In some cases, the storyteller may allow an alternate roll or action to allow your character to "figure it out" and avoid the penalty.
+In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and avoid the penalty.
 
 ###### Aerospace Piloting
 Aerospace Piloting represents a character's skill in flying aircraft and spacecraft.
@@ -143,9 +143,9 @@ _Description TBD_ <!-- TODO Describe Survival -->
 _Description TBD_ <!-- TODO Describe Technology -->
 
 ##### Knowledges
-Knowledges represent things that your character has learned through research or training.
+Knowledges represent things that characters have learned through research or training.
 If you would roll for a knowledge in which you have no dots, you cannot even attempt the action.
-In some cases, the storyteller may allow an alternate roll or action to allow your character to "figure it out" and use the base attribute alone with a penalty.
+In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and use the base attribute alone with a penalty.
 
 ###### Academics
 _Description TBD_ <!-- TODO Describe Academics -->
@@ -173,6 +173,17 @@ _Description TBD_ <!-- TODO Describe Medicine -->
 
 ###### Physical Sciences
 _Description TBD_ <!-- TODO Describe Science -->
+
+#### Specialties
+Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There is no limit on the number of specialties which can be acquired for a given ability, but only one specialty can be used in any one roll per dot in the ability. (See [Using Abilities](#using-abilities) for more details.)
+
+Each ability is listed along with a number of suggested general and advanced specialties. However, these lists are not exhaustive. Work with your storyteller to add additional specialties that make sense for your character.
+
+##### General Specialties
+General Specialties represent focus in areas that are not otherwise considered exceptionally challenging. Characters with these specialties will generally perform better at related tasks, but characters without them are assumed to at least some general familiarity from the attribute and are not penalized.
+
+##### Advanced Specialties
+Advanced Specialties represent focus in areas that are more challenging or require specialized knowledge and practice. Characters with these specialties will perform better at related tasks, similar to general specialties. However, characters without them are at a significant disadvantage. Attempting an action without an appropriate advanced specialty usually adds a [threshold](#threshold) to the roll.
 
 ### Health / Resistance
 #### Fortitude
@@ -203,7 +214,7 @@ After you declare an action, the storyteller may offer a choice of different way
 ### Difficulty
 Once you've decided what you're going to do and gotten your dice pool, the storyteller should specify a difficulty. Some storytellers will use the default difficulty for most actions and only mention it when it's different, rather than saying it every time. Your storyteller should make it clear how they intend to do this.
 
-While the difficulty can be set anywhere between two and ten, it will usually be between four and eight with most actions having the default difficulty of six. When you roll your dice, you will get one success for each die which shows the difficulty number or higher. Additionally, you'll also get a failure for each die which shows a one. You lose one success for each failure and the total number of successes remaining then determines how well your character does. If manage to roll a failure without getting any successes at all, you botch the roll and fail spectacularly.
+While the difficulty can be set anywhere between two and ten, it will usually be between four and eight with most actions having the default difficulty of six. When you roll your dice, you will get one success for each die which shows the difficulty number or higher. Additionally, you'll also get a botch for each die which shows a one. You lose one success for each botch and the total number of successes remaining then determines how well your character does. If manage to roll more botches than successes, you botch the roll and fail spectacularly.
 
 >**Example:** A player is taking an action with a dice pool of five and a difficulty of six. He rolls and gets 1, 3, 4, 6, 7. Two dice are showing a six or better, so he gets two successes. But he also rolled a one and loses a success, for a total of one success remaining. Had the difficulty been higher, he would have wound up with zero successes and potentially botched the roll entirely.
 
@@ -212,9 +223,9 @@ For particularly challenging or dangerous actions, the story teller may specify 
 
 When you have a threshold, any successes you get up to that amount are removed immediately. Not only do they not count towards your total successes, they don't even count for avoiding botched rolls.
 
-> **Example:** A player rolls for their action with a threshold of two. They roll two successes and a failure. The two successes are then immediately removed by the threshold, leaving zero successes and a failure. This is a botch, even though the roll would have been pretty good without the threshold.
+> **Example:** A player rolls for their action with a threshold of two. They roll two successes and a botch. The two successes are then immediately removed by the threshold, leaving zero successes and a botch. This is a botch, even though the roll would have been pretty good without the threshold.
 
-### Specialty
+### Using Specialties
 If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Specialties don't add to the dice pool directly, like attributes or abilities; instead, they have a chance to add bonus dice on a good roll.
 
 In order to use a specialty, your action needs to be related to the specialty. Multiple specialties can be used at the same time, if they apply, up to a maximum of one specialty per dot in the ability.
@@ -227,35 +238,40 @@ For each specialty in use, add one additional bonus die every time you roll a 10
 Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
 
 #### Step 1: Roll
-Roll a number of ten-sided dice equal to your dice pool.
+Roll a number of ten-sided dice equal to your dice pool and roll any bonus dice due to specialties.
 
-If you're using one of your character's specialties, you may roll an additional die for each die that shows a 10.
+Each die can have one of three results:
+- Each die showing a number equal to or greater than your difficulty is a success
+- Each die showing a 1 is a botch.
+- Each other die is a failure (sometimes called a simple failure)
 
 #### Step 2: Count Successes
 Count how many dice are showing a number equal to or greater than your difficulty number; these are your successes.
 
 If you have a threshold, immediately remove that number of successes. Any successes removed in this way don't count at all and aren't considered cancelled; they effectively never happened at all. (Note: this affects successes, not the dice themselves. So it does not prevent you from adding additional dice by using a speciality. It can still remove successes from added dice, however.)
 
-#### Step 3: Subtract Failures
-Ones are bad. Count how many dice are showing a 1; these are your failures. Each failure you roll cancels one of your successes.
+#### Step 3: Subtract Botches
+Ones are bad. Count how many dice are showing a 1; these are your botches. Each botch you roll cancels one of your successes.
 
 #### Step 4: Succeed, Fail, or Botch
 If you still have any successes, then congratulations! You've succeeded your action. How well you did is determined by how many successes you still have. For most actions, a single success is enough to just barely make it while three or more means you did a really good job. The storyteller will describe your action and the potentially-glorious result.
 
-If you had no successes or failures, or if all your successes were cancelled, then you've simply failed. You weren't able to accomplish what you tried to do. You missed your shot, lost the person you were following, or couldn't hack the computer. The storyteller will describe what went wrong. Still, it could have been worse...
+If you had no successes or botches left, then you've simply failed. You weren't able to accomplish what you tried to do. You missed your shot, lost the person you were following, or couldn't hack the computer. The storyteller will describe what went wrong. Still, it could have been worse...
 
-If you rolled any failures without rolling any successes (including cancelled ones), then you've botched. Not only did you fail, but things went very wrong. Perhaps the part you were trying to fix is permanently broke, or you gun is jammed, or you've crashed and ruined your car. Whatever it was, the storyteller will describe uncomfortable results of your utter failure ...usually in graphic detail.
+If you rolled more botches than successes, then you've botched. Not only did you fail, but things went very wrong. Perhaps the part you were trying to fix is permanently broke, or you gun is jammed, or you've crashed and ruined your car. Whatever it was, the storyteller will describe uncomfortable results of your utter failure ...usually in graphic detail.
 
 #### Easy Counting Trick
 All this counting of dice can sound a little complicated and slow at first.
 
 Fortunately, there's actually a really easy way to figure out your result quickly:
-1. After you've rolled your dice, pick out the successes and failures. Remove the rest.
+1. After you've rolled your dice, pick out the failures and remove them.
+1. Roll bonus dice according to the specialty rules and discard failures.
+    - Remember that 1s are simple failures on bonus dice, not botches.
 1. If you have a threshold, take that many of the successes and remove them.
-1. If you have no successes but at least one failure, you've botched.
-1. Pair up successes with failures and remove each pair.
-1. If you have any successes left, that's how well you succeed.
-1. If you don't have any successes left, you've failed.
+1. Pair up successes with botches and remove each pair.
+1. If you have any successes left, you've succeeded with that many successes.
+1. If you have any botches left, you've botched.
+1. Otherwise, you've failed.
 
 ### Storyteller Suggestions
 Even after you've figured out what traits to use for your player's action, determining what difficulties and thresholds to set can be tricky sometimes. This section provides some suggestions and tables to make it a little bit easier. However, it'll also vary greatly depending on what sort of game you're running and how much of a challenge you and your players want. Start with the guidelines here and then adjust to suit your story and your players.
@@ -273,6 +289,8 @@ Some actions are so difficult that a simple success isn't enough and one or more
 Usually, a threshold is used to set a task that is just extremely difficult to perform. In these cases, the action's difficulty is also set high. Just be sure to keep in mind that, with a high difficulty, the average number of rolled successes will be low. At difficulty 9, even a threshold of 1 makes for an extremely challenging feat. The odds of a botch are high and odds of failure even higher.
 
 Thresholds can also be used to make tasks that aren't particularly difficult, but where there's a lot that can go wrong. This represents the need of the character to get a bunch of things right in order to succeed in their objective. In these cases, the action's difficulty is set lower -- sometimes even lower than normal -- and a reasonable threshold is used.
+
+Finally, add one threshold for each advanced specialty that the character _doesn't_ have. But make sure your players are aware of the reason for the threshold, so they can mitigate it in the future my purchasing the requisite specialty.
 
 > **Example:** "You climb the stairs and find yourself at the landing pad. There's no railings here, but there's a guard standing near the edge ahead of you. It's really windy all the way up here but you're pretty sure the metallic floor will make it extremely hard to sneak past him without being heard." describes the storyteller. The player decides she wants to charge the guard and push him over the edge before he can react.
 >
