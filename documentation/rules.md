@@ -232,9 +232,11 @@ Characters recover willpower by resting in a safe, comfortable environment. If a
 If a character is able to recover willpower, they regain 1 dot of willpower per day. If they actively rest and relax for a day, they may regain 1 additional dot per success on a difficulty 8 willpower roll.
 
 ##### Zero Willpower
-If a character is reduced to zero dots in willpower, either by botching a willpower roll or spending their last dot to resist their injuries, they no longer have the will to carry on. Characters in this state may not make any actions and are considered incapacitated. However, they will continue to act passively to keep pressure on their own wounds, cooperate with other characters carrying or dragging them, avoid touching fires or electrical sparks, etc.
+If a character is reduced to zero dots in willpower, either by botching a willpower roll or spending their last dot to resist their injuries, they no longer have the will to carry on. Characters in this state may not make any actions and are considered incapacitated. However, they will continue to act passively to keep pressure on their own wounds, hide, crawl away from danger, cooperate with other characters carrying or dragging them, etc.
 
 If another character is sufficiently motivating or encouraging, they may spend one dot of their own willpower to restore nearby incapacitated characters to one dot. This can only be done at the discretion of the storyteller and will usually require roleplaying the manner in which the character convinces their companions to carry on the fight.
+
+Characters can also recover their first dot in willpower by themselves once they are no longer directly threatened and out of combat for at least one full turn, even if their overall situation is still tenuous and stressful.
 
 ### Equipment
 _Description TBD_ <!-- TODO Describe Equipment -->
