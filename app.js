@@ -4,7 +4,6 @@ const express = require('express');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 const path = require('path');
-const redisClient = require('./redis-client');
 
 const Roll = require('./classes/Roll');
 
@@ -37,19 +36,6 @@ app.get('/roll', (req, res, next) => {
     } catch (error) {
         return next(createError(error));
     }
-});
-
-app.get('/store/:key', async (req, res) => {
-    const {key} = req.params;
-    const value = req.query;
-    await redisClient.setAsync(key, JSON.stringify(value));
-    return res.send('Success');
-});
-
-app.get('/:key', async (req, res) => {
-    const {key} = req.params;
-    const rawData = await redisClient.getAsync(key);
-    return res.json(JSON.parse(rawData));
 });
 
 // catch 404 and forward to error handler
