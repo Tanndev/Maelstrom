@@ -4,7 +4,10 @@ The following rules provide a framework to help storytellers and players build t
 <!-- toc -->
 
 ## Characters
+<!-- TODO Describe characters -->
+
 ### Backgrounds
+<!-- TODO Describe backgrounds -->
 
 ### Traits
 Traits define what a character is capable of. They are divided into two main categories: attributes and abilities. 
@@ -64,6 +67,7 @@ Intelligence is the capacity to learn and apply information. It's used for resea
 - **5**: Outstanding. Hawking, Einstein, Tesla, Faraday... and you.
 
 ###### Wits
+<!-- TODO Describe Wits ranks -->
 - **0**: Abysmal.
 - **1**: Poor.
 - **2**: Average.
@@ -199,9 +203,14 @@ General Specialties represent focus in areas that are not otherwise considered e
 Advanced Specialties represent focus in areas that are more challenging or require specialized knowledge and practice. Characters with these specialties will perform better at related tasks, similar to general specialties. However, characters without them are at a significant disadvantage. Attempting an action without an appropriate advanced specialty usually adds a [threshold](#threshold) to the roll.
 
 ### Health / Resistance
+#### Health
+_Description TBD_ <!-- TODO Describe Health -->
+
 #### Fortitude
+_Description TBD_ <!-- TODO Describe Fortitude -->
+
 #### Willpower
-All characters have a willpower trait which represents their push through pain, withstand mental or emotional stress, resist torture, and remain productive in the face of impossible odds.
+All characters have a willpower trait which represents their capacity to push through pain, withstand mental or emotional stress, resist torture, and remain productive in the face of impossible odds.
 
 Unlike other traits, willpower is on a scale from 0 to 10. Additionally, willpower has both permanent and current values. A character's current willpower can never exceed their permanent willpower value, but can be reduced and recovered through gameplay.
 
@@ -225,6 +234,7 @@ Characters recover willpower by resting in a safe, comfortable environment. If a
 If a character is able to recover willpower, they regain 1 point of willpower per day. If they actively rest and relax for a day, they may regain 1 additional point per success on a difficulty 8 willpower roll.
 
 ### Equipment
+_Description TBD_ <!-- TODO Describe Equipment -->
 
 ## Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
