@@ -215,11 +215,11 @@ When you have a threshold, any successes you get up to that amount are removed i
 > **Example:** A player rolls for their action with a threshold of two. They roll two successes and a failure. The two successes are then immediately removed by the threshold, leaving zero successes and a failure. This is a botch, even though the roll would have been pretty good without the threshold.
 
 ### Specialty
-If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Whenever you roll for an ability and your action is related to one of the ability's specialties, you can use that specialty. Using a specialty doesn't add to the dice pool directly, but it does allow for a chance of getting bonus dice on a good roll.
- 
-When using a specialty, each time you roll a 10 you may roll an additional bonus die. Any successes rolled on your bonus dice count to your overall successes, just like regular dice. However, 1s are ignored and do not add a botch. Also, any 10s rolled on bonus dice count as well and add another bonus die - this is sometimes called "exploding tens".
+If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Specialties don't add to the dice pool directly, like attributes or abilities; instead, they have a chance to add bonus dice on a good roll.
 
-<!-- TODO Discuss multiple specialties -->
+In order to use a specialty, your action needs to be related to the specialty. Multiple specialties can be used at the same time, if they apply, up to a maximum of one specialty per dot in the ability.
+ 
+For each specialty in use, add one additional bonus die every time you roll a 10 on any die. Like regular dice, any successes rolled on your bonus dice count to your overall successes. However, 1s are ignored and do not add a botch. Finally, any 10s rolled on bonus dice count for specialties as well and add even more bonus dice - this is sometimes called "exploding tens".
 
 > **Example:** A player is trying to attack with a sniper rifle. The attack uses Precision + Firearms and has a difficulty of 8. Her character has two dots in Precision and three dots in Firearms with a specialty in sniping. Because action is relevant to her specialty, she's allowed to use the speciality and gains exploding tens. She rolls five dice as usual and gets [1, 4, 8, 10, 10] for a total of two successes. Because of the tens, she's able to add two bonus dice as well. She rolls a 1 and a 10 on the bonus dice. Because it's on a bonus die, the 1 is ignored. The 10 adds a success (for a total of three) and another bonus die. On the new bonus die, she rolls an 8 for her fourth and final success.
 
