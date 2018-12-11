@@ -51,7 +51,7 @@ pipeline {
                         sshTransfer(sourceFiles: '**', execCommand: 'docker-compose up --build -d')
                     ]
                 }
-                sshPublisher(publishers: [sshPublisherDesc(configName: 'Maelstrom Droplet', transfers: transfers)])
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'Maelstrom', transfers: transfers)])
             }
         }
     }
