@@ -89,20 +89,20 @@ Alertness represents a character's passive ability to be aware of their surround
 ###### Athletics
 Athletics represents a character's trained physical ability. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities.
 - This trait is almost always rolled with a physical attribute to do things like jump, climb, throw, run, etc.
-- **Advanced Specialties:** Power Armor
+- **Advanced Specialties:** Power Armor, Zero-G
 - **General Specialties:** Acrobatics, Strength, Precision, Reflexes, Parkour, Thrown Weapons
 
 ###### Brawling
 Brawling represents a character's talent in unarmed hand-to-hand combat.
 - This trait is almost always rolled with a physical attribute as part of an attack or combat maneuver.
-- **Advanced Specialties:** Power Armor
+- **Advanced Specialties:** Power Armor, Zero-G
 - **General Specialties:** Punching, Kicking, Grappling, Specific martial arts or combat styles
 
 ###### Dodge
 Dodge represents a character's talent for ducking, diving, weaving, and otherwise avoid being hit.
 - This trait is almost always rolled with reflexes as a defensive action to avoid attacks or damage.
-- **Advanced Specialties:** Power Armor
-- **General Specialties:** Unarmored, Heavy Armor
+- **Advanced Specialties:** Power Armor, Zero-G
+- **General Specialties:** Armored, Unarmored
 
 ##### Skills
 Skills represent abilities that characters have learned through training and practice.
@@ -113,7 +113,7 @@ In some cases, the storyteller may allow an alternate roll or action to allow a 
 Aerospace Piloting represents a character's skill in flying aircraft and spacecraft.
 With the ubiquity of high-efficiency aerospace thrusters, these craft are quite similar. Generally, any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult.
 - This trait is usually rolled with precision or reflexes in order to maneuver a aerospace vehicle.
-- **Advanced Specialties:** Atmospheric Flight, Zero-G Maneuvering, Fighters, Freighters, Power Armor
+- **Advanced Specialties:** Atmospheric Flight, Close Quarters, Fighters, Freighters, Power Armor
 - **General Specialties:** Space Flight, Shuttles, Frigates, Cruisers
 
 ###### Firearms
@@ -122,14 +122,20 @@ Firearms represents a character's skill with guns and similar weapons. In additi
 - **Advanced Specialties:** Power Armor, Laser Weapons, Heavy Weapons
 - **General Specialties:** Pistols, Shotguns, Battle Rifles, Sniper Rifles
 
-###### Ground Vehicle Operation (Drive)
-_Description TBD_ <!-- TODO Describe Drive -->
+###### Ground Vehicle Operation
+Ground Vehicle Operation, sometimes shortened to "drive", represents a character's skill with cars and other ground vehicles.
+- This trait is usually rolled with precision or reflexes in order to maneuver a ground vehicle.
+- **Advanced Specialties:** Motorcycles, Transport Trucks
+- **General Specialties:** Gravitic Vehicles, Cars, Trucks, Buses
 
 ###### Melee
-_Description TBD_ <!-- TODO Describe Melee -->
-- **Advanced Specialties:** Power Armor
+Melee represents a character's skill with melee weapons and shields. It is used for swords, hammers, polearms, riot shields, etc.
+- This trait is usually rolled with a physical attribute as part of an attack or combat maneuver.
+- **Advanced Specialties:** Power Armor, Energy Weapons
+- **General Specialties:** Swords, Shields, Spears, Clubs
 
-###### Spacecraft Weaponry
+###### Mounted Weapons
+Spacecraft Weaponry represents a character's skill operating the mounted weapon systems of ground and aerospace vehicles, power armor, buildings, etc.
 _Description TBD_ <!-- TODO Describe Spacecraft Weapons -->
 
 ###### Stealth
