@@ -206,38 +206,41 @@ Advanced Specialties represent focus in areas that are more challenging or requi
 #### Health
 _Description TBD_ <!-- TODO Describe Health -->
 
+##### Wound Penalties
+_Description TBD_ <!-- TODO Describe Wound Penalties -->
+
 #### Fortitude
 _Description TBD_ <!-- TODO Describe Fortitude -->
 
 #### Willpower
-All characters have a willpower trait which represents their capacity to push through pain, withstand mental or emotional stress, resist torture, and remain productive in the face of impossible odds.
+All characters have a willpower trait which represents their capacity to push through pain, withstand mental or emotional stress, resist torture, and remain productive in the face of impossible odds. Willpower is commonly used to temporarily resist the effects of things like tear gas, drugs, alcohol, hypoxia, intense fear, and even wounds. It's also used to more quickly recover from the incapacitating effects of tasers, flashbangs, electrocution.
 
-Unlike other traits, willpower is on a scale from 0 to 10. Additionally, willpower has both permanent and current values. A character's current willpower can never exceed their permanent willpower value, but can be reduced and recovered through gameplay.
+Unlike other traits, willpower is on a scale from 0 to 10 and is always rolled alone. Additionally, willpower has both permanent and current values. A character's current dots in willpower can never exceed their permanent willpower rating, but can be reduced and recovered through gameplay. When rolling or spending willpower, always use your character's _current_ dots, rather than their permanent rating.
 
-Willpower can be used to ignore the penalties from being wounded. Once per turn, characters may make a difficulty 8 willpower check to ignore their injury and act anyway. Each success allows the character to reduce their wound penalty by 2 for their next action.
+After making a willpower roll, you may choose to spend a willpower dot to cancel your roll and succeed automatically. Your number of successes is set equal to your remaining willpower dots. (You may not spend your final willpower dot in this way, as doing so would result in zero successes and fail.)
 
-Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.
-
-##### Rolling Willpower
-When rolling for willpower, your dice pool is equal to your character's dots in _current_ willpower. Willpower is always rolled alone, never with another trait, and is affected by wound penalties. <!-- TODO differentiate between wounds from limbs and trunk -->
-
-Botching a willpower roll reduces your character's current willpower by one dot per uncancelled botch. However, this can be counteracted by spending willpower instead. You'll still lose the dots, but you can potentially succeed the roll by spending additional willpower.
+Botching a willpower roll reduces your character's current willpower by one dot per uncancelled botch. In addition, you cannot spend willpower dots to cancel the roll. <!-- TODO Reconsider stacking willpower botches -->
 
 ##### Spending Willpower
-After rolling for willpower, you can spend a point of willpower to add an additional success. This reduces your current willpower value by one dot until you recover it. This allows you to guarantee success on your willpower roll at the cost of reducing the dice pools for all future willpower rolls until your character is able to recover.
+Spending a willpower dot reduces your current willpower value by one dot until you recover it. This allows you to ignore wounds or guarantee success on willpower rolls, but comes at the cost of reducing the dice pools for all future willpower rolls. Spent dot can be recovered, and the dice pools increased again, but only slowly and outside of combat.
 
-Successes added by spending willpower are still cancelled by botches, but multiple points can be spent in order to succeed the overall roll.
+In addition to spending willpower to automatically succeed willpower rolls, you may also spend it to ignore wound penalties. Once per turn, a character may spend one willpower dot to ignore their injuries and roll their next action without a wound penalty. (Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.)
 
 ##### Recovering Willpower
 Characters recover willpower by resting in a safe, comfortable environment. If a character feels threatened or in danger, or if they are particularly uncomfortable, they are not able to recover willpower.
 
-If a character is able to recover willpower, they regain 1 point of willpower per day. If they actively rest and relax for a day, they may regain 1 additional point per success on a difficulty 8 willpower roll.
+If a character is able to recover willpower, they regain 1 dot of willpower per day. If they actively rest and relax for a day, they may regain 1 additional dot per success on a difficulty 8 willpower roll.
+
+##### Zero Willpower
+_Description TBD_ <!-- TODO Describe what happens at zero willpower -->
 
 ### Equipment
 _Description TBD_ <!-- TODO Describe Equipment -->
 
 ## Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
+
+<!-- TODO Differentiate between actions and reactions/defensive-actions -->
 
 ### Declaring an action
 The first step of performing an action is to decide what your character is going to do and announce it. You might say, for example, "I hop on the motorcycle and fire it up." For many actions, this is all that's required. But for some actions, the storyteller may have you roll for it. The storyteller should take the situation into account as well when deciding whether players should roll. After all, it's really easy to start a motorcycle in your driveway for a lazy drive but it's a whole other thing to start it while under fire and trying to escape with your life.
