@@ -3,7 +3,8 @@ version: '3'
 services:
   app:
     build: .
-    container_name: app
+    image: maelstrom
+    container_name: maelstrom_app
     ports:
     - 8080:8080
     environment:
@@ -15,7 +16,7 @@ services:
 
   redis:
     image: redis
-    container_name: redis
+    container_name: maelstrom_redis
     ports:
     - 127.0.0.1:6379:6379
     expose:
