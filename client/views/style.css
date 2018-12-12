@@ -35,12 +35,12 @@ body {
     text-transform: capitalize;
 }
 
-.navbar-link.current {
-    background: var(--navbar-current-color);
-}
-
 .navbar-link:hover {
     background: var(--navbar-hover-color);
+}
+
+.navbar-link.current {
+    background: var(--navbar-current-color);
 }
 
 main {
