@@ -2,4 +2,6 @@ extends layout
 
 block content
     div.content-center!=document.contentHtml
-    div.toc!=document.tocHtml
+    div.toc
+        h2 Table of Contents
+        div!=document.tocHtml

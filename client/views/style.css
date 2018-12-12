@@ -51,9 +51,11 @@ main {
 }
 
 .content-center {
-    max-width: 600px;
+    border: dashed darkslategray;
+    border-width: 0 1px;
+    max-width: 800px;
     padding: 0 1rem;
-    margin: 0 auto;
+    margin: 1rem;
 }
 
 .content-left {
@@ -62,7 +64,7 @@ main {
 }
 
 .toc {
-    padding-right: 0.5rem;
+    margin: 1rem;
 }
 
 .toc a {
@@ -79,15 +81,10 @@ main {
     background: black;
     color: white;
     font-family: monospace;
-    width: 100%;
     display: flex;
+    padding: 0.2rem 1rem;
     justify-content: space-between;
     align-items: center;
-}
-
-.footer div {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
 }
 
 .footer img {
@@ -98,6 +95,10 @@ main {
 
 .footer a{
     color: inherit;
+}
+
+.footer a:hover {
+    color:forestgreen;
 }
 
 
