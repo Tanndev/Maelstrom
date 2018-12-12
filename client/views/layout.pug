@@ -16,10 +16,10 @@ html
             each documentName in availableDocumentation
                 +navbarLink(`/documentation/${documentName}`, documentName)
 
-        main
+        main.content
             block content
 
         div.footer
             a(href='https://github.com/tanndev/maelstrom' target='__blank')
                 img(src='/images/octocat.png')
-            p Favicon provided by #[a(href='http://icons8.com/') Icons8]
+            span Favicon provided by #[a(href='http://icons8.com/') Icons8]

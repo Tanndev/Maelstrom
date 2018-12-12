@@ -1,7 +1,7 @@
 extends layout
 
 block content
-    div.content-center!=document.contentHtml
-    div.toc
+    div.fixed-width!=document.contentHtml
+    div
         h2 Table of Contents
         div!=document.tocHtml
