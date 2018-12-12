@@ -1,3 +1,6 @@
+mixin navbarLink(href, text)
+    a(class=`navbar-link ${href === path ? 'current' : ''}` href=href)=text
+
 html
     head
         title Maelstrom
@@ -9,9 +12,9 @@ html
             h1 Maelstrom RPG
 
         div(class='navbar')
-            a(class='navbar-link' href='/') Home
+            +navbarLink('/', 'home')
             each documentName in availableDocumentation
-                a(class='navbar-link' href=`/documentation/${documentName}`)=documentName
+                +navbarLink(`/documentation/${documentName}`, documentName)
 
         main
             block content
@@ -22,4 +25,3 @@ html
                     img(src='/images/octocat.png')
             div(class='right')
                 p Favicon provided by #[a(href='http://icons8.com/') Icons8]
-

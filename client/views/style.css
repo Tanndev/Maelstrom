@@ -15,10 +15,13 @@ body {
 }
 
 .navbar {
+    --navbar-current-color: darkslategray;
+    --navbar-hover-color: darkblue;
+
     background: black;
     color: white;
-    border-top: 1px solid blue;
-    border-bottom: 2px solid blue;
+    border-top: 1px solid var(--navbar-current-color);
+    border-bottom: 2px solid var(--navbar-current-color);
     font-family: 'Black Ops One', cursive;
     display: flex;
     flex-wrap: wrap;
@@ -32,8 +35,12 @@ body {
     text-transform: capitalize;
 }
 
+.navbar-link.current {
+    background: var(--navbar-current-color);
+}
+
 .navbar-link:hover {
-    background: darkslategray;
+    background: var(--navbar-hover-color);
 }
 
 main {
