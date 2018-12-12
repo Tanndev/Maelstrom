@@ -27,7 +27,15 @@ block content
     include character-sheet.css
 
   div.character-sheet
-    div.header Maelstrom Character Sheet
+    div.character-sheet-top
+      div.header Maelstrom
+      div.character-information
+        div.item
+          div.label Name:
+          div.field=character.name
+        div.item
+          div.label Story:
+          div.field Playtest
     div.character-sheet-section
       div.header Attributes
       div.character-trait-group

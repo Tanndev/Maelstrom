@@ -1,6 +1,6 @@
 .character-sheet {
   max-width: 8.5in;
-  height: 11in;
+  min-height: 11in;
   box-sizing: border-box;
   flex: 1 1 0;
   border: 1px solid black;
@@ -17,8 +17,36 @@
   text-align: center;
 }
 
-.character-sheet > .header{
+.character-sheet-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.character-sheet-top > .header{
   font-size: xx-large;
+  /*text-align: inherit;*/
+}
+
+.character-information .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.3rem 0;
+}
+
+.character-information .label {
+  font-weight: bold;
+  font-family: 'Black Ops One', fantasy;
+  margin-right: 0.5rem;
+}
+
+.character-information .field {
+  min-width: 10rem;
+  border-bottom: 1px solid black;
+  font-family: fantasy;
+  font-size: small;
 }
 
 .character-sheet-section {
@@ -43,7 +71,7 @@
 .character-trait-category {
   flex: 1 1 0;
   margin: 0 1rem 1rem 1rem;
-  max-width: 250px;
+  max-width: 15rem;
   display: flex;
   flex-direction: column;
 }
@@ -58,6 +86,7 @@
 
 .character-trait-name {
   margin: 2px 8px;
+  min-width: 7rem;
 }
 
 .character-trait-dots {
