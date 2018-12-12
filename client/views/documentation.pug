@@ -1,4 +1,5 @@
 extends layout
 
 block content
-    div!=documentationHtml
+    div(class='content')!=document.contentHtml
+    div(class = 'toc')!=document.tocHtml

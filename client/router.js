@@ -21,7 +21,8 @@ router.get('/documentation/:document', (req, res, next) => {
     let documentName = req.params.document;
     let document = documentation[documentName];
     if (document) {
-        res.locals.documentationHtml = document;
+        res.locals.document = document;
+        console.log(document.tocJson);
         res.render('documentation');
     } else next();
 });

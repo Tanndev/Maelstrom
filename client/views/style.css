@@ -46,8 +46,28 @@ body {
 main {
     flex-grow: 1;
     display: flex;
-    padding-left: 2rem;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.content {
     max-width: 600px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+.toc {
+    padding-right: 0.5rem;
+}
+
+.toc a {
+    color:inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.toc a:hover {
+    color:blue;
 }
 
 .footer {
