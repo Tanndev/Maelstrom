@@ -21,7 +21,7 @@ router.get('/documentation/:document', (req, res, next) => {
     let document = documentation[documentName];
     if (document) {
         res.locals.documentationHtml = document;
-        res.render('documentation', {filename: documentName, cache: true});
+        res.render('documentation');
     } else next();
 });
 router.use('/documentation', express.static(path.join(__dirname, 'documentation')));
