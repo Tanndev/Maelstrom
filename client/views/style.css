@@ -50,10 +50,15 @@ main {
     flex-wrap: wrap-reverse;
 }
 
-.content {
+.content-center {
     max-width: 600px;
     padding: 0 1rem;
     margin: 0 auto;
+}
+
+.content-left {
+    padding: 0 1rem;
+    margin-right: auto;
 }
 
 .toc {

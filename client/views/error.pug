@@ -1,6 +1,7 @@
 extends layout
 
 block content
-    h2 Uh oh! Something went wrong!
-    p Error #{statusCode}: #{message}
-    pre=stack
+    div.content-left
+        h2 Uh oh! Something went wrong!
+        p Error #{statusCode}: #{message}
+        pre=stack

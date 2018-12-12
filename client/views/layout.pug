@@ -8,10 +8,10 @@ html
         style
             include style.css
     body
-        div(class='banner')
+        div.banner
             h1 Maelstrom RPG
 
-        div(class='navbar')
+        div.navbar
             +navbarLink('/', 'home')
             each documentName in availableDocumentation
                 +navbarLink(`/documentation/${documentName}`, documentName)
@@ -19,9 +19,9 @@ html
         main
             block content
 
-        div(class='footer')
-            div(class='left')
+        div.footer
+            div.left
                 a(href='https://github.com/tanndev/maelstrom' target='__blank')
                     img(src='/images/octocat.png')
-            div(class='right')
+            div.right
                 p Favicon provided by #[a(href='http://icons8.com/') Icons8]
