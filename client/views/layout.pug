@@ -15,6 +15,7 @@ html
             +navbarLink('/', 'home')
             each documentName in availableDocumentation
                 +navbarLink(`/documentation/${documentName}`, documentName)
+            +navbarLink('/character', 'character sheet')
 
         main.content
             block content

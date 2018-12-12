@@ -1,0 +1,5 @@
+.character-sheet{
+  max-width: 8.5in;
+  box-sizing: border-box;
+  border: 1px solid red;
+}

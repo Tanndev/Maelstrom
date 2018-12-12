@@ -1,0 +1,29 @@
+extends layout
+
+mixin trait(trait)
+  div.trait-name=trait.name
+  div.trait-dots=trait.dots
+  if trait.specialties
+    div.trait-specialties
+      each specialty in trait.specialties
+        div.trait-specialty=specialty
+
+mixin trait-category(group, category)
+  div(class=`trait-category ${category}`)
+    div.trait-category-header=category
+    each trait in group[category]
+      +trait(trait)
+
+block content
+  style
+    include character-sheet.css
+
+  div.character-sheet
+    h2 Character Sheet
+    div.attributes
+      +trait-category(character.attributes, 'physical')
+      +trait-category(character.attributes, 'mental')
+    div.abilities
+      +trait-category(character.abilities, 'talents')
+      +trait-category(character.abilities, 'skills')
+      +trait-category(character.abilities, 'knowledges')
