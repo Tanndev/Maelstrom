@@ -1,16 +1,24 @@
 extends layout
 
+mixin dots(total, filled)
+  - var n = 0;
+  while n < total
+      div(class=`dot ${n < filled ? 'filled' : 'empty'}`)
+      - n++;
+
 mixin trait(trait)
-  div.trait-name=trait.name
-  div.trait-dots=trait.dots
+  div.character-trait
+    div.character-trait-name=trait.name
+    div.character-trait-dots
+      +dots(5, trait.dots)
   if trait.specialties
-    div.trait-specialties
+    div.character-trait-specialties
       each specialty in trait.specialties
-        div.trait-specialty=specialty
+        div.character-trait-specialty=specialty
 
 mixin trait-category(group, category)
-  div(class=`trait-category ${category}`)
-    div.trait-category-header=category
+  div.character-trait-category
+    div.character-trait-category-header=category
     each trait in group[category]
       +trait(trait)
 
@@ -19,11 +27,15 @@ block content
     include character-sheet.css
 
   div.character-sheet
-    h2 Character Sheet
-    div.attributes
-      +trait-category(character.attributes, 'physical')
-      +trait-category(character.attributes, 'mental')
-    div.abilities
-      +trait-category(character.abilities, 'talents')
-      +trait-category(character.abilities, 'skills')
-      +trait-category(character.abilities, 'knowledges')
+    h2 Maelstrom Character Sheet
+    div.character-sheet-section
+      div.character-sheet-section-header Attributes
+      div.character-trait-group
+        +trait-category(character.attributes, 'physical')
+        +trait-category(character.attributes, 'mental')
+    div.character-sheet-section
+      div.character-sheet-section-header Abilities
+      div.character-trait-group
+        +trait-category(character.abilities, 'talents')
+        +trait-category(character.abilities, 'skills')
+        +trait-category(character.abilities, 'knowledges')

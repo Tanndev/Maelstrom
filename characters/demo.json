@@ -3,12 +3,12 @@
   "attributes": {
     "physical": [
       {"name": "Strength", "dots": 2},
-      {"name": "Precision", "dots": 2},
-      {"name": "Reflexes", "dots": 2}
+      {"name": "Precision", "dots": 3},
+      {"name": "Reflexes", "dots": 3}
     ],
     "mental": [
       {"name": "Perception", "dots": 2},
-      {"name": "Intelligence", "dots": 2},
+      {"name": "Intelligence", "dots": 1},
       {"name": "Wits", "dots": 2}
     ]
   },
@@ -20,8 +20,8 @@
       {"name": "Dodge", "dots": 0}
     ],
     "skills": [
-      {"name": "Aerospace Piloting", "dots": 0},
-      {"name": "Firearms", "dots": 0},
+      {"name": "Aerospace Piloting", "dots": 4, "specialties": ["Atmosphere", "Fighters"]},
+      {"name": "Firearms", "dots": 3, "specialties": ["Pistols"]},
       {"name": "Ground Vehicle Operation", "dots": 0},
       {"name": "Melee", "dots": 0},
       {"name": "Power Armor Operation", "dots": 0},

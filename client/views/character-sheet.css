@@ -1,5 +1,76 @@
-.character-sheet{
+.character-sheet {
   max-width: 8.5in;
   box-sizing: border-box;
-  border: 1px solid red;
+  flex-grow: 1;
+  border: 1px solid black;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.character-sheet-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.character-sheet-section-header {
+  align-self: stretch;
+  text-align: center;
+  margin: 1rem 0;
+  border: dotted black;
+  border-width: 1px 0;
+}
+
+.character-trait-group {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.character-trait-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-trait-category-header {
+  align-self: center;
+  text-transform: capitalize;
+}
+
+.character-trait {
+  border-top: 1px dotted darkslategray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+
+.character-trait-name {
+  margin: 2px 8px;
+}
+
+.character-trait-dots {
+  display: flex;
+  flex-direction: row;
+}
+
+.character-trait-dots .dot {
+  height: 10px;
+  width: 11px;
+  background-color: lightgray;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 0 1px;
+}
+
+.character-trait-dots .filled {
+  background-color: black;
+}
+
+.character-trait-specialties{
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
 }
