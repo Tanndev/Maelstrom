@@ -1,0 +1,43 @@
+{
+  "name": "Devon",
+  "attributes": {
+    "physical": [
+      {"name": "Strength", "dots": 3},
+      {"name": "Precision", "dots": 2},
+      {"name": "Reflexes", "dots": 2}
+    ],
+    "mental": [
+      {"name": "Perception", "dots": 2},
+      {"name": "Intelligence", "dots": 2},
+      {"name": "Wits", "dots": 3}
+    ]
+  },
+  "abilities": {
+    "talents": [
+      {"name": "Alertness", "dots": 0},
+      {"name": "Athletics", "dots": 0},
+      {"name": "Brawling", "dots": 1},
+      {"name": "Dodging", "dots": 1}
+    ],
+    "skills": [
+      {"name": "Driving", "dots": 0},
+      {"name": "Firearms", "dots": 2, "specialties": ["Pistols"]},
+      {"name": "Melee", "dots": 2, "specialties": ["Wrenches"]},
+      {"name": "Piloting", "dots": 4, "specialties": ["Atmosphere", "Fighters"]},
+      {"name": "Remote Weapons", "dots": 2},
+      {"name": "Stealth", "dots": 0},
+      {"name": "Survival", "dots": 0},
+      {"name": "Technology", "dots": 1}
+    ],
+    "knowledges": [
+      {"name": "Academics", "dots": 0},
+      {"name": "Computer Systems", "dots": 0},
+      {"name": "Engineering", "dots": 3, "specialties": ["\"Percussive Maintenance\""]},
+      {"name": "Investigation", "dots": 0},
+      {"name": "Law", "dots": 0},
+      {"name": "Linguistics", "dots": 0},
+      {"name": "Medicine", "dots": 0},
+      {"name": "Science", "dots": 1}
+    ]
+  }
+}
