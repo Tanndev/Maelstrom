@@ -1,14 +1,22 @@
 html
     head
         title Maelstrom
+        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Black+Ops+One|Cinzel+Decorative')
         style
             include style.css
     body
-        div(class="banner")
-            a(href='/')
-                h1 Maelstrom RPG
-        main
-            block content
+        div(class='banner')
+            h1 Maelstrom RPG
+
+        div(class='page')
+            div(class='sidebar')
+                div(class='sidebar-navigation')
+                    a(class='sidebar-link' href='/') Home
+                    each documentName in availableDocumentation
+                        a(class='sidebar-link' href=`/documentation/${documentName}`)=documentName
+                div(class="sidebar-table-of-contents")
+            main
+                block content
 
         div(class='footer')
             div(class='left')
