@@ -12,7 +12,7 @@
 .header {
   font-family: 'Cinzel Decorative', serif;
   text-transform: capitalize;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   align-self: stretch;
   text-align: center;
 }
@@ -43,13 +43,13 @@
 .character-trait-category {
   flex: 1 1 0;
   margin: 0 1rem 1rem 1rem;
-  max-width: 250;
+  max-width: 250px;
   display: flex;
   flex-direction: column;
 }
 
 .character-trait {
-  border-top: 1px dotted darkslategray;
+  border-top: 1px solid lightgray;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
