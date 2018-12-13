@@ -1,46 +1,30 @@
 #!/usr/bin/env groovy
 
-pipeline {
-    agent any
+node {
+    def image
 
     stages {
         stage('Build') {
-            steps {
-//                script {
-//                    currentBuild.displayName = "Some build"
-//                    currentBuild.description = "A description of that build"
-//                }
-                echo 'Building...'
+            echo 'Building...'
+//            currentBuild.displayName = "Some build"
+//            currentBuild.description = "A description of that build"
 
-                // Build the image.
-                script {
-                    def image = docker.build("jftanner/maelstrom:${env.BUILD_TAG}")
-                }
-            }
+            // Build the image.
+            image = docker.build("jftanner/maelstrom:${env.BUILD_TAG}")
         }
 
         stage('Test') {
-            steps {
-                echo 'Testing...'
-
-                script {
-                    image.inside {
-                        echo 'Inside the container?'
-                        sh 'pwd'
-                        sh 'ls'
-                    }
-                }
+            echo 'Testing...'
+            image.inside {
+                echo 'Inside the container?'
+                sh 'pwd'
+                sh 'ls'
             }
         }
 
         stage('Publish') {
-            steps {
-                echo 'Publishing...'
-
-                script {
-                    image.push()
-                }
-            }
+            echo 'Publishing...'
+            image.push()
         }
 
         stage('Deploy') {
@@ -48,12 +32,10 @@ pipeline {
                 branch 'master'
             }
             steps {
-                script {
-                    image.push('latest')
-                    transfers = [
-                            sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
-                    ]
-                }
+                image.push('latest')
+                transfers = [
+                        sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
+                ]
                 sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
             }
         }
