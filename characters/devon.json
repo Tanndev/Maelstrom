@@ -2,32 +2,29 @@
   "name": "Devon",
   "attributes": {
     "physical": [
-      {"name": "Strength", "dots": 3},
+      {"name": "Strength", "dots": 4},
       {"name": "Precision", "dots": 2},
       {"name": "Reflexes", "dots": 2}
     ],
     "mental": [
       {"name": "Perception", "dots": 2},
-      {"name": "Intelligence", "dots": 2},
+      {"name": "Intelligence", "dots": 1},
       {"name": "Wits", "dots": 3}
     ]
   },
   "abilities": {
     "talents": [
       {"name": "Alertness", "dots": 0},
-      {"name": "Athletics", "dots": 0},
-      {"name": "Brawling", "dots": 1},
-      {"name": "Dodging", "dots": 1}
+      {"name": "Athletics", "dots": 2,  "specialties": ["Charge"]},
+      {"name": "Melee", "dots": 2, "specialties": ["Wrenches"]},
+      {"name": "Stealth", "dots": 1}
     ],
     "skills": [
-      {"name": "Driving", "dots": 0},
-      {"name": "Firearms", "dots": 2, "specialties": ["Pistols"]},
-      {"name": "Melee", "dots": 2, "specialties": ["Wrenches"]},
-      {"name": "Piloting", "dots": 4, "specialties": ["Atmosphere", "Fighters"]},
-      {"name": "Remote Weapons", "dots": 2},
-      {"name": "Stealth", "dots": 0},
-      {"name": "Survival", "dots": 0},
-      {"name": "Technology", "dots": 1}
+      {"name": "Driving", "dots": 1},
+      {"name": "Firearms", "dots": 2, "specialties": ["Shotguns"]},
+      {"name": "Piloting", "dots": 0},
+      {"name": "Remote Weapons", "dots": 0},
+      {"name": "Survival", "dots": 1, "specialties": ["Radiation"]}
     ],
     "knowledges": [
       {"name": "Academics", "dots": 0},
@@ -37,7 +34,7 @@
       {"name": "Law", "dots": 0},
       {"name": "Linguistics", "dots": 0},
       {"name": "Medicine", "dots": 0},
-      {"name": "Science", "dots": 1}
+      {"name": "Science", "dots": 0}
     ]
   }
 }
