@@ -3,41 +3,39 @@
 node {
     def image
 
-    stages {
-        stage('Build') {
-            echo 'Building...'
+    stage('Build') {
+        echo 'Building...'
 //            currentBuild.displayName = "Some build"
 //            currentBuild.description = "A description of that build"
 
-            // Build the image.
-            image = docker.build("jftanner/maelstrom:${env.BUILD_TAG}")
-        }
+        // Build the image.
+        image = docker.build("jftanner/maelstrom:${env.BUILD_TAG}")
+    }
 
-        stage('Test') {
-            echo 'Testing...'
-            image.inside {
-                echo 'Inside the container?'
-                sh 'pwd'
-                sh 'ls'
-            }
+    stage('Test') {
+        echo 'Testing...'
+        image.inside {
+            echo 'Inside the container?'
+            sh 'pwd'
+            sh 'ls'
         }
+    }
 
-        stage('Publish') {
-            echo 'Publishing...'
-            image.push()
+    stage('Publish') {
+        echo 'Publishing...'
+        image.push()
+    }
+
+    stage('Deploy') {
+        when {
+            branch 'master'
         }
-
-        stage('Deploy') {
-            when {
-                branch 'master'
-            }
-            steps {
-                image.push('latest')
-                transfers = [
-                        sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
-                ]
-                sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
-            }
+        steps {
+            image.push('latest')
+            transfers = [
+                    sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
+            ]
+            sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
         }
     }
 
