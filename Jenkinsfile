@@ -1,14 +1,6 @@
 #!/usr/bin/env groovy
 
 pipeline {
-
-    agent {
-        docker {
-            image 'node'
-            args '-u root'
-        }
-    }
-
     stages {
         stage('Build') {
             steps {
@@ -17,36 +9,45 @@ pipeline {
 //                    currentBuild.description = "A description of that build"
 //                }
                 echo 'Building...'
-                sh 'npm install'
 
                 // Build the image.
-//                sh 'docker build . -t jftanner/maelstrom:latest'
+                script {
+                    var image = docker.build("jftanner/maelstrom:${env.BUILD_ID}")
+                }
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Testing...'
-                echo 'Better if it did something.'
+
+                script {
+                    image.inside {
+                        echo 'Inside the container?'
+                        sh 'pwd'
+                        sh 'ls'
+                    }
+                }
             }
         }
 
-//        stage('Publish') {
-//            when {
-//                branch 'master'
-//            }
-//            steps {
-//                withDockerRegistry(url: "", credentialsId: "docker-hub-credentials") {
-//                    sh 'docker push jftanner/maelstrom:latest'
-//                }
-//            }
-//        }
+        stage('Publish') {
+            steps {
+                echo 'Publishing...'
+
+                script {
+                    image.push()
+                }
+            }
+        }
+
         stage('Deploy') {
             when {
                 branch 'master'
             }
             steps {
                 script {
+                    image.push('latest')
                     transfers = [
                             sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
                     ]
