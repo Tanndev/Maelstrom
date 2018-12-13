@@ -14,7 +14,7 @@ pipeline {
 
                 // Build the image.
                 script {
-                    var image = docker.build("jftanner/maelstrom:${env.BUILD_ID}")
+                    def image = docker.build("jftanner/maelstrom:${env.BUILD_TAG}")
                 }
             }
         }
