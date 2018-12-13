@@ -77,7 +77,7 @@ Intelligence is the capacity to learn and apply information. It's used for resea
 
 #### Abilities
 Abilities are the learned or developed traits that define the specific things a character knows how to do.
-Many player characters will have 3-4 dots in a few abilities and almost some characters will have a couple dots in many different abilities.
+Many player characters will have 3-4 dots in a few abilities and almost all characters will have a couple dots in many different abilities.
 
 Most abilities have lists of [general specialties](#general-specialties) and [advanced specialties](#advanced-specialties). These can be purchased so long as you have at least one dot in the ability. <!-- TODO Add character advancement link -->
 
