@@ -9,34 +9,27 @@ node {
 //            currentBuild.description = "A description of that build"
 
         // Build the image.
-        image = docker.build("jftanner/maelstrom:${env.BRANCH_NAME}-${env.BUILD_ID}")
+        image = docker.build("jftanner/maelstrom")
     }
 
     stage('Test') {
         echo 'Testing...'
-        image.inside {
-            echo 'Inside the container?'
-            sh 'pwd'
-            sh 'ls'
-        }
-    }
-
-    stage('Publish') {
-        echo 'Publishing...'
-        docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
-            image.push()
-        }
+//        image.inside {
+//            echo 'Inside the container?'
+//        }
     }
 
     stage('Deploy') {
-        when {
-            branch 'master'
-        }
-        steps {
+        if (env.BRANCH_NAME == 'master') {
+            docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+                image.push('latest')
+            }
             transfers = [
                     sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
             ]
             sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
+        } else {
+            echo 'Skipping deployment'
         }
     }
 
