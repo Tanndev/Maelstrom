@@ -32,12 +32,13 @@ pipeline {
 ////            }
             steps {
                 script {
-                    image.push('latest')
-                    transfers = [
-                            sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
-                    ]
+                    docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+                        image.push('latest')
+                    }
+                    sh 'ssh docker.tanndev.com rm -f maelstrom-compose.yml'
+                    sh 'scp docker-compose.yml docker.tanndev.com:maelstrom-compose.yml'
+                    sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml up -d'
                 }
-                sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
             }
         }
     }
