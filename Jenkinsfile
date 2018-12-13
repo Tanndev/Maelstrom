@@ -1,35 +1,51 @@
 #!/usr/bin/env groovy
 
-node {
-    def image
+pipeline {
+    agent any
 
-    stage('Build') {
-        echo 'Building...'
-//            currentBuild.displayName = "Some build"
-//            currentBuild.description = "A description of that build"
+    stages {
+        stage('Build') {
+            steps {
+//                script {
+//                    currentBuild.displayName = "Some build"
+//                    currentBuild.description = "A description of that build"
+//                }
+                echo 'Building...'
 
-        // Build the image.
-        image = docker.build("jftanner/maelstrom")
-    }
-
-    stage('Test') {
-        echo 'Testing...'
-//        image.inside {
-//            echo 'Inside the container?'
-//        }
-    }
-
-    stage('Deploy') {
-        if (env.BRANCH_NAME == 'master') {
-            docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
-                image.push('latest')
+                // Build the image.
+                script {
+                    image = docker.build("jftanner/maelstrom")
+                }
             }
-            transfers = [
-                    sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
-            ]
-            sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
-        } else {
-            echo 'Skipping deployment'
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+
+                script {
+                    image.inside {
+                        echo 'Inside the container?'
+                        sh 'pwd'
+                        sh 'ls'
+                    }
+                }
+            }
+        }
+
+        stage('Deploy') {
+            when {
+                branch 'master'
+            }
+            steps {
+                script {
+                    image.push('latest')
+                    transfers = [
+                            sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
+                    ]
+                }
+                sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
+            }
         }
     }
 
