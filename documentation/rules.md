@@ -272,9 +272,13 @@ When you have a threshold, any successes you get up to that amount are removed i
 ### Using Specialties
 If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Specialties don't add to the dice pool directly, like attributes or abilities; instead, they have a chance to add bonus dice on a good roll.
 
+<!-- TODO Rewrite this section to clarify when specialties can be used and how advanced specialties affect thresholds -->
+
 In order to use a specialty, your action needs to be related to the specialty. Multiple specialties can be used at the same time, if they apply, up to a maximum of one specialty per dot in the ability.
  
 For each specialty in use, add one additional bonus die every time you roll a 10 on any die. Like regular dice, any successes rolled on your bonus dice count to your overall successes. However, 1s are ignored and do not add a botch. Finally, any 10s rolled on bonus dice count for specialties as well and add even more bonus dice - this is sometimes called "exploding tens".
+
+Additionally, whenever you make an action which requires an advanced specialty, your storyteller will add one threshold to your roll. If you use the advanced specialty required, you may remove that threshold.
 
 > **Example:** A player is trying to attack with a sniper rifle. The attack uses Precision + Firearms and has a difficulty of 8. Her character has two dots in Precision and three dots in Firearms with a specialty in sniping. Because action is relevant to her specialty, she's allowed to use the speciality and gains exploding tens. She rolls five dice as usual and gets [1, 4, 8, 10, 10] for a total of two successes. Because of the tens, she's able to add two bonus dice as well. She rolls a 1 and a 10 on the bonus dice. Because it's on a bonus die, the 1 is ignored. The 10 adds a success (for a total of three) and another bonus die. On the new bonus die, she rolls an 8 for her fourth and final success.
 
@@ -334,7 +338,7 @@ Usually, a threshold is used to set a task that is just extremely difficult to p
 
 Thresholds can also be used to make tasks that aren't particularly difficult, but where there's a lot that can go wrong. This represents the need of the character to get a bunch of things right in order to succeed in their objective. In these cases, the action's difficulty is set lower -- sometimes even lower than normal -- and a reasonable threshold is used.
 
-Finally, add one threshold for each advanced specialty that the character _doesn't_ have. But make sure your players are aware of the reason for the threshold, so they can mitigate it in the future my purchasing the requisite specialty.
+Finally, add one threshold for each advanced specialty that applies to the action. But make sure your players are aware of the reason for the threshold, so they can ignore it if they are able to use the required specialty.
 
 > **Example:** "You climb the stairs and find yourself at the landing pad. There's no railings here, but there's a guard standing near the edge ahead of you. It's really windy all the way up here but you're pretty sure the metallic floor will make it extremely hard to sneak past him without being heard." describes the storyteller. The player decides she wants to charge the guard and push him over the edge before he can react.
 >
