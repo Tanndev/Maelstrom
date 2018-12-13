@@ -24,8 +24,7 @@ node {
     stage('Publish') {
         echo 'Publishing...'
         docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
-            app.push("${env.BUILD_NUMBER}")
-            image.push('latest')
+            image.push()
         }
     }
 
@@ -34,7 +33,6 @@ node {
             branch 'master'
         }
         steps {
-            image.push('latest')
             transfers = [
                     sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
             ]
