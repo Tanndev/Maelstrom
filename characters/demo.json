@@ -1,39 +1,36 @@
 {
-  "name": "Demo Character",
+  "name": "Demo",
   "attributes": {
     "physical": [
-      {"name": "Strength", "dots": 2},
-      {"name": "Precision", "dots": 3},
-      {"name": "Reflexes", "dots": 3}
+      {"name": "Strength", "dots": 1},
+      {"name": "Precision", "dots": 2},
+      {"name": "Reflexes", "dots": 2}
     ],
     "mental": [
-      {"name": "Perception", "dots": 2},
-      {"name": "Intelligence", "dots": 1},
-      {"name": "Wits", "dots": 2}
+      {"name": "Perception", "dots": 3},
+      {"name": "Intelligence", "dots": 2},
+      {"name": "Wits", "dots": 1}
     ]
   },
   "abilities": {
     "talents": [
-      {"name": "Alertness", "dots": 0},
-      {"name": "Athletics", "dots": 0},
-      {"name": "Brawling", "dots": 0},
-      {"name": "Dodging", "dots": 0}
+      {"name": "Alertness", "dots": 2, "specialties": ["Night Vision"]},
+      {"name": "Athletics", "dots": 2, "specialties": ["Grenades"]},
+      {"name": "Melee", "dots": 1},
+      {"name": "Stealth", "dots": 0}
     ],
     "skills": [
-      {"name": "Driving", "dots": 0},
-      {"name": "Firearms", "dots": 3, "specialties": ["Pistols"]},
-      {"name": "Melee", "dots": 0},
-      {"name": "Piloting", "dots": 4, "specialties": ["Atmosphere", "Fighters"]},
-      {"name": "Remote Weapons", "dots": 0},
-      {"name": "Stealth", "dots": 0},
-      {"name": "Survival", "dots": 0},
-      {"name": "Technology", "dots": 0}
+      {"name": "Driving", "dots": 1},
+      {"name": "Firearms", "dots": 2, "specialties": ["Rifle"]},
+      {"name": "Piloting", "dots": 0},
+      {"name": "Remote Weapons", "dots": 2},
+      {"name": "Survival", "dots": 0}
     ],
     "knowledges": [
       {"name": "Academics", "dots": 0},
-      {"name": "Computer Systems", "dots": 1, "specialties": ["Artificial Intelligence"]},
+      {"name": "Computer Systems", "dots": 0},
       {"name": "Engineering", "dots": 0},
-      {"name": "Investigation", "dots": 0},
+      {"name": "Investigation", "dots": 2},
       {"name": "Law", "dots": 0},
       {"name": "Linguistics", "dots": 0},
       {"name": "Medicine", "dots": 0},
