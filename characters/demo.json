@@ -3,8 +3,8 @@
   "attributes": {
     "physical": [
       {"name": "Strength", "dots": 1},
-      {"name": "Precision", "dots": 2},
-      {"name": "Reflexes", "dots": 2}
+      {"name": "Precision", "dots": 3},
+      {"name": "Reflexes", "dots": 3}
     ],
     "mental": [
       {"name": "Perception", "dots": 3},
