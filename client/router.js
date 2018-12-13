@@ -35,7 +35,13 @@ router.get('/character/:id?', (req, res, next) => {
     let characterId = req.params.id || 'demo';
     fs.readFile(path.join(__dirname, '..', 'characters', `${characterId}.json`), 'utf8', (error, contents) => {
         if (error) return next(createError(404));
-        res.locals.character = JSON.parse(contents);
+        try{
+            res.locals.character = JSON.parse(contents);
+        }
+        catch(error) {
+            next(createError(error));
+            return;
+        }
         res.render('character-sheet');
     });
 });
