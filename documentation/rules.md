@@ -111,7 +111,7 @@ Stealth represents a character's skill in hiding, moving silently, and otherwise
 
 ##### Skills
 Skills represent abilities that characters have learned through training and practice.
-When rolling for a skill in which you grhave no dots, the difficulty is increased by 1. Then, use the base attribute alone.
+When rolling for a skill in which you have no dots, the difficulty is increased by 1. Then, use the base attribute alone.
 In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and avoid the penalty.
 
 ###### Driving
