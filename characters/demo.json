@@ -21,7 +21,7 @@
     ],
     "skills": [
       {"name": "Driving", "dots": 1},
-      {"name": "Firearms", "dots": 2, "specialties": ["Rifle"]},
+      {"name": "Firearms", "dots": 2, "specialties": ["Rifles", "Pistols"]},
       {"name": "Piloting", "dots": 0},
       {"name": "Remote Weapons", "dots": 2},
       {"name": "Survival", "dots": 0}
