@@ -9,7 +9,7 @@ node {
 //            currentBuild.description = "A description of that build"
 
         // Build the image.
-        image = docker.build("jftanner/maelstrom:${env.BUILD_TAG}")
+        image = docker.build("jftanner/maelstrom:${env.BRANCH_NAME}-${env.BUILD_ID}")
     }
 
     stage('Test') {
@@ -23,7 +23,10 @@ node {
 
     stage('Publish') {
         echo 'Publishing...'
-        image.push()
+        docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+            app.push("${env.BUILD_NUMBER}")
+            image.push('latest')
+        }
     }
 
     stage('Deploy') {
