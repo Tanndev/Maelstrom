@@ -1,13 +1,7 @@
 #!/usr/bin/env groovy
 
 pipeline {
-
-    agent {
-        docker {
-            image 'node'
-            args '-u root'
-        }
-    }
+    agent any
 
     stages {
         stage('Build') {
@@ -17,52 +11,43 @@ pipeline {
 //                    currentBuild.description = "A description of that build"
 //                }
                 echo 'Building...'
-                sh 'npm install'
 
                 // Build the image.
-//                sh 'docker build . -t jftanner/maelstrom:latest'
+                script {
+                    image = docker.build("jftanner/maelstrom")
+                }
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Testing...'
-                echo 'Better if it did something.'
+                // TODO Actually test something
             }
         }
 
-//        stage('Publish') {
-//            when {
-//                branch 'master'
-//            }
-//            steps {
-//                withDockerRegistry(url: "", credentialsId: "docker-hub-credentials") {
-//                    sh 'docker push jftanner/maelstrom:latest'
-//                }
-//            }
-//        }
         stage('Deploy') {
             when {
                 branch 'master'
             }
             steps {
                 script {
-                    transfers = [
-                            sshTransfer(remoteDirectory: 'maelstrom', cleanRemote: true, sourceFiles: '**', execCommand: 'cd maelstrom && docker-compose up --build -d')
-                    ]
+                    docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+                        image.push('latest')
+                    }
+                    sh 'ssh docker.tanndev.com rm -f maelstrom-compose.yml'
+                    sh 'scp docker-compose.yml docker.tanndev.com:maelstrom-compose.yml'
+                    sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml pull app'
+                    sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml up -d'
                 }
-                sshPublisher(failOnError: true, publishers: [sshPublisherDesc(configName: 'Tanndev Docker', transfers: transfers)])
+                slackSend channel: '#maelstrom', color: 'good', message: 'Successfully published <https://maelstrom.tanndev.com|Maelstrom App>.'
             }
         }
     }
 
     post {
-        success {
-            // TODO Differentiate between master, branch, and PR builds.
-            slackSend channel: '#maelstrom', color: 'good', message: 'Successfully built <https://maelstrom.tanndev.com|Maelstrom App>.'
-        }
         failure {
-            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
+            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build/publish Maelstrom App. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
         }
     }
 }
