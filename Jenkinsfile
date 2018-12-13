@@ -37,6 +37,7 @@ pipeline {
                     }
                     sh 'ssh docker.tanndev.com rm -f maelstrom-compose.yml'
                     sh 'scp docker-compose.yml docker.tanndev.com:maelstrom-compose.yml'
+                    sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml pull'
                     sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml up -d'
                 }
             }
