@@ -88,76 +88,62 @@ When rolling for talents, there is no penalty for having zero dots -- just use t
 ###### Alertness
 Alertness represents a character's passive ability to be aware of their surroundings and notice threats or items of interest.
 - This trait is almost always rolled with Perception to do things like set watch around a camp, look for followers, spot an ambush, etc.
+- **Advanced Specialties:** Night Vision, Vacuum
 - **General Specialties:** Terrain (Urban, Forest, Plains, etc), Followers, Ambushes.
 
 ###### Athletics
-Athletics represents a character's trained physical ability. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities.
+Athletics represents a character's trained physical ability. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities. It is also used for thrown weapons such as knives and grenades.
 - This trait is almost always rolled with a physical attribute to do things like jump, climb, throw, run, etc.
-- **Advanced Specialties:** Power Armor, Zero-G
-- **General Specialties:** Acrobatics, Strength, Precision, Reflexes, Parkour, Thrown Weapons
+- **Advanced Specialties:** Grenades, Power Armor, Zero-G, Acrobatics, Parkour
+- **General Specialties:**  Run, Jump, Dodge, Thrown Weapons
 
-###### Brawl
-Brawl represents a character's talent in unarmed hand-to-hand combat.
-- This trait is almost always rolled with a physical attribute as part of an attack or defensive maneuver.
-- **Advanced Specialties:** Power Armor, Zero-G
-- **General Specialties:** Punching, Kicking, Grappling, Specific martial arts or combat styles
+###### Melee
+Melee represents a character's skill in a close range fight. It includes both armed and unarmed combat and is used for fists, brass knuckles, swords, hammers, polearms, riot shields, and even the occasional wrench.
+- This trait is usually rolled with a physical attribute as part of an attack or defensive maneuver.
+- **Advanced Specialties:** Energy Weapons, Power Armor, Swords
+- **General Specialties:** Clubs, Grapple, Shields, Spears, Unarmed, Specific martial arts or combat styles
 
-###### Dodge
-Dodge represents a character's talent for ducking, diving, weaving, and otherwise avoid being hit.
-- This trait is almost always rolled with reflexes as a defensive action to avoid attacks or damage.
-- **Advanced Specialties:** Power Armor, Zero-G
-- **General Specialties:** Armored, Unarmored
+###### Stealth
+Stealth represents a character's skill in hiding, moving silently, and otherwise keeping out of sight.
+- This trait is usually rolled with wits to hide and avoid detection or with precision to move silently.
+- **Advanced Specialties:** Power Armor
+- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Armored, Unarmored
 
 ##### Skills
 Skills represent abilities that characters have learned through training and practice.
-When rolling for a skill in which you have no dots, the difficulty is increased by 1. Then, use the base attribute alone.
+When rolling for a skill in which you grhave no dots, the difficulty is increased by 1. Then, use the base attribute alone.
 In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and avoid the penalty.
 
-###### Aerospace Piloting
-Aerospace Piloting represents a character's skill in flying aircraft and spacecraft.
-With the ubiquity of high-efficiency aerospace thrusters, these craft are quite similar. Generally, any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult.
-- This trait is usually rolled with precision or reflexes in order to maneuver a aerospace vehicle.
-- **Advanced Specialties:** Atmospheric Flight, Close Quarters, Fighters, Freighters, Power Armor
-- **General Specialties:** Space Flight, Shuttles, Frigates, Cruisers
-
-###### Firearms
-Firearms represents a character's skill with guns and similar weapons. In additional to traditional firearms, it also includes other weapons which are fired in a similar way.
-- This trait is usually rolled with a physical attribute as part of an attack.
-- **Advanced Specialties:** Power Armor, Laser Weapons, Heavy Weapons
-- **General Specialties:** Pistols, Shotguns, Battle Rifles, Sniper Rifles
-
-###### Ground Vehicle Operation
-Ground Vehicle Operation, sometimes shortened to "drive", represents a character's skill with cars and other ground vehicles.
+###### Driving
+Driving represents a character's skill operating cars and other ground vehicles.
 - This trait is usually rolled with precision or reflexes in order to maneuver a ground vehicle.
 - **Advanced Specialties:** Motorcycles, Transport Trucks
 - **General Specialties:** Gravitic Vehicles, Cars, Trucks, Buses
 
-###### Melee
-Melee represents a character's skill with melee weapons and shields. It is used for swords, hammers, polearms, riot shields, etc.
-- This trait is usually rolled with a physical attribute as part of an attack or defensive maneuver.
-- **Advanced Specialties:** Power Armor, Energy Weapons
-- **General Specialties:** Swords, Shields, Spears, Clubs
+###### Firearms
+Firearms represents a character's skill with guns and similar weapons. In additional to traditional firearms, it also includes other weapons which are fired in a similar way. This trait is also used to handle, maintain, and repair most personal weapons - though some complex items such as power armor and rocket launchers fall under the purview of engineering.
+- This trait is usually rolled with a physical attribute as part of an attack.
+- **Advanced Specialties:** Power Armor, Laser Weapons, Heavy Weapons
+- **General Specialties:** Pistols, Shotguns, Battle Rifles, Sniper Rifles
 
-###### Mounted Weapons
-Mounted Weapons represents a character's skill operating the mounted weapon systems of ground and aerospace vehicles, power armor, space stations, buildings, etc.
-- This trait is usually rolled with precision or reflexes as part of an attack or defensive maneuver.
+###### Piloting
+Piloting represents a character's skill operating both aircraft and spacecraft.
+With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar. Generally, any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult.
+- This trait is usually rolled with precision or reflexes in order to maneuver a aerospace vehicle.
+- **Advanced Specialties:** Atmospheric Flight, Close Quarters, Fighters, Freighters, Power Armor
+- **General Specialties:** Space Flight, Shuttles, Frigates, Cruisers
+
+###### Remote Weapons
+Remotely Weapons represents a character's skill operating remotely-operated fly-by-wire weapons systems such as those mounted on vehicles, space stations, buildings, etc. It includes both the turreted and fixed weapons of vehicles, as well any weapon which is controlled via keyboard, joystick, or other indirect control mechanism.
+- This trait is usually rolled with wits, precision, or reflexes as part of an attack or defensive maneuver.
 - **Advanced Specialties:** Defensive Fire, Power Armor, Mining Equipment
 - **General Specialties:** PDCs, Missiles, Torpedoes, Rail Guns
-
-###### Stealth
-Stealth represents a character's skill in hiding, moving silently, and otherwise keeping out of sight.
-- This trait is usually rolled with precision to move silently or with wits to hide.
-- **Advanced Specialties:** Corridors, Power Armor
-- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Armored, Unarmored
 
 ###### Survival
 Survival represents a character's skill surviving in harsh or austere environments.
 - This trait is usually rolled with intelligence or wits to build shelters, find food, etc.
-- **Advanced Specialties:** EVA, Non-Breathable Atmosphere, Extreme Temperatures
-- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations
-
-###### Technology
-_Description TBD_ <!-- TODO Describe Technology -->
+- **Advanced Specialties:** EVA, Non-Breathable Atmosphere, Extreme Temperatures, Radiation
+- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations, Shipboard
 
 ##### Knowledges
 Knowledges represent things that characters have learned through research or training.
@@ -167,14 +153,15 @@ In some cases, the storyteller may allow an alternate roll or action to allow a 
 ###### Academics
 _Description TBD_ <!-- TODO Describe Academics -->
 
-###### Artificial Intelligence
-_Description TBD_ <!-- TODO Describe Artificial Intelligence -->
-
 ###### Computer Systems
 _Description TBD_ <!-- TODO Describe Computer Systems -->
+- **Advanced Specialties:** Artificial Intelligence, Quantum Computing
+- **General Specialties:** Programming, Security, Navigation Systems, Targeting Systems, Reactor Control
 
 ###### Engineering
 _Description TBD_ <!-- TODO Describe Spacecraft Engineering -->
+- **Advanced Specialties:** Power Armor, Reactor Control, Life Support, Gravitics
+- **General Specialties:**  Ground Vehicles, Ships, Stations, Weapon Systems, Mining Equipment
 
 ###### Investigation
 _Description TBD_ <!-- TODO Describe Investigation -->
@@ -187,9 +174,13 @@ _Description TBD_ <!-- TODO Describe Linguistics -->
 
 ###### Medicine
 _Description TBD_ <!-- TODO Describe Medicine -->
+- **Advanced Specialties:** Surgery, Battlefield Medicine, Zero-G, Prosthetic
+- **General Specialties:**  First Aid, Wound Management, Poisons, Radiation
 
-###### Physical Sciences
+###### Science
 _Description TBD_ <!-- TODO Describe Science -->
+- **Advanced Specialties:** Quantum Theory, Gravitics, Jump Technology
+- **General Specialties:**  Physics, Chemistry, Biology, Psychology, Astronomy
 
 #### Specialties
 Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There is no limit on the number of specialties which can be acquired for a given ability, but only one specialty can be used in any one roll per dot in the ability. (See [Using Abilities](#using-abilities) for more details.)
