@@ -35,10 +35,11 @@ pipeline {
                     docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
                         image.push('latest')
                     }
-                    sh 'ssh docker.tanndev.com rm -f maelstrom-compose.yml'
-                    sh 'scp docker-compose.yml docker.tanndev.com:maelstrom-compose.yml'
-                    sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml pull app'
-                    sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml up -d'
+                    sh 'ssh docker.tanndev.com rm -rf maelstrom'
+                    sh 'ssh docker.tanndev.com mkdir maelstrom'
+                    sh 'scp docker-compose.yml docker.tanndev.com:maelstrom/'
+                    sh 'ssh docker.tanndev.com cd maelstrom && docker-compose pull app'
+                    sh 'ssh docker.tanndev.com cd maelstrom && docker-compose up -d'
                 }
                 slackSend channel: '#maelstrom', color: 'good', message: 'Successfully published <https://maelstrom.tanndev.com|Maelstrom App>.'
             }
