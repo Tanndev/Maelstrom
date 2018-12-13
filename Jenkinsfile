@@ -22,21 +22,14 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing...'
-
-                script {
-                    image.inside {
-                        echo 'Inside the container?'
-                        sh 'pwd'
-                        sh 'ls'
-                    }
-                }
+                // TODO Actually test something
             }
         }
 
         stage('Deploy') {
-            when {
-                branch 'master'
-            }
+//            when {
+////                branch 'master'
+////            }
             steps {
                 script {
                     image.push('latest')
