@@ -40,17 +40,14 @@ pipeline {
                     sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml pull app'
                     sh 'ssh docker.tanndev.com docker-compose -f maelstrom-compose.yml up -d'
                 }
+                slackSend channel: '#maelstrom', color: 'good', message: 'Successfully published <https://maelstrom.tanndev.com|Maelstrom App>.'
             }
         }
     }
 
     post {
-        success {
-            // TODO Differentiate between master, branch, and PR builds.
-            slackSend channel: '#maelstrom', color: 'good', message: 'Successfully built <https://maelstrom.tanndev.com|Maelstrom App>.'
-        }
         failure {
-            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
+            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build/publish Maelstrom App. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
         }
     }
 }
