@@ -8,7 +8,9 @@ mixin dots(total, filled)
 
 mixin trait(trait)
   div.character-trait
-    div.character-trait-name=trait.name
+    div.character-trait-name
+      // TODO Put the documentation link into the class instead of hardcoded here.
+      a(href=`/documentation/rules#${trait.name.toLowerCase().replace(/[^\w]+/g, '-')}` target='_blank')=trait.name
     div.character-trait-dots
       +dots(5, trait.dots)
   if trait.specialties

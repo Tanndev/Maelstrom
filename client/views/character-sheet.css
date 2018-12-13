@@ -89,6 +89,15 @@
   min-width: 7rem;
 }
 
+.character-trait-name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.character-trait-name a:hover {
+  color: mediumslateblue;
+}
+
 .character-trait-dots {
   display: flex;
   flex-direction: row;
