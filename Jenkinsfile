@@ -37,8 +37,8 @@ pipeline {
                     }
                     sh 'ssh docker.tanndev.com rm -rf maelstrom/*'
                     sh 'scp docker-compose.yml docker.tanndev.com:maelstrom/'
-                    sh 'ssh docker.tanndev.com cd maelstrom && docker-compose pull app'
-                    sh 'ssh docker.tanndev.com cd maelstrom && docker-compose up -d'
+                    sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose pull app"'
+                    sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
                 }
                 slackSend channel: '#maelstrom', color: 'good', message: 'Successfully published <https://maelstrom.tanndev.com|Maelstrom App>.'
             }
