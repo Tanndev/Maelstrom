@@ -9,11 +9,13 @@ const Toc = require('markdown-toc');
 const DOCUMENTATION_EXTENSION = '.md';
 const documentation = {};
 
-fs.readdir(__dirname, "utf8", (error, files) => {
+const DOCUMENTATION_DIRECTORY = path.join(__dirname, '../documentation');
+
+fs.readdir(DOCUMENTATION_DIRECTORY, "utf8", (error, files) => {
     if (error) console.error(error);
     else files.forEach(file => {
         if (path.extname(file) !== DOCUMENTATION_EXTENSION) return;
-        fs.readFile(path.join(__dirname, file), 'utf8', (error, documentContents) => {
+        fs.readFile(path.join(DOCUMENTATION_DIRECTORY, file), 'utf8', (error, documentContents) => {
             if (error) console.error(error);
             else {
                 // noinspection JSUnusedGlobalSymbols
