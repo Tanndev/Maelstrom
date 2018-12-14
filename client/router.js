@@ -32,7 +32,7 @@ router.use('/documentation', express.static(path.join(__dirname, 'documentation'
 
 // Serve character sheets.
 router.get('/character/:id?', (req, res, next) => {
-    let characterId = req.params.id || 'demo';
+    let characterId = req.params.id || 'blank';
     fs.readFile(path.join(__dirname, '..', 'characters', `${characterId}.json`), 'utf8', (error, contents) => {
         if (error) return next(createError(404));
         try{

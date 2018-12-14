@@ -1,33 +1,33 @@
 {
-  "name": "Demo",
+  "name": "Blank",
   "attributes": {
     "physical": [
-      {"name": "Strength", "dots": 1},
-      {"name": "Precision", "dots": 3},
-      {"name": "Reflexes", "dots": 3}
+      {"name": "Strength", "dots": 0},
+      {"name": "Precision", "dots": 0},
+      {"name": "Reflexes", "dots": 0}
     ],
     "mental": [
-      {"name": "Perception", "dots": 3},
-      {"name": "Intelligence", "dots": 2},
-      {"name": "Wits", "dots": 1}
+      {"name": "Perception", "dots": 0},
+      {"name": "Intelligence", "dots": 0},
+      {"name": "Wits", "dots": 0}
     ]
   },
   "abilities": {
     "talents": [
-      {"name": "Alertness", "dots": 2, "specialties": ["Night Vision"]},
-      {"name": "Athletics", "dots": 2, "specialties": ["Grenades"]},
-      {"name": "Firearms", "dots": 2, "specialties": ["Battle Rifles", "Extreme Range"]},
-      {"name": "Melee", "dots": 1},
+      {"name": "Alertness", "dots": 0},
+      {"name": "Athletics", "dots": 0},
+      {"name": "Firearms", "dots": 0},
+      {"name": "Melee", "dots": 0},
       {"name": "Stealth", "dots": 0},
       {"name": "Streetwise", "dots": 0}
     ],
     "skills": [
-      {"name": "Driving", "dots": 1},
+      {"name": "Driving", "dots": 0},
       {"name": "Crafting", "dots": 0},
       {"name": "Heavy Weapons", "dots": 0},
-      {"name": "Investigation", "dots": 3},
+      {"name": "Investigation", "dots": 0},
       {"name": "Piloting", "dots": 0},
-      {"name": "Remote Weapons", "dots": 2},
+      {"name": "Remote Weapons", "dots": 0},
       {"name": "Survival", "dots": 0},
       {"name": "Tradecraft", "dots": 0}
     ],
