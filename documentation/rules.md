@@ -86,28 +86,42 @@ Talents represent abilities that come naturally to characters, but which may hav
 When rolling for talents, there is no penalty for having zero dots -- just use the base attribute alone.
 
 ###### Alertness
-Alertness represents a character's passive ability to be aware of their surroundings and notice threats or items of interest.
+Alertness represents a character's passive talent for being aware of their surroundings and noticing threats or items of interest.
 - This trait is almost always rolled with Perception to do things like set watch around a camp, look for followers, spot an ambush, etc.
 - **Advanced Specialties:** Night Vision, Vacuum
 - **General Specialties:** Terrain (Urban, Forest, Plains, etc), Followers, Ambushes.
 
 ###### Athletics
-Athletics represents a character's trained physical ability. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities. It is also used for thrown weapons such as knives and grenades.
+Athletics represents a character's talent for physical agility. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities. It is also used for thrown weapons such as knives and grenades.
 - This trait is almost always rolled with a physical attribute to do things like jump, climb, throw, run, etc.
-- **Advanced Specialties:** Grenades, Power Armor, Zero-G, Acrobatics, Parkour
+- **Advanced Specialties:** Grenades, Power Armor, Zero-G, Acrobatics, Parkour, Specific Exotic Thrown Weapon
 - **General Specialties:**  Run, Jump, Dodge, Thrown Weapons
 
+###### Firearms
+Firearms represents a character's talent with pistols, rifles, shotguns, and other similar weapons. This trait is also used as a skill -- rather than a talent -- to safely handle, reload, maintain, and these weapons.
+- This trait is usually rolled with a physical attribute as part of an attack.
+- **Advanced Specialties:** Power Armor, Energy Weapons, Extreme Range, Advanced Maintenance
+- **General Specialties:** Pistols, Shotguns, PDWs, Battle Rifles, Sniper Rifles
+
 ###### Melee
-Melee represents a character's skill in a close range fight. It includes both armed and unarmed combat and is used for fists, brass knuckles, swords, hammers, polearms, riot shields, and even the occasional wrench.
+Melee represents a character's talent in a close range fight. It includes both armed and unarmed combat and is used for fists, brass knuckles, swords, hammers, polearms, riot shields, and even the occasional wrench.
 - This trait is usually rolled with a physical attribute as part of an attack or defensive maneuver.
-- **Advanced Specialties:** Energy Weapons, Power Armor, Swords
-- **General Specialties:** Clubs, Grapple, Shields, Spears, Unarmed, Specific martial arts or combat styles
+- **Advanced Specialties:** Power Armor, Energy Weapons, Swords, Specific Exotic Melee Weapon
+- **General Specialties:** Clubs, Grapple, Shields, Spears, Unarmed, Specific Martial Art
+
+<!-- TODO Add Navigation? -->
 
 ###### Stealth
-Stealth represents a character's skill in hiding, moving silently, and otherwise keeping out of sight.
+Stealth represents a character's talent in hiding, moving silently, and otherwise keeping out of sight.
 - This trait is usually rolled with wits to hide and avoid detection or with precision to move silently.
 - **Advanced Specialties:** Power Armor
 - **General Specialties:** Terrain (Urban, Forests, Plains, etc), Armored, Unarmored
+
+###### Streetwise
+Stealth represents a character's talent for surviving and navigating urban environments. It is often used to safely navigate unfamiliar places, find people to buy or sell illicit goods, locate information brokers, and avoid getting mugged.
+- This trait is usually rolled with wits to find places, routes, resources, or information.
+- **Advanced Specialties:** Black Markets, Criminal Networks, Megacities
+- **General Specialties:** Colonies, Outposts, Research Stations, Industrial Stations, Docks, Shipyards
 
 ##### Skills
 Skills represent abilities that characters have learned through training and practice.
@@ -115,16 +129,27 @@ When rolling for a skill in which you have no dots, the difficulty is increased 
 In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and avoid the penalty.
 
 ###### Driving
-Driving represents a character's skill operating cars and other ground vehicles.
+Driving represents a character's skill operating cars and other ground vehicles. It also includes fundamental user-serviceable tasks like refueling and changing tires, but maintenance usually requires [Engineering knowledge](#engineering).
 - This trait is usually rolled with precision or reflexes in order to maneuver a ground vehicle.
 - **Advanced Specialties:** Motorcycles, Transport Trucks
 - **General Specialties:** Gravitic Vehicles, Cars, Trucks, Buses
 
-###### Firearms
-Firearms represents a character's skill with guns and similar weapons. In additional to traditional firearms, it also includes other weapons which are fired in a similar way. This trait is also used to handle, maintain, and repair most personal weapons - though some complex items such as power armor and rocket launchers fall under the purview of engineering.
+###### Crafting
+Crafting represents a character's skill creating works of art via drawing, sculpting, sewing, etc. Unlike [Manufacturing knowledge](#manufacturing), the Artistry ability doesn't usually result in useful, precisely-engineered items. However, it can still be used to create useful soft goods such as textiles, maps, documents, and even forgeries.
+- This trait is usually rolled with varying attributes in order to create something.
+- **Advanced Specialties:** Document Forgery, Art Forgery, Metalwork
+- **General Specialties:** Sketching, Painting, Sculpting, Photography
+
+###### Heavy Weapons
+Heavy Weapons represents a character's skill with grenade launchers, RPGs, missile launchers, mortars, cannons, and other large, physically-operated weapons. It is also used to reload, disarm, and maintain these weapons.
 - This trait is usually rolled with a physical attribute as part of an attack.
-- **Advanced Specialties:** Power Armor, Laser Weapons, Heavy Weapons
-- **General Specialties:** Pistols, Shotguns, Battle Rifles, Sniper Rifles
+- **Advanced Specialties:** Power Armor, Mortars, Artillery, Advanced Maintenance
+- **General Specialties:** Grenade Launchers, Missile Launchers
+
+###### Investigation
+Investigation represents a character's ability to gather evidence, make connections between events, and find hidden information. It covers processing crime scene, analysing forensics, searching records, and other general skills that might be used to crack the case and find the missing person ...or the target. Most investigation methods require access to people or information. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft skill](#tradecraft).
+- **Advanced Specialties:** Missing Persons, Undercover
+- **General Specialties:** Computer Records, Forensics, Crime Scenes, Surveillance
 
 ###### Piloting
 Piloting represents a character's skill operating both aircraft and spacecraft.
@@ -136,14 +161,20 @@ With the ubiquity of high-efficiency aerospace thrusters, these craft are often 
 ###### Remote Weapons
 Remotely Weapons represents a character's skill operating remotely-operated fly-by-wire weapons systems such as those mounted on vehicles, space stations, buildings, etc. It includes both the turreted and fixed weapons of vehicles, as well any weapon which is controlled via keyboard, joystick, or other indirect control mechanism.
 - This trait is usually rolled with wits, precision, or reflexes as part of an attack or defensive maneuver.
-- **Advanced Specialties:** Defensive Fire, Power Armor, Mining Equipment
+- **Advanced Specialties:** Defensive Fire, Power Armor, Mining Equipment, Advanced Maintenance
 - **General Specialties:** PDCs, Missiles, Torpedoes, Rail Guns
 
 ###### Survival
 Survival represents a character's skill surviving in harsh or austere environments.
 - This trait is usually rolled with intelligence or wits to build shelters, find food, etc.
-- **Advanced Specialties:** EVA, Non-Breathable Atmosphere, Extreme Temperatures, Radiation
-- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations, Shipboard
+- **Advanced Specialties:** Vacuum, Non-Breathable Atmosphere, Extreme Temperatures, Radiation
+- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations, Spacecraft
+
+###### Tradecraft
+Tradecraft represents a character's skill at breaking into placing, stealing things, and conducting espionage. It's used to pick locks, disable alarms, hide weapons, set traps, and carry out other clandestine activity. Conducting a heist or breaking into a records vault will usually require some level of Tradecraft. However, making useful sense of the information stolen will usually require some level of [Investigation skill](#investigation).
+- This trait is almost always rolled with wits or precision to gain access to protected areas or information.
+- **Advanced Specialties:** Lockpick, Pickpocket, Alarms
+- **General Specialties:**  Weapon Concealment, Dead Drops, Traps, Surveillance Devices
 
 ##### Knowledges
 Knowledges represent things that characters have learned through research or training.
@@ -155,22 +186,25 @@ _Description TBD_ <!-- TODO Describe Academics -->
 
 ###### Computer Systems
 _Description TBD_ <!-- TODO Describe Computer Systems -->
-- **Advanced Specialties:** Artificial Intelligence, Quantum Computing
+- **Advanced Specialties:** Artificial Intelligence, Quantum Computing, Data Recovery
 - **General Specialties:** Programming, Security, Navigation Systems, Targeting Systems, Reactor Control
 
 ###### Engineering
-_Description TBD_ <!-- TODO Describe Spacecraft Engineering -->
-- **Advanced Specialties:** Power Armor, Reactor Control, Life Support, Gravitics
-- **General Specialties:**  Ground Vehicles, Ships, Stations, Weapon Systems, Mining Equipment
-
-###### Investigation
-_Description TBD_ <!-- TODO Describe Investigation -->
+Engineering represents a character's ability to maintain, repair, and upgrade all the various systems usually found on a ship or space station. Similar to a vehicle mechanic, ships' engineers are able to install new parts or jury rig systems to bypass damaged parts. However, creating new parts usually requires [Manufacturing knowledge](#manufacturing). However, this trait can also be used to service ground vehicles, aircraft, power armor, outposts, and other mostly electromechanical objects.
+- **Advanced Specialties:** Jury Rigging, Power Armor, Weapon Systems, Reactors, Gravitics
+- **General Specialties:**  Spacecraft, Aircraft, Stations, Ground Vehicles, Life Support, Electrical, Mining Equipment
 
 ###### Law
 _Description TBD_ <!-- TODO Describe Law -->
 
 ###### Linguistics
 _Description TBD_ <!-- TODO Describe Linguistics -->
+
+###### Manufacturing
+Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Crafting skill](#crafting) is often used instead.
+- This trait is usually rolled with wits or intelligence to craft parts and equipment.
+- **Advanced Specialties:** Mechanical Design, Explosives, Composite Materials, Textiles
+- **General Specialties:** Autofabrication, Manual Machining, Metals, Plastics, Ceramics
 
 ###### Medicine
 _Description TBD_ <!-- TODO Describe Medicine -->

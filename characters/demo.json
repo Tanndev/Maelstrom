@@ -16,23 +16,28 @@
     "talents": [
       {"name": "Alertness", "dots": 2, "specialties": ["Night Vision"]},
       {"name": "Athletics", "dots": 2, "specialties": ["Grenades"]},
+      {"name": "Firearms", "dots": 2, "specialties": ["Battle Rifles", "Extreme Range"]},
       {"name": "Melee", "dots": 1},
-      {"name": "Stealth", "dots": 0}
+      {"name": "Stealth", "dots": 0},
+      {"name": "Streetwise", "dots": 0}
     ],
     "skills": [
       {"name": "Driving", "dots": 1},
-      {"name": "Firearms", "dots": 2, "specialties": ["Rifles", "Pistols"]},
+      {"name": "Crafting", "dots": 0},
+      {"name": "Heavy Weapons", "dots": 0},
+      {"name": "Investigation", "dots": 3},
       {"name": "Piloting", "dots": 0},
       {"name": "Remote Weapons", "dots": 2},
-      {"name": "Survival", "dots": 0}
+      {"name": "Survival", "dots": 0},
+      {"name": "Tradecraft", "dots": 0}
     ],
     "knowledges": [
       {"name": "Academics", "dots": 0},
       {"name": "Computer Systems", "dots": 0},
       {"name": "Engineering", "dots": 0},
-      {"name": "Investigation", "dots": 2},
       {"name": "Law", "dots": 0},
       {"name": "Linguistics", "dots": 0},
+      {"name": "Manufacturing", "dots": 0},
       {"name": "Medicine", "dots": 0},
       {"name": "Science", "dots": 0}
     ]
