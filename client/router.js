@@ -5,7 +5,7 @@ const path = require('path');
 const router = express.Router();
 
 // Load documentation and provide locals.
-const documentation = require('../documentation');
+const documentation = require('../helpers/loadDocumentation');
 router.use((req, res, next) => {
     res.locals.path = req.path;
     res.locals.availableDocumentation = Object.keys(documentation);
