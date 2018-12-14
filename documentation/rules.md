@@ -266,19 +266,22 @@ Characters can also recover their first dot in willpower by themselves once they
 ### Equipment
 _Description TBD_ <!-- TODO Describe Equipment -->
 
-## Actions
+## Playing the Game
+__Description TBD__ <!-- TODO Describe playing the game -->
+
+### Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
 
 <!-- TODO Differentiate between actions and reactions/defensive-actions -->
 
-### Declaring an action
+#### Declaring an action
 The first step of performing an action is to decide what your character is going to do and announce it. You might say, for example, "I hop on the motorcycle and fire it up." For many actions, this is all that's required. But for some actions, the storyteller may have you roll for it. The storyteller should take the situation into account as well when deciding whether players should roll. After all, it's really easy to start a motorcycle in your driveway for a lazy drive but it's a whole other thing to start it while under fire and trying to escape with your life.
 
 Some actions are also just straight up impossible. No matter how much you say "I fly like a bird!" the only thing your character will end up doing is flapping their arms like a lunatic. Generally, the storyteller won't have you roll for these and just tell you that you fail or suggest that your character would know it was impossible before you even attempt it. However, a particularly mean storyteller may have you roll anyway, purely to determine exactly how hilariously you screw up.
 
 While most things your character does are technically actions, you generally don't need to think about them individually. Outside of combat, players should just roleplay their characters, decide what they want to do, and do it. Try to avoid things like "Can I make a stealth check?" or "What do I need to roll to search the room?" Instead, describe what your character is doing: "I blend into the crowd and try to get out the back unnoticed" or "I grab my forensics kit and search the room, looking for anything that might be relevant to the case."  When a roll is needed, the storyteller will say so.
 
-### Dice Pool
+#### Dice Pool
 When you announce an action that your storyteller wants you to roll for, they'll decide which traits you'll need to use. Usually, this will be an attribute and an ability. However, occasionally be one or two attributes will be used instead. While there may sometimes be only one trait used, there should never be more than two. The number of dice you'll roll, called your dice pool, is determined by how many dots you have in each of those traits: one die per dot for each trait.
 
 > **Example:** A character is taking fire and the player decides to start his motorcycle and try to get away. The storyteller thinks that getting the key in the ignition and driving off without stalling is going to require precise movements and familiarity with the bike. She says to roll Precision + Drive. The player has three dots in Precision and two dots in Drive, so his dice pool contains a total of five dice.
@@ -289,21 +292,21 @@ After you declare an action, the storyteller may offer a choice of different way
 
 > **Example:** "I'm going to make my way through the crowd and follow the target." announces a player. The storyteller asks him if he'd like to push and shove people out of the way with Strength + Brawling or slip through gaps in the crowd with Precision + Streetwise. He knows he'd have more dice if he brute forces his way through, but he also knows that his character wouldn't want to make a big scene and draw attention. Ultimately, he decides to take the smaller dice pool and slip through the crowd instead.
 
-### Difficulty
+#### Difficulty
 Once you've decided what you're going to do and gotten your dice pool, the storyteller should specify a difficulty. Some storytellers will use the default difficulty for most actions and only mention it when it's different, rather than saying it every time. Your storyteller should make it clear how they intend to do this.
 
 While the difficulty can be set anywhere between two and ten, it will usually be between four and eight with most actions having the default difficulty of six. When you roll your dice, you will get one success for each die which shows the difficulty number or higher. Additionally, you'll also get a botch for each die which shows a one. You lose one success for each botch and the total number of successes remaining then determines how well your character does. If manage to roll more botches than successes, you botch the roll and fail spectacularly.
 
 >**Example:** A player is taking an action with a dice pool of five and a difficulty of six. He rolls and gets 1, 3, 4, 6, 7. Two dice are showing a six or better, so he gets two successes. But he also rolled a one and loses a success, for a total of one success remaining. Had the difficulty been higher, he would have wound up with zero successes and potentially botched the roll entirely.
 
-### Threshold
+#### Threshold
 For particularly challenging or dangerous actions, the story teller may specify a threshold. This represents how much effort it's going to take just to have a chance to succeed. Having a threshold means you are much more likely to fail and dramatically increases the chance of you failing catastrophically.
 
 When you have a threshold, any successes you get up to that amount are removed immediately. Not only do they not count towards your total successes, they don't even count for avoiding botched rolls.
 
 > **Example:** A player rolls for their action with a threshold of two. They roll two successes and a botch. The two successes are then immediately removed by the threshold, leaving zero successes and a botch. This is a botch, even though the roll would have been pretty good without the threshold.
 
-### Using Specialties
+#### Using Specialties
 If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Specialties don't add to the dice pool directly, like attributes or abilities; instead, they have a chance to add bonus dice on a good roll.
 
 <!-- TODO Rewrite this section to clarify when specialties can be used and how advanced specialties affect thresholds -->
@@ -316,10 +319,10 @@ Additionally, whenever you make an action which requires an advanced specialty, 
 
 > **Example:** A player is trying to attack with a sniper rifle. The attack uses Precision + Firearms and has a difficulty of 8. Her character has two dots in Precision and three dots in Firearms with a specialty in sniping. Because action is relevant to her specialty, she's allowed to use the speciality and gains exploding tens. She rolls five dice as usual and gets [1, 4, 8, 10, 10] for a total of two successes. Because of the tens, she's able to add two bonus dice as well. She rolls a 1 and a 10 on the bonus dice. Because it's on a bonus die, the 1 is ignored. The 10 adds a success (for a total of three) and another bonus die. On the new bonus die, she rolls an 8 for her fourth and final success.
 
-### Resolving the Result
+#### Resolving the Result
 Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
 
-#### Step 1: Roll
+##### Step 1: Roll
 Roll a number of ten-sided dice equal to your dice pool and roll any bonus dice due to specialties.
 
 Each die can have one of three results:
@@ -327,22 +330,22 @@ Each die can have one of three results:
 - Each die showing a 1 is a botch.
 - Each other die is a failure (sometimes called a simple failure)
 
-#### Step 2: Count Successes
+##### Step 2: Count Successes
 Count how many dice are showing a number equal to or greater than your difficulty number; these are your successes.
 
 If you have a threshold, immediately remove that number of successes. Any successes removed in this way don't count at all and aren't considered cancelled; they effectively never happened at all. (Note: this affects successes, not the dice themselves. So it does not prevent you from adding additional dice by using a speciality. It can still remove successes from added dice, however.)
 
-#### Step 3: Subtract Botches
+##### Step 3: Subtract Botches
 Ones are bad. Count how many dice are showing a 1; these are your botches. Each botch you roll cancels one of your successes.
 
-#### Step 4: Succeed, Fail, or Botch
+##### Step 4: Succeed, Fail, or Botch
 If you still have any successes, then congratulations! You've succeeded your action. How well you did is determined by how many successes you still have. For most actions, a single success is enough to just barely make it while three or more means you did a really good job. The storyteller will describe your action and the potentially-glorious result.
 
 If you had no successes or botches left, then you've simply failed. You weren't able to accomplish what you tried to do. You missed your shot, lost the person you were following, or couldn't hack the computer. The storyteller will describe what went wrong. Still, it could have been worse...
 
 If you rolled more botches than successes, then you've botched. Not only did you fail, but things went very wrong. Perhaps the part you were trying to fix is permanently broke, or you gun is jammed, or you've crashed and ruined your car. Whatever it was, the storyteller will describe uncomfortable results of your utter failure ...usually in graphic detail.
 
-#### Easy Counting Trick
+##### Easy Counting Trick
 All this counting of dice can sound a little complicated and slow at first.
 
 Fortunately, there's actually a really easy way to figure out your result quickly:
@@ -355,17 +358,17 @@ Fortunately, there's actually a really easy way to figure out your result quickl
 1. If you have any botches left, you've botched.
 1. Otherwise, you've failed.
 
-### Storyteller Suggestions
+#### Storyteller Suggestions
 Even after you've figured out what traits to use for your player's action, determining what difficulties and thresholds to set can be tricky sometimes. This section provides some suggestions and tables to make it a little bit easier. However, it'll also vary greatly depending on what sort of game you're running and how much of a challenge you and your players want. Start with the guidelines here and then adjust to suit your story and your players.
 
-#### Determining Difficulty
+##### Determining Difficulty
 Importantly, the difficulty should never change _after_ the dice have been rolled.
 <!-- TODO Describe how to determine what the difficulty should be -->
 (_Oh no! There's a section missing here! Don't worry, I'm sure it'll turn up._)
 
 At difficulty 10, a single die is as likely to botch as it is to succeed. Higher than that and success is completely impossible, since you can't roll an 11 on a ten-sided die. Because of this, it's usually a good idea to add a threshold instead of increasing the difficulty above 8 or 9.
 
-#### Determining Thresholds
+##### Determining Thresholds
 Some actions are so difficult that a simple success isn't enough and one or more successes are needed just to break even before progress can be made. For these actions, the storyteller can set a "threshold" of success. This threshold counts against any successes a character rolls, _before_ any ones are are counted. This not only makes it harder to get a success, but also makes it easier to botch. A little threshold goes a long way.
 
 Usually, a threshold is used to set a task that is just extremely difficult to perform. In these cases, the action's difficulty is also set high. Just be sure to keep in mind that, with a high difficulty, the average number of rolled successes will be low. At difficulty 9, even a threshold of 1 makes for an extremely challenging feat. The odds of a botch are high and odds of failure even higher.
@@ -385,19 +388,19 @@ Finally, add one threshold for each advanced specialty that applies to the actio
 
 <!-- TODO Put in a table of average successes for die pool and difficulty -->
 
-## Combat
+### Combat
 _Description TBD_ <!-- TODO Describe basic combat -->
 
-### Turns
+#### Turns
 _Description TBD_ <!-- TODO Describe turn system -->
 
-### Attacking
+#### Attacking
 _Description TBD_ <!-- TODO Describe attacking -->
 
 ### Evading
 _Description TBD_ <!-- TODO Describe evading -->
 
-### Taking Damage
+#### Taking Damage
 _Description TBD_ <!-- TODO Describe taking damage -->
 
 ## Starting a Campaign
