@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fixed-width {
-    max-width: 800px;
+    max-width: 45rem;
     padding: 0 1rem;
     border: dashed darkslategray;
     border-width: 0 1px;
