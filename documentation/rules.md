@@ -423,7 +423,9 @@ Once you're ready to sit down and start filling out a character sheet, you'll go
 _Description TBD_ <!-- TODO Describe how to choose backgrounds -->
 
 ### Starting Attributes
-_Description TBD_ <!-- TODO Describe starting attributes -->
+You automatically start with one dot in all six attributes. This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
+
+Start by selecting either Physical or Mental as your primary attributes, the others are your secondary attributes. Then, allocate five (5) additional dots in your primary attributes and three (3) in your secondary attributes. You can arrange them however you want, but no attribute may exceed a total of four dots.
 
 ### Starting Abilities
 _Description TBD_ <!-- TODO Describe starting abilities -->
