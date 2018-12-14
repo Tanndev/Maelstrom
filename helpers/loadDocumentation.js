@@ -18,7 +18,7 @@ fs.readdir(__dirname, "utf8", (error, files) => {
             else {
                 // noinspection JSUnusedGlobalSymbols
                 let toc = Toc(documentContents, {
-                    maxdepth: 5,
+                    maxdepth: 4,
                     slugify: (header) => header.toLowerCase().replace(/[^\w]+/g, '-')
                 });
                 // noinspection JSUnresolvedVariable
