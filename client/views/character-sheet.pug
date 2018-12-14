@@ -3,8 +3,8 @@ extends layout
 mixin dots(total, filled)
   - var n = 0;
   while n < total
-      div(class=`dot ${n < filled ? 'filled' : 'empty'}`)
-      - n++;
+    div(class=`dot ${n < filled ? 'filled' : 'empty'}`)
+    - n++;
 
 mixin trait(trait)
   div.character-trait

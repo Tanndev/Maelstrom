@@ -1,123 +1,123 @@
 .character-sheet {
-  max-width: 8.5in;
-  min-height: 11in;
-  box-sizing: border-box;
-  flex: 1 1 0;
-  border: 1px solid black;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
+    max-width: 8.5in;
+    min-height: 11in;
+    box-sizing: border-box;
+    flex: 1 1 0;
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-  font-family: 'Cinzel Decorative', serif;
-  text-transform: capitalize;
-  margin: 0.5rem 0;
-  align-self: stretch;
-  text-align: center;
+    font-family: 'Cinzel Decorative', serif;
+    text-transform: capitalize;
+    margin: 0.5rem 0;
+    align-self: stretch;
+    text-align: center;
 }
 
 .character-sheet-top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.character-sheet-top > .header{
-  font-size: xx-large;
-  /*text-align: inherit;*/
+.character-sheet-top > .header {
+    font-size: xx-large;
+    /*text-align: inherit;*/
 }
 
 .character-information .item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin: 0.3rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.3rem 0;
 }
 
 .character-information .label {
-  font-weight: bold;
-  font-family: 'Black Ops One', fantasy;
-  margin-right: 0.5rem;
+    font-weight: bold;
+    font-family: 'Black Ops One', fantasy;
+    margin-right: 0.5rem;
 }
 
 .character-information .field {
-  min-width: 10rem;
-  border-bottom: 1px solid black;
-  font-family: fantasy;
-  font-size: small;
+    min-width: 10rem;
+    border-bottom: 1px solid black;
+    font-family: fantasy;
+    font-size: small;
 }
 
 .character-sheet-section {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .character-sheet-section > .header {
-  font-size: x-large;
-  border: dotted black;
-  border-width: 1px 0;
+    font-size: x-large;
+    border: dotted black;
+    border-width: 1px 0;
 }
 
 .character-trait-group {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .character-trait-category {
-  flex: 1 1 0;
-  margin: 0 1rem 1rem 1rem;
-  max-width: 15rem;
-  display: flex;
-  flex-direction: column;
+    flex: 1 1 0;
+    margin: 0 1rem 1rem 1rem;
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .character-trait {
-  border-top: 1px solid lightgray;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center
+    border-top: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
 }
 
 .character-trait-name {
-  margin: 2px 8px;
-  min-width: 7rem;
+    margin: 2px 8px;
+    min-width: 7rem;
 }
 
 .character-trait-name a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 .character-trait-name a:hover {
-  color: mediumslateblue;
+    color: mediumslateblue;
 }
 
 .character-trait-dots {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .character-trait-dots .dot {
-  height: 10px;
-  width: 11px;
-  background-color: lightgray;
-  border-radius: 50%;
-  border: 1px solid black;
-  margin: 0 1px;
+    height: 10px;
+    width: 11px;
+    background-color: lightgray;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 1px;
 }
 
 .character-trait-dots .filled {
-  background-color: black;
+    background-color: black;
 }
 
-.character-trait-specialties{
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
+.character-trait-specialties {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
 }

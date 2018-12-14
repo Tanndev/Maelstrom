@@ -1,26 +1,26 @@
 mixin navbarLink(href, text)
-    a(class=`navbar-link ${href === path ? 'current' : ''}` href=href)=text
+  a(class=`navbar-link ${href === path ? 'current' : ''}` href=href)=text
 
 html
-    head
-        title Maelstrom
-        link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Black+Ops+One|Cinzel+Decorative')
-        style
-            include style.css
-    body
-        div.banner
-            h1 Maelstrom RPG
+  head
+    title Maelstrom
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Black+Ops+One|Cinzel+Decorative')
+    style
+      include style.css
+  body
+    div.banner
+      h1 Maelstrom RPG
 
-        div.navbar
-            +navbarLink('/', 'home')
-            each documentName in availableDocumentation
-                +navbarLink(`/documentation/${documentName}`, documentName)
-            +navbarLink('/character', 'character sheet')
+    div.navbar
+      +navbarLink('/', 'home')
+      each documentName in availableDocumentation
+        +navbarLink(`/documentation/${documentName}`, documentName)
+      +navbarLink('/character', 'character sheet')
 
-        main.content
-            block content
+    main.content
+      block content
 
-        div.footer
-            a(href='https://github.com/tanndev/maelstrom' target='__blank')
-                img(src='/images/octocat.png')
-            span Favicon provided by #[a(href='http://icons8.com/') Icons8]
+    div.footer
+      a(href='https://github.com/tanndev/maelstrom' target='__blank')
+        img(src='/images/octocat.png')
+      span Favicon provided by #[a(href='http://icons8.com/') Icons8]

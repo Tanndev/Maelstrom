@@ -34,7 +34,7 @@ body {
 }
 
 .navbar-link {
-    color:inherit;
+    color: inherit;
     font-family: 'Black Ops One', cursive;
     font-size: smaller;
     padding: 0.2rem 2.2rem;
@@ -99,13 +99,13 @@ body {
 }
 
 .toc a {
-    color:inherit;
+    color: inherit;
     text-decoration: none;
     text-transform: capitalize;
 }
 
 .toc a:hover {
-    color:blue;
+    color: blue;
 }
 
 .footer {
@@ -125,12 +125,12 @@ body {
     cursor: pointer;
 }
 
-.footer a{
+.footer a {
     color: inherit;
 }
 
 .footer a:hover {
-    color:forestgreen;
+    color: forestgreen;
 }
 
 
