@@ -408,7 +408,7 @@ Roleplaying games are fun, social experiences that brings friends together, and 
 
 By talking ahead of time about the kind of game you want to play, you make sure that everyone is on the same page and nobody is surprised when the wacky hack'n'slash adventure they were expecting turns out to be serious political intrigue. (Or vice-versa.) It also gives the players a chance to work together to build a balanced and cohesive party that has all the necessary skills to face the challenges ahead. Your space western game is going to be a lot less fun if it's all Simons and no Jaynes.
 
-## Character Creation
+### Character Creation
 Your character is your avatar in the game world and they will define who you are and what you are able to do. It's important to take the time to flesh out their backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
 
 Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Crafting to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
@@ -422,31 +422,31 @@ Once you're ready to sit down and start filling out a character sheet, you'll go
 
 <!-- TODO Add flaws -->
 
-### Choose Backgrounds
+#### Choose Backgrounds
 _Description TBD_ <!-- TODO Describe how to choose backgrounds -->
 
-### Starting Attributes
+#### Starting Attributes
 You automatically start with one dot in all six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
 
 Start by selecting either Physical or Mental as your primary attributes, the others are your secondary attributes. Then, allocate five (5) additional dots in your primary attributes and three (3) in your secondary attributes. You can arrange them however you want, but no attribute may exceed a total of four dots.
 
-### Starting Abilities
+#### Starting Abilities
 _Description TBD_ <!-- TODO Describe starting abilities -->
 
-### Starting Specialties
+#### Starting Specialties
 _Description TBD_ <!-- TODO Describe starting specialties -->
 
-### Starting Experience
+#### Starting Experience
 _Description TBD_ <!-- TODO Describe starting experience -->
 
-### Starting Equipment
+#### Starting Equipment
 _Description TBD_ <!-- TODO Describe starting equipment -->
 
-## Character Progression
+### Character Progression
 _Description TBD_ <!-- TODO Describe character progression -->
 
-### Earning Experience
+#### Earning Experience
 _Description TBD_ <!-- TODO Describe how to earn experience -->
 
-### Spending Experience
+#### Spending Experience
 _Description TBD_ <!-- TODO Describe how to spend experience -->
