@@ -385,9 +385,63 @@ Finally, add one threshold for each advanced specialty that applies to the actio
 
 <!-- TODO Put in a table of average successes for die pool and difficulty -->
 
-
 ## Combat
+_Description TBD_ <!-- TODO Describe basic combat -->
+
 ### Turns
+_Description TBD_ <!-- TODO Describe turn system -->
+
 ### Attacking
+_Description TBD_ <!-- TODO Describe attacking -->
+
 ### Evading
+_Description TBD_ <!-- TODO Describe evading -->
+
 ### Taking Damage
+_Description TBD_ <!-- TODO Describe taking damage -->
+
+## Starting a Campaign
+Roleplaying games are fun, social experiences that brings friends together, and it all begins with session zero. To ensure that everyone is one the same page about what kind of game you're going to play, it's important to have this first session to discuss the game and create characters as a group. All the players, along with the storyteller, should discuss what kind of game you want to play together and what sort of stories you'll tell. Will it be a tense, resource-constrained horror game or an action-packed combat adventure? Will your party be social and friendly or classic murder-hobos? Will sessions generally revolve around solving puzzles or blowing things up?
+
+By talking ahead of time about the kind of game you want to play, you make sure that everyone is on the same page and nobody is surprised when the wacky hack'n'slash adventure they were expecting turns out to be serious political intrigue. (Or vice-versa.) It also gives the players a chance to work together to build a balanced and cohesive party that has all the necessary skills to face the challenges ahead. Your space western game is going to be a lot less fun if it's all Simons and no Jaynes.
+
+## Character Creation
+Your character is your avatar in the game world and they will define who you are and what you are able to do. It's important to take the time to flesh out their backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
+
+Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Crafting to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
+
+Once you're ready to sit down and start filling out a character sheet, you'll go through a few steps:
+1. [Choose your backgrounds](#choose-backgrounds)
+1. Select [starting attributes](#starting-attributes)
+1. Select [starting abilities](#starting-attributes) and [starting specialties](#starting-specialties)
+1. Spend [starting experience](#starting-experience)
+1. Purchase [starting equipment](#starting-equipment)
+
+<!-- TODO Add flaws -->
+
+### Choose Backgrounds
+_Description TBD_ <!-- TODO Describe how to choose backgrounds -->
+
+### Starting Attributes
+_Description TBD_ <!-- TODO Describe starting attributes -->
+
+### Starting Abilities
+_Description TBD_ <!-- TODO Describe starting abilities -->
+
+### Starting Specialties
+_Description TBD_ <!-- TODO Describe starting specialties -->
+
+### Starting Experience
+_Description TBD_ <!-- TODO Describe starting experience -->
+
+### Starting Equipment
+_Description TBD_ <!-- TODO Describe starting equipment -->
+
+## Character Progression
+_Description TBD_ <!-- TODO Describe character progression -->
+
+### Earning Experience
+_Description TBD_ <!-- TODO Describe how to earn experience -->
+
+### Spending Experience
+_Description TBD_ <!-- TODO Describe how to spend experience -->
