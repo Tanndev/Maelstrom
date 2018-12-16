@@ -2,14 +2,14 @@
   "name": "Blank",
   "attributes": {
     "physical": [
-      {"name": "Strength", "dots": 0},
-      {"name": "Precision", "dots": 0},
-      {"name": "Reflexes", "dots": 0}
+      {"name": "Strength", "dots": 1},
+      {"name": "Precision", "dots": 1},
+      {"name": "Reflexes", "dots": 1}
     ],
     "mental": [
-      {"name": "Perception", "dots": 0},
-      {"name": "Intelligence", "dots": 0},
-      {"name": "Wits", "dots": 0}
+      {"name": "Perception", "dots": 1},
+      {"name": "Intelligence", "dots": 1},
+      {"name": "Wits", "dots": 1}
     ]
   },
   "abilities": {
