@@ -443,7 +443,11 @@ Assign dots to your abilities with the following rules:
 When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and that [knowledges](#knowledges) cannot be rolled at all if you don't have any dots in the ability. While it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly.
 
 #### Starting Specialties
-_Description TBD_ <!-- TODO Describe starting specialties -->
+After selecting your starting abilities, you may choose a few starting specialties as well. Select one [Advanced Specialty](#advanced-specialties) and two [General Specialties](#general-specialties).
+
+While you can technically take specialties in any ability, remember that you can only use one specialty per dot in the ability. So you won't be able to use a specialty if you don't have any dots in the ability.
+
+Also, you are not necessarily restricted to the specialties listed. Work with your storyteller if you'd like to specialize in something not listed; they will determine if it's a reasonable specialty and whether or not it's general or advanced.
 
 #### Starting Experience
 _Description TBD_ <!-- TODO Describe starting experience -->
