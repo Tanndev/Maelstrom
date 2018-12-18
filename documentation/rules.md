@@ -453,10 +453,12 @@ Also, you are not necessarily restricted to the specialties listed. Work with yo
 _Description TBD_ <!-- TODO Describe starting experience -->
 
 #### Starting Equipment
-_Description TBD_ <!-- TODO Describe starting equipment -->
+Equipment will vary from campaign to campaign.
+Work with your storyteller to determine reasonable starting equipment.
+<!-- TODO Add actual rules for starting equipment -->
 
 ### Character Progression
-_Description TBD_ <!-- TODO Describe character progression -->
+Throughout the campaign, you'll earn experience. This experience can then be used to purchase trait dots and specialties.
 
 #### Earning Experience
 _Description TBD_ <!-- TODO Describe how to earn experience -->
