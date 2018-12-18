@@ -431,7 +431,16 @@ You automatically start with one dot in all six [attributes](#attributes). This 
 Start by selecting either Physical or Mental as your primary attributes, the others are your secondary attributes. Then, allocate five (5) additional dots in your primary attributes and three (3) in your secondary attributes. You can arrange them however you want, but no attribute may exceed a total of four dots.
 
 #### Starting Abilities
-_Description TBD_ <!-- TODO Describe starting abilities -->
+Unlike attributes, all [abilities](#abilities) start with zero dots.
+
+Assign dots to your abilities with the following rules:
+- Assign three (3) dots in two (2) abilities.
+- Assign two(2) dots in another four (4) abilities.
+- Assign one (1) dot in another six (6) abilities.
+- You may not combine these dots; you must select twelve different abilities.
+- You **must** have at least four total dots in each category (Talents, Skills, Knowledges).
+
+When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and that [knowledges](#knowledges) cannot be rolled at all if you don't have any dots in the ability. While it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly.
 
 #### Starting Specialties
 _Description TBD_ <!-- TODO Describe starting specialties -->
