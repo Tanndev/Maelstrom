@@ -101,7 +101,6 @@ body {
 .toc a {
     color: inherit;
     text-decoration: none;
-    text-transform: capitalize;
 }
 
 .toc a:hover {

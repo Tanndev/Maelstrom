@@ -269,12 +269,12 @@ _Description TBD_ <!-- TODO Describe Equipment -->
 ## Playing the Game
 __Description TBD__ <!-- TODO Describe playing the game -->
 
-### Actions
+### Taking Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
 
 <!-- TODO Differentiate between actions and reactions/defensive-actions -->
 
-#### Declaring an action
+#### Declaring an Action
 The first step of performing an action is to decide what your character is going to do and announce it. You might say, for example, "I hop on the motorcycle and fire it up." For many actions, this is all that's required. But for some actions, the storyteller may have you roll for it. The storyteller should take the situation into account as well when deciding whether players should roll. After all, it's really easy to start a motorcycle in your driveway for a lazy drive but it's a whole other thing to start it while under fire and trying to escape with your life.
 
 Some actions are also just straight up impossible. No matter how much you say "I fly like a bird!" the only thing your character will end up doing is flapping their arms like a lunatic. Generally, the storyteller won't have you roll for these and just tell you that you fail or suggest that your character would know it was impossible before you even attempt it. However, a particularly mean storyteller may have you roll anyway, purely to determine exactly how hilariously you screw up.
@@ -345,7 +345,7 @@ If you had no successes or botches left, then you've simply failed. You weren't 
 
 If you rolled more botches than successes, then you've botched. Not only did you fail, but things went very wrong. Perhaps the part you were trying to fix is permanently broke, or you gun is jammed, or you've crashed and ruined your car. Whatever it was, the storyteller will describe uncomfortable results of your utter failure ...usually in graphic detail.
 
-##### Easy Counting Trick
+##### Counting Dice Quickly
 All this counting of dice can sound a little complicated and slow at first.
 
 Fortunately, there's actually a really easy way to figure out your result quickly:
@@ -358,17 +358,44 @@ Fortunately, there's actually a really easy way to figure out your result quickl
 1. If you have any botches left, you've botched.
 1. Otherwise, you've failed.
 
-#### Storyteller Suggestions
+### Available Actions
+_Description TBD_ <!-- TODO List example actions -->
+
+#### Personal Combat Actions
+_Examples TBD_ <!-- TODO List example personal combat actions -->
+
+#### Vehicle Combat Actions
+_Examples TBD_ <!-- TODO List example vehicle combat actions -->
+
+#### Non-combat Actions
+_Examples TBD_ <!-- TODO List example vehicle actions -->
+
+### Combat
+_Description TBD_ <!-- TODO Describe basic combat -->
+
+#### Turns
+_Description TBD_ <!-- TODO Describe turn system -->
+
+#### Attacking
+_Description TBD_ <!-- TODO Describe attacking -->
+
+### Evading
+_Description TBD_ <!-- TODO Describe evading -->
+
+#### Taking Damage
+_Description TBD_ <!-- TODO Describe taking damage -->
+
+### Storyteller Suggestions
 Even after you've figured out what traits to use for your player's action, determining what difficulties and thresholds to set can be tricky sometimes. This section provides some suggestions and tables to make it a little bit easier. However, it'll also vary greatly depending on what sort of game you're running and how much of a challenge you and your players want. Start with the guidelines here and then adjust to suit your story and your players.
 
-##### Determining Difficulty
+#### Determining Difficulty
 Importantly, the difficulty should never change _after_ the dice have been rolled.
 <!-- TODO Describe how to determine what the difficulty should be -->
 (_Oh no! There's a section missing here! Don't worry, I'm sure it'll turn up._)
 
 At difficulty 10, a single die is as likely to botch as it is to succeed. Higher than that and success is completely impossible, since you can't roll an 11 on a ten-sided die. Because of this, it's usually a good idea to add a threshold instead of increasing the difficulty above 8 or 9.
 
-##### Determining Thresholds
+#### Determining Thresholds
 Some actions are so difficult that a simple success isn't enough and one or more successes are needed just to break even before progress can be made. For these actions, the storyteller can set a "threshold" of success. This threshold counts against any successes a character rolls, _before_ any ones are are counted. This not only makes it harder to get a success, but also makes it easier to botch. A little threshold goes a long way.
 
 Usually, a threshold is used to set a task that is just extremely difficult to perform. In these cases, the action's difficulty is also set high. Just be sure to keep in mind that, with a high difficulty, the average number of rolled successes will be low. At difficulty 9, even a threshold of 1 makes for an extremely challenging feat. The odds of a botch are high and odds of failure even higher.
@@ -388,20 +415,6 @@ Finally, add one threshold for each advanced specialty that applies to the actio
 
 <!-- TODO Put in a table of average successes for die pool and difficulty -->
 
-### Combat
-_Description TBD_ <!-- TODO Describe basic combat -->
-
-#### Turns
-_Description TBD_ <!-- TODO Describe turn system -->
-
-#### Attacking
-_Description TBD_ <!-- TODO Describe attacking -->
-
-### Evading
-_Description TBD_ <!-- TODO Describe evading -->
-
-#### Taking Damage
-_Description TBD_ <!-- TODO Describe taking damage -->
 
 ## Starting a Campaign
 Roleplaying games are fun, social experiences that brings friends together, and it all begins with session zero. To ensure that everyone is one the same page about what kind of game you're going to play, it's important to have this first session to discuss the game and create characters as a group. All the players, along with the storyteller, should discuss what kind of game you want to play together and what sort of stories you'll tell. Will it be a tense, resource-constrained horror game or an action-packed combat adventure? Will your party be social and friendly or classic murder-hobos? Will sessions generally revolve around solving puzzles or blowing things up?
