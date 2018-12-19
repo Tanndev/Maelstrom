@@ -269,12 +269,12 @@ _Description TBD_ <!-- TODO Describe Equipment -->
 ## Playing the Game
 __Description TBD__ <!-- TODO Describe playing the game -->
 
-### Taking Actions
+### Taking an Action
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
 
 <!-- TODO Differentiate between actions and reactions/defensive-actions -->
 
-#### Declaring an Action
+#### Declaring the Action
 The first step of performing an action is to decide what your character is going to do and announce it. You might say, for example, "I hop on the motorcycle and fire it up." For many actions, this is all that's required. But for some actions, the storyteller may have you roll for it. The storyteller should take the situation into account as well when deciding whether players should roll. After all, it's really easy to start a motorcycle in your driveway for a lazy drive but it's a whole other thing to start it while under fire and trying to escape with your life.
 
 Some actions are also just straight up impossible. No matter how much you say "I fly like a bird!" the only thing your character will end up doing is flapping their arms like a lunatic. Generally, the storyteller won't have you roll for these and just tell you that you fail or suggest that your character would know it was impossible before you even attempt it. However, a particularly mean storyteller may have you roll anyway, purely to determine exactly how hilariously you screw up.
@@ -307,13 +307,11 @@ When you have a threshold, any successes you get up to that amount are removed i
 > **Example:** A player rolls for their action with a threshold of two. They roll two successes and a botch. The two successes are then immediately removed by the threshold, leaving zero successes and a botch. This is a botch, even though the roll would have been pretty good without the threshold.
 
 #### Using Specialties
-If you use a an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Specialties don't add to the dice pool directly, like attributes or abilities; instead, they have a chance to add bonus dice on a good roll.
+If you use an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Specialties don't add to the dice pool directly like other traits do; instead, they have a chance to add bonus dice on a good roll.
 
-<!-- TODO Rewrite this section to clarify when specialties can be used and how advanced specialties affect thresholds -->
-
-In order to use a specialty, your action needs to be related to the specialty. Multiple specialties can be used at the same time, if they apply, up to a maximum of one specialty per dot in the ability.
+In order to use a specialty during an action, the specialty needs to be directly related to that action. You can even use multiple specialties at the same time, if they apply. However, you may only use one specialty for each dot in the ability. This also means that you cannot use a specialty at all if, for some reason, you don't have any dots in the ability. (Keep this in mind during character creation.)
  
-For each specialty in use, add one additional bonus die every time you roll a 10 on any die. Like regular dice, any successes rolled on your bonus dice count to your overall successes. However, 1s are ignored and do not add a botch. Finally, any 10s rolled on bonus dice count for specialties as well and add even more bonus dice - this is sometimes called "exploding tens".
+For each specialty you use, roll one additional bonus die every time you roll a 10 on any die during that action. Like regular dice, any successes rolled on your bonus dice count to your overall successes. However, 1s are ignored and do not add a botch. Finally, any 10s rolled on bonus dice count for specialties as well and add even more bonus dice - this is sometimes called "exploding tens".
 
 Additionally, whenever you make an action which requires an advanced specialty, your storyteller will add one threshold to your roll. If you use the advanced specialty required, you may remove that threshold.
 
