@@ -32,7 +32,6 @@
       {"name": "Tradecraft", "dots": 0}
     ],
     "knowledges": [
-      {"name": "Academics", "dots": 0},
       {"name": "Computer Systems", "dots": 0},
       {"name": "Engineering", "dots": 0},
       {"name": "Law", "dots": 0},

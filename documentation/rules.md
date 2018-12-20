@@ -122,7 +122,7 @@ Melee represents a character's talent in a close range fight. It includes both a
 Stealth represents a character's talent in hiding, moving silently, and otherwise keeping out of sight. It's used to avoid detection in a crowd, find good hiding spots, or move silently.
 - **Common Attributes:** Wits, Precision
 - **Advanced Specialties:** Power Armor
-- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Armored, Unarmored
+- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Surveillance
 
 ###### Streetwise
 Streetwise represents a character's talent for surviving and navigating urban environments. It is used to safely navigate unfamiliar places, find people to buy or sell illicit goods, locate information brokers, and avoid getting mugged.
@@ -166,10 +166,10 @@ Heavy Weapons represents a character's skill with grenade launchers, RPGs, missi
 - **General Specialties:** Grenade Launchers, Missile Launchers
 
 ###### Investigation
-Investigation represents a character's ability to gather evidence, make connections between events, and find hidden information. It covers processing crime scene, analysing forensics, searching records, and other general skills that might be used to crack the case and find the missing person ...or the target. Most investigation methods require access to people or information. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft skill](#tradecraft).
+Investigation represents a character's ability to gather or evidence, make connections between events, and find hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft skill](#tradecraft).
 - **Common Attributes:** Intelligence, Perception
-- **Advanced Specialties:** Missing Persons, Undercover
-- **General Specialties:** Computer Records, Forensics, Crime Scenes, Surveillance
+- **Advanced Specialties:** Forensics, Missing Persons
+- **General Specialties:** Research, Computer Records, Crime Scenes
 
 ###### Piloting
 Piloting represents a character's skill operating both aircraft and spacecraft. With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar. Generally, any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult.
@@ -188,16 +188,12 @@ Remotely Weapons represents a character's skill operating remotely-operated fly-
 Tradecraft represents a character's skill at breaking into placing, stealing things, and conducting espionage. It's used to pick locks, disable alarms, hide weapons, set traps, disarm traps, and carry out other clandestine activity. Conducting a heist or breaking into a records vault will usually require some level of Tradecraft. However, making useful sense of the information stolen will usually require some level of [Investigation skill](#investigation).
 - **Common Attributes:** Wits, Precision
 - **Advanced Specialties:** Lockpick, Pickpocket, Alarms, Disarm Traps
-- **General Specialties:**  Weapon Concealment, Dead Drops, Set Traps, Surveillance Devices
+- **General Specialties:**  Weapon Concealment, Dead Drops, Set Traps, Surveillance
 
 ##### Knowledges
 Knowledges represent things that characters have learned through research or training.
 If you would roll for a knowledge in which you have no dots, you cannot even attempt the action.
 In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and use the base attribute alone with a penalty.
-
-###### Academics
-_Description TBD_ <!-- TODO Describe Academics -->
-- **Common Attributes:** Intelligence
 
 ###### Computer Systems
 _Description TBD_ <!-- TODO Describe Computer Systems -->
