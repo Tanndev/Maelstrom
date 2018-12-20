@@ -266,13 +266,12 @@ Characters can also recover their first dot in willpower by themselves once they
 ### Equipment
 _Description TBD_ <!-- TODO Describe Equipment -->
 
-## Playing the Game
-__Description TBD__ <!-- TODO Describe playing the game -->
-
-### Taking an Action
+## Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
 
 <!-- TODO Differentiate between actions and reactions/defensive-actions -->
+
+### Performing Actions
 
 #### Declaring the Action
 The first step of performing an action is to decide what your character is going to do and announce it. You might say, for example, "I hop on the motorcycle and fire it up." For many actions, this is all that's required. But for some actions, the storyteller may have you roll for it. The storyteller should take the situation into account as well when deciding whether players should roll. After all, it's really easy to start a motorcycle in your driveway for a lazy drive but it's a whole other thing to start it while under fire and trying to escape with your life.
@@ -321,17 +320,17 @@ Additionally, whenever you make an action which requires an advanced specialty, 
 Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
 
 ##### Step 1: Roll
-Roll a number of ten-sided dice equal to your dice pool and roll any bonus dice due to specialties.
-
-Each die can have one of three results:
-- Each die showing a number equal to or greater than your difficulty is a success
+Roll a number of ten-sided dice equal to your dice pool. Each die can have one of three results:
+- Each die showing a number equal to or greater than your difficulty is a success.
 - Each die showing a 1 is a botch.
-- Each other die is a failure (sometimes called a simple failure)
+- Each other die is a failure. (Sometimes called a simple failure.)
+
+If you're using a specialty, also roll any bonus dice that you earn. Remember that 1s are not botches for bonus dice, so be sure to keep them separate.
 
 ##### Step 2: Count Successes
 Count how many dice are showing a number equal to or greater than your difficulty number; these are your successes.
 
-If you have a threshold, immediately remove that number of successes. Any successes removed in this way don't count at all and aren't considered cancelled; they effectively never happened at all. (Note: this affects successes, not the dice themselves. So it does not prevent you from adding additional dice by using a speciality. It can still remove successes from added dice, however.)
+If you have a threshold, immediately remove that number of successes. Any successes removed in this way don't count at all and aren't considered cancelled; they effectively never happened at all. (Note: this affects successes, not the dice themselves. So it does not prevent you from adding bonus dice by using a speciality. It can still remove successes from those dice though.)
 
 ##### Step 3: Subtract Botches
 Ones are bad. Count how many dice are showing a 1; these are your botches. Each botch you roll cancels one of your successes.
@@ -368,23 +367,14 @@ _Examples TBD_ <!-- TODO List example vehicle combat actions -->
 #### Non-combat Actions
 _Examples TBD_ <!-- TODO List example vehicle actions -->
 
-### Combat
-_Description TBD_ <!-- TODO Describe basic combat -->
-
-#### Turns
-_Description TBD_ <!-- TODO Describe turn system -->
-
-#### Attacking
-_Description TBD_ <!-- TODO Describe attacking -->
-
-### Evading
-_Description TBD_ <!-- TODO Describe evading -->
-
-#### Taking Damage
-_Description TBD_ <!-- TODO Describe taking damage -->
-
 ### Storyteller Suggestions
 Even after you've figured out what traits to use for your player's action, determining what difficulties and thresholds to set can be tricky sometimes. This section provides some suggestions and tables to make it a little bit easier. However, it'll also vary greatly depending on what sort of game you're running and how much of a challenge you and your players want. Start with the guidelines here and then adjust to suit your story and your players.
+
+#### Selecting Traits
+
+##### Precision vs Reflexes
+
+##### Wits vs Intelligence
 
 #### Determining Difficulty
 Importantly, the difficulty should never change _after_ the dice have been rolled.
@@ -413,6 +403,20 @@ Finally, add one threshold for each advanced specialty that applies to the actio
 
 <!-- TODO Put in a table of average successes for die pool and difficulty -->
 
+## Combat
+_Description TBD_ <!-- TODO Describe basic combat -->
+
+### Turns
+_Description TBD_ <!-- TODO Describe turn system -->
+
+### Attacking
+_Description TBD_ <!-- TODO Describe attacking -->
+
+### Evading
+_Description TBD_ <!-- TODO Describe evading -->
+
+### Taking Damage
+_Description TBD_ <!-- TODO Describe taking damage -->
 
 ## Starting a Campaign
 Roleplaying games are fun, social experiences that brings friends together, and it all begins with session zero. To ensure that everyone is one the same page about what kind of game you're going to play, it's important to have this first session to discuss the game and create characters as a group. All the players, along with the storyteller, should discuss what kind of game you want to play together and what sort of stories you'll tell. Will it be a tense, resource-constrained horror game or an action-packed combat adventure? Will your party be social and friendly or classic murder-hobos? Will sessions generally revolve around solving puzzles or blowing things up?
