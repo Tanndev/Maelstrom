@@ -99,19 +99,19 @@ Alertness represents a character's passive talent for being aware of their surro
 Athletics represents a character's talent for physical agility. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities. It is also used for thrown weapons such as knives and grenades.
 - This trait is almost always rolled with a physical attribute to do things like jump, climb, throw, run, etc.
 - **Advanced Specialties:** Grenades, Power Armor, Zero-G, Acrobatics, Parkour, Specific Exotic Thrown Weapon
-- **General Specialties:**  Run, Jump, Dodge, Thrown Weapons
+- **General Specialties:**  Run, Jump, Dodge, Thrown Weapons, Surprise Attack
 
 ###### Firearms
 Firearms represents a character's talent with pistols, rifles, shotguns, and other similar weapons. This trait is also used as a skill -- rather than a talent -- to safely handle, reload, maintain, and these weapons.
 - This trait is usually rolled with a physical attribute as part of an attack.
 - **Advanced Specialties:** Power Armor, Energy Weapons, Extreme Range, Advanced Maintenance
-- **General Specialties:** Pistols, Shotguns, PDWs, Battle Rifles, Sniper Rifles
+- **General Specialties:** Pistols, Shotguns, PDWs, Battle Rifles, Sniper Rifles, Surprise Attack
 
 ###### Melee
 Melee represents a character's talent in a close range fight. It includes both armed and unarmed combat and is used for fists, brass knuckles, swords, hammers, polearms, riot shields, and even the occasional wrench.
 - This trait is usually rolled with a physical attribute as part of an attack or defensive maneuver.
 - **Advanced Specialties:** Power Armor, Energy Weapons, Swords, Specific Exotic Melee Weapon
-- **General Specialties:** Clubs, Grapple, Shields, Spears, Unarmed, Specific Martial Art
+- **General Specialties:** Clubs, Grapple, Shields, Spears, Brawling, Surprise Attack, Specific Martial Art
 
 <!-- TODO Add Navigation? -->
 
