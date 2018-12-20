@@ -395,9 +395,9 @@ As always, remember to very the described outcomes to match the traits used to a
 ##### Wits vs Intelligence
 Unlike precision and reflexes, the difference between [wits](#wits) and [intelligence](#intelligence) is more about fluff and style than it is about game mechanics.
 
-Wits is used to figure things out in a clever, out-of-the-box way. It uses trial and error, intuition, and experimentation. Characters using wits will figure things out by playing with them, go with their gut, or indirectly draw on past experiences.
+Wits is used to figure things out in a clever, out-of-the-box way. It uses trial and error, intuition, and experimentation. Characters using wits will figure things out by playing with them, go with their gut, or indirectly draw on past experiences. This makes it suitable for tasks where research is impossible or impractical, or where and intuitive solution is required. However, it also tends to be a bit more dangerous as characters are prone to flipping switches without fully understanding their effects.
 
-Intelligence is used to figure things out in a methodical, efficient way. It uses book learning, research, critical thinking, and logic. Characters using intelligence will read manuals, remember their training or education, or work out logical proofs.
+Intelligence is used to figure things out in a methodical, efficient way. It uses book learning, research, critical thinking, and logic. Characters using intelligence will read manuals, remember their training or education, or work out logical proofs. This makes it suitable for any tasks which can be learned from a book or carefully worked out with a pencil. However, it also makes it slower as characters are less likely to be confident in their solution until they've had time to fully think it through.
 
 #### Determining Difficulty
 Importantly, the difficulty should never change _after_ the dice have been rolled.
