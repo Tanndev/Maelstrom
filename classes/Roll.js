@@ -66,24 +66,30 @@ class Roll {
         let normalDice = chance.n(chance.natural, pool, {min: 1, max: 10});
         let bonusDice = [];
         let successes = 0;
-        let failures = 0;
+        let botches = 0;
         for (let die of normalDice) {
             // If using a specialty, 10s add bonus dice.
-            if (die === 10 && specialty) bonusDice.push(chance.natural({min: 1, max: 10}));
+            if (die === 10 && specialty) {
+                bonusDice.push(chance.natural({min: 1, max: 10}));
+                bonusDice.push(chance.natural({min: 1, max: 10}));
+            }
 
-            // Anything equal to or greater than the difficulty adds a success and ones add a failure.
+            // Anything equal to or greater than the difficulty adds a success and ones add a botch.
             if (die >= difficulty) successes++;
-            else if (die === 1) failures++;
+            else if (die === 1) botches++;
         }
         for (let die of bonusDice) {
             // Bonus dice can add more bonus dice on 10s, just like normal dice.
-            if (die === 10) bonusDice.push(chance.natural({min: 1, max: 10}));
+            if (die === 10){
+                bonusDice.push(chance.natural({min: 1, max: 10}));
+                bonusDice.push(chance.natural({min: 1, max: 10}));
+            }
 
-            // Bonus dice can also add successes, if they meet the difficulty. But do not add failures.
+            // Bonus dice can also add successes, if they meet the difficulty. But do not add botches.
             if (die >= difficulty) successes++;
         }
-        let result = successes - threshold - failures;
-        if (result < 0 && failures === 0) result = 0;
+        let result = successes - threshold - botches;
+        if (result < 0 && botches === 0) result = 0;
 
         // Store the properties.
         /**

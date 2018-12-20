@@ -3,18 +3,12 @@
  */
 
 const Roll = require('../classes/Roll');
-const Trait = require('../classes/Trait');
 
 const REPEAT = 1000000;
 
 const difficulty = 6;
 const threshold = 0;
-
-console.log(`\nMaking a single roll based on traits.`);
-const attribute = new Trait({name: "Precision", dots: 3});
-const ability = new Trait({name: "Firearms", dots: 4});
-let traitRoll = Roll.traits(attribute, ability, {specialty: true});
-console.log(traitRoll.toString());
+const specialty = true;
 
 console.log(`\nRepeating each roll ${REPEAT} times.`);
 for (let pool = 1; pool <= 7; pool++){
@@ -24,7 +18,7 @@ for (let pool = 1; pool <= 7; pool++){
     let botchCount = 0;
     let results = [];
     for (let i = 0; i < REPEAT; i++){
-        let roll = new Roll(pool, {difficulty, threshold});
+        let roll = new Roll(pool, {difficulty, threshold, specialty});
         if (roll.succeeded){
             successCount++;
             successTotal += roll.result;
@@ -42,7 +36,7 @@ for (let pool = 1; pool <= 7; pool++){
     let botchPercent = (botchCount / REPEAT * 100).toFixed(1);
 
     let output = [''];
-    output.push(`Pool: ${pool}, Difficulty: ${difficulty}, Threshold: ${threshold}:`);
+    output.push(`Pool: ${pool}, Difficulty: ${difficulty}, Threshold: ${threshold}, ${specialty ? 'With' : 'Without'} Specialty:`);
     output.push(`\tAverage Successes: ${averageSuccessesTotal}`);
     output.push(`\tSuccess Rate: ${successPercent}% (${successCount}) (Avg. ${averageSuccessesOnSuccess})`);
     output.push(`\tFailure Rate: ${failurePercent}% (${failureCount})`);
