@@ -4,13 +4,22 @@ The following rules provide a framework to help storytellers and players build t
 <!-- toc -->
 
 ## Characters
-<!-- TODO Describe characters -->
+Characters make up the core of any roleplaying game. Your character is your avatar in the game world and they will define who you are and what you are able to do. They are how you interact with the story and with other players. Because of this, the characters in Maelstrom are designed to be flexible. When you [create your character](#character-creation), you'll select a set of backgrounds, traits, and equipment that will help you play the _person_ you want to play.
 
 ### Backgrounds
+Everyone comes from somewhere and everyone has a story to tell; your character is no exception.
+
+Backgrounds help you flesh out that story and add depth to your character's personality and experience. They provide insight into your character's life before you came to inhabit them and before the campaign. This insight is helpful to you as a player, so you can develop a sense of who they are and what they would do or say, but also to the storyteller who will be building worlds for them to explore. This chapter begins with backgrounds because _who your character is_ matters a lot more than _what they can do_.
+
+( _Unfortunately, this section seems to have gone missing. So, uh... write a story or something!_ )
 <!-- TODO Describe backgrounds -->
 
 ### Traits
-Traits define what a character is capable of. They are divided into two main categories: attributes and abilities. 
+Traits define what your character is capable of and are divided into four categories:
+- [Attributes](#attributes)
+- [Abilities](#abilities)
+- [Specialties](#specialties)
+- [Willpower](#willpower)
 
 #### Attributes
 Attributes are the intrinsic traits that broadly define the overall capabilities of a character. All characters have at least one dot in all attributes -- except under extreme exceptions -- with two dots being the human average. Almost all player characters will have 3-4 dots in a few attributes and some characters may have fewer than two dots in one or more attributes.
@@ -62,7 +71,7 @@ Perception is the ability to take in and process stimuli. It's used for searchin
 - **5**: Outstanding. Nothing escapes your notice. You see all.
 
 ###### Intelligence
-Intelligence is the capacity to learn and apply information. It's used for research, mathematics, logical problem solving, and other activities where the limiting factor is education or reasoning.
+Intelligence is the capacity to learn and apply information. It's used for research, mathematics, logical problem solving, and other activities where the limiting factor is education or reasoning. A character with high intelligence is good at reasoning through problems and will tend to figure things out slowly and methodically. If successful, they will usually fully understand the situation and be confident in their solution.
 - **0**: Abysmal. Ogg not know how make pointy stick. (Illiterate)
 - **1**: Poor. You ain't much fer book learning. (High school or Less)
 - **2**: Average. You can do your own taxes more or less correctly. (College/Trade School)
@@ -71,13 +80,13 @@ Intelligence is the capacity to learn and apply information. It's used for resea
 - **5**: Outstanding. Hawking, Einstein, Tesla, Faraday... and you.
 
 ###### Wits
-<!-- TODO Describe Wits ranks -->
-- **0**: Abysmal.
-- **1**: Poor.
-- **2**: Average.
-- **3**: Good.
-- **4**: Exceptional.
-- **5**: Outstanding.
+Wits is the capacity for cleverness and intuition. It's used for trial-and-error experimentation, intuitive problem solving, out-of-the-box thinking, and other activities where the limiting factor is the ability to think quickly or creatively. A character with high wits is good at thinking on their feed and will tend to figure things out quickly but imprecisely. They may be prone to flip switches without fully understanding what they do.
+- **0**: Abysmal. There's a hole in my bucket, dear Liza, dear Liza.
+- **1**: Poor. Even with a map, you always get lost if you try and take a shortcut.
+- **2**: Average. You've mostly got the whole "adulting" thing figured out.
+- **3**: Good. You're pretty decent with a crossword puzzle.
+- **4**: Exceptional. Your innovative ideas revolutionize small industries.
+- **5**: Outstanding. The Enterprise crew doesn't come up with solutions as clever as yours.
 
 #### Abilities
 Abilities are the learned or developed traits that define the specific things a character knows how to do.
@@ -231,16 +240,6 @@ General Specialties represent focus in areas that are not otherwise considered e
 ##### Advanced Specialties
 Advanced Specialties represent focus in areas that are more challenging or require specialized knowledge and practice. Characters with these specialties will perform better at related tasks, similar to general specialties. However, characters without them are at a significant disadvantage. Attempting an action without an appropriate advanced specialty usually adds a [threshold](#threshold) to the roll.
 
-### Health / Resistance
-#### Health
-_Description TBD_ <!-- TODO Describe Health -->
-
-##### Wound Penalties
-_Description TBD_ <!-- TODO Describe Wound Penalties -->
-
-#### Fortitude
-_Description TBD_ <!-- TODO Describe Fortitude -->
-
 #### Willpower
 All characters have a willpower trait which represents their capacity to push through pain, withstand mental or emotional stress, resist torture, and remain productive in the face of impossible odds. Willpower is commonly used to temporarily resist the effects of things like tear gas, drugs, alcohol, hypoxia, intense fear, and even wounds. It's also used to more quickly recover from the incapacitating effects of tasers, flashbangs, electrocution, etc.
 
@@ -253,7 +252,7 @@ Botching a willpower roll reduces your character's current willpower by one dot 
 ##### Spending Willpower
 Spending a willpower dot reduces your current willpower rating by one until you recover it. This allows you to ignore wounds or guarantee success on willpower rolls, but comes at the cost of reducing the dice pools for all future willpower rolls. Spent dots can be recovered, and the dice pools increased again, but only slowly and outside of combat.
 
-In addition to spending dots to automatically succeed willpower rolls, you may also spend them to ignore wound penalties. Once per turn, a character may spend one willpower dot to ignore their injuries and roll their next action without a wound penalty. (Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.) If a character spends their last willpower dot in this way, they don't suffer the effects of [zero willpower](#zero-willpower) until after they complete the action.
+In addition to spending dots to automatically succeed willpower rolls, you may also spend them to ignore wound penalties. Once per turn, a character may spend one willpower dot to ignore their injuries and roll their next action without a [wound penalty](#wound-penalties). (Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.) If a character spends their last willpower dot in this way, they don't suffer the effects of [zero willpower](#zero-willpower) until after they complete the action.
 
 ##### Recovering Willpower
 Characters recover willpower by resting in a safe, comfortable environment. If a character feels threatened or in danger, or if they are particularly uncomfortable, they are not able to recover willpower. This is up to the discretion of the storyteller.
@@ -267,6 +266,12 @@ If another character is sufficiently motivating or encouraging, they may spend o
 
 Characters can also recover their first dot in willpower by themselves once they are no longer directly threatened and out of combat for at least one full turn, even if their overall situation is still tenuous and stressful.
 
+### Health
+_Description TBD_ <!-- TODO Describe Health -->
+
+#### Wound Penalties
+_Description TBD_ <!-- TODO Describe Wound Penalties -->
+
 ### Equipment
 _Description TBD_ <!-- TODO Describe Equipment -->
 
@@ -276,8 +281,6 @@ Characters do many things in the world; they drive cars, fly spaceships, shoot g
 <!-- TODO Differentiate between actions and reactions/defensive-actions -->
 
 ### Performing Actions
-
-#### Declaring the Action
 The first step of performing an action is to decide what your character is going to do and announce it. You might say, for example, "I hop on the motorcycle and fire it up." For many actions, this is all that's required. But for some actions, the storyteller may have you roll for it. The storyteller should take the situation into account as well when deciding whether players should roll. After all, it's really easy to start a motorcycle in your driveway for a lazy drive but it's a whole other thing to start it while under fire and trying to escape with your life.
 
 Some actions are also just straight up impossible. No matter how much you say "I fly like a bird!" the only thing your character will end up doing is flapping their arms like a lunatic. Generally, the storyteller won't have you roll for these and just tell you that you fail or suggest that your character would know it was impossible before you even attempt it. However, a particularly mean storyteller may have you roll anyway, purely to determine exactly how hilariously you screw up.
@@ -447,7 +450,7 @@ Roleplaying games are fun, social experiences that brings friends together, and 
 By talking ahead of time about the kind of game you want to play, you make sure that everyone is on the same page and nobody is surprised when the wacky hack'n'slash adventure they were expecting turns out to be serious political intrigue. (Or vice-versa.) It also gives the players a chance to work together to build a balanced and cohesive party that has all the necessary skills to face the challenges ahead. Your space western game is going to be a lot less fun if it's all Simons and no Jaynes.
 
 ### Character Creation
-Your character is your avatar in the game world and they will define who you are and what you are able to do. It's important to take the time to flesh out their backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
+It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
 
 Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Crafting to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
 
