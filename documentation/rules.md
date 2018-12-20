@@ -110,13 +110,17 @@ Athletics represents a character's talent for physical agility. Where the physic
 - **Advanced Specialties:** Grenades, Power Armor, Zero-G, Acrobatics, Parkour, Specific Exotic Thrown Weapon
 - **General Specialties:**  Run, Jump, Dodge, Thrown Weapons, Surprise Attack
 
+###### Crafting
+Crafting represents a character's talent for creating things via drawing, sculpting, sewing, etc. Unlike [Manufacturing](#manufacturing), the Crafting ability doesn't usually result in useful, precisely-engineered items. However, it can still be used to create useful soft goods such as textiles, maps, documents, and even forgeries.
+- **Common Attributes:** Varies
+- **Advanced Specialties:** Forgery, Electronics, Metalwork
+- **General Specialties:** Sketching, Painting, Sculpting, Photography
+
 ###### Melee
 Melee represents a character's talent in a close range fight. It includes both armed and unarmed combat and is used for fists, brass knuckles, swords, hammers, polearms, riot shields, and even the occasional wrench.
 - **Common Attributes:** Strength, Precision, Reflexes
 - **Advanced Specialties:** Power Armor, Energy Weapons, Swords, Specific Exotic Melee Weapon
 - **General Specialties:** Clubs, Grapple, Shields, Spears, Brawling, Surprise Attack, Specific Martial Art
-
-<!-- TODO Add Navigation -->
 
 ###### Stealth
 Stealth represents a character's talent in hiding, moving silently, and otherwise keeping out of sight. It's used to avoid detection in a crowd, find good hiding spots, or move silently.
@@ -136,19 +140,19 @@ Survival represents a character's skill surviving in harsh or austere environmen
 - **Advanced Specialties:** Vacuum, Non-Breathable Atmosphere, Extreme Temperatures, Radiation
 - **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations, Spacecraft
 
+###### Technology
+_Description TBD_ <!-- TODO Describe technology -->
+- **Common Attributes:** Intelligence, Wits
+- **Advanced Specialties:** _TBD_
+- **General Specialties:** _TBD_
+
 ##### Skills
 Skills represent abilities that characters have learned through training and practice.
 When rolling for a skill in which you have no dots, the difficulty is increased by 1. Then, use the base attribute alone.
 In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and avoid the penalty.
 
-###### Crafting
-Crafting represents a character's skill creating works of art via drawing, sculpting, sewing, etc. Unlike [Manufacturing knowledge](#manufacturing), the Artistry ability doesn't usually result in useful, precisely-engineered items. However, it can still be used to create useful soft goods such as textiles, maps, documents, and even forgeries.
-- **Common Attributes:** Varies
-- **Advanced Specialties:** Forgery, Electronics, Metalwork
-- **General Specialties:** Sketching, Painting, Sculpting, Photography
-
 ###### Driving
-Driving represents a character's skill operating cars and other ground vehicles. It's primarily used to maneuver ground vehicles but also includes fundamental user-serviceable tasks like refueling and changing tires. However, proper maintenance usually requires [Engineering knowledge](#engineering).
+Driving represents a character's skill operating cars and other ground vehicles. It's primarily used to maneuver ground vehicles but also includes fundamental user-serviceable tasks like refueling and changing tires. However, proper maintenance usually requires [Engineering](#engineering).
 - **Common Attributes:** Precision, Reflexes
 - **Advanced Specialties:** Motorcycles, Transport Trucks
 - **General Specialties:** Gravitic Vehicles, Cars, Trucks, Buses
@@ -166,10 +170,16 @@ Heavy Weapons represents a character's skill with grenade launchers, RPGs, missi
 - **General Specialties:** Grenade Launchers, Missile Launchers
 
 ###### Investigation
-Investigation represents a character's ability to gather or evidence, make connections between events, and find hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft skill](#tradecraft).
+Investigation represents a character's ability to gather or evidence, make connections between events, and find hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft](#tradecraft).
 - **Common Attributes:** Intelligence, Perception
 - **Advanced Specialties:** Forensics, Missing Persons
 - **General Specialties:** Research, Computer Records, Crime Scenes
+
+###### Manufacturing
+Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Crafting](#crafting) is often used instead.
+- **Common Attributes:** Intelligence, Wits
+- **Advanced Specialties:** Mechanical Design, Electronics, Explosives, Textiles
+- **General Specialties:** Autofabrication, Manual Machining, Metals, Plastics, Ceramics, Composites
 
 ###### Piloting
 Piloting represents a character's skill operating both aircraft and spacecraft. With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar. Generally, any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult.
@@ -179,7 +189,6 @@ Piloting represents a character's skill operating both aircraft and spacecraft. 
 
 ###### Remote Weapons
 Remotely Weapons represents a character's skill operating remotely-operated fly-by-wire weapons systems such as those mounted on vehicles, space stations, buildings, etc. It includes both the turreted and fixed weapons of vehicles, as well any weapon which is controlled via keyboard, joystick, or other indirect control mechanism. Firing remote weapons is usually a mental task, but quickly responding to and shooting down threats can require reflexes instead.
-- This trait is usually rolled with wits, precision, or reflexes as part of an attack or defensive maneuver.
 - **Common Attributes:** Wits, Reflexes
 - **Advanced Specialties:** Defensive Fire, Power Armor, Mining Equipment, Advanced Maintenance
 - **General Specialties:** PDCs, Missiles, Torpedoes, Rail Guns
@@ -195,9 +204,9 @@ Knowledges represent things that characters have learned through research or tra
 If you would roll for a knowledge in which you have no dots, you cannot even attempt the action.
 In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and use the base attribute alone with a penalty.
 
-###### Computer Systems
+###### Computer Science
 _Description TBD_ <!-- TODO Describe Computer Systems -->
-- **Common Attributes:** Intelligence
+- **Common Attributes:** Intelligence, Wits
 - **Advanced Specialties:** Artificial Intelligence, Quantum Computing, Data Recovery, Data Forgery
 - **General Specialties:** Programming, Security, Navigation Systems, Targeting Systems, Reactor Control
 
@@ -207,19 +216,13 @@ Engineering represents a character's ability to maintain, repair, and upgrade al
 - **Advanced Specialties:** Jury Rigging, Power Armor, Weapon Systems, Reactors, Gravitics
 - **General Specialties:**  Spacecraft, Aircraft, Stations, Ground Vehicles, Life Support, Electrical, Mining Equipment
 
+###### Humanities
+_Description TBD_ <!-- TODO Describe Humanities -->
+- **Common Attributes:** Intelligence
+
 ###### Law
-- **Common Attributes:** Intelligence
 _Description TBD_ <!-- TODO Describe Law -->
-
-###### Linguistics
 - **Common Attributes:** Intelligence
-_Description TBD_ <!-- TODO Describe Linguistics -->
-
-###### Manufacturing
-Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Crafting skill](#crafting) is often used instead.
-- **Common Attributes:** Intelligence, Wits
-- **Advanced Specialties:** Mechanical Design, Electronics, Explosives, Textiles
-- **General Specialties:** Autofabrication, Manual Machining, Metals, Plastics, Ceramics, Composites
 
 ###### Medicine
 _Description TBD_ <!-- TODO Describe Medicine -->
@@ -227,11 +230,21 @@ _Description TBD_ <!-- TODO Describe Medicine -->
 - **Advanced Specialties:** Surgery, Battlefield Medicine, Zero-G, Prosthetic
 - **General Specialties:**  First Aid, Wound Management, Poisons, Radiation
 
-###### Science
-_Description TBD_ <!-- TODO Describe Science -->
+###### Natural Science
+_Description TBD_ <!-- TODO Describe NaturalScience -->
 - **Common Attributes:** Intelligence
 - **Advanced Specialties:** Quantum Theory, Gravitics, Jump Technology
 - **General Specialties:**  Physics, Chemistry, Biology, Psychology, Astronomy
+
+###### Social Science
+_Description TBD_ <!-- TODO Describe Social Science -->
+- **Common Attributes:** Intelligence
+- **Advanced Specialties:** Quantum Theory, Gravitics, Jump Technology
+- **General Specialties:**  Physics, Chemistry, Biology, Psychology, Astronomy
+
+###### Stellar Navigation
+_Description TBD_ <!-- TODO Describe Law -->
+- **Common Attributes:** Intelligence
 
 #### Specialties
 Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There is no limit on the number of specialties which can be acquired for a given ability, but there is a limit for how many specialties can be used on a given roll. (See [Using Specialties](#using-specialties) for more details.)
