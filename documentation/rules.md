@@ -36,6 +36,8 @@ Precision is hand-eye coordination and manual dexterity. It's used for acrobatic
 - **4**: Exceptional. You win dart competitions and parkour across rooftops.
 - **5**: Outstanding. You're Deadshot, if he was in Cirque du Soleil.
 
+**Note:** Precise movements usually require a small amount of planning, so sudden or unexpected actions usually cannot be performed with Precision and require Reflexes instead.
+
 ###### Reflexes
 Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodging, unaimed shots, evasive maneuvers, and other activities where the limiting factor is reaction time.
 - **0**: Abysmal. You're even surprised by your own actions.
@@ -44,6 +46,8 @@ Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodgi
 - **3**: Good. You can shoot from a holster and handle a fighter.
 - **4**: Exceptional. You win speed shooting and drone racing competitions.
 - **5**: Outstanding. Your quickdraw is better than Wyatt Earp.
+
+**Note:** It's harder to do things in a hurry, so actions will usually carry a higher difficulty when performed with Reflexes instead of Precision.
 
 ##### Mental
 The mental attributes define the mental capabilities of a character.
