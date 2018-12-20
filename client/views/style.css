@@ -11,6 +11,46 @@ body {
     font-family: 'Cinzel Decorative', serif;
 }
 
+h2 {
+    padding-top: 0.2rem;
+    border-top: 2px solid black;
+}
+
+h3 {
+    padding-top: 0.1rem;
+    border-top: 1px solid darkslategray;
+}
+
+h4 {
+    padding-top: 0.1rem;
+    border-top: 1px solid lightslategray;
+    /*padding-right: 5rem;*/
+    /*width: fit-content;*/
+}
+
+h5:before {
+    /*content: '[ ';*/
+    /*position: relative;*/
+    /*bottom: .1em;*/
+    /*color: black;*/
+    /*font-size: smaller;*/
+}
+
+h6:before {
+    /*content: '■ ';*/
+    content: '[ ';
+    position: relative;
+    /*bottom: .1em;*/
+    color: black;
+    /*font-size: small;*/
+}
+
+h6:after {
+    content: ' ]';
+    position: relative;
+    color: black;
+}
+
 .default-font {
     font-family: auto, serif;
 }
