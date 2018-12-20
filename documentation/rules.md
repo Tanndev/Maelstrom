@@ -92,7 +92,7 @@ Wits is the capacity for cleverness and intuition. It's used for trial-and-error
 Abilities are the learned or developed traits that define the specific things a character knows how to do.
 Many player characters will have 3-4 dots in a few abilities and almost all characters will have a couple dots in many different abilities.
 
-Most abilities have lists of [general specialties](#general-specialties) and [advanced specialties](#advanced-specialties). These can be purchased so long as you have at least one dot in the ability. <!-- TODO Add character advancement link -->
+Most abilities have lists of [specialties](#specialties) which are commonly used with that ability.
 
 ##### Talents
 Talents represent abilities that come naturally to characters, but which may have been honed and trained over the years.
@@ -230,7 +230,7 @@ _Description TBD_ <!-- TODO Describe Science -->
 - **General Specialties:**  Physics, Chemistry, Biology, Psychology, Astronomy
 
 #### Specialties
-Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There is no limit on the number of specialties which can be acquired for a given ability, but only one specialty per dot in the ability can be used in a roll. (See [Using Specialties](#using-specialties) for more details.)
+Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There is no limit on the number of specialties which can be acquired for a given ability, but there is a limit for how many specialties can be used on a given roll. (See [Using Specialties](#using-specialties) for more details.)
 
 Each ability is listed along with a number of suggested general and advanced specialties. However, these lists are not exhaustive. Work with your storyteller to add additional specialties that make sense for your character.
 
@@ -317,15 +317,17 @@ In addition to the base threshold, the storyteller may specify one or more [adva
 For each required specialty, increase the threshold by one unless you use that specialty.
 
 #### Using Specialties
-If you use an ability that your character has a specialty in, you can sometimes use that specialty to increase your odds of success. Instead of adding to the dice pool directly like other traits do, specialties have a chance to add bonus dice on a good roll. Also, for each required specialty you use, you get to ignore the threshold added by that specialty.
+When you take an action that your character has one or more [specialties](#specialties) in, you can use those specialties to increase your odds of success and reduce the thresholds from [required specialties](#required-specialties).
 
-In order to use a specialty during an action, the specialty needs to be directly related to that action. (Required specialties always relate to the action, that's why they're required.) You can even use multiple specialties at the same time. However, you may only use one specialty for each dot in the ability. This also means that you cannot use a specialty at all if, for some reason, you don't have any dots in the ability. It also means that you may not be able to use all the required specialties for an action if you don't have enough dots, even if you have the specialties available. (Keep this in mind during character creation.)
- 
-For each specialty you use, roll one additional bonus die every time you roll a 10 on any die during that action. Like regular dice, any successes rolled on your bonus dice count to your overall successes. However, 1s are ignored and do not add a botch. Plus, 10s count for specialties on bonus dice too and add even more bonus dice; Because of this, the benefit granted by using specialties is sometimes called "exploding tens".
+In order to use a specialty, you must be using the ability that it's associated with. The specialty must also directly relate to the action you're taking. [Required specialties](#required-specialties) always relate to the action and, by using one, you get to ignore the threshold added by that specialty. However, you may only use one specialty per dot that your character has in the associated ability. This means that you cannot use a specialty at all if, for some reason, you don't have any dots in the ability. It also means that you may not be able to use all the required specialties for an action if you don't have enough dots, even if you have the specialties available. (Keep this in mind during character creation.) 
 
-> **Example:** A player is trying to sneak attack an enemy from a very long distance using a sniper rifle. The attack uses Precision + Firearms, has a difficulty of 8, and requires the Extreme Range advanced specialty. Her character has three dots in Precision and two dots in Firearms with the Sniper Rifle, Surprise Attack, and Extreme Range specialties. All three of her specialties apply to the action, but she can only use two because of rank in Firearms. She chooses to use the required specialty -- to prevent the added threshold -- along with one of the others.
+Finally, using at least one specialty on a roll grants the awesome power of "exploding tens": whenever you roll a 10 on any die in the roll, add two additional bonus dice. Like regular dice, any successes rolled on bonus dice count towards your overall successes. However, unlike regular dice, 1s are ignored instead of adding a botch. Even better, 10s on bonus dice count as well and can add _even more_ bonus dice. (That's why it's called exploding tens.)
+
+The exploding tens effect doesn't stack, so using multiple specialties is only useful when they're required, but _having_ multiple specialties can be a cost-efficient way to increase your character's effectiveness in different circumstances.
+
+> **Example:** A player is trying very long distance using a sniper rifle. The attack uses Precision + Firearms, has a difficulty of 8, and requires the Extreme Range advanced specialty. Her character has three dots in Precision and one dot in Firearms with the Pistols, Sniper Rifles, and Extreme Range specialties. Two of her specialties apply to the action, but she can only use one of them due to her rank in Firearms. She chooses to use the Extreme Range specialty so she can ignore the threshold from it.
 >
-> She rolls her dice pool and gets [1, 4, 5, 7, 10]. The botch and a success cancel each other out but she's still allowed to add bonus dice for the ten. Because she's using two specialties, she rolls two additional dice and gets [1, 10]. The 1 is ignored, because it's on a bonus die, and the 10 adds a success plus two more bonus dice. She rolls [4, 8] on these for one more success. Thanks to her specialties, she was able get two successes on an attack which would have otherwise botched.
+> She rolls her dice pool and gets [1, 4, 7, 10]. The botch and a success cancel each other out but she's still allowed to add bonus dice for the ten. She rolls her two additional dice and gets [1, 10]. The 1 is ignored, because it's on a bonus die, and the 10 adds a success plus two more bonus dice. She rolls [4, 8] on these for one more success. Thanks to her specialties, she was able get two successes on an attack which would have otherwise botched.
 
 #### Resolving the Result
 Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
