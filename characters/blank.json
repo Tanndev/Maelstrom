@@ -40,7 +40,8 @@
       {"name": "Manufacturing", "dots": 0},
       {"name": "Medicine", "dots": 0},
       {"name": "Science", "dots": 0},
-      {"name": "Navigation", "dots": 0}
+      {"name": "Navigation", "dots": 0},
+      {"name": "Statecraft", "dots": 0}
     ]
   }
 }

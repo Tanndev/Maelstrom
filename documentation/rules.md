@@ -213,10 +213,10 @@ Engineering represents a character's ability to maintain, repair, and upgrade al
 - **General Specialties:**  Spacecraft, Aircraft, Stations, Ground Vehicles, Life Support, Electrical, Mining Equipment
 
 ###### Humanities
-Humanities represents a character's knowledge about human societies, culture, history, languages and laws. It is primarily used to understand the political, social, historical, or cultural context of events. It's also used to understand specific languages or to study linguistics in general. (All characters are assumed to be fluent in a common language.)
+Humanities represents a character's knowledge about human societies, culture, history, languages. It is primarily used to understand the political, social, historical, or cultural context of past events. It's also used to understand specific languages or to study linguistics in general. (All characters are assumed to be fluent in a common language.) Historical politics and laws are covered by Humanities but current events, politics, laws, and contracts require [Statecraft](#statecraft).
 - **Common Attributes:** Intelligence
-- **Advanced Specialties:** Law, Linguistics, Specific Language (Chinese, Russian, etc)
-- **General Specialties:** History, Philosophy, Politics, Religion, Literature, Anthropology
+- **Advanced Specialties:** Linguistics, Specific Language (Chinese, Russian, etc)
+- **General Specialties:** History, Philosophy, Religion, Literature, Anthropology
 
 ###### Manufacturing
 Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Artistry](#artistry) is often used instead.
@@ -241,6 +241,12 @@ Navigation represents a character's knowledge orbital mechanics, trajectories, a
 - **Common Attributes:** Intelligence
 - **Advanced Specialties:** Stealth, Close Approach, Precise Arrival, Jump Plotting
 - **General Specialties:** Gravity Assists, Low Energy Transfers, Constant Thrust, Suborbital Routes
+
+###### Statecraft
+Statecraft represents a character's knowledge of the modern political landscape, governments, corporations, and jurisdictions. It's used to understand the relationships between the myriad governments and corporations, navigate complex jurisdictional boundaries, negotiate interplanetary or corporate deals, cut through bureaucratic red tape, and find legal loopholes. Statecraft only provides information about current and recent events, [Humanities](#humanities) is required for a true historical perspective.
+- **Common Attributes:** Intelligence, Wits
+- **Advanced Specialties:** Statutory Law, Contracts
+- **General Specialties:** Corporate Politics, Government Politics, Specific System (Sol, Maelstrom, etc)
 
 #### Specialties
 Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There is no limit on the number of specialties which can be acquired for a given ability, but there is a limit for how many specialties can be used on a given roll. (See [Using Specialties](#using-specialties) for more details.)
