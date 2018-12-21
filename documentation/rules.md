@@ -25,7 +25,7 @@ The physical attributes define the physical capabilities of a character.
 
 ###### Strength
 Strength is pure muscle power and endurance. It's used for running, lifting, carrying, punching, and other activities where the limiting factor is the raw amount of physical effort the character is able to exert. It is also used to safely absorb certain types of damage.
-- **0**: Abysmal. You can barely even move under your own power. Most children are stronger than you. (Lift 20lbs)
+- **0**: Abysmal. You can barely even move under your own power. (Lift 20lbs)
 - **1**: Poor. You're a couch potato. (Lift 40lbs)
 - **2**: Average. You can probably do a couple pushups. (Lift 100lbs)
 - **3**: Good. You work out or do heavy work for a living. (Lift 250lbs)
