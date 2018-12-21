@@ -28,7 +28,6 @@
       {"name": "Firearms", "dots": 0},
       {"name": "Heavy Weapons", "dots": 0},
       {"name": "Investigation", "dots": 0},
-      {"name": "Manufacturing", "dots": 0},
       {"name": "Piloting", "dots": 0},
       {"name": "Remote Weapons", "dots": 0},
       {"name": "Tradecraft", "dots": 0}
@@ -38,10 +37,10 @@
       {"name": "Engineering", "dots": 0},
       {"name": "Humanities", "dots": 0},
       {"name": "Law", "dots": 0},
+      {"name": "Manufacturing", "dots": 0},
       {"name": "Medicine", "dots": 0},
-      {"name": "Natural Science", "dots": 0},
-      {"name": "Social Science", "dots": 0},
-      {"name": "Stellar Navigation", "dots": 0}
+      {"name": "Science", "dots": 0},
+      {"name": "Navigation", "dots": 0}
     ]
   }
 }

@@ -135,16 +135,16 @@ Streetwise represents a character's talent for surviving and navigating urban en
 - **General Specialties:** Colonies, Outposts, Research Stations, Industrial Stations, Docks, Shipyards
 
 ###### Survival
-Survival represents a character's skill surviving in harsh or austere environments. It's used to build shelters, find food, decontaminate clothing, manage oxygen tanks, etc.
+Survival represents a character's talent for surviving in harsh or austere environments. It's used to build shelters, find food, decontaminate clothing, manage oxygen tanks, etc.
 - **Common Attributes:** Intelligence, Wits
 - **Advanced Specialties:** Vacuum, Non-Breathable Atmosphere, Extreme Temperatures, Radiation
 - **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations, Spacecraft
 
 ###### Technology
-_Description TBD_ <!-- TODO Describe technology -->
+Technology represents a character's talent for using modern technology. It's used to interact with computer systems to retrieve information, recover lost data, and gain unauthorized access. It is also used with other consumer technology such as communications, security, and navigation systems. While Technology may be used to gain access in to insecure systems, or use pre-written exploits against secure ones, proper software development and hacking requires [Computer Science](#computer-science).
 - **Common Attributes:** Intelligence, Wits
-- **Advanced Specialties:** _TBD_
-- **General Specialties:** _TBD_
+- **Advanced Specialties:** Hacking, Data Recovery, Data Forgery, AI Modules, Remote Access
+- **General Specialties:**  Data Storage, Communications, Security Systems, Navigation Systems
 
 ##### Skills
 Skills represent abilities that characters have learned through training and practice.
@@ -170,19 +170,13 @@ Heavy Weapons represents a character's skill with grenade launchers, RPGs, missi
 - **General Specialties:** Grenade Launchers, Missile Launchers
 
 ###### Investigation
-Investigation represents a character's ability to gather or evidence, make connections between events, and find hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft](#tradecraft).
+Investigation represents a character's ability to gather evidence, make connections between events, and find hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft](#tradecraft).
 - **Common Attributes:** Intelligence, Perception
 - **Advanced Specialties:** Forensics, Missing Persons
 - **General Specialties:** Research, Computer Records, Crime Scenes
 
-###### Manufacturing
-Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Crafting](#crafting) is often used instead.
-- **Common Attributes:** Intelligence, Wits
-- **Advanced Specialties:** Mechanical Design, Electronics, Explosives, Textiles
-- **General Specialties:** Autofabrication, Manual Machining, Metals, Plastics, Ceramics, Composites
-
 ###### Piloting
-Piloting represents a character's skill operating both aircraft and spacecraft. With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar. Generally, any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult.
+Piloting represents a character's skill at operating both aircraft and spacecraft. With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar and any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult. Additionally, is only used to follow a pre-set flight plan or travel within a small local area; plotting a new route to a distant location requires [Navigation](#navigation).
 - **Common Attributes:** Precision, Reflexes
 - **Advanced Specialties:** Atmospheric Flight, Close Quarters, Fighters, Freighters, Power Armor
 - **General Specialties:** Space Flight, Shuttles, Frigates, Cruisers
@@ -205,10 +199,10 @@ If you would roll for a knowledge in which you have no dots, you cannot even att
 In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and use the base attribute alone with a penalty.
 
 ###### Computer Science
-_Description TBD_ <!-- TODO Describe Computer Systems -->
-- **Common Attributes:** Intelligence, Wits
-- **Advanced Specialties:** Artificial Intelligence, Quantum Computing, Data Recovery, Data Forgery
-- **General Specialties:** Programming, Security, Navigation Systems, Targeting Systems, Reactor Control
+Computer Science represents a character's knowledge of computer hardware and software development. It's used to create new programs, modify or build computer systems, create algorithms, train AI, find exploits, etc. However, interacting with existing tools and systems as an end-user usually requires [Technology](#technology) instead.
+- **Common Attributes:** Intelligence
+- **Advanced Specialties:** Hacking, AI Research, Quantum Computing
+- **General Specialties:** Encryption, Programming, Data Processing
 
 ###### Engineering
 Engineering represents a character's ability to maintain, repair, and upgrade all the various systems usually found on a ship or space station. Similar to a vehicle mechanic, ships' engineers are able to install new parts or jury rig systems to bypass damaged parts. However, creating new parts usually requires [Manufacturing knowledge](#manufacturing). However, this trait can also be used to service ground vehicles, aircraft, power armor, outposts, and other mostly electromechanical objects.
@@ -217,34 +211,40 @@ Engineering represents a character's ability to maintain, repair, and upgrade al
 - **General Specialties:**  Spacecraft, Aircraft, Stations, Ground Vehicles, Life Support, Electrical, Mining Equipment
 
 ###### Humanities
-_Description TBD_ <!-- TODO Describe Humanities -->
+Humanities represents a character's knowledge about human societies, culture, history, and languages. It is primarily used to understand the political, social, historical, or cultural context of events. It's also used to understand specific languages or to study linguistics in general. (All characters are assumed to be fluent in a common language.)
 - **Common Attributes:** Intelligence
+- **Advanced Specialties:** Linguistics, Specific Language (Chinese, Russian, etc)
+- **General Specialties:** History, Philosophy, Politics, Religion, Literature, Anthropology
 
 ###### Law
-_Description TBD_ <!-- TODO Describe Law -->
+Law represents a character's knowledge about the law, legal proceedings, and contacts. It's used to avoid illegal actions, argue court cases, understand written statutes, and write binding contracts. 
 - **Common Attributes:** Intelligence
+- **Advanced Specialties:** Contracts, Legal History
+- **General Specialties:** Court Proceedings, Corporate Law, Criminal Law, Civil Law, Specific Jurisdictions
+
+###### Manufacturing
+Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Crafting](#crafting) is often used instead.
+- **Common Attributes:** Intelligence, Wits
+- **Advanced Specialties:** Mechanical Design, Electronics, Explosives, Textiles
+- **General Specialties:** Autofabrication, Manual Machining, Metals, Plastics, Ceramics, Composites
 
 ###### Medicine
-_Description TBD_ <!-- TODO Describe Medicine -->
+Medicine represents a character's knowledge about the human body, pharmaceuticals, and medical devices. It's used to diagnose, treat, and prevent injury or disease. It's also used to operate all non-automatic medical equipment and to use automatic equipment more effectively.
 - **Common Attributes:** Intelligence
-- **Advanced Specialties:** Surgery, Battlefield Medicine, Zero-G, Prosthetic
+- **Advanced Specialties:** Surgery, Battlefield Medicine, Zero-G, Prosthetics
 - **General Specialties:**  First Aid, Wound Management, Poisons, Radiation
 
-###### Natural Science
-_Description TBD_ <!-- TODO Describe NaturalScience -->
+###### Science
+Natural Science represents a character's knowledge of the physical and social sciences. It's primarily used to provide information or develop solutions from a theoretical basis. 
 - **Common Attributes:** Intelligence
-- **Advanced Specialties:** Quantum Theory, Gravitics, Jump Technology
-- **General Specialties:**  Physics, Chemistry, Biology, Psychology, Astronomy
+- **Advanced Specialties:** Astrophysics, Quantum Theory, Gravitics, Jump Technology
+- **General Specialties:**  Physics, Chemistry, Biology, Earth Science, Astronomy, Economics, Psychology, Sociology
 
-###### Social Science
-_Description TBD_ <!-- TODO Describe Social Science -->
+###### Navigation
+Navigation represents a character's knowledge orbital mechanics, trajectories, and maps. It's used to plot routes which are faster, use less fuel, avoid certain areas, limit visible engine burns, or approach the destination from a certain direction. This primarily applies to interplanetary routes, but can also be used for any planetary route long enough to warrant an aircraft. Once a satisfactory route is generated, [Piloting](#piloting) is usually required in order to correctly follow it.
 - **Common Attributes:** Intelligence
-- **Advanced Specialties:** Quantum Theory, Gravitics, Jump Technology
-- **General Specialties:**  Physics, Chemistry, Biology, Psychology, Astronomy
-
-###### Stellar Navigation
-_Description TBD_ <!-- TODO Describe Law -->
-- **Common Attributes:** Intelligence
+- **Advanced Specialties:** Stealth, Close Approach, Precise Arrival, Jump Plotting
+- **General Specialties:** Gravity Assists, Low Energy Transfers, Constant Thrust, Suborbital Routes
 
 #### Specialties
 Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There is no limit on the number of specialties which can be acquired for a given ability, but there is a limit for how many specialties can be used on a given roll. (See [Using Specialties](#using-specialties) for more details.)
