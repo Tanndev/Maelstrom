@@ -40,7 +40,6 @@ body {
 }
 
 .documentation h6:before {
-    /*content: '■ []';*/
     content: '■  ';
     padding-right: 0.1rem;
 }
@@ -92,10 +91,18 @@ body {
     color: inherit;
     font-family: 'Black Ops One', cursive;
     font-size: smaller;
-    padding: 0.2rem 2.2rem;
+    padding: 0.2rem 1rem;
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+.navbar-link:before {
+    content: '[';
+}
+
+.navbar-link:after {
+    content: ']';
 }
 
 .navbar-link:hover {
