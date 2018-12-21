@@ -18,9 +18,9 @@
       {"name": "Athletics", "dots": 0},
       {"name": "Investigation", "dots": 0},
       {"name": "Melee", "dots": 0},
+      {"name": "Performance", "dots": 0},
       {"name": "Stealth", "dots": 0},
       {"name": "Streetwise", "dots": 0},
-      {"name": "Survival", "dots": 0},
       {"name": "Technology", "dots": 0}
     ],
     "skills": [
@@ -28,9 +28,9 @@
       {"name": "Driving", "dots": 0},
       {"name": "Firearms", "dots": 0},
       {"name": "Heavy Weapons", "dots": 0},
-      {"name": "Performance", "dots": 0},
       {"name": "Piloting", "dots": 0},
       {"name": "Remote Weapons", "dots": 0},
+      {"name": "Survival", "dots": 0},
       {"name": "Tradecraft", "dots": 0}
     ],
     "knowledges": [

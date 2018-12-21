@@ -118,6 +118,12 @@ Melee represents a character's talent in a close range fight. It includes both a
 - **Advanced Specialties:** Power Armor, Energy Weapons, Swords, Specific Exotic Melee Weapon
 - **General Specialties:** Clubs, Grapple, Shields, Spears, Brawling, Surprise Attack, Specific Martial Art
 
+###### Performance
+_Description TBD_ <!-- TODO Document Performance -->
+- **Common Attributes:** Precision, Wits
+- **Advanced Specialties:** Specific Musical Instrument (Piano, Guitar, Drums, etc)
+- **General Specialties:** Dancing, Singing, Speeches
+
 ###### Stealth
 Stealth represents a character's talent in hiding, moving silently, and otherwise keeping out of sight. It's used to avoid detection in a crowd, find good hiding spots, or move silently.
 - **Common Attributes:** Wits, Precision
@@ -129,12 +135,6 @@ Streetwise represents a character's talent for surviving and navigating urban en
 - **Common Attributes:** Wits
 - **Advanced Specialties:** Black Markets, Criminal Networks, Megacities
 - **General Specialties:** Colonies, Outposts, Research Stations, Industrial Stations, Docks, Shipyards
-
-###### Survival
-Survival represents a character's talent for surviving in harsh or austere environments. It's used to build shelters, find food, decontaminate clothing, manage oxygen tanks, etc.
-- **Common Attributes:** Intelligence, Wits
-- **Advanced Specialties:** Vacuum, Non-Breathable Atmosphere, Extreme Temperatures, Radiation
-- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations, Spacecraft
 
 ###### Technology
 Technology represents a character's talent for using modern technology. It's used to interact with computer systems to retrieve information, recover lost data, and gain unauthorized access. It is also used with other consumer technology such as communications, security, and navigation systems. While Technology may be used to gain access in to insecure systems, or use pre-written exploits against secure ones, proper software development and hacking requires [Computer Science](#computer-science).
@@ -171,12 +171,6 @@ Heavy Weapons represents a character's skill with grenade launchers, RPGs, missi
 - **Advanced Specialties:** Power Armor, Mortars, Artillery, Advanced Maintenance
 - **General Specialties:** Grenade Launchers, Missile Launchers
 
-###### Performance
-_Description TBD_ <!-- TODO Document Performance -->
-- **Common Attributes:** Precision, Wits
-- **Advanced Specialties:** Specific Musical Instrument (Piano, Guitar, Drums, etc)
-- **General Specialties:** Dancing, Singing, Speeches
-
 ###### Piloting
 Piloting represents a character's skill at operating both aircraft and spacecraft. With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar and any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult. Additionally, is only used to follow a pre-set flight plan or travel within a small local area; plotting a new route to a distant location requires [Navigation](#navigation).
 - **Common Attributes:** Precision, Reflexes
@@ -188,6 +182,12 @@ Remotely Weapons represents a character's skill operating remotely-operated fly-
 - **Common Attributes:** Wits, Reflexes
 - **Advanced Specialties:** Defensive Fire, Power Armor, Mining Equipment, Advanced Maintenance
 - **General Specialties:** PDCs, Missiles, Torpedoes, Rail Guns
+
+###### Survival
+Survival represents a character's skill at surviving in harsh or austere environments. It's used to build shelters, find food, decontaminate clothing, manage oxygen tanks, etc.
+- **Common Attributes:** Intelligence, Wits
+- **Advanced Specialties:** Vacuum, Non-Breathable Atmosphere, Extreme Temperatures, Radiation
+- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations, Spacecraft
 
 ###### Tradecraft
 Tradecraft represents a character's skill at breaking into placing, stealing things, and conducting espionage. It's used to pick locks, disable alarms, hide weapons, set traps, disarm traps, and carry out other clandestine activity. Conducting a heist or breaking into a records vault will usually require some level of Tradecraft. However, making useful sense of the information stolen will usually require some level of [Investigation](#investigation).
