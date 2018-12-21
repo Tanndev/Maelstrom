@@ -399,8 +399,6 @@ Sometimes it can be tricky to determine which traits should be used for an actio
 #### Selecting Traits
 To select the appropriate traits, it's important to be very familiar with the descriptions of all the [attributes](#attributes) and [abilities](#abilities). You should almost always choose one of each of these. Which ones will depend on exactly what the player is attempting to do and how they're trying to do it. Often times, there'll only be one combination that make sense. However, sometimes there will be several different options to choose from. In these cases, try to ask the player for more information about how they're trying to perform the task or let them choose which traits to use.
 
-That said, there are some traits which are similar to each other need care to properly select the right one. Some of these commonly-confused traits are listed here.
-
 ##### Precision vs Reflexes
 Many tasks can be performed with either [precision](#precision) or [reflexes](#reflexes), depending on the preference of the player. However, they should not be treated equally.
 
@@ -409,13 +407,6 @@ Precision should not be allowed whenever the character is reacting to something 
 Reflexes should always be allowed, but also generally be more difficult. Increase the difficulty by one whenever a player uses reflexes, as compared to an equivalent precision-based action. If you have players who want to primarily use reflexes for their combat actions, consider giving them equipment to mitigate this difficulty. One option is to call the increased difficulty a "Reflexive Action Penalty" and provide weapons which explicitly ignore it.
 
 As always, remember to very the described outcomes to match the traits used to achieve them. For example: a character using precision to navigate a debris cloud might be described as "gracefully gliding through, maintaining the safest possible distance from each fragment", while a character using reflexes for the same thing might be described as "darting through gaps in the wreckage and deftly dodging bits of shrapnel as they wiz past".
-
-##### Wits vs Intelligence
-Unlike precision and reflexes, the difference between [wits](#wits) and [intelligence](#intelligence) is more about fluff and style than it is about game mechanics.
-
-Wits is used to figure things out in a clever, out-of-the-box way. It uses trial and error, intuition, and experimentation. Characters using wits will figure things out by playing with them, go with their gut, or indirectly draw on past experiences. This makes it suitable for tasks where research is impossible or impractical, or where and intuitive solution is required. However, it also tends to be a bit more dangerous as characters are prone to flipping switches without fully understanding their effects.
-
-Intelligence is used to figure things out in a methodical, efficient way. It uses book learning, research, critical thinking, and logic. Characters using intelligence will read manuals, remember their training or education, or work out logical proofs. This makes it suitable for any tasks which can be learned from a book or carefully worked out with a pencil. However, it also makes it slower as characters are less likely to be confident in their solution until they've had time to fully think it through.
 
 #### Determining Difficulty
 Importantly, the difficulty should never change _after_ the dice have been rolled.
