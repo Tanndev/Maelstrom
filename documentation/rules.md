@@ -119,7 +119,7 @@ Melee represents a character's talent in a close range fight. It includes both a
 - **General Specialties:** Clubs, Grapple, Shields, Spears, Brawling, Surprise Attack, Specific Martial Art
 
 ###### Performance
-Performance represents a character's talent for the performing arts. It's used to sing, dance, act, play an instrument, or give a speech. While this ability can influence the quality of a performance, it does not affect the content. As will all social actions, only roleplaying will determine whether or not your speech, lie, etc is believable. Without a good reason or story, even the best actor in the galaxy won't convince a guard to let them into a restricted area.
+Performance represents a character's talent for the performing arts. It's used to sing, dance, act, play an instrument, or give a speech. While this ability can influence the quality of a performance, it does not affect the content. As with all social actions, only roleplaying will determine whether or not your speech, lie, etc is believable. Without a good reason or story, even the best actor in the galaxy won't convince a guard to let them into a restricted area.
 - **Common Attributes:** Precision, Wits
 - **Advanced Specialties:** Specific Musical Instrument (Piano, Guitar, Drums, etc)
 - **General Specialties:** Dancing, Singing, Acting, Speeches
