@@ -152,8 +152,6 @@ body {
 
 .toc {
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .toc ul {
