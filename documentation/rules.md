@@ -106,12 +106,6 @@ Athletics represents a character's talent for physical agility. Where the physic
 - **Advanced Specialties:** Grenades, Power Armor, Zero-G, Acrobatics, Parkour, Specific Exotic Thrown Weapon
 - **General Specialties:**  Run, Jump, Dodge, Thrown Weapons, Surprise Attack
 
-###### Crafting
-Crafting represents a character's talent for creating things via drawing, sculpting, sewing, etc. Unlike [Manufacturing](#manufacturing), the Crafting ability doesn't usually result in useful, precisely-engineered items. However, it can still be used to create useful soft goods such as textiles, maps, documents, and even forgeries.
-- **Common Attributes:** Varies
-- **Advanced Specialties:** Forgery, Electronics, Metalwork
-- **General Specialties:** Sketching, Painting, Sculpting, Photography
-
 ###### Melee
 Melee represents a character's talent in a close range fight. It includes both armed and unarmed combat and is used for fists, brass knuckles, swords, hammers, polearms, riot shields, and even the occasional wrench.
 - **Common Attributes:** Strength, Precision, Reflexes
@@ -146,6 +140,12 @@ Technology represents a character's talent for using modern technology. It's use
 Skills represent abilities that characters have learned through training and practice.
 When rolling for a skill in which you have no dots, the difficulty is increased by 1. Then, use the base attribute alone.
 In some cases, the storyteller may allow an alternate roll or action to allow a character to "figure it out" and avoid the penalty.
+
+###### Artistry
+Artistry represents a character's skills at creating things via drawing, sculpting, sewing, etc. Unlike [Manufacturing](#manufacturing), the Artistry ability doesn't usually result in useful, precisely-engineered items. However, it can still be used to create useful soft goods such as textiles, maps, documents, and even forgeries.
+- **Common Attributes:** Varies
+- **Advanced Specialties:** Forgery, Electronics, Metalwork
+- **General Specialties:** Sketching, Painting, Sculpting, Photography
 
 ###### Driving
 Driving represents a character's skill operating cars and other ground vehicles. It's primarily used to maneuver ground vehicles but also includes fundamental user-serviceable tasks like refueling and changing tires. However, proper maintenance usually requires [Engineering](#engineering).
@@ -207,19 +207,13 @@ Engineering represents a character's ability to maintain, repair, and upgrade al
 - **General Specialties:**  Spacecraft, Aircraft, Stations, Ground Vehicles, Life Support, Electrical, Mining Equipment
 
 ###### Humanities
-Humanities represents a character's knowledge about human societies, culture, history, and languages. It is primarily used to understand the political, social, historical, or cultural context of events. It's also used to understand specific languages or to study linguistics in general. (All characters are assumed to be fluent in a common language.)
+Humanities represents a character's knowledge about human societies, culture, history, languages and laws. It is primarily used to understand the political, social, historical, or cultural context of events. It's also used to understand specific languages or to study linguistics in general. (All characters are assumed to be fluent in a common language.)
 - **Common Attributes:** Intelligence
-- **Advanced Specialties:** Linguistics, Specific Language (Chinese, Russian, etc)
+- **Advanced Specialties:** Law, Linguistics, Specific Language (Chinese, Russian, etc)
 - **General Specialties:** History, Philosophy, Politics, Religion, Literature, Anthropology
 
-###### Law
-Law represents a character's knowledge about the law, legal proceedings, and contacts. It's used to avoid illegal actions, argue court cases, understand written statutes, and write binding contracts. 
-- **Common Attributes:** Intelligence
-- **Advanced Specialties:** Contracts, Legal History
-- **General Specialties:** Court Proceedings, Corporate Law, Criminal Law, Civil Law, Specific Jurisdictions
-
 ###### Manufacturing
-Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Crafting](#crafting) is often used instead.
+Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Artistry](#artistry) is often used instead.
 - **Common Attributes:** Intelligence, Wits
 - **Advanced Specialties:** Mechanical Design, Electronics, Explosives, Textiles
 - **General Specialties:** Autofabrication, Manual Machining, Metals, Plastics, Ceramics, Composites
@@ -288,7 +282,7 @@ _Description TBD_ <!-- TODO Describe Wound Penalties -->
 ### Creating a Character
 It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
 
-Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Crafting to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
+Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Artistry to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
 
 Once you're ready to sit down and start filling out a character sheet, you'll go through a few steps:
 1. [Choose your backgrounds](#choose-backgrounds)
