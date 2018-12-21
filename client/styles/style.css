@@ -40,7 +40,7 @@ body {
 }
 
 .documentation h6:before {
-    /*content: '■ ';*/
+    /*content: '■ []';*/
     content: '■  ';
     padding-right: 0.1rem;
 }
@@ -50,23 +50,9 @@ body {
 }
 
 .documentation a {
-    color: inherit;
+    color: darkblue;
     text-decoration: none;
-}
-
-
-.documentation a:before,
-.documentation a:after {
-  color: mediumblue; /* Or DarkViolet */
-  font-weight: bold;
-}
-
-.documentation a:before {
-    content: '[';
-}
-
-.documentation a:after {
-    content: ']';
+    font-style: italic;
 }
 
 .documentation a:hover {
