@@ -92,6 +92,8 @@ body {
     --navbar-current-color: darkslategray;
     --navbar-hover-color: darkblue;
 
+    position: sticky;
+    top: 0;
     background: black;
     color: white;
     border: solid var(--navbar-current-color);
@@ -181,7 +183,7 @@ body {
 .back-to-top {
   display:block;
   position: sticky;
-  top: 1rem;
+  top: 2rem;
   background: darkslategray;
   color: white;
   text-decoration: none;
