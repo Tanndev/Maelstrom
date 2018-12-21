@@ -8,7 +8,7 @@ const router = express.Router();
 const documentation = require('../helpers/loadDocumentation');
 router.use((req, res, next) => {
     res.locals.path = req.path;
-    res.locals.availableDocumentation = Object.keys(documentation);
+    res.locals.availableDocumentation = Object.keys(documentation).sort();
     next();
 });
 
