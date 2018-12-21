@@ -285,9 +285,6 @@ _Description TBD_ <!-- TODO Describe Health -->
 #### Wound Penalties
 _Description TBD_ <!-- TODO Describe Wound Penalties -->
 
-### Equipment
-_Description TBD_ <!-- TODO Describe Equipment -->
-
 ### Creating a Character
 It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
 
@@ -333,7 +330,7 @@ Also, you are not necessarily restricted to the specialties listed. Work with yo
 _Description TBD_ <!-- TODO Describe starting experience -->
 
 #### Starting Equipment
-Equipment will vary from campaign to campaign.
+[Equipment](#equipment) will vary from campaign to campaign.
 Work with your storyteller to determine reasonable starting equipment.
 <!-- TODO Add actual rules for starting equipment -->
 
@@ -492,6 +489,27 @@ Finally, determine which [advanced specialt](#advanced-specialties) apply to the
 > - If she botched, she successfully pushes the guard but slips and goes over the edge as well. The storyteller offers a reflex + strength check to try and grab onto the edge just in time.
 
 <!-- TODO Put in a table of average successes for die pool and difficulty -->
+
+## Equipment
+_Description TBD_ <!-- TODO Describe Equipment -->
+
+### Weapons
+_Description TBD_ <!-- TODO Describe Weapons -->
+
+#### Melee Weapons
+_Description TBD_ <!-- TODO Describe Weapons -->
+
+#### Ranged Weapons
+_Description TBD_ <!-- TODO Describe Weapons -->
+
+### Armor
+_Description TBD_ <!-- TODO Describe Armor -->
+
+### Tools
+_Description TBD_ <!-- TODO Describe Tools -->
+
+### Ships
+_Description TBD_ <!-- TODO Describe Ships -->
 
 ## Combat
 _Description TBD_ <!-- TODO Describe basic combat -->
