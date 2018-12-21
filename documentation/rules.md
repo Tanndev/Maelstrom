@@ -4,7 +4,7 @@ The following rules provide a framework to help storytellers and players build t
 <!-- toc -->
 
 ## Characters
-Characters make up the core of any roleplaying game. Your character is your avatar in the game world and they will define who you are and what you are able to do. They are how you interact with the story and with other players. Because of this, the characters in Maelstrom are designed to be flexible. When you [create your character](#character-creation), you'll select a set of backgrounds, traits, and equipment that will help you play the _person_ you want to play.
+Characters make up the core of any roleplaying game. Your character is your avatar in the game world and they will define who you are and what you are able to do. They are how you interact with the story and with other players. Because of this, the characters in Maelstrom are designed to be flexible. When you [create your character](#creating-a-character), you'll select a set of backgrounds, traits, and equipment that will help you play the _person_ you want to play.
 
 ### Backgrounds
 Everyone comes from somewhere and everyone has a story to tell; your character is no exception.
@@ -288,6 +288,64 @@ _Description TBD_ <!-- TODO Describe Wound Penalties -->
 ### Equipment
 _Description TBD_ <!-- TODO Describe Equipment -->
 
+### Creating a Character
+It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
+
+Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Crafting to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
+
+Once you're ready to sit down and start filling out a character sheet, you'll go through a few steps:
+1. [Choose your backgrounds](#choose-backgrounds)
+1. Select [starting attributes](#starting-attributes)
+1. Select [starting abilities](#starting-attributes) and [starting specialties](#starting-specialties)
+1. Spend [starting experience](#starting-experience)
+1. Purchase [starting equipment](#starting-equipment)
+
+<!-- TODO Add flaws -->
+
+#### Choose Backgrounds
+_Description TBD_ <!-- TODO Describe how to choose backgrounds -->
+
+#### Starting Attributes
+You automatically start with one dot in all six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
+
+Start by selecting either Physical or Mental as your primary attributes, the others are your secondary attributes. Then, allocate five (5) additional dots in your primary attributes and three (3) in your secondary attributes. You can arrange them however you want, but no attribute may exceed a total of four dots.
+
+#### Starting Abilities
+Unlike attributes, all [abilities](#abilities) start with zero dots.
+
+Assign dots to your abilities with the following rules:
+- Assign three (3) dots in two (2) abilities.
+- Assign two(2) dots in another four (4) abilities.
+- Assign one (1) dot in another six (6) abilities.
+- You may not combine these dots; you must select twelve different abilities.
+- You **must** have at least four total dots in each category (Talents, Skills, Knowledges).
+
+When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and that [knowledges](#knowledges) cannot be rolled at all if you don't have any dots in the ability. While it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly.
+
+#### Starting Specialties
+After selecting your starting abilities, you may choose a few starting specialties as well. Select one [Advanced Specialty](#advanced-specialties) and two [General Specialties](#general-specialties).
+
+While you can technically take specialties in any ability, remember that you can only use one specialty per dot in the ability. So you won't be able to use a specialty if you don't have any dots in the ability.
+
+Also, you are not necessarily restricted to the specialties listed. Work with your storyteller if you'd like to specialize in something not listed; they will determine if it's a reasonable specialty and whether or not it's general or advanced.
+
+#### Starting Experience
+_Description TBD_ <!-- TODO Describe starting experience -->
+
+#### Starting Equipment
+Equipment will vary from campaign to campaign.
+Work with your storyteller to determine reasonable starting equipment.
+<!-- TODO Add actual rules for starting equipment -->
+
+### Progression
+Throughout the campaign, you'll earn experience. This experience can then be used to purchase trait dots and specialties.
+
+#### Earning Experience
+_Description TBD_ <!-- TODO Describe how to earn experience -->
+
+#### Spending Experience
+_Description TBD_ <!-- TODO Describe how to spend experience -->
+
 ## Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
 
@@ -454,61 +512,3 @@ _Description TBD_ <!-- TODO Describe taking damage -->
 Roleplaying games are fun, social experiences that brings friends together, and it all begins with session zero. To ensure that everyone is one the same page about what kind of game you're going to play, it's important to have this first session to discuss the game and create characters as a group. All the players, along with the storyteller, should discuss what kind of game you want to play together and what sort of stories you'll tell. Will it be a tense, resource-constrained horror game or an action-packed combat adventure? Will your party be social and friendly or classic murder-hobos? Will sessions generally revolve around solving puzzles or blowing things up?
 
 By talking ahead of time about the kind of game you want to play, you make sure that everyone is on the same page and nobody is surprised when the wacky hack'n'slash adventure they were expecting turns out to be serious political intrigue. (Or vice-versa.) It also gives the players a chance to work together to build a balanced and cohesive party that has all the necessary skills to face the challenges ahead. Your space western game is going to be a lot less fun if it's all Simons and no Jaynes.
-
-### Character Creation
-It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
-
-Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Crafting to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
-
-Once you're ready to sit down and start filling out a character sheet, you'll go through a few steps:
-1. [Choose your backgrounds](#choose-backgrounds)
-1. Select [starting attributes](#starting-attributes)
-1. Select [starting abilities](#starting-attributes) and [starting specialties](#starting-specialties)
-1. Spend [starting experience](#starting-experience)
-1. Purchase [starting equipment](#starting-equipment)
-
-<!-- TODO Add flaws -->
-
-#### Choose Backgrounds
-_Description TBD_ <!-- TODO Describe how to choose backgrounds -->
-
-#### Starting Attributes
-You automatically start with one dot in all six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
-
-Start by selecting either Physical or Mental as your primary attributes, the others are your secondary attributes. Then, allocate five (5) additional dots in your primary attributes and three (3) in your secondary attributes. You can arrange them however you want, but no attribute may exceed a total of four dots.
-
-#### Starting Abilities
-Unlike attributes, all [abilities](#abilities) start with zero dots.
-
-Assign dots to your abilities with the following rules:
-- Assign three (3) dots in two (2) abilities.
-- Assign two(2) dots in another four (4) abilities.
-- Assign one (1) dot in another six (6) abilities.
-- You may not combine these dots; you must select twelve different abilities.
-- You **must** have at least four total dots in each category (Talents, Skills, Knowledges).
-
-When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and that [knowledges](#knowledges) cannot be rolled at all if you don't have any dots in the ability. While it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly.
-
-#### Starting Specialties
-After selecting your starting abilities, you may choose a few starting specialties as well. Select one [Advanced Specialty](#advanced-specialties) and two [General Specialties](#general-specialties).
-
-While you can technically take specialties in any ability, remember that you can only use one specialty per dot in the ability. So you won't be able to use a specialty if you don't have any dots in the ability.
-
-Also, you are not necessarily restricted to the specialties listed. Work with your storyteller if you'd like to specialize in something not listed; they will determine if it's a reasonable specialty and whether or not it's general or advanced.
-
-#### Starting Experience
-_Description TBD_ <!-- TODO Describe starting experience -->
-
-#### Starting Equipment
-Equipment will vary from campaign to campaign.
-Work with your storyteller to determine reasonable starting equipment.
-<!-- TODO Add actual rules for starting equipment -->
-
-### Character Progression
-Throughout the campaign, you'll earn experience. This experience can then be used to purchase trait dots and specialties.
-
-#### Earning Experience
-_Description TBD_ <!-- TODO Describe how to earn experience -->
-
-#### Spending Experience
-_Description TBD_ <!-- TODO Describe how to spend experience -->
