@@ -97,14 +97,6 @@ body {
     text-transform: capitalize;
 }
 
-.navbar-link:before {
-    content: '[';
-}
-
-.navbar-link:after {
-    content: ']';
-}
-
 .navbar-link:hover {
     background: var(--navbar-hover-color);
 }
