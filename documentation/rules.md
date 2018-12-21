@@ -106,6 +106,12 @@ Athletics represents a character's talent for physical agility. Where the physic
 - **Advanced Specialties:** Grenades, Power Armor, Zero-G, Acrobatics, Parkour, Specific Exotic Thrown Weapon
 - **General Specialties:**  Run, Jump, Dodge, Thrown Weapons, Surprise Attack
 
+###### Investigation
+Investigation represents a character's talent for gathering evidence, making connections between events, anding find hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft](#tradecraft).
+- **Common Attributes:** Intelligence, Wits, Perception
+- **Advanced Specialties:** Forensics, Missing Persons
+- **General Specialties:** Research, Computer Records, Crime Scenes
+
 ###### Melee
 Melee represents a character's talent in a close range fight. It includes both armed and unarmed combat and is used for fists, brass knuckles, swords, hammers, polearms, riot shields, and even the occasional wrench.
 - **Common Attributes:** Strength, Precision, Reflexes
@@ -165,11 +171,11 @@ Heavy Weapons represents a character's skill with grenade launchers, RPGs, missi
 - **Advanced Specialties:** Power Armor, Mortars, Artillery, Advanced Maintenance
 - **General Specialties:** Grenade Launchers, Missile Launchers
 
-###### Investigation
-Investigation represents a character's ability to gather evidence, make connections between events, and find hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft](#tradecraft).
-- **Common Attributes:** Intelligence, Perception
-- **Advanced Specialties:** Forensics, Missing Persons
-- **General Specialties:** Research, Computer Records, Crime Scenes
+###### Performance
+_Description TBD_ <!-- TODO Document Performance -->
+- **Common Attributes:** Precision, Wits
+- **Advanced Specialties:** Specific Musical Instrument (Piano, Guitar, Drums, etc)
+- **General Specialties:** Dancing, Singing, Speeches
 
 ###### Piloting
 Piloting represents a character's skill at operating both aircraft and spacecraft. With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar and any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult. Additionally, is only used to follow a pre-set flight plan or travel within a small local area; plotting a new route to a distant location requires [Navigation](#navigation).
