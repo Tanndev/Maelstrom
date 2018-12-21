@@ -165,13 +165,32 @@ body {
     list-style-type: none;
 }
 
-.toc a {
+.toc a:not(.back-to-top) {
     color: inherit;
     text-decoration: none;
 }
 
-.toc a:hover {
+.toc a:hover:not(.back-to-top) {
     color: blue;
+}
+
+.back-to-top {
+  display:block;
+  position: sticky;
+  top: 1rem;
+  background: darkslategray;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 0.1rem;
+}
+
+
+.back-to-top:hover {
+  background: darkblue;
 }
 
 .footer {
