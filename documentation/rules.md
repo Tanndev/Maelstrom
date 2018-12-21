@@ -205,7 +205,7 @@ Computer Science represents a character's knowledge of computer hardware and sof
 - **General Specialties:** Encryption, Programming, Data Processing
 
 ###### Engineering
-Engineering represents a character's ability to maintain, repair, and upgrade all the various systems usually found on a ship or space station. Similar to a vehicle mechanic, ships' engineers are able to install new parts or jury rig systems to bypass damaged parts. However, creating new parts usually requires [Manufacturing knowledge](#manufacturing). However, this trait can also be used to service ground vehicles, aircraft, power armor, outposts, and other mostly electromechanical objects.
+Engineering represents a character's ability to maintain, repair, and upgrade all the various systems usually found on a ship or space station. Similar to a vehicle mechanic, ships' engineers are able to install new parts or jury rig systems to bypass damaged parts. However, creating new parts usually requires [Manufacturing](#manufacturing). However, this trait can also be used to service ground vehicles, aircraft, power armor, outposts, and other mostly electromechanical objects.
 - **Common Attributes:** Intelligence, Wits
 - **Advanced Specialties:** Jury Rigging, Power Armor, Weapon Systems, Reactors, Gravitics
 - **General Specialties:**  Spacecraft, Aircraft, Stations, Ground Vehicles, Life Support, Electrical, Mining Equipment
