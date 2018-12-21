@@ -11,44 +11,64 @@ body {
     font-family: 'Cinzel Decorative', serif;
 }
 
-h2 {
+.documentation > h2 {
     padding-top: 0.2rem;
     border-top: 2px solid black;
+    font-size: xx-large;
 }
 
-h3 {
+.documentation > h3 {
     padding-top: 0.1rem;
     border-top: 1px solid darkslategray;
+    font-size: x-large;
 }
 
-h4 {
+.documentation >  h4 {
     padding-top: 0.1rem;
     border-top: 1px solid lightslategray;
-    /*padding-right: 5rem;*/
-    /*width: fit-content;*/
+    font-size: larger;
 }
 
-h5:before {
-    /*content: '[ ';*/
-    /*position: relative;*/
-    /*bottom: .1em;*/
-    /*color: black;*/
-    /*font-size: smaller;*/
+.documentation > h5 {
+    font-size: large;
+    margin-bottom: 0;
 }
 
-h6:before {
+.documentation >  h6 {
+    font-size: smaller;
+    margin-bottom: 0;
+}
+
+.documentation > h6:before {
     /*content: '■ ';*/
-    content: '[ ';
+    content: '■ [ ';
     position: relative;
-    /*bottom: .1em;*/
     color: black;
-    /*font-size: small;*/
 }
 
-h6:after {
+.documentation > h6:after {
     content: ' ]';
     position: relative;
     color: black;
+}
+
+.documentation > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+    margin: 0.5rem 0.8rem;
+}
+
+.documentation a {
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.documentation a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.documentation > ul {
+    padding-left: 1.5rem;
 }
 
 .default-font {
@@ -108,7 +128,7 @@ h6:after {
 
 .fixed-width {
     max-width: 45rem;
-    padding: 0 1rem;
+    padding: 0 0.8rem;
     border: dashed darkslategray;
     border-width: 0 1px;
 }
