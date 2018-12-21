@@ -341,13 +341,62 @@ Work with your storyteller to determine reasonable starting equipment.
 <!-- TODO Add actual rules for starting equipment -->
 
 ### Progression
-Throughout the campaign, you'll earn experience. This experience can then be used to purchase trait dots and specialties.
+Throughout the course of the campaign, your character will earn experience which can be used to improve their traits. Experience points are earned for facing challenges, overcoming obstacles, roleplaying, finding interesting solutions, and participating in the story.
 
 #### Earning Experience
-_Description TBD_ <!-- TODO Describe how to earn experience -->
+The rate at which you earn experience will can vary significantly between campaigns and will usually depend on how often you play, how long the campaign should last, etc. Too much experience means that characters progress too quickly and no longer face any meaningful challenges, while too little can feel slow and unrewarding. It's the storyteller's job to find a happy balance where experience feels meaningful but which lets the players experience the full story without becoming superheroes. (Unless, of course, they're supposed to become superheroes.)
+
+Experience should always be given at the end of a game session in order to avoid disrupting the story. Storytellers are encouraged to use the suggested awards listed below but are free to use whatever awards best suit the needs of the campaign and the players.
+
+##### Chapter Experience Awards
+A chapter tells just part of a story but has a definitive beginning and end. These can be individual missions, contracts, planets, etc
+<!-- TODO Properly describe the length of a chapter. -->
+
+###### Participation Award
+Each character should automatically gain a little bit of experience just by being there. Award one point to all players who played the chapter.
+
+###### Creativity Award
+Characters learn more from creative problem solving. Award one point to each player who had a clever, unique, interesting, or out-of-the-box solution to a problem.
+
+###### Roleplaying Award
+Stories are more interesting with rich, engaging characters. Award one point to players who make a special effort to portray the complexity, quirks, and personalities of their characters. This reward is not intended to be a competition between players. Instead, reward progressive improvement from session to session. The standards for the reward should increase each time it is given to a particular player.
+
+###### Heroism Award
+Bravely staring down death, and living to tell the tale, brings growth to even the most hardened characters. Award one point to players who selflessly risked their character's life and limbs for their companions, allies, or the good of the story. (If a character fails to survive the ordeal, consider awarding this posthumously as part of the player's new character creation.)
+
+##### Story Experience Awards
+<!-- TODO Properly describe the length of a story. -->
+
+###### Victory Award
+We learn more in victory than in defeat. Award one point to all players if the party achieved their goals or accomplished their mission.
+
+###### Hazard Award
+What doesn't kill us makes us stronger. Award one point to all players if the story was particularly dangerous or harrowing.
+
+###### Ingenuity Award
+No plan survives contact with the enemy, but we can still learn from them. Award one point to each player who came up with a brilliant Plan B, adapted quickly to changing circumstances, found a new and clever way to their resources, or just flawlessly executed Plan A.
+
+#### Banking Experience
+_Description TBD_ <!-- TODO Describe how to bank experience -->
 
 #### Spending Experience
-_Description TBD_ <!-- TODO Describe how to spend experience -->
+Experience points can be spent between chapters to gain new traits and improve existing ones.
+
+The cost to purchase a dot varies depending on the type of trait, but generally increases based on the number of dots you already have. The more dots you have, the more expensive getting another one will be. When you purchase a dot in a trait, the cost of that dot depends on the **new** rank in the trait according to the following table:
+
+| Trait              | Cost         |
+| :----------------- | :----------- |
+| General Specialty  | 2            |
+| Advanced Specialty | 3            |
+| Willpower          | Rank         |
+| Ability            | Rank x 2     |
+| Attribute          | Rank x 4     |
+
+
+<-- TODO Add backgrounds -->
+
+##### Practice Makes Progression
+Depending on the type of game, some storytellers may require that characters practice a trait in order to increase it.
 
 ## Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
