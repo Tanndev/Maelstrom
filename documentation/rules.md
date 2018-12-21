@@ -243,7 +243,7 @@ Navigation represents a character's knowledge orbital mechanics, trajectories, a
 - **General Specialties:** Gravity Assists, Low Energy Transfers, Constant Thrust, Suborbital Routes
 
 ###### Statecraft
-Statecraft represents a character's knowledge of the modern political landscape, governments, corporations, and jurisdictions. It's used to understand the relationships between the myriad governments and corporations, navigate complex jurisdictional boundaries, negotiate interplanetary or corporate deals, cut through bureaucratic red tape, and find legal loopholes. Statecraft only provides information about current and recent events, [Humanities](#humanities) is required for a true historical perspective.
+Statecraft represents a character's knowledge of the modern political landscape, governments, corporations, and jurisdictions. It's used to understand the relationships between the myriad governments and corporations, navigate complex jurisdictional boundaries, negotiate interplanetary or corporate deals, find legal loopholes, and cut through bureaucratic red tape. Statecraft only provides information about current and recent events, [Humanities](#humanities) is required for a true historical perspective.
 - **Common Attributes:** Intelligence, Wits
 - **Advanced Specialties:** Statutory Law, Contracts
 - **General Specialties:** Corporate Politics, Government Politics, Specific System (Sol, Maelstrom, etc)
