@@ -11,42 +11,42 @@ body {
     font-family: 'Cinzel Decorative', serif;
 }
 
-.documentation > h2 {
+.documentation h2 {
     padding-top: 0.2rem;
     border-top: 2px solid black;
     font-size: xx-large;
 }
 
-.documentation > h3 {
+.documentation h3 {
     padding-top: 0.1rem;
     border-top: 1px solid darkslategray;
     font-size: x-large;
 }
 
-.documentation >  h4 {
+.documentation h4 {
     padding-top: 0.1rem;
     border-top: 1px solid lightslategray;
     font-size: larger;
 }
 
-.documentation > h5 {
+.documentation h5 {
     font-size: large;
     margin-bottom: 0;
 }
 
-.documentation >  h6 {
+.documentation h6 {
     font-size: smaller;
     margin-bottom: 0;
 }
 
-.documentation > h6:before {
+.documentation h6:before {
     /*content: '■ ';*/
     content: '■ [ ';
     position: relative;
     color: black;
 }
 
-.documentation > h6:after {
+.documentation h6:after {
     content: ' ]';
     position: relative;
     color: black;
@@ -57,9 +57,24 @@ body {
 }
 
 .documentation a {
-    color: darkgreen;
+    color: inherit;
     text-decoration: none;
-    font-weight: bold;
+    /*font-weight: bold;*/
+}
+
+
+.documentation a:before,
+.documentation a:after {
+  color: mediumblue; /* Or DarkViolet */
+  font-weight: bold;
+}
+
+.documentation a:before {
+    content: '[';
+}
+
+.documentation a:after {
+    content: ']';
 }
 
 .documentation a:hover {
