@@ -414,7 +414,7 @@ The cost to purchase a dot varies depending on the type of trait, but generally 
 | Attribute          | Rank x 4     |
 
 
-<-- TODO Add backgrounds -->
+<!-- TODO Add backgrounds -->
 
 ##### Practice Makes Progression
 Depending on the type of game, some storytellers may require that characters practice a trait in order to increase it.
