@@ -258,7 +258,7 @@ Each ability is listed along with a number of suggested general and advanced spe
 General Specialties represent focus in areas that are not otherwise considered exceptionally challenging. Characters with these specialties will generally perform better at related tasks, but characters without them are assumed to at least some general familiarity from the attribute and are not penalized.
 
 ##### Advanced Specialties
-Advanced Specialties represent focus in areas that are more challenging or require specialized knowledge and practice. Characters with these specialties will perform better at related tasks, similar to general specialties. However, characters without them are at a significant disadvantage. Attempting an action without an appropriate advanced specialty usually adds a [threshold](#threshold) to the roll.
+Advanced Specialties represent focus in areas that are more challenging or require specialized knowledge and practice. Characters with these specialties will perform better at related tasks, similar to general specialties. However, characters without them are at a significant disadvantage. Attempting an action without an appropriate advanced specialty usually adds a [threshold](#threshold) to the roll. (See: [required specialties](#required-specialties))
 
 #### Willpower
 All characters have a willpower trait which represents their capacity to push through pain, withstand mental or emotional stress, resist torture, and remain productive in the face of impossible odds. Willpower is commonly used to temporarily resist the effects of things like tear gas, drugs, alcohol, hypoxia, intense fear, and even wounds. It's also used to more quickly recover from the incapacitating effects of tasers, flashbangs, electrocution, etc.
