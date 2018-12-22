@@ -18,24 +18,28 @@ body {
 
 .documentation h1 {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .documentation h2 {
     padding-top: 0.2rem;
     border-top: 2px solid black;
     font-size: xx-large;
+    margin-bottom: 0;
 }
 
 .documentation h3 {
     padding-top: 0.1rem;
     border-top: 1px solid darkslategray;
     font-size: x-large;
+    margin-bottom: 0;
 }
 
 .documentation h4 {
     padding-top: 0.1rem;
     border-top: 1px solid lightslategray;
     font-size: larger;
+    margin-bottom: 0;
 }
 
 .documentation h5 {
@@ -201,7 +205,7 @@ body {
 
 .toc-contents {
     flex: 1 1 auto;
-    overflow:scroll;
+    overflow:auto;
     margin: 0 0 0.5rem;
 }
 
