@@ -4,7 +4,7 @@ The following rules provide a framework to help storytellers and players build t
 <!-- toc -->
 
 ## Characters
-Characters make up the core of any roleplaying game. Your character is your avatar in the game world and they will define who you are and what you are able to do. They are how you interact with the story and with other players. Because of this, the characters in Maelstrom are designed to be flexible. When you [create your character](#creating-a-character), you'll select a set of backgrounds, traits, and equipment that will help you play the _person_ you want to play.
+Characters make up the core of any roleplaying game. Your character is your avatar in the game world and they will define who you are and what you are able to do. They are how you interact with the story and with other players. Because of this, the characters in Maelstrom are designed to be flexible. When you [create your character](#character-creation), you'll select a set of backgrounds, traits, and equipment that will help you play the _person_ you want to play.
 
 ### Backstory
 Everyone comes from somewhere and everyone has a story to tell; your character is no exception.
@@ -292,7 +292,7 @@ _Description TBD_ <!-- TODO Describe Health -->
 #### Wound Penalties
 _Description TBD_ <!-- TODO Describe Wound Penalties -->
 
-### Creating a Character
+### Character Creation
 It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of attributes, abilities, and specialties.
 
 Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Artistry to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
@@ -300,7 +300,6 @@ Try to resist the urge to "min-max" your character and, instead, select the trai
 Once you're ready to sit down and start filling out a character sheet, you'll go through a few steps:
 1. Select [starting attributes](#starting-attributes)
 1. Select [starting abilities](#starting-attributes)
-1. Record [other starting traits](#other-starting-traits)
 1. Spend [starting experience](#starting-experience)
 1. Purchase [starting equipment](#starting-equipment)
 
@@ -334,7 +333,7 @@ While you can technically take specialties in any ability, remember that you can
 Also, you are not necessarily restricted to the specialties listed. Work with your storyteller if you'd like to specialize in something not listed; they will determine if it's a reasonable specialty and whether or not it's general or advanced.
 
 #### Starting Experience
-Your character always begins with a certain amount of [experience](#experience) which can be [spent](#spending-experience) immediately to improve their traits further.
+Your character always begins with a certain amount of [experience](#character-progression) which can be [spent](#spending-experience) immediately to improve their traits further.
 
 When deciding how to spend your starting experience, consider picking up several [specialties](#specialties). These can be a very cost-effective way to improve your character's capabilities significantly. This is especially true for [advanced specialties](#advanced-specialties) because it's significantly more difficult and dangerous to perform tasks which [require](#required-specialties) them. Also consider increasing [Willpower](#willpower) by a couple points, since this too can only be increased via experience.
 
@@ -352,7 +351,7 @@ Work with your storyteller to determine reasonable starting equipment.
 #### Merits and Flaws
 _Merits and flaws may be available later._ <!-- TODO Add merits and flaws -->
 
-### Experience
+### Character Progression
 Throughout the course of the campaign, your character will earn experience which can be used to improve their traits. Experience points are earned for facing challenges, overcoming obstacles, roleplaying, finding interesting solutions, and participating in the story.
 
 #### Earning Experience
