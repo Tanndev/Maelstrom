@@ -66,7 +66,7 @@ body {
     margin-bottom: 0.1rem;
 }
 
-.documentation > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+.documentation > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(table) {
     margin: 0.5rem 0.8rem;
 }
 
@@ -85,8 +85,9 @@ body {
     padding-left: 1.5rem;
 }
 
-.documentation table {
+.documentation > table {
     border-collapse: collapse;
+    margin: 0 1.5rem;
 }
 
 .documentation th {
