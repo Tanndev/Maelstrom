@@ -3,23 +3,6 @@ The following rules provide a framework to help storytellers and players build t
 
 <!-- toc -->
 
-## Campaigns
-
-### Starting a Campaign
-Roleplaying games are fun, social experiences that brings friends together, and it all begins with session zero. To ensure that everyone is one the same page about what kind of game you're going to play, it's important to have this first session to discuss the game and create characters as a group. All the players, along with the storyteller, should discuss what kind of game you want to play together and what sort of stories you'll tell. Will it be a tense, resource-constrained horror game or an action-packed combat adventure? Will your party be social and friendly or classic murder-hobos? Will sessions generally revolve around solving puzzles or blowing things up?
-
-By talking ahead of time about the kind of game you want to play, you make sure that everyone is on the same page and nobody is surprised when the wacky hack'n'slash adventure they were expecting turns out to be serious political intrigue. (Or vice-versa.) It also gives the players a chance to work together to build a balanced and cohesive party that has all the necessary skills to face the challenges ahead. Your space western game is going to be a lot less fun if it's all Simons and no Jaynes.
-
-### Parts of a Campaign
-
-##### Scene
-
-##### Chapter
-
-##### Story
-
-
-
 ## Characters
 Characters make up the core of any roleplaying game. Your character is your avatar in the game world and they will define who you are and what you are able to do. They are how you interact with the story and with other players. Because of this, the characters in Maelstrom are designed to be flexible. When you [create your character](#creating-a-character), you'll select a set of backgrounds, traits, and equipment that will help you play the _person_ you want to play.
 
@@ -366,32 +349,53 @@ The rate at which you earn experience will can vary significantly between campai
 Experience should always be given at the end of a game session in order to avoid disrupting the story. Storytellers are encouraged to use the suggested awards listed below but are free to use whatever awards best suit the needs of the campaign and the players.
 
 ##### Chapter Experience Awards
-A chapter tells just part of a story but has a definitive beginning and end. These can be individual missions, contracts, planets, etc
-<!-- TODO Properly describe the length of a chapter. -->
+A chapter is a relatively small but independent part of a larger story. They're usually told in a single session but some sessions may involve more than one.
+
+Each chapter might consist of a single mission or contract, the events on a particular planet, or some other relatively self-contained chunk of activity. They'll usually contain several different scenes, interspersed with downtime, but should culminate in a natural break in the story. Consider television episodes as an example of the sorts of timeframes and events which should be involved in a chapter.
+
+At the end of each chapter, storytellers should consider the following experience point awards. (If there are multiple chapters in a session, make notes and award them at the end.)
 
 ###### Participation Award
-Each character should automatically gain a little bit of experience just by being there. Award one point to all players who played the chapter.
+Each character should automatically gain a little bit of experience just by being there.
+
+Award one point to all players who completed the chapter.
 
 ###### Creativity Award
-Characters learn more from creative problem solving. Award one point to each player who had a clever, unique, interesting, or out-of-the-box solution to a problem.
+Characters learn more from creative problem solving.
+
+Award one point to each player who had a clever, unique, interesting, or out-of-the-box solution to a problem.
 
 ###### Roleplaying Award
-Stories are more interesting with rich, engaging characters. Award one point to players who make a special effort to portray the complexity, quirks, and personalities of their characters. This reward is not intended to be a competition between players. Instead, reward progressive improvement from session to session. The standards for the reward should increase each time it is given to a particular player.
+Stories are more interesting with rich, engaging characters.
+
+Award one point to players who make a special effort to portray the complexity, quirks, and personalities of their characters. This reward is not intended to be a competition between players. Instead, reward progressive improvement from session to session. The standards for the reward should increase each time it is given to a particular player.
 
 ###### Heroism Award
-Bravely staring down death, and living to tell the tale, brings growth to even the most hardened characters. Award one point to players who selflessly risked their character's life and limbs for their companions, allies, or the good of the story. (If a character fails to survive the ordeal, consider awarding this posthumously as part of the player's new character creation.)
+Bravely staring down death, and living to tell the tale, brings growth to even the most hardened characters.
+
+Award one point to players who selflessly risked their character's life and limbs for their companions, allies, or the good of the story. (If a character fails to survive the ordeal, consider awarding this posthumously as part of the player's new character creation.)
 
 ##### Story Experience Awards
-<!-- TODO Properly describe the length of a story. -->
+A story is a larger adventure, usually containing several chapters. Though, occasionally, a story might involve just one particularly epic chapter.
+
+Stories should build up to a significant, satisfying conclusion and tie up many of the loose ends between chapters. Because stories can vary so much, it's difficult to say exactly what a single story should contain. But, if chapters are episodes, consider each story like a season or miniseries.
+
+At the end of each story, storytellers should consider the following experience awards.
 
 ###### Victory Award
-We learn more in victory than in defeat. Award one point to all players if the party achieved their goals or accomplished their mission.
+We learn more in victory than in defeat.
+
+Award one point to all players if the party achieved their goals or accomplished their mission.
 
 ###### Hazard Award
-What doesn't kill us makes us stronger. Award one point to all players if the story was particularly dangerous or harrowing.
+What doesn't kill us makes us stronger.
+
+Award one point to all players if the story was particularly dangerous or harrowing.
 
 ###### Ingenuity Award
-No plan survives contact with the enemy, but we can still learn from them. Award one point to each player who came up with a brilliant Plan B, adapted quickly to changing circumstances, found a new and clever way to their resources, or just flawlessly executed Plan A.
+No plan survives contact with the enemy, but we can still learn from them.
+
+Award one point to each player who came up with a brilliant Plan B, adapted quickly to changing circumstances, found a new and clever way to their resources, or just flawlessly executed Plan A.
 
 #### Banking Experience
 _Description TBD_ <!-- TODO Describe how to bank experience -->
@@ -597,3 +601,8 @@ _Description TBD_ <!-- TODO Describe evading -->
 
 ### Taking Damage
 _Description TBD_ <!-- TODO Describe taking damage -->
+
+## Starting a Campaign
+Roleplaying games are fun, social experiences that brings friends together, and it all begins with session zero. To ensure that everyone is one the same page about what kind of game you're going to play, it's important to have this first session to discuss the game and create characters as a group. All the players, along with the storyteller, should discuss what kind of game you want to play together and what sort of stories you'll tell. Will it be a tense, resource-constrained horror game or an action-packed combat adventure? Will your party be social and friendly or classic murder-hobos? Will sessions generally revolve around solving puzzles or blowing things up?
+
+By talking ahead of time about the kind of game you want to play, you make sure that everyone is on the same page and nobody is surprised when the wacky hack'n'slash adventure they were expecting turns out to be serious political intrigue. (Or vice-versa.) It also gives the players a chance to work together to build a balanced and cohesive party that has all the necessary skills to face the challenges ahead. Your space western game is going to be a lot less fun if it's all Simons and no Jaynes.
