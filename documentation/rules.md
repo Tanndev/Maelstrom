@@ -427,7 +427,11 @@ The cost to purchase a dot varies depending on the type of trait, but generally 
 <!-- TODO Add backgrounds -->
 
 ##### Practice Makes Progression
-Depending on the type of game, some storytellers may require that characters practice a trait in order to increase it.
+Most of the time, characters need have some in-story opportunity for learning in order to improve a trait. Characters might accomplish this by practicing during downtime, learning from a mentor, doing research, or just using the trait to take actions in game. The exact requirements will vary based on the trait and how difficult it should be to learn. For example, a character might be able to learn the Melee: Swords specialty after practicing with a teacher for a week, but the Humanities: Mandarin Language specialty might take months.
+
+How strict or loose the storyteller wants to be on this will usually depend on the needs of the story, the party, and the type of game. They may even choose to ignore this rule entirely. In any case, banked experience should almost always be considered as sufficient practice for new dots in attributes and abilities, as it shows the trait was actively used.
+
+Finally, this rule doesn't apply to a character's [starting experience](#starting-experience), as it's assumed that the character has had opportunities to learn before they joined the campaign. After all, every character has a [backstory](#backstory).
 
 ## Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
