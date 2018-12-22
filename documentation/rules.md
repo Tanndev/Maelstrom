@@ -300,21 +300,21 @@ Try to resist the urge to "min-max" your character and, instead, select the trai
 Once you're ready to sit down and start filling out a character sheet, you'll go through a few steps:
 1. Select [starting attributes](#starting-attributes)
 1. Select [starting abilities](#starting-attributes)
-1. Select [starting specialties](#starting-specialties)
+1. Record [other starting traits](#other-starting-traits)
 1. Spend [starting experience](#starting-experience)
 1. Purchase [starting equipment](#starting-equipment)
 
 <!-- TODO Add merits and flaws -->
 
 #### Starting Attributes
-You automatically start with one dot in all six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
+Your character automatically starts with one dot in each of the six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
 
-Start by selecting either Physical or Mental as your primary attributes, the others are your secondary attributes. Then, allocate five (5) additional dots in your primary attributes and three (3) in your secondary attributes. You can arrange them however you want, but no attribute may exceed a total of four dots.
+Start by selecting either Physical or Mental as your characters's primary attribute group, the others are their secondary attribute group. (Don't bother writing this down; they're only used for this step.) Then, allocate five (5) additional dots in your primary group and three (3) in your secondary group. You can arrange them however you want, but no attribute may exceed a total of four dots.
 
 #### Starting Abilities
 Unlike attributes, all [abilities](#abilities) start with zero dots.
 
-Assign dots to your abilities with the following rules:
+Assign dots to your character's abilities with the following rules:
 - Assign three (3) dots in two (2) abilities.
 - Assign two(2) dots in another four (4) abilities.
 - Assign one (1) dot in another six (6) abilities.
@@ -322,6 +322,9 @@ Assign dots to your abilities with the following rules:
 - You **must** have at least four total dots in each category (Talents, Skills, Knowledges).
 
 When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and [knowledges](#knowledges) are more difficult or impossible to use without any dots in them. So, while it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly. Of course, the most important thing is to make sure your character's abilities match their backstory and your style of play.
+
+#### Starting Willpower
+All characters start with three (3) dots in [Willpower](#willpower), though this can be increased later.
 
 #### Starting Specialties
 After selecting your starting abilities, you may choose a few starting specialties as well. Select one [Advanced Specialty](#advanced-specialties) and two [General Specialties](#general-specialties).
@@ -331,7 +334,15 @@ While you can technically take specialties in any ability, remember that you can
 Also, you are not necessarily restricted to the specialties listed. Work with your storyteller if you'd like to specialize in something not listed; they will determine if it's a reasonable specialty and whether or not it's general or advanced.
 
 #### Starting Experience
-_Description TBD_ <!-- TODO Describe starting experience -->
+Your character always begins with a certain amount of [experience](#experience) which can be [spent](#spending-experience) immediately to improve their traits further.
+
+When deciding how to spend your starting experience, consider picking up several [specialties](#specialties). These can be a very cost-effective way to improve your character's capabilities significantly. This is especially true for [advanced specialties](#advanced-specialties) because it's significantly more difficult and dangerous to perform tasks which [require](#required-specialties) them. Also consider increasing [Willpower](#willpower) by a couple points, since this too can only be increased via experience.
+
+Of course, you can also just increase attributes or abilities if you prefer. Or, if you prefer, hang on to the points and spend them later. This is a reasonable option if you're not yet sure exactly how you want to fine-tune your character's stats. <!-- TODO Mention rerolling characters -->
+
+When creating characters for a new campaign, the storyteller should provide an equal amount of starting experience to all players. The exact number can vary depending how experienced the storyteller wants the starting characters to be, but _TBD_ points is reasonable for a normal game. <!--TODO Determine actual starting experience -->
+
+If a character is joining an existing campaign, the storyteller should provide a reasonable amount of starting experience to match the existing players. This can be the average experience earned by the party or, if replacing a dead/missing character, the total amount earned by that previous character. (Storytellers, remember: losing a character can be traumatic enough, especially in a long-running game, so don't add insult to fatal-injury by making players start over with weaker characters. Death may be an unavoidable part of life, but game must go on and the point of the game is to have fun.)
 
 #### Starting Equipment
 [Equipment](#equipment) will vary from campaign to campaign.
@@ -341,7 +352,7 @@ Work with your storyteller to determine reasonable starting equipment.
 #### Merits and Flaws
 _Merits and flaws may be available later._ <!-- TODO Add merits and flaws -->
 
-### Progression
+### Experience
 Throughout the course of the campaign, your character will earn experience which can be used to improve their traits. Experience points are earned for facing challenges, overcoming obstacles, roleplaying, finding interesting solutions, and participating in the story.
 
 #### Earning Experience
