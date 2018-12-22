@@ -323,7 +323,7 @@ Assign dots to your abilities with the following rules:
 - You may not combine these dots; you must select twelve different abilities.
 - You **must** have at least four total dots in each category (Talents, Skills, Knowledges).
 
-When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and that [knowledges](#knowledges) cannot be rolled at all if you don't have any dots in the ability. While it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly.
+When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and [knowledges](#knowledges) are more difficult or impossible to use without any dots in them. So, while it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly. Of course, the most important thing is to make sure your character's abilities match their backstory and your style of play.
 
 #### Starting Specialties
 After selecting your starting abilities, you may choose a few starting specialties as well. Select one [Advanced Specialty](#advanced-specialties) and two [General Specialties](#general-specialties).
