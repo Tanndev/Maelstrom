@@ -85,6 +85,29 @@ body {
     padding-left: 1.5rem;
 }
 
+.documentation table {
+    border-collapse: collapse;
+}
+
+.documentation th {
+    background-color: black;
+    color: white;
+}
+
+.documentation td, .documentation th {
+    border: 1px solid lightgray;
+    padding: 0.2rem 1rem;
+    text-align: left;
+}
+
+.documentation tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.documentation tr:hover {
+    background-color: lightgray;
+}
+
 .default-font {
     font-family: auto, serif;
 }
