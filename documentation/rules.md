@@ -433,6 +433,15 @@ How strict or loose the storyteller wants to be on this will usually depend on t
 
 Finally, this rule doesn't apply to a character's [starting experience](#starting-experience), as it's assumed that the character has had opportunities to learn before they joined the campaign. After all, every character has a [backstory](#backstory).
 
+#### Modifying a Character
+Sometimes a character just isn't quite working out as expected. Maybe they've got the wrong traits, or they're too strong, too weak, or they just don't work well with the party. Whatever the cause, the character just isn't fun to play or is hurting players' enjoyment of the story. This is especially common for new players, where the in-game uses of different abilities and specialties might not have been clear when they first made up their sheet.
+
+In these cases, it's important to remember that the first goal of any game is to have fun. The storyteller should work with the player to make whatever adjustments are needed to sort out the issue and bring the character back into alignment. Try to disrupt the story as little as possible while doing this, and find reasonable in-game reasons for changes, but don't sacrifice fun just for the sake of rules.
+
+Changes to characters might be as small as moving a couple dots around or swapping out some specialties. Or, they might be larger changes in backstory and personality. In the most extreme cases, it may even be necessary to kill off or retire the character and create a new one to replace them. Whatever the case, try to make sure it's fair to all players as well; keep point costs in mind and try to avoid changing the total experience cost of the sheet.
+
+Finally, there can sometimes be a problem which is totally the storyteller's fault. Maybe they gave too much experience, or some over-powered gear, or maybe they adjusted a rule and it's not working out. Whatever it was, it's important for the storyteller to be honest about their mistake and work with the players to correct it. Remember that getting an ability or item nerfed can be unpleasant for players, so make sure the correction will be better for everyone in the long run. When possible, try to make adjustments which give things rather than take them away - just be careful to avoid making the whole party too powerful for the story.
+
 ## Actions
 Characters do many things in the world; they drive cars, fly spaceships, shoot guns, investigate crime scenes, and so much more. Many of these actions are mundane or trivial and only require saying what your character is doing. (Nobody wants to roll dice to eat breakfast or drive their car through normal traffic.) For everything else, characters use their attributes and abilities, along with some dice, to determine if they succeed, fail, or royally screw things up.
 
