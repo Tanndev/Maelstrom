@@ -250,9 +250,9 @@ Statecraft represents a character's knowledge of the modern political landscape,
 - **General Specialties:** Corporate Politics, Government Politics, Specific System (Sol, Maelstrom, etc)
 
 #### Specialties
-Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There is no limit on the number of specialties which can be acquired for a given ability, but there is a limit for how many specialties can be used on a given roll. (See [Using Specialties](#using-specialties) for more details.)
+Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There's no limit on the number of specialties which can be acquired for a given ability, but the amount which can be used in a given roll is limited by the number of dots in that ability. You can even have a specialty in an ability which has no dots, but this will have no in-game effect until you purchase the ability as well.
 
-Each ability is listed along with a number of suggested general and advanced specialties. However, these lists are not exhaustive. Work with your storyteller to add additional specialties that make sense for your character.
+Each ability is listed along with a number of suggested general and advanced specialties. However, these lists are not exhaustive. Work with the storyteller if you'd like to specialize in something not listed; they will determine if it's a reasonable specialty and whether or not it's general or advanced.
 
 ##### General Specialties
 General Specialties represent focus in areas that are not otherwise considered exceptionally challenging. Characters with these specialties will generally perform better at related tasks, but characters without them are assumed to at least some general familiarity from the attribute and are not penalized.
@@ -323,14 +323,10 @@ Assign dots to your character's abilities with the following rules:
 When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and [knowledges](#knowledges) are more difficult or impossible to use without any dots in them. So, while it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly. Of course, the most important thing is to make sure your character's abilities match their backstory and your style of play.
 
 #### Starting Willpower
-All characters start with three (3) dots in [Willpower](#willpower), though this can be increased later.
+All characters start with three (3) dots in [Willpower](#willpower), though this can be increased by spending experience later.
 
 #### Starting Specialties
-After selecting your starting abilities, you may choose a few starting specialties as well. Select one [Advanced Specialty](#advanced-specialties) and two [General Specialties](#general-specialties).
-
-While you can technically take specialties in any ability, remember that you can only use one specialty per dot in the ability. So you won't be able to use a specialty if you don't have any dots in the ability.
-
-Also, you are not necessarily restricted to the specialties listed. Work with your storyteller if you'd like to specialize in something not listed; they will determine if it's a reasonable specialty and whether or not it's general or advanced.
+Characters don't start with any [specialties](#specialties) automatically. Instead, they can be purchased with experience later.
 
 #### Starting Experience
 Your character always begins with a certain amount of [experience](#character-progression) which can be [spent](#spending-experience) immediately to improve their traits further.
