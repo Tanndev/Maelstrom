@@ -159,13 +159,18 @@ body {
     margin-right: auto;
 }
 
+.sidebar {
+    margin: 1rem 0;
+}
+
 .toc {
-    align-self: start;
     position: sticky;
-    top: 2rem;
+    top: 2.5rem;
+    box-sizing: border-box;
+    height: 100vh;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 2.5rem);
 }
 
 .toc-contents {
@@ -202,17 +207,18 @@ body {
 }
 
 .back-to-top {
-  display:block;
-  position: sticky;
-  top: 2rem;
-  background: darkslategray;
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 1rem;
-  padding: 0.1rem;
+    display: block;
+    position: sticky;
+    top: calc(100vh - 2rem);
+
+    background: darkslategray;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 0.1rem;
 }
 
 

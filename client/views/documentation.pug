@@ -2,7 +2,8 @@ extends layout
 
 block content
   div.documentation.fixed-width!=document.contentHtml
-  div.toc
-    div.header Table of Contents
-    div.toc-contents!=document.tocHtml
+  div.sidebar
+    div.toc
+      div.header Table of Contents
+      div.toc-contents!=document.tocHtml
     a(href="#top").back-to-top Back to Top
