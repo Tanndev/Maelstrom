@@ -405,14 +405,13 @@ Experience points can be spent between chapters to gain new traits and improve e
 
 The cost to purchase a dot varies depending on the type of trait, but generally increases based on the number of dots you already have. The more dots you have, the more expensive getting another one will be. When you purchase a dot in a trait, the cost of that dot depends on the **new** rank in the trait according to the following table:
 
-| Trait              | Cost         |
-| :----------------- | :----------- |
-| General Specialty  | 2            |
-| Advanced Specialty | 3            |
-| Willpower          | Rank         |
-| Ability            | Rank x 2     |
-| Attribute          | Rank x 4     |
-
+| Trait              | Experience Points   |
+| ------------------ | ------------------- |
+| General Specialty  | 2 Points            |
+| Advanced Specialty | 3 Points            |
+| Willpower          | New Rank x 1 Point  |
+| Ability            | New Rank x 2 Points |
+| Attribute          | New Rank x 4 Points |
 
 <!-- TODO Add backgrounds -->
 
