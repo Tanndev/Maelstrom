@@ -53,12 +53,7 @@ body {
     padding-right: 0.1rem;
 }
 
-.documentation h1:target,
-.documentation h2:target,
-.documentation h3:target,
-.documentation h4:target,
-.documentation h5:target,
-.documentation h6:target {
+.documentation :target {
     border-top: 0;
     margin-top: 0;
 }
