@@ -274,16 +274,16 @@ Spending a willpower dot reduces your current willpower rating by one until you 
 In addition to spending dots to automatically succeed willpower rolls, you may also spend them to ignore wound penalties. Once per turn, a character may spend one willpower dot to ignore their injuries and roll their next action without a [wound penalty](#wound-penalties). (Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.) If a character spends their last willpower dot in this way, they don't suffer the effects of [zero willpower](#zero-willpower) until after they complete the action.
 
 ##### Recovering Willpower
-Characters recover willpower by resting in a safe, comfortable environment. If a character feels threatened or in danger, or if they are particularly uncomfortable, they are not able to recover willpower. This is up to the discretion of the storyteller.
+Characters recover willpower by resting in a safe, comfortable environment. If a character feels threatened or in danger, or if they are particularly uncomfortable, they are not able to recover willpower. This is up to the discretion of the storyteller but generally requires being in a place with little to no risk of being attacked, no significantly adverse environmental conditions, etc.
 
-If a character is able to recover willpower, they regain 1 dot of willpower per day. If they actively rest and relax for a day, they may regain 1 additional dot per success on a difficulty 8 willpower roll.
+Once a character is able to recover willpower, if they are at zero dots, they may immediately recover the first dot. Otherwise, they will regain 1 dot every 12 hours. If they actively rest or relax for that time, they may regain 1 additional dot per success on a difficulty 8 willpower roll.
 
 ##### Zero Willpower
 If a character is reduced to zero dots in willpower, either by botching a willpower roll or spending their last dot to resist their injuries, they no longer have the will to carry on. Characters in this state may not make any actions and are considered incapacitated. However, they will continue to act passively to keep pressure on their own wounds, hide, crawl away from danger, cooperate with other characters carrying or dragging them, etc.
 
 If another character is sufficiently motivating or encouraging, they may spend one dot of their own willpower to restore nearby incapacitated characters to one dot. This can only be done at the discretion of the storyteller and will usually require roleplaying the manner in which the character convinces their companions to carry on the fight.
 
-Characters can also recover their first dot in willpower by themselves once they are no longer directly threatened and out of combat for at least one full turn, even if their overall situation is still tenuous and stressful.
+Once a character is longer directly threatened, even if their overall situation is still tenuous and stressful, they can recover by themselves and act normally. This requires being fully out of combat for at least one turn and can usually be accomplished by finding a decent hiding spot, being fully behind sturdy solid cover, or fleeing. However, this only resolves the incapacitation and does not recover a dot of willpower. In order to recover a dot, they need to find safe place to rest.
 
 ### Health
 _Description TBD_ <!-- TODO Describe Health -->
