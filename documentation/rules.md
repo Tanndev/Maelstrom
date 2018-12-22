@@ -303,7 +303,7 @@ Once you're ready to sit down and start filling out a character sheet, you'll go
 1. Spend [starting experience](#starting-experience)
 1. Purchase [starting equipment](#starting-equipment)
 
-<!-- TODO Add flaws -->
+<!-- TODO Add merits and flaws -->
 
 #### Choose Backgrounds
 _Description TBD_ <!-- TODO Describe how to choose backgrounds -->
@@ -339,6 +339,9 @@ _Description TBD_ <!-- TODO Describe starting experience -->
 [Equipment](#equipment) will vary from campaign to campaign.
 Work with your storyteller to determine reasonable starting equipment.
 <!-- TODO Add actual rules for starting equipment -->
+
+#### Merits and Flaws
+_Merits and flaws may be available later._ <!-- TODO Add merits and flaws -->
 
 ### Progression
 Throughout the course of the campaign, your character will earn experience which can be used to improve their traits. Experience points are earned for facing challenges, overcoming obstacles, roleplaying, finding interesting solutions, and participating in the story.
