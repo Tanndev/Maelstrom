@@ -6,13 +6,14 @@ The following rules provide a framework to help storytellers and players build t
 ## Characters
 Characters make up the core of any roleplaying game. Your character is your avatar in the game world and they will define who you are and what you are able to do. They are how you interact with the story and with other players. Because of this, the characters in Maelstrom are designed to be flexible. When you [create your character](#creating-a-character), you'll select a set of backgrounds, traits, and equipment that will help you play the _person_ you want to play.
 
-### Backgrounds
+### Backstory
 Everyone comes from somewhere and everyone has a story to tell; your character is no exception.
 
-Backgrounds help you flesh out that story and add depth to your character's personality and experience. They provide insight into your character's life before you came to inhabit them and before the campaign. This insight is helpful to you as a player, so you can develop a sense of who they are and what they would do or say, but also to the storyteller who will be building worlds for them to explore. This chapter begins with backgrounds because _who your character is_ matters a lot more than _what they can do_.
+Your character's backstory helps you flesh out that story and add depth to their personality and experience. It provides insight into your character's life before you came to inhabit them and before the campaign. This insight is helpful to you as a player, so you can develop a sense of who they are and what they would do or say, but also to the storyteller who will be building worlds for them to explore. All characters should begin by describing their backstory because _who your character is_ matters a lot more than _what they can do_.
 
 ( _Unfortunately, this section seems to have gone missing. So, uh... write a story or something!_ )
-<!-- TODO Describe backgrounds -->
+
+<!-- TODO Add backgrounds -->
 
 ### Traits
 Traits define what your character is capable of and are divided into [Attributes](#attributes), [Abilities](#abilities), [Specialties](#specialties), and [Willpower](#willpower). These are what you'll use to [perform actions](#performing-actions).
@@ -292,21 +293,18 @@ _Description TBD_ <!-- TODO Describe Health -->
 _Description TBD_ <!-- TODO Describe Wound Penalties -->
 
 ### Creating a Character
-It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of traits, backgrounds, and flaws.
+It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of attributes, abilities, and specialties.
 
 Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Artistry to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
 
 Once you're ready to sit down and start filling out a character sheet, you'll go through a few steps:
-1. [Choose your backgrounds](#choose-backgrounds)
 1. Select [starting attributes](#starting-attributes)
-1. Select [starting abilities](#starting-attributes) and [starting specialties](#starting-specialties)
+1. Select [starting abilities](#starting-attributes)
+1. Select [starting specialties](#starting-specialties)
 1. Spend [starting experience](#starting-experience)
 1. Purchase [starting equipment](#starting-equipment)
 
 <!-- TODO Add merits and flaws -->
-
-#### Choose Backgrounds
-_Description TBD_ <!-- TODO Describe how to choose backgrounds -->
 
 #### Starting Attributes
 You automatically start with one dot in all six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
