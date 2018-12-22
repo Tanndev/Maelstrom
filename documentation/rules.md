@@ -323,7 +323,7 @@ Assign dots to your character's abilities with the following rules:
 When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and [knowledges](#knowledges) are more difficult or impossible to use without any dots in them. So, while it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly. Of course, the most important thing is to make sure your character's abilities match their backstory and your style of play.
 
 #### Starting Willpower
-All characters start with three (3) dots in [Willpower](#willpower).
+All characters start with 3 dots in [Willpower](#willpower).
 
 #### Starting Specialties
 Characters don't start with any [specialties](#specialties) automatically.
