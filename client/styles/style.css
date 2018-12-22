@@ -160,7 +160,19 @@ body {
 }
 
 .toc {
+    align-self: start;
+    position: sticky;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 2.5rem);
+}
+
+.toc-contents {
     white-space: nowrap;
+    flex: 1 1 auto;
+    overflow:scroll;
+    margin: 0 0 0.5rem;
 }
 
 .toc ul {
@@ -171,6 +183,8 @@ body {
 
 .toc ul:first-child {
     border: unset;
+    padding: 0;
+    margin: 0 0.5rem;
 }
 
 .toc li {
