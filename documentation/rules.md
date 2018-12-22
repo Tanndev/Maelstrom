@@ -314,9 +314,9 @@ Start by selecting either Physical or Mental as your characters's primary attrib
 Unlike attributes, all [abilities](#abilities) start with zero dots.
 
 Assign dots to your character's abilities with the following rules:
-- Assign three (3) dots in two (2) abilities.
-- Assign two(2) dots in another four (4) abilities.
-- Assign one (1) dot in another six (6) abilities.
+- Choose two abilities and assign each of them 3 dots.
+- Choose another four abilities and assign each of them 2 dots.
+- Choose another six abilities and assign 1 dot to each of them.
 - You may not combine these dots; you must select twelve different abilities.
 - You **must** have at least four total dots in each category (Talents, Skills, Knowledges).
 
