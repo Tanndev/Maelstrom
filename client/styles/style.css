@@ -7,8 +7,13 @@ body {
     flex-direction: column;
 }
 
+
 .header, h1, h2, h3, h4, h5, h6 {
     font-family: 'Cinzel Decorative', serif;
+}
+
+.documentation h1 {
+    margin-top: 0;
 }
 
 .documentation h2 {
@@ -42,6 +47,23 @@ body {
 .documentation h6:before {
     content: '■  ';
     padding-right: 0.1rem;
+}
+
+.documentation h1:target,
+.documentation h2:target,
+.documentation h3:target,
+.documentation h4:target,
+.documentation h5:target,
+.documentation h6:target {
+    border-top: 0;
+    margin-top: 0;
+}
+.documentation :target::before{
+    content: " ";
+    display: block;
+    height: 1.8rem;
+    border-bottom: 1px solid mediumslateblue;
+    margin-bottom: 0.1rem;
 }
 
 .documentation > *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
