@@ -308,7 +308,9 @@ Once you're ready to sit down and start filling out a character sheet, you'll go
 #### Starting Attributes
 Your character automatically starts with one dot in each of the six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
 
-Start by selecting either Physical or Mental as your characters's primary attribute group, the other is their secondary attribute group. (Don't bother writing this down; they're only used for this step.) You'll get more dots in your primary group than your secondary one, so consider whether your character should be more brains or more brawn. Once you've decided, allocate 5 dots in your primary group and 3 dots in your secondary group. You can arrange these dots however you want, but no attribute may exceed a total of four dots.
+Start by selecting either Physical or Mental as your characters's primary attribute group, the other is their secondary attribute group. (Don't bother writing this down; they're only used for this step.) You'll get more dots in your primary group than your secondary one, so consider whether your character should be more brains or more brawn. You can arrange these dots however you want, but no attribute may exceed a total of four dots.
+- In your primary group, allocate 5 additional dots.
+- In your secondary group, allocate 3 additional dots.
 
 Keep in mind that attributes are very expensive to increase, so you'll be stuck with your starting allotment for a while.
 
@@ -318,7 +320,7 @@ Unlike attributes, all [abilities](#abilities) start with zero dots.
 Assign dots to your character's abilities with the following rules:
 - Choose two abilities and assign each of them 3 dots.
 - Choose another four abilities and assign each of them 2 dots.
-- Choose another six abilities and assign 1 dot to each of them.
+- Choose another six abilities and assign each of them 1 dot.
 - You may not combine these dots; you must select twelve different abilities.
 - You **must** have at least four total dots in each category (Talents, Skills, Knowledges).
 
