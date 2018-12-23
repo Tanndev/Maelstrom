@@ -31,6 +31,12 @@ mixin trait-category(group, category)
     each trait in group[category]
       +trait(trait, 5)
 
+mixin health-level(name, penalty)
+  div.health-level
+    div.health-level-name=name
+    div.health-level-penalty=penalty
+    div.health-level-box
+
 block content
   style
     include ../styles/character-sheet.css
@@ -70,6 +76,14 @@ block content
         div.character-trait-category
           div.header Health
           div.character-health
+            +health-level("Unharmed")
+            +health-level("Scratched")
+            +health-level("Hurt", "-1")
+            +health-level("Injured", "-1")
+            +health-level("Wounded", "-2")
+            +health-level("Mauled", "-2")
+            +health-level("Crippled", "-5")
+            +health-level("Incapacitated")
 
         div.character-trait-category
           div.header
