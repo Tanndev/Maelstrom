@@ -47,17 +47,20 @@ block content
         div.item
           div.label Campaign:
           div.field=character.campaign
+
     div.character-sheet-section
       div.header Attributes
       div.character-trait-group
         +trait-category(character.attributes, 'physical')
         +trait-category(character.attributes, 'mental')
+
     div.character-sheet-section
       div.header Abilities
       div.character-trait-group
         +trait-category(character.abilities, 'talents')
         +trait-category(character.abilities, 'skills')
         +trait-category(character.abilities, 'knowledges')
+
     div.character-sheet-section
       div.header Health
       div.character-trait-group
