@@ -122,6 +122,10 @@
 }
 
 @media print {
+    @page {
+        margin: 1.5rem;
+    }
+
     .character-sheet {
         margin: 0;
         box-sizing: border-box;

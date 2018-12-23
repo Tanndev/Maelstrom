@@ -117,8 +117,12 @@ body {
 }
 
 @media print {
-    @page {
-        margin: 1.5rem;
+
+    .fixed-width {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
     }
 
     .banner, .navbar, .footer{

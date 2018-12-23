@@ -178,3 +178,24 @@
 .back-to-top:hover {
     background: darkblue;
 }
+
+@media print {
+    h1, h2:not(:first-of-type){
+        break-before: left;
+    }
+
+    .documentation :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+        break-before: avoid-page;
+        break-inside: avoid;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .documentation {
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
