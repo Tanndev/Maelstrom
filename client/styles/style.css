@@ -116,4 +116,18 @@ body {
     color: forestgreen;
 }
 
+@media print {
+    @page {
+        margin: 1.5rem;
+    }
 
+    .banner, .navbar, .footer{
+        display:none
+    }
+    .content {
+        max-width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+}
