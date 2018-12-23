@@ -1,6 +1,9 @@
 extends layout
 
 block content
+  style
+    include ../styles/documentation.css
+
   div.documentation.fixed-width!=document.contentHtml
   div.sidebar
     div.toc
