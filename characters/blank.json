@@ -1,5 +1,7 @@
 {
-  "name": "Blank",
+  "name": "",
+  "concept": "",
+  "campaign": "",
   "attributes": {
     "physical": [
       {"name": "Strength", "dots": 1},

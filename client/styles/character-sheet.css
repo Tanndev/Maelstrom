@@ -19,7 +19,7 @@
 .character-sheet-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -29,23 +29,23 @@
 }
 
 .character-information .item {
+    width: 20rem;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 0.3rem 0;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    white-space: nowrap;
 }
 
-.character-information .label {
+.character-information .item > .label {
     font-weight: bold;
     font-family: 'Black Ops One', fantasy;
     margin-right: 0.5rem;
 }
 
-.character-information .field {
-    min-width: 10rem;
+.character-information .item > .field {
     border-bottom: 1px solid black;
-    font-family: fantasy;
-    font-size: small;
+    flex: 1;
 }
 
 .character-sheet-section {
