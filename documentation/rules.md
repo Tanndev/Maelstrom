@@ -309,8 +309,8 @@ Once you're ready to sit down and start filling out a character sheet, you'll go
 Your character automatically starts with one dot in each of the six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
 
 Start by selecting either Physical or Mental as your characters's primary attribute group, the other is their secondary attribute group. (Don't bother writing this down; they're only used for this step.) You'll get more dots in your primary group than your secondary one, so consider whether your character should be more brains or more brawn. You can arrange these dots however you want, but no attribute may exceed a total of four dots.
-- In your primary group, allocate 5 additional dots.
-- In your secondary group, allocate 3 additional dots.
+- In your primary group, allocate 6 additional dots.
+- In your secondary group, allocate 4 additional dots.
 
 Keep in mind that attributes are very expensive to increase, so you'll be stuck with your starting allotment for a while.
 
@@ -318,11 +318,10 @@ Keep in mind that attributes are very expensive to increase, so you'll be stuck 
 Unlike attributes, all [abilities](#abilities) start with zero dots.
 
 Assign dots to your character's abilities with the following rules:
-- Choose two abilities and assign each of them 3 dots.
-- Choose another four abilities and assign each of them 2 dots.
-- Choose another six abilities and assign each of them 1 dot.
+- Choose 2 abilities and assign each of them 3 dots.
+- Choose another 4 abilities and assign each of them 2 dots.
+- Choose another 6 abilities and assign each of them 1 dot.
 - You may not combine these dots; you must select twelve different abilities.
-- You **must** have at least four total dots in each category (Talents, Skills, Knowledges).
 
 When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and [knowledges](#knowledges) are more difficult or impossible to use without any dots in them. So, while it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly. Of course, the most important thing is to make sure your character's abilities match their backstory and your style of play.
 
