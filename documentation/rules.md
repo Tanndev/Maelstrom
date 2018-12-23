@@ -187,8 +187,8 @@ Remotely Weapons represents a character's skill operating remotely-operated fly-
 ###### Survival
 Survival represents a character's skill at surviving in harsh or austere environments. It's used to build shelters, find food, decontaminate clothing, manage oxygen tanks, etc.
 - **Common Attributes:** Intelligence, Wits
-- **Advanced Specialties:** Vacuum, Non-Breathable Atmosphere, Extreme Temperatures, Radiation
-- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Space Stations, Spacecraft
+- **Advanced Specialties:** Extreme Temperatures, Radiation, Biochemical Agents
+- **General Specialties:** Terrain (Urban, Forests, Plains, etc), Vacuum, Non-Breathable Atmosphere
 
 ###### Tradecraft
 Tradecraft represents a character's skill at breaking into placing, stealing things, and conducting espionage. It's used to pick locks, disable alarms, hide weapons, set traps, disarm traps, and carry out other clandestine activity. Conducting a heist or breaking into a records vault will usually require some level of Tradecraft. However, making useful sense of the information stolen will usually require some level of [Investigation](#investigation).
