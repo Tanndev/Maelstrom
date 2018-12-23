@@ -338,7 +338,7 @@ When deciding how to spend your starting experience, consider picking up several
 
 Of course, you can also just increase attributes or abilities if you prefer. Or, hang on to the points and spend them later. This is a reasonable option if you're not yet sure exactly how you want to fine-tune your character's stats. <!-- TODO Mention rerolling characters -->
 
-When creating characters for a new campaign, the storyteller should provide an equal amount of starting experience to all players. The exact number can vary depending how experienced the storyteller wants the starting characters to be, but **TBD** points is reasonable for a normal game. <!--TODO Determine actual starting experience -->
+When creating characters for a new campaign, the storyteller should provide an equal amount of starting experience to all players. The exact number can vary depending how experienced the storyteller wants the starting characters to be, but 30 points is reasonable for a normal game.
 
 If a character is joining an existing campaign, the storyteller should provide a reasonable amount of starting experience to match the existing characters. This can be the average experience earned by the party so far or, if replacing a dead/missing character, the total amount earned by that previous character. (Storytellers, remember: losing a character can be traumatic enough, especially in a long-running game, so don't add insult to fatal-injury by making players start over with weaker characters. Death may be an unavoidable part of life, but game must go on and the point of the game is to have fun.)
 
