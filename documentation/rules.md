@@ -79,8 +79,8 @@ Intelligence is the capacity to learn and apply information. It's used for resea
 ###### Wits
 Wits is the capacity for cleverness and intuition. It's used for trial-and-error experimentation, intuitive problem solving, out-of-the-box thinking, and other activities where the limiting factor is the ability to think quickly or creatively. A character with high wits is good at thinking on their feet and will tend to figure things out quickly but imprecisely. They may be prone to flip switches without fully understanding what they do.
 - **0**: Abysmal. There's a hole in my bucket, dear Liza, dear Liza.
-- **1**: Poor. Even with a map, you always get lost if you try and take a shortcut.
-- **2**: Average. You've mostly got the whole "adulting" thing figured out.
+- **1**: Poor. Even with a map, you always get lost.
+- **2**: Average. You can usually navigate a grocery store.
 - **3**: Good. You're pretty decent with a crossword puzzle.
 - **4**: Exceptional. Your innovative ideas revolutionize small industries.
 - **5**: Outstanding. The Enterprise crew doesn't come up with solutions as clever as yours.
