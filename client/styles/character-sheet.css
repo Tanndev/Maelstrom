@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.header {
+.character-sheet .header {
     font-family: 'Cinzel Decorative', serif;
     text-transform: capitalize;
     margin: 0.5rem 0;
@@ -25,15 +25,13 @@
 
 .character-sheet-top > .header {
     font-size: xx-large;
-    /*text-align: inherit;*/
 }
 
 .character-information .item {
     width: 20rem;
     display: flex;
     flex-direction: row;
-    margin-top: 0.5rem;
-    margin-left: 0.3rem;
+    margin: 0.5rem;
     white-space: nowrap;
 }
 
