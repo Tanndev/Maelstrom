@@ -138,7 +138,7 @@ Streetwise represents a character's talent for surviving and navigating urban en
 - **General Specialties:** Colonies, Outposts, Research Stations, Industrial Stations, Docks, Shipyards
 
 ###### Technology
-Technology represents a character's talent for using modern technology. It's used to interact with computer systems to retrieve information, recover lost data, and gain unauthorized access. It is also used with other consumer technology such as communications, security, and navigation systems. While Technology may be used to gain access in to insecure systems, or use pre-written exploits against secure ones, proper software development and hacking requires [Computer Science](#computer-science).
+Technology represents a character's talent for using modern technology. It's used to interact with computer systems to retrieve information, recover lost data, and gain unauthorized access. It is also used with other consumer technology such as communications, security, and navigation systems. While Technology may be used to gain access to insecure systems, or use pre-written exploits against secure ones, proper software development and hacking requires [Computer Science](#computer-science).
 - **Common Attributes:** Intelligence, Wits
 - **Advanced Specialties:** Hacking, Data Recovery, Data Forgery, AI Modules, Remote Access
 - **General Specialties:**  Data Storage, Communications, Security Systems, Navigation Systems
@@ -308,7 +308,7 @@ Once you're ready to sit down and start filling out a character sheet, you'll go
 #### Starting Attributes
 Your character automatically starts with one dot in each of the six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
 
-Start by selecting either Physical or Mental as your characters's primary attribute group, the other is their secondary attribute group. (Don't bother writing this down; they're only used for this step.) You'll get more dots in your primary group than your secondary one, so consider whether your character should be more brains or more brawn. You can arrange these dots however you want, but no attribute may exceed a total of four dots.
+Start by selecting either Physical or Mental as your characters's primary attribute group; the other is their secondary attribute group. (Don't bother writing this down; they're only used for this step.) You'll get more dots in your primary group than your secondary one, so consider whether your character should be more brains or more brawn. You can arrange these dots however you want, but no attribute may exceed a total of four dots.
 - In your primary group, allocate 6 additional dots.
 - In your secondary group, allocate 4 additional dots.
 
