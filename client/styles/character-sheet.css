@@ -113,6 +113,23 @@
     background-color: black;
 }
 
+
+.character-trait-dots .spendable {
+    height: 10px;
+    width: 11px;
+    border-radius: 20%;
+    border: 1px solid black;
+    margin: 0 1px;
+}
+
+.character-trait-dots .spent {
+    background-color: red;
+}
+
+.character-trait-dots .unavailable {
+    background-color: darkgray;
+}
+
 .character-trait-specialties {
     margin-left: 2rem;
     display: flex;

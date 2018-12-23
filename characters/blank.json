@@ -45,5 +45,6 @@
       {"name": "Navigation", "dots": 0},
       {"name": "Statecraft", "dots": 0}
     ]
-  }
+  },
+  "willpower": {"current": 3, "max": 3}
 }

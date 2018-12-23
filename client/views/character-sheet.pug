@@ -6,7 +6,13 @@ mixin dots(total, filled)
     div(class=`dot ${n < filled ? 'filled' : 'empty'}`)
     - n++;
 
-mixin trait(trait)
+mixin spendables(total, spent, max)
+  - var n = 0;
+  while n < total
+    div(class=`spendable ${n < spent ? 'spent' : 'unspent'} ${n >= max ? 'unavailable' : 'available'}`)
+    - n++;
+
+mixin trait(trait, maxDots)
   div.character-trait
     div.character-trait-name
       // TODO Put the documentation link into the class instead of hardcoded here.
@@ -22,7 +28,7 @@ mixin trait-category(group, category)
   div.character-trait-category
     div.header=category
     each trait in group[category]
-      +trait(trait)
+      +trait(trait, 5)
 
 block content
   style
@@ -52,3 +58,19 @@ block content
         +trait-category(character.abilities, 'talents')
         +trait-category(character.abilities, 'skills')
         +trait-category(character.abilities, 'knowledges')
+    div.character-sheet-section
+      div.header Health
+      div.character-trait-group
+        div.character-trait-category
+          div.header Willpower
+          div.character-trait
+            div.character-trait-name
+              // TODO Put the documentation link into the class instead of hardcoded here.
+              a(href='/documentation/rules#willpower' target='_blank') Willpower
+            div.character-trait-dots
+              +dots(10, character.willpower.max)
+          div.character-trait
+            div.character-trait-name
+            div.character-trait-dots
+              +spendables(10, character.willpower.max - character.willpower.current, character.willpower.max)
+
