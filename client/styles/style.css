@@ -62,7 +62,8 @@ body {
     margin-top: 0;
     color: mediumslateblue
 }
-.documentation :target::before{
+
+.documentation :target::before {
     content: " ";
     display: block;
     height: 1.8rem;
@@ -70,8 +71,21 @@ body {
     margin-bottom: 0.1rem;
 }
 
-.documentation > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(table) {
-    margin: 0.5rem 0.8rem;
+.documentation > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6):not(table):not(blockquote) {
+    margin: 0.8rem;
+}
+
+.documentation > blockquote {
+    padding: 0.3rem;
+    background: lightgray;
+}
+
+.documentation > blockquote > :first-child{
+    margin-top: 0;
+}
+
+.documentation > blockquote > :last-child{
+    margin-bottom: 0;
 }
 
 .documentation a {
@@ -205,7 +219,7 @@ body {
 
 .toc-contents {
     flex: 1 1 auto;
-    overflow:auto;
+    overflow: auto;
     margin: 0 0 0.5rem;
 }
 
@@ -252,7 +266,7 @@ body {
 
 
 .back-to-top:hover {
-  background: darkblue;
+    background: darkblue;
 }
 
 .footer {
