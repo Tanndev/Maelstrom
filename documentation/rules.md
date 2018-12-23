@@ -308,7 +308,8 @@ Once you're ready to sit down and start filling out a character sheet, you'll go
 #### Starting Attributes
 Your character automatically starts with one dot in each of the six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
 
-Start by selecting either Physical or Mental as your characters's primary attribute group; the other is their secondary attribute group. (Don't bother writing this down; they're only used for this step.) You'll get more dots in your primary group than your secondary one, so consider whether your character should be more brains or more brawn. You can arrange these dots however you want, but no attribute may exceed a total of four dots.
+Start by selecting either Physical or Mental as your characters's primary attribute group; the other is their secondary attribute group. (Don't bother writing this down; they're only used for this step.) You'll get more dots in your primary group than your secondary one, so consider whether your character should be more brains or more brawn. You can arrange these dots however you want.
+
 - In your primary group, allocate 6 additional dots.
 - In your secondary group, allocate 4 additional dots.
 
@@ -421,7 +422,7 @@ The cost to purchase a dot varies depending on the type of trait, but generally 
 | Advanced Specialty | 3 Points            |
 | Willpower          | New Rank x 1 Point  |
 | Ability            | New Rank x 2 Points |
-| Attribute          | New Rank x 4 Points |
+| Attribute          | 15 Points           |
 
 <!-- TODO Add backgrounds -->
 
