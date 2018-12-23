@@ -26,7 +26,8 @@ mixin trait(trait, maxDots)
 
 mixin trait-category(group, category)
   div.character-trait-category
-    div.header=category
+    div.header
+      a(href=`/documentation/rules#${category}` target='_blank')=category
     each trait in group[category]
       +trait(trait, 5)
 
@@ -49,31 +50,37 @@ block content
           div.field=character.campaign
 
     div.character-sheet-section
-      div.header Attributes
+      div.header
+        a(href='/documentation/rules#attributes' target='_blank') Attributes
       div.character-trait-group
         +trait-category(character.attributes, 'physical')
         +trait-category(character.attributes, 'mental')
 
     div.character-sheet-section
-      div.header Abilities
+      div.header
+        a(href='/documentation/rules#abilities' target='_blank') Abilities
       div.character-trait-group
         +trait-category(character.abilities, 'talents')
         +trait-category(character.abilities, 'skills')
         +trait-category(character.abilities, 'knowledges')
 
     div.character-sheet-section
-      div.header Health
+      div.header Health & Willpower
       div.character-trait-group
         div.character-trait-category
-          div.header Willpower
+          div.header Health
+          div.character-health
+
+        div.character-trait-category
+          div.header
+            a(href='/documentation/rules#willpower' target='_blank') Willpower
           div.character-trait
-            div.character-trait-name
-              // TODO Put the documentation link into the class instead of hardcoded here.
-              a(href='/documentation/rules#willpower' target='_blank') Willpower
+            div.character-trait-name Maximum
             div.character-trait-dots
               +dots(10, character.willpower.max)
           div.character-trait
-            div.character-trait-name
+            div.character-trait-name Current
             div.character-trait-dots
-              +spendables(10, character.willpower.max - character.willpower.current, character.willpower.max)
+              +spendables(10, character.willpower.spent, character.willpower.max)
+
 

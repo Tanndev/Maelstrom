@@ -46,5 +46,5 @@
       {"name": "Statecraft", "dots": 0}
     ]
   },
-  "willpower": {"current": 3, "max": 3}
+  "willpower": {"spent": 0, "max": 3}
 }
