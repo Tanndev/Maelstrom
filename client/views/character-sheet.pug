@@ -88,13 +88,8 @@ block content
         div.character-trait-category
           div.header
             a(href='/documentation/rules#willpower' target='_blank') Willpower
-          div.character-trait
-            div.character-trait-name Maximum
-            div.character-trait-dots
-              +dots(10, character.willpower.max)
-          div.character-trait
-            div.character-trait-name Current
-            div.character-trait-dots
-              +spendables(10, character.willpower.spent, character.willpower.max)
-
+          div.character-trait-dots.willpower-rating
+            +dots(10, character.willpower.max)
+          div.character-trait-dots.willpower-rating
+            +spendables(10, character.willpower.spent, character.willpower.max)
 
