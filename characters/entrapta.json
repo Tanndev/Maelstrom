@@ -1,0 +1,50 @@
+{
+  "name": "Entrapta",
+  "concept": "Eccentric Artist",
+  "campaign": "Playtest",
+  "attributes": {
+    "physical": [
+      {"name": "Strength", "dots": 2},
+      {"name": "Precision", "dots": 3},
+      {"name": "Reflexes", "dots": 2}
+    ],
+    "mental": [
+      {"name": "Perception", "dots": 2},
+      {"name": "Intelligence", "dots": 3},
+      {"name": "Wits", "dots": 4}
+    ]
+  },
+  "abilities": {
+    "talents": [
+      {"name": "Alertness", "dots": 2},
+      {"name": "Athletics", "dots": 0},
+      {"name": "Investigation", "dots": 1},
+      {"name": "Melee", "dots": 0},
+      {"name": "Performance", "dots": 0},
+      {"name": "Stealth", "dots": 0},
+      {"name": "Streetwise", "dots": 0},
+      {"name": "Technology", "dots": 0}
+    ],
+    "skills": [
+      {"name": "Artistry", "dots": 3, "specialties": ["Metalwork (Adv)", "Sculpting", "Sketching", "Painting"]},
+      {"name": "Driving", "dots": 1},
+      {"name": "Firearms", "dots": 1},
+      {"name": "Heavy Weapons", "dots": 2, "specialties": ["Missile Launchers"]},
+      {"name": "Piloting", "dots": 2, "specialties": ["Spaceflight", "Atmosphere (Adv)"]},
+      {"name": "Remote Weapons", "dots": 1},
+      {"name": "Survival", "dots": 0},
+      {"name": "Tradecraft", "dots": 0}
+    ],
+    "knowledges": [
+      {"name": "Computer Science", "dots": 0},
+      {"name": "Engineering", "dots": 1},
+      {"name": "Humanities", "dots": 0},
+      {"name": "Manufacturing", "dots": 3, "specialties": ["Manual Machining", "Metals", "Ceramics", "Mechanical Design (Adv), Electronics (Adv)"]},
+      {"name": "Medicine", "dots": 0},
+      {"name": "Science", "dots": 1},
+      {"name": "Navigation", "dots": 2},
+      {"name": "Statecraft", "dots": 0}
+    ]
+  },
+  "willpower": {"spent": 0, "max": 3}
+}
