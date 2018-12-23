@@ -1,0 +1,49 @@
+{
+  "name": "Example",
+  "concept": "Guard",
+  "campaign": "Playtest",
+  "attributes": {
+    "physical": [
+      {"name": "Strength", "dots": 2},
+      {"name": "Precision", "dots": 4},
+      {"name": "Reflexes", "dots": 3}
+    ],
+    "mental": [
+      {"name": "Perception", "dots": 2},
+      {"name": "Intelligence", "dots": 2},
+      {"name": "Wits", "dots": 3}
+    ]
+  },
+  "abilities": {
+    "talents": [
+      {"name": "Alertness", "dots": 2, "specialties":  ["Night Vision (Adv)"]},
+      {"name": "Athletics", "dots": 3, "specialties":  ["Grenades (Adv)"]},
+      {"name": "Investigation", "dots": 1},
+      {"name": "Melee", "dots": 2, "specialties":  ["Brawling", "Shields"]},
+      {"name": "Performance", "dots": 0},
+      {"name": "Stealth", "dots": 1},
+      {"name": "Streetwise", "dots": 1},
+      {"name": "Technology", "dots": 0}
+    ],
+    "skills": [
+      {"name": "Artistry", "dots": 0},
+      {"name": "Driving", "dots": 1},
+      {"name": "Firearms", "dots": 4, "specialties":  ["Rifles", "Pistols"]},
+      {"name": "Heavy Weapons", "dots": 2},
+      {"name": "Piloting", "dots": 1},
+      {"name": "Remote Weapons", "dots": 1},
+      {"name": "Survival", "dots": 1},
+      {"name": "Tradecraft", "dots": 0}
+    ],
+    "knowledges": [
+      {"name": "Computer Science", "dots": 0},
+      {"name": "Engineering", "dots": 1},
+      {"name": "Humanities", "dots": 0},
+      {"name": "Manufacturing", "dots": 0},
+      {"name": "Medicine", "dots": 2, "specialties":  ["First Aid"]},
+      {"name": "Science", "dots": 0},
+      {"name": "Navigation", "dots": 0},
+      {"name": "Statecraft", "dots": 1}
+    ]
+  }
+}
