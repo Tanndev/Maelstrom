@@ -108,7 +108,7 @@ Athletics represents a character's talent for physical agility. Where the physic
 - **General Specialties:**  Run, Jump, Dodge, Thrown Weapons, Surprise Attack
 
 ###### Investigation
-Investigation represents a character's talent for gathering evidence, making connections between events, anding find hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft](#tradecraft).
+Investigation represents a character's talent for gathering evidence, making connections between events, and finding hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft](#tradecraft).
 - **Common Attributes:** Intelligence, Wits, Perception
 - **Advanced Specialties:** Forensics, Missing Persons
 - **General Specialties:** Research, Computer Records, Crime Scenes
@@ -358,7 +358,7 @@ Experience should always be given at the end of a game session in order to avoid
 ##### Chapter Experience Awards
 A chapter is a relatively small but independent part of a larger story. They're usually told in a single session but some sessions may involve more than one.
 
-Each chapter might consist of a single mission or contract, the events on a particular planet, or some other relatively self-contained chunk of activity. They'll usually contain several different scenes, interspersed with downtime, but should culminate in a natural break in the story. Consider television episodes as an example of the sorts of timeframes and events which should be involved in a chapter.
+Each chapter might consist of a single mission or contract, the events on a particular planet, or some other relatively self-contained chunk of activity. They'll usually contain several different scenes, interspersed with downtime, but should culminate in a natural break in the story. Consider television episodes as an example of the sorts of timescales and events which should be involved in a chapter.
 
 At the end of each chapter, storytellers should consider the following experience point awards. (If there are multiple chapters in a session, make notes and award them at the end.)
 
@@ -572,7 +572,7 @@ Usually, a threshold is used to set a task that is just extremely difficult to p
 
 Thresholds can also be used to make tasks that aren't particularly difficult, but where there's a lot that can go wrong. This represents the need of the character to get a bunch of things right in order to succeed in their objective. In these cases, the action's difficulty is set lower -- sometimes even lower than normal -- and a reasonable threshold is used.
 
-Finally, determine which [advanced specialt](#advanced-specialties) apply to the action and make them [required](#required-specialties).
+Finally, determine which [advanced specialties](#advanced-specialties) apply to the action and make them [required](#required-specialties).
 
 > **Example:** "You climb the stairs and find yourself at the landing pad. There's no railings here, but there's a guard standing near the edge ahead of you. It's really windy all the way up here but you're pretty sure the metallic floor will make it extremely hard to sneak past him without being heard." describes the storyteller. The player decides she wants to charge the guard and push him over the edge before he can react.
 >
