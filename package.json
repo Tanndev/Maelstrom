@@ -1,6 +1,6 @@
 {
   "name": "@tanndev/maelstrom",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "private": true,
   "description": "Rules and resources for a custom RPG.",
   "main": "app.js",
@@ -33,6 +33,7 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.18.4",
+    "semantic-release": "^15.13.1"
   }
 }
