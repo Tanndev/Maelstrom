@@ -2,9 +2,11 @@
 
 pipeline {
     agent {
-        docker {
-            image 'node:10'
+        dockerfile {
+            filename 'Jenkinsagent'
             args '-v /var/run/docker.sock:/var/run/docker.sock'
+            // TODO Add registryUrl 'https://registry.hub.docker.com'
+            // TODO Add registryCredentialsId  'docker-hub-credentials'
         }
     }
 
