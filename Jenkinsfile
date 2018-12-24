@@ -3,7 +3,7 @@
 pipeline {
     agent {
         dockerfile {
-            filename 'Dockerfile.jenkins-agent'
+            filename 'Dockerfile.Jenkins-agent'
             args '-v /var/run/docker.sock:/var/run/docker.sock'
             registryUrl 'https://registry.hub.docker.com'
             registryCredentialsId  'docker-hub-credentials'

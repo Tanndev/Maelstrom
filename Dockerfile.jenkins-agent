@@ -1,4 +1,0 @@
-FROM node:10-alpine
-RUN apk add docker
-RUN apk add git
-RUN npm install -g semantic-release @semantic-release/changelog semantic-release/git

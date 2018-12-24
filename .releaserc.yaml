@@ -3,8 +3,5 @@ repositoryUrl: git@github.com:Tanndev/Maelstrom.git
 plugins:
   - '@semantic-release/commit-analyzer'
   - '@semantic-release/release-notes-generator'
-  - '@semantic-release/changelog'
   - '@semantic-release/npm'
-  - - '@semantic-release/git'
-    - message: 'Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}'
   - '@semantic-release/github'
