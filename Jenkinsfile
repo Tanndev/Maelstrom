@@ -28,7 +28,7 @@ pipeline {
 
         stage('Release') {
             steps {
-                credentials=[
+                def credentials = [
                     string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN'),
                     string(credentialsId: 'npm-token', variable: 'NPM_TOKEN')
                 ]
