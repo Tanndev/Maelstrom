@@ -44,7 +44,7 @@ pipeline {
                     ]
                 }
                 withCredentials(credentials) {
-                    sh "npx semantic-release -b ${BRANCH} --dry-run"
+                    sh "npx semantic-release -b ${env.BRANCH_NAME} --dry-run"
                 }
 
                 // Build the image.
