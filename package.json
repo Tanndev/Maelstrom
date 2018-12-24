@@ -1,6 +1,7 @@
 {
   "name": "@tanndev/maelstrom",
   "version": "0.0.1",
+  "private": true,
   "description": "Rules and resources for a custom RPG.",
   "main": "app.js",
   "scripts": {
