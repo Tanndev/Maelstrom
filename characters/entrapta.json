@@ -42,8 +42,8 @@
       {"name": "Manufacturing", "dots": 3, "specialties": ["Manual Machining", "Metals", "Ceramics", "Mechanical Design (Adv), Electronics (Adv)"]},
       {"name": "Medicine", "dots": 0},
       {"name": "Science", "dots": 1},
-      {"name": "Navigation", "dots": 2},
-      {"name": "Statecraft", "dots": 0}
+      {"name": "Statecraft", "dots": 0},
+      {"name": "Navigation", "dots": 2}
     ]
   },
   "willpower": {"spent": 0, "max": 3}

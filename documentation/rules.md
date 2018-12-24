@@ -237,17 +237,17 @@ Natural Science represents a character's knowledge of the physical and social sc
 - **Advanced Specialties:** Astrophysics, Quantum Theory, Gravitics, Jump Technology
 - **General Specialties:**  Physics, Chemistry, Biology, Earth Science, Astronomy, Economics, Psychology, Sociology
 
-###### Navigation
-Navigation represents a character's knowledge orbital mechanics, trajectories, and maps. It's used to plot routes which are faster, use less fuel, avoid certain areas, limit visible engine burns, or approach the destination from a certain direction. This primarily applies to interplanetary routes, but can also be used for any planetary route long enough to warrant an aircraft. Once a satisfactory route is generated, [Piloting](#piloting) is usually required in order to correctly follow it.
-- **Common Attributes:** Intelligence
-- **Advanced Specialties:** Stealth, Close Approach, Precise Arrival, Jump Plotting
-- **General Specialties:** Gravity Assists, Low Energy Transfers, Constant Thrust, Suborbital Routes
-
 ###### Statecraft
 Statecraft represents a character's knowledge of the modern political landscape, governments, corporations, and jurisdictions. It's used to understand the relationships between the myriad governments and corporations, navigate complex jurisdictional boundaries, negotiate interplanetary or corporate deals, find legal loopholes, and cut through bureaucratic red tape. Statecraft only provides information about current and recent events, [Humanities](#humanities) is required for a true historical perspective.
 - **Common Attributes:** Intelligence, Wits
 - **Advanced Specialties:** Statutory Law, Contracts
 - **General Specialties:** Corporate Politics, Government Politics, Specific System (Sol, Maelstrom, etc)
+
+###### Navigation
+Navigation represents a character's knowledge orbital mechanics, trajectories, and maps. It's used to plot routes which are faster, use less fuel, avoid certain areas, limit visible engine burns, or approach the destination from a certain direction. This primarily applies to interplanetary routes, but can also be used for any planetary route long enough to warrant an aircraft. Once a satisfactory route is generated, [Piloting](#piloting) is usually required in order to correctly follow it.
+- **Common Attributes:** Intelligence
+- **Advanced Specialties:** Stealth, Close Approach, Precise Arrival, Jump Plotting
+- **General Specialties:** Gravity Assists, Low Energy Transfers, Constant Thrust, Suborbital Routes
 
 #### Specialties
 Specialties represent areas where characters have focused their training or experience. Each specialty is connected to a single ability, but characters can unlock multiple specialties for each ability. There's no limit on the number of specialties which can be acquired for a given ability, but the amount which can be used in a given roll is limited by the number of dots in that ability. You can even have a specialty in an ability which has no dots, but this will have no in-game effect until you purchase the ability as well.
