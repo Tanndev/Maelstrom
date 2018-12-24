@@ -193,8 +193,8 @@ Survival represents a character's skill at surviving in harsh or austere environ
 ###### Tradecraft
 Tradecraft represents a character's skill at breaking into placing, stealing things, and conducting espionage. It's used to pick locks, disable alarms, hide weapons, set traps, disarm traps, and carry out other clandestine activity. Conducting a heist or breaking into a records vault will usually require some level of Tradecraft. However, making useful sense of the information stolen will usually require some level of [Investigation](#investigation).
 - **Common Attributes:** Wits, Precision
-- **Advanced Specialties:** Lockpick, Pickpocket, Alarms, Disarm Traps
-- **General Specialties:**  Weapon Concealment, Dead Drops, Set Traps, Surveillance
+- **Advanced Specialties:** Lockpick, Pickpocket, Disarm Traps
+- **General Specialties:**  Weapon Concealment, Dead Drops, Set Traps, Surveillance, Alarms
 
 ##### Knowledges
 Knowledges represent things that characters have learned through research or training.

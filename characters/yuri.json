@@ -1,0 +1,53 @@
+{
+  "name": "Yuri \"The Wrench\" Orbichev",
+  "concept": "KGB Infiltrator / Engineer",
+  "campaign": "Playtest",
+  "attributes": {
+    "physical": [
+      {"name": "Strength", "dots": 2},
+      {"name": "Precision", "dots": 5},
+      {"name": "Reflexes", "dots": 2}
+    ],
+    "mental": [
+      {"name": "Perception", "dots": 2},
+      {"name": "Intelligence", "dots": 1},
+      {"name": "Wits", "dots": 4}
+    ]
+  },
+  "abilities": {
+    "talents": [
+      {"name": "Alertness", "dots": 1},
+      {"name": "Athletics", "dots": 2},
+      {"name": "Investigation", "dots": 0},
+      {"name": "Melee", "dots": 2, "specialties": ["Surprise Attack"]},
+      {"name": "Performance", "dots": 1},
+      {"name": "Stealth", "dots": 2, "specialties": ["Move Silently"]},
+      {"name": "Streetwise", "dots": 1, "specialties": ["Criminal Networks (Adv)"]},
+      {"name": "Technology", "dots": 1}
+    ],
+    "skills": [
+      {"name": "Artistry", "dots": 0},
+      {"name": "Driving", "dots": 1},
+      {"name": "Firearms", "dots": 2, "specialties": ["Surprise Attack", "Extreme Range(Adv)"]},
+      {"name": "Heavy Weapons", "dots": 0},
+      {"name": "Piloting", "dots": 0},
+      {"name": "Remote Weapons", "dots": 0},
+      {"name": "Survival", "dots": 0},
+      {"name": "Tradecraft", "dots": 3, "specialties": ["Lockpick (Adv)", "Pickpocket (Adv)", "Disarm Traps (Adv)", "Set Traps", "Weapon Concealment"]}
+    ],
+    "knowledges": [
+      {"name": "Computer Science", "dots": 0},
+      {"name": "Engineering", "dots": 3, "specialties": ["Jury Rigging (Adv)", "Spacecraft", "\"Percussive Maintenance\""]},
+      {"name": "Humanities", "dots": 0},
+      {"name": "Manufacturing", "dots": 0},
+      {"name": "Medicine", "dots": 0},
+      {"name": "Science", "dots": 0},
+      {"name": "Statecraft", "dots": 1},
+      {"name": "Navigation", "dots": 0}
+    ]
+  },
+  "willpower": {"spent": 0, "max": 3},
+  "flaws": [
+    {"name": "Percussive Maintenance", "description": "Thinks hitting things fixes them."}
+  ]
+}
