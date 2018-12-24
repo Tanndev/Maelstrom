@@ -53,12 +53,16 @@ pipeline {
                     sh 'npx semantic-release'
                 }
                 sh 'cat CHANGELOG.md'
+                sh 'node -p "require(\'./package.json\').version || \'unreleased\'" > env.RELEASED_VERSION'
+                sh "echo Version: ${RELEASED_VERSION}"
             }
         }
 
         stage('Deploy') {
             when {
-                branch 'master'
+                not {
+                    environment name: RELEASED_VERSION, value: 'unreleased'
+                }
             }
             steps {
                 script {
@@ -70,14 +74,14 @@ pipeline {
                         sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
                     }
                 }
-                slackSend channel: '#maelstrom', color: 'good', message: 'Successfully published <https://maelstrom.tanndev.com|Maelstrom App>.'
+                slackSend channel: '#maelstrom', color: 'good', message: "Successfully published <https://maelstrom.tanndev.com|Maelstrom> v${RELEASED_VERSION}."
             }
         }
     }
 
     post {
         failure {
-            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build/publish Maelstrom App. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
+            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build/publish Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
         }
     }
 }
