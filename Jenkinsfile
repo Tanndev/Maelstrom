@@ -64,11 +64,13 @@ pipeline {
             steps {
                 script {
                     image.push('latest')
-                    sh 'ssh docker.tanndev.com rm -rf maelstrom'
-                    sh 'ssh docker.tanndev.com mkdir maelstrom'
-                    sh 'scp docker-compose.yml docker.tanndev.com:maelstrom/'
-                    sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose pull app"'
-                    sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
+                    sshagent(['jenkins.ssh']) {
+                        sh 'ssh docker.tanndev.com rm -rf maelstrom'
+                        sh 'ssh docker.tanndev.com mkdir maelstrom'
+                        sh 'scp docker-compose.yml docker.tanndev.com:maelstrom/'
+                        sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose pull"'
+                        sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
+                    }
                 }
                 slackSend channel: '#maelstrom', color: 'good', message: 'Successfully published <https://maelstrom.tanndev.com|Maelstrom App>.'
             }
