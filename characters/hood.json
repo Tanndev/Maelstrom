@@ -18,7 +18,7 @@
     "talents": [
       {"name": "Alertness", "dots": 3, "specialties":["Urban Terrain"]},
       {"name": "Athletics", "dots": 1},
-      {"name": "Investigation", "dots": 2, , "specialties":["Forensics (Adv)"]},
+      {"name": "Investigation", "dots": 2, "specialties":["Forensics (Adv)"]},
       {"name": "Melee", "dots": 0},
       {"name": "Performance", "dots": 0},
       {"name": "Stealth", "dots": 2},
