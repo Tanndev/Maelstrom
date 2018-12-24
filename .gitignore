@@ -5,6 +5,7 @@
 !/.idea/runConfigurations/
 !/.idea/scopes/
 
-# Dependencies
+# Node & NPM
 node_modules
 npm-debug.log
+.npmrc
