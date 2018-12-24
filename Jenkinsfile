@@ -28,8 +28,12 @@ pipeline {
 
         stage('Release') {
             steps {
-                withCredentials([string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN')]) {
-                    sh 'npx semantic-release'
+                credentials=[
+                    string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN'),
+                    string(credentialsId: 'npm-token', variable: 'NPM_TOKEN')
+                ]
+                withCredentials(credentials) {
+                    sh 'npx semantic-release --dry-run'
                 }
             }
         }
