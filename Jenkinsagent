@@ -1,2 +1,5 @@
 FROM node:10-alpine
 RUN apk add docker
+USER root
+RUN groupadd docker && gpasswd -a jenkins docker
+USER jenkins
