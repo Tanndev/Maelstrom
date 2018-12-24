@@ -28,7 +28,7 @@
     "skills": [
       {"name": "Artistry", "dots": 0},
       {"name": "Driving", "dots": 1},
-      {"name": "Firearms", "dots": 2, "specialties": ["Surprise Attack", "Extreme Range(Adv)"]},
+      {"name": "Firearms", "dots": 2, "specialties": ["Surprise Attack", "Extreme Range (Adv)"]},
       {"name": "Heavy Weapons", "dots": 0},
       {"name": "Piloting", "dots": 0},
       {"name": "Remote Weapons", "dots": 0},
