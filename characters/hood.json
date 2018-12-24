@@ -28,7 +28,7 @@
     "skills": [
       {"name": "Artistry", "dots": 0},
       {"name": "Driving", "dots": 0},
-      {"name": "Firearms", "dots": 3, "specialties":["Energy Weapons (Adv)", "Advanced Maintenance(Adv)"]},
+      {"name": "Firearms", "dots": 3, "specialties":["Energy Weapons (Adv)", "Advanced Maintenance (Adv)"]},
       {"name": "Heavy Weapons", "dots": 2},
       {"name": "Piloting", "dots": 0},
       {"name": "Remote Weapons", "dots": 0},
