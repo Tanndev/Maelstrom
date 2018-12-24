@@ -10,9 +10,9 @@ pipeline {
         }
     }
 
-    environment {
-        HOME = '.'
-    }
+//    environment {
+//        HOME = '.'
+//    }
 
     stages {
         stage('Build') {
@@ -22,7 +22,8 @@ pipeline {
 //                    currentBuild.description = "A description of that build"
 //                }
                 echo 'Building...'
-                sh 'npm install'
+                // TODO Actually build an image to test with.
+//                sh 'npm install'
             }
         }
 
