@@ -2,23 +2,22 @@
   "name": "@tanndev/maelstrom",
   "version": "0.0.0-development",
   "private": true,
-  "description": "Rules and resources for a custom RPG.",
+  "description": "Rules and resources for Maelstrom RPG.",
+  "keywords": ["Maelstrom", "RPG", "role playing game", "Space", "Tanner", "Tanndev"],
+  "homepage": "https://maelstrom.tanndev.com",
+  "bugs": "https://github.com/tanndev/maelstrom/issues",
+  "license": "MIT",
+  "author": "James Tanner <james.tanner@tanndev.com>",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanndev/maelstrom.git"
+  },
   "scripts": {
     "start": "node .",
     "test": "mocha",
     "watch": "nodemon"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tanndev/maelstrom.git"
-  },
-  "author": "James Tanner <james.tanner@tanndev.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tanndev/maelstrom/issues"
-  },
-  "homepage": "https://github.com/tanndev/maelstrom#readme",
   "dependencies": {
     "chance": "^1.0.16",
     "cookie-parser": "^1.4.3",
@@ -35,5 +34,8 @@
   "devDependencies": {
     "nodemon": "^1.18.4",
     "semantic-release": "^15.13.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
