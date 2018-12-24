@@ -5,8 +5,6 @@ pipeline {
         dockerfile {
             filename 'Dockerfile.Jenkins-agent'
             args '-v /var/run/docker.sock:/var/run/docker.sock -v /etc/passwd:/etc/passwd -v /var/lib/jenkins:/var/lib/jenkins'
-            registryUrl 'https://registry.hub.docker.com'
-            registryCredentialsId  'docker-hub-credentials'
         }
     }
 
@@ -47,7 +45,8 @@ pipeline {
                 script {
                     credentials = [
                             string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN'),
-                            string(credentialsId: 'npm-token', variable: 'NPM_TOKEN')
+                            string(credentialsId: 'npm-token', variable: 'NPM_TOKEN'),
+                            usernamePassword(credentialsId: 'docker-hub-credentials', passwordVariable: 'DOCKER_PASSWORD', usernameVariable: 'DOCKER_USERNAME')
                     ]
                 }
                 withCredentials(credentials) {
