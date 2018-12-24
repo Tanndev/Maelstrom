@@ -26,14 +26,10 @@ pipeline {
             }
         }
 
-        stage('Publish') {
-            when {
-                branch 'semantic-release'
-            }
+        stage('Release') {
             steps {
                 withCredentials([string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN')]) {
-
-                    sh 'npx semantic-release -b semantic-release --dry-run'
+                    sh 'npx semantic-release'
                 }
             }
         }
