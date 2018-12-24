@@ -22,8 +22,11 @@ pipeline {
 //                    currentBuild.description = "A description of that build"
 //                }
                 echo 'Building...'
-                // TODO Actually build an image to test with.
-//                sh 'npm install'
+
+                // Build the image.
+                script {
+                    image = docker.build("jftanner/maelstrom")
+                }
             }
         }
 
@@ -39,6 +42,7 @@ pipeline {
                 branch 'master'
             }
             steps {
+
                 // Run Semantic release
                 script {
                     credentials = [
@@ -49,11 +53,6 @@ pipeline {
                 withCredentials(credentials) {
                     sh "npx semantic-release"
                 }
-
-                // Build the image.
-                script {
-                    image = docker.build("jftanner/maelstrom")
-                }
             }
         }
 
@@ -63,7 +62,6 @@ pipeline {
             }
             steps {
                 script {
-                    image.push('latest')
                     sshagent(['jenkins.ssh']) {
                         sh 'ssh docker.tanndev.com rm -rf maelstrom'
                         sh 'ssh docker.tanndev.com mkdir maelstrom'
