@@ -5,8 +5,8 @@ pipeline {
         dockerfile {
             filename 'Jenkinsagent'
             args '-v /var/run/docker.sock:/var/run/docker.sock'
-            // TODO Add registryUrl 'https://registry.hub.docker.com'
-            // TODO Add registryCredentialsId  'docker-hub-credentials'
+            registryUrl 'https://registry.hub.docker.com'
+            registryCredentialsId  'docker-hub-credentials'
         }
     }
 
@@ -44,7 +44,7 @@ pipeline {
                     ]
                 }
                 withCredentials(credentials) {
-                    sh 'npx semantic-release --dry-run'
+                    sh "npx semantic-release -b ${BRANCH} --dry-run"
                 }
 
                 // Build the image.
