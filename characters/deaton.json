@@ -1,0 +1,50 @@
+{
+  "name": "Deaton Aut",
+  "concept": "Medic / Researcher",
+  "campaign": "Playtest",
+  "attributes": {
+    "physical": [
+      {"name": "Strength", "dots": 1},
+      {"name": "Precision", "dots": 3},
+      {"name": "Reflexes", "dots": 3}
+    ],
+    "mental": [
+      {"name": "Perception", "dots": 3},
+      {"name": "Intelligence", "dots": 5},
+      {"name": "Wits", "dots": 1}
+    ]
+  },
+  "abilities": {
+    "talents": [
+      {"name": "Alertness", "dots": 1},
+      {"name": "Athletics", "dots": 0},
+      {"name": "Investigation", "dots": 2, "specialties": ["Research", "Computer Records"]},
+      {"name": "Melee", "dots": 0},
+      {"name": "Performance", "dots": 0},
+      {"name": "Stealth", "dots": 0},
+      {"name": "Streetwise", "dots": 0},
+      {"name": "Technology", "dots": 2, "specialties": ["Navigation Systems"]}
+    ],
+    "skills": [
+      {"name": "Artistry", "dots": 0},
+      {"name": "Driving", "dots": 0},
+      {"name": "Firearms", "dots": 0},
+      {"name": "Heavy Weapons", "dots": 0},
+      {"name": "Piloting", "dots": 0},
+      {"name": "Remote Weapons", "dots": 2},
+      {"name": "Survival", "dots": 1, "specialties": ["Radiation", "Biochemical Agents"]},
+      {"name": "Tradecraft", "dots": 0}
+    ],
+    "knowledges": [
+      {"name": "Computer Science", "dots": 3},
+      {"name": "Engineering", "dots": 1, "specialties": ["Life Support"]},
+      {"name": "Humanities", "dots": 1},
+      {"name": "Manufacturing", "dots": 0},
+      {"name": "Medicine", "dots": 3},
+      {"name": "Science", "dots": 1, "specialties": ["Chemistry", "Biology"]},
+      {"name": "Statecraft", "dots": 2, "specialties": ["Maelstrom"]},
+      {"name": "Navigation", "dots": 1}
+    ]
+  },
+  "willpower": {"spent": 0, "max": 5}
+}
