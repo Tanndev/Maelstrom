@@ -18,11 +18,7 @@ pipeline {
 //                    currentBuild.description = "A description of that build"
 //                }
                 echo 'Building...'
-
-                // Build the image.
-                script {
-                    image = docker.build("jftanner/maelstrom")
-                }
+                sh 'npm install'
             }
         }
 
@@ -35,6 +31,7 @@ pipeline {
 
         stage('Release') {
             steps {
+                // Run Semantic release
                 script {
                     credentials = [
                             string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN'),
@@ -43,6 +40,11 @@ pipeline {
                 }
                 withCredentials(credentials) {
                     sh 'npx semantic-release --dry-run'
+                }
+
+                // Build the image.
+                script {
+                    image = docker.build("jftanner/maelstrom")
                 }
             }
         }
