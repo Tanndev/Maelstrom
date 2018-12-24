@@ -2,7 +2,14 @@
   "name": "@tanndev/maelstrom",
   "version": "0.0.0-development",
   "description": "Rules and resources for Maelstrom RPG.",
-  "keywords": ["Maelstrom", "RPG", "role playing game", "Space", "Tanner", "Tanndev"],
+  "keywords": [
+    "Maelstrom",
+    "RPG",
+    "role playing game",
+    "Space",
+    "Tanner",
+    "Tanndev"
+  ],
   "homepage": "https://maelstrom.tanndev.com",
   "bugs": "https://github.com/tanndev/maelstrom/issues",
   "license": "MIT",
@@ -31,6 +38,8 @@
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.1",
+    "@semantic-release/git": "^7.0.6",
     "nodemon": "^1.18.4",
     "semantic-release": "^15.13.1"
   },
