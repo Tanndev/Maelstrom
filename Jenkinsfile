@@ -35,6 +35,9 @@ pipeline {
         }
 
         stage('Release') {
+            when {
+                branch 'master'
+            }
             steps {
                 // Run Semantic release
                 script {
@@ -44,7 +47,7 @@ pipeline {
                     ]
                 }
                 withCredentials(credentials) {
-                    sh "npx semantic-release -b ${env.BRANCH_NAME} --dry-run"
+                    sh "npx semantic-release"
                 }
 
                 // Build the image.
@@ -60,9 +63,7 @@ pipeline {
             }
             steps {
                 script {
-                    docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
-                        image.push('latest')
-                    }
+                    image.push('latest')
                     sh 'ssh docker.tanndev.com rm -rf maelstrom'
                     sh 'ssh docker.tanndev.com mkdir maelstrom'
                     sh 'scp docker-compose.yml docker.tanndev.com:maelstrom/'
