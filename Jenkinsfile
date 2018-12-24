@@ -54,11 +54,12 @@ pipeline {
                 }
                 sh 'cat CHANGELOG.md'
                 script {
-                    RELEASED_VERSION = sh (
-                            script: "node -p \"require('./package.json').version || 'unreleased'\"",
+                    RELEASE_VERSION = sh (
+                            script: "git describe --tags",
                             returnStdout: true
-                    )
-                    echo "Version: ${RELEASED_VERSION}"
+                    ).trim()
+                    RELEASE_URL = 'https://github.com/Tanndev/Maelstrom/releases/tag/' + RELEASE_VERSION
+                    echo "Version: ${RELEASE_VERSION} can be viewed at ${RELEASE_URL}"
                 }
             }
         }
@@ -66,7 +67,7 @@ pipeline {
         stage('Deploy') {
             when {
                 not {
-                    environment name: RELEASED_VERSION, value: 'unreleased'
+                    environment name: RELEASE_VERSION, value: 'unreleased'
                 }
             }
             steps {
@@ -79,7 +80,7 @@ pipeline {
                         sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
                     }
                 }
-                slackSend channel: '#maelstrom', color: 'good', message: "Successfully published <https://maelstrom.tanndev.com|Maelstrom> v${RELEASED_VERSION}."
+                slackSend channel: '#maelstrom', color: 'good', message: "Successfully published <https://maelstrom.tanndev.com|Maelstrom> ${RELEASE_VERSION}. [<${RELEASE_URL}|Release Notes>]."
             }
         }
     }
