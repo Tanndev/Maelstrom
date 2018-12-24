@@ -3,6 +3,7 @@ repositoryUrl: git@github.com:Tanndev/Maelstrom.git
 plugins:
   - '@semantic-release/commit-analyzer'
   - '@semantic-release/release-notes-generator'
+  - '@semantic-release/changelog'
   - '@semantic-release/npm'
   - - '@semantic-release/github'
     - successComment: "This ${issue.pull_request ? 'pull request is included' : 'issue is fixed'} in version ${nextRelease.version}"
