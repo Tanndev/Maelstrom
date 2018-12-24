@@ -1,0 +1,7 @@
+branch: master
+repositoryUrl: git@github.com:Tanndev/Maelstrom.git
+plugins:
+  - '@semantic-release/commit-analyzer'
+  - '@semantic-release/release-notes-generator'
+  - '@semantic-release/npm'
+  - '@semantic-release/github'

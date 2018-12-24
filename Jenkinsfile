@@ -26,6 +26,18 @@ pipeline {
             }
         }
 
+        stage('Publish') {
+            when {
+                branch 'semantic-release'
+            }
+            steps {
+                withCredentials([string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN')]) {
+
+                    sh 'npx semantic-release -b semantic-release --dry-run'
+                }
+            }
+        }
+
         stage('Deploy') {
             when {
                 branch 'master'
