@@ -1,7 +1,12 @@
 #!/usr/bin/env groovy
 
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'node:10'
+            arges '-v /var/run/docker.sock:/var/run/docker.sock'
+        }
+    }
 
     stages {
         stage('Build') {
