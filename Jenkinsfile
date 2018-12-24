@@ -28,10 +28,12 @@ pipeline {
 
         stage('Release') {
             steps {
-                def credentials = [
-                    string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN'),
-                    string(credentialsId: 'npm-token', variable: 'NPM_TOKEN')
-                ]
+                script {
+                    credentials = [
+                            string(credentialsId: 'github-personal-access-token', variable: 'GITHUB_TOKEN'),
+                            string(credentialsId: 'npm-token', variable: 'NPM_TOKEN')
+                    ]
+                }
                 withCredentials(credentials) {
                     sh 'npx semantic-release --dry-run'
                 }
