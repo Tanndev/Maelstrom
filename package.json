@@ -1,7 +1,6 @@
 {
   "name": "@tanndev/maelstrom",
   "version": "0.0.0-development",
-  "private": true,
   "description": "Rules and resources for Maelstrom RPG.",
   "keywords": ["Maelstrom", "RPG", "role playing game", "Space", "Tanner", "Tanndev"],
   "homepage": "https://maelstrom.tanndev.com",
