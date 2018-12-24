@@ -53,8 +53,13 @@ pipeline {
                     sh 'npx semantic-release'
                 }
                 sh 'cat CHANGELOG.md'
-                sh 'node -p "require(\'./package.json\').version || \'unreleased\'" > env.RELEASED_VERSION'
-                sh "echo Version: ${RELEASED_VERSION}"
+                script {
+                    RELEASED_VERSION = sh (
+                            script: "node -p \"require('./package.json').version || 'unreleased'\"",
+                            returnStdout: true
+                    )
+                    echo "Version: ${RELEASED_VERSION}"
+                }
             }
         }
 
