@@ -9,6 +9,5 @@ plugins:
     - successComment: "This ${issue.pull_request ? 'pull request is included' : 'issue is fixed'} in version ${nextRelease.version}"
       failTitle: 'CI: The automatic release failed'
       labels: ['release pipeline']
-      assets: []
   - - 'semantic-release-docker'
     - name: 'jftanner/maelstrom'
