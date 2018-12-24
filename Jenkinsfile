@@ -80,7 +80,7 @@ pipeline {
                         sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
                     }
                 }
-                slackSend channel: '#maelstrom', color: 'good', message: "Successfully published <https://maelstrom.tanndev.com|Maelstrom> ${RELEASE_VERSION}. [<${RELEASE_URL}|Release Notes>]."
+                slackSend channel: '#maelstrom', color: 'good', message: "Successfully published <https://maelstrom.tanndev.com|Maelstrom> ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>)"
             }
         }
     }
