@@ -358,6 +358,8 @@ The rate at which you earn experience will can vary significantly between campai
 
 Experience should always be given at the end of a game session in order to avoid disrupting the story. Storytellers are encouraged to use the suggested awards listed below but are free to use whatever awards best suit the needs of the campaign and the players.
 
+Once awarded, experience points are available to be either [banked](#banking-experience) or [spent](#spending-experience).
+
 ##### Chapter Experience Awards
 A chapter is a relatively small but independent part of a larger story. They're usually told in a single session but some sessions may involve more than one.
 
@@ -408,8 +410,7 @@ No plan survives contact with the enemy, but we can still learn from them.
 Award one point to each player who came up with a brilliant Plan B, adapted quickly to changing circumstances, found a new and clever way to their resources, or just flawlessly executed Plan A.
 
 #### Banking Experience
-( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/13) to add it_ )
-<!-- TODO Describe how to bank experience -->
+Available experience points can be banked into a single trait to be spent later. Banked points can only be spent on that trait (or a specialty of it, in the case of abilities) and are no longer available for anything else. Doing this allows you to [add experience dice](#adding-experience-dice) to your rolls and is a good way to get some use from your experience points while saving up for something expensive.
 
 #### Spending Experience
 Experience points can be spent between chapters to gain new traits and improve existing ones.
@@ -423,6 +424,8 @@ The cost to purchase a dot varies depending on the type of trait, but generally 
 | Willpower          | New Rank x 1 Point  |
 | Ability            | New Rank x 2 Points |
 | Attribute          | 15 Points           |
+
+Points are no longer available once they've been spent, so make sure to use any [banked experience points](#banking-experience) that apply before spending available points.
 
 <!-- TODO Add backgrounds -->
 
@@ -496,6 +499,11 @@ The exploding tens effect doesn't stack, so using multiple specialties is only u
 >
 > She rolls her dice pool and gets [1, 4, 7, 10]. The botch and a success cancel each other out but she's still allowed to add bonus dice for the ten. She rolls her two additional dice and gets [1, 10]. The 1 is ignored, because it's on a bonus die, and the 10 adds a success plus two more bonus dice. She rolls [4, 8] on these for one more success. Thanks to her specialties, she was able get two successes on an attack which would have otherwise botched.
 
+#### Adding Experience Dice
+If you have experience points available, you use one of them to potentially boost your successes.
+
+Once per roll, you can add an experience die. First, resolve the roll. If you haven't botched, you may [bank](#banking-experience) one of your available experience points in a trait that you used for the action. Then, add a single bonus die to your roll. This die is the same as those added by [using a specialty](#using-specialties) and does not botch on a 1. Plus, if you're _also_ using a specialty, it can get exploding tens like any other die.
+
 #### Resolving the Result
 Once you've determined your action, dice pool, and difficulty, it's time for some of that sweet, sweet randomness.
 
@@ -521,6 +529,9 @@ If you still have any successes, then congratulations! You've succeeded your act
 If you had no successes or botches left, then you've simply failed. You weren't able to accomplish what you tried to do. You missed your shot, lost the person you were following, or couldn't hack the computer. The storyteller will describe what went wrong. Still, it could have been worse...
 
 If you rolled more botches than successes, then you've botched. Not only did you fail, but things went very wrong. Perhaps the part you were trying to fix is permanently broke, or you gun is jammed, or you've crashed and ruined your car. Whatever it was, the storyteller will describe uncomfortable results of your utter failure ...usually in graphic detail.
+
+##### Step 5: (Optional) Add an Experience Die
+If you haven't botched and have an experience point free, you can try to improve your roll by [adding an experience die](#adding-an-experience-die).
 
 ##### Counting Dice Quickly
 All this counting of dice can sound a little complicated and slow at first.
