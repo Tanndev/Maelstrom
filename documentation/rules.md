@@ -343,12 +343,26 @@ If a character is joining an existing campaign, the storyteller should provide a
 
 #### Starting Equipment
 [Equipment](#equipment) will vary from campaign to campaign.
+
 Work with your storyteller to determine reasonable starting equipment.
 <!-- TODO Add actual rules for starting equipment -->
 
 #### Merits and Flaws
-( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/12) to add it_ )
-<!-- TODO Add merits and flaws -->
+( _This section isn't finished yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/12) to work on it_ )
+
+Merits and Flaws are a totally optional way to make your character more interesting and varied. Their effects vary significantly but they all cost or award experience points.
+
+They can usually only be acquired during character creation and affect your starting experience point pool. However, if a story event had the potential to significantly affect your character in some way, the storyteller may provide an opportunity to acquire a specific merit or flaw. In these cases, it'll award or cost available experience points.
+
+##### Merits
+Merits give your character a strength or a useful quirk and cost experience points.
+
+( _This section isn't finished yet._ )
+
+##### Flaws
+Flaws give your character a weakness or a harmful quick and award experience points.
+
+( _This section isn't finished yet._ )
 
 ### Character Progression
 Throughout the course of the campaign, your character will earn experience which can be used to improve their traits. Experience points are earned for facing challenges, overcoming obstacles, roleplaying, finding interesting solutions, and participating in the story.
