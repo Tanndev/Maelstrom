@@ -348,8 +348,6 @@ Work with your storyteller to determine reasonable starting equipment.
 <!-- TODO Add actual rules for starting equipment -->
 
 #### Merits and Flaws
-( _This section isn't finished yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/12) to work on it_ )
-
 Merits and Flaws are a totally optional way to make your character more interesting and varied. Their effects vary significantly but they all cost or award experience points.
 
 They can usually only be acquired during character creation and affect your starting experience point pool. However, if a story event had the potential to significantly affect your character in some way, the storyteller may provide an opportunity to acquire a specific merit or flaw. In these cases, it'll award or cost available experience points.
@@ -369,8 +367,6 @@ Each sense costs 2 points or get all senses for 5 points.
 
 ###### Exceptional Balance
 **1 point:** Your character has exceptional balance. All balance-related rolls (tightropes, narrow ledges, etc) have -2 difficulty.
-
-<!-- TODO Consider Daredevil merit -->
 
 ###### Huge Size
 **4 points:** Your character is enormous, potentially over seven feet tall or in excess of 400lbs.
