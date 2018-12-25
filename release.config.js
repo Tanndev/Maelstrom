@@ -7,6 +7,7 @@ const COMMIT_ANALYZER = [
         releaseRules: [
             {type: 'rules', release: 'minor'},
             {type: 'lore', release: 'patch'},
+            {type: 'character', release: 'patch'},
             {type: 'feat', release: 'minor'},
             {type: 'fix', release: 'patch'},
             {type: 'perf', release: 'patch'},
@@ -30,6 +31,8 @@ const RELEASE_NOTES_GENERATOR = [
                             return "Rule Changes";
                         case "lore":
                             return "Lore Changes";
+                        case "character":
+                            return "Character Changes";
                         case "feat":
                             return "Features";
                         case "fix":

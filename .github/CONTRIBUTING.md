@@ -22,6 +22,8 @@ All commits should be in the pattern `type(scope): description`. (Note: the spac
 Valid types:
  - `rules`: Rule Changes
  - `lore`: Lore Changes
+ - `character`: Character Changes
+     - Use the character's filename as the scope
  - `feat`: Features
  - `fix`: Fixes
  - `perf`: Performance Improvements
