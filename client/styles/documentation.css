@@ -91,7 +91,6 @@
 .documentation > table td, .documentation > table th {
     border: 1px solid lightgray;
     padding: 0.2rem 1rem;
-    text-align: left;
 }
 
 .documentation > table tr:nth-child(even) {
