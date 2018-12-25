@@ -595,9 +595,6 @@ _Description TBD_ <!-- TODO Describe Equipment -->
 ### Weapons
 _Description TBD_ <!-- TODO Describe Weapons -->
 
-#### Melee Weapons
-_Description TBD_ <!-- TODO Describe Weapons -->
-
 #### Ranged Weapons
 The table below provides some very basic stats for ranged weapons.
 
@@ -614,6 +611,19 @@ The table below provides some very basic stats for ranged weapons.
 | Shotgun, Auto   | 8      |    20 | 3    | 8+1      |
 
 <!-- TODO Describe weapon stats -->
+
+#### Melee Weapons
+The table below provides some very basic stats for melee weapons.
+
+| Weapon          | Damage       | Damage Type |
+| --------------- | ------------ | ----------- |
+| Sap             | Strength + 1 | Bashing     |
+| Club            | Strength + 1 | Bashing     |
+| Staff           | Strength + 2 | Bashing     |
+| Knife           | Strength + 1 | Lethal      |
+| Sword, Light    | Strength + 2 | Lethal      |
+| Sword, Heavy    | Strength + 3 | Lethal      |
+| Axe             | Strength + 3 | Lethal      |
 
 ### Armor
 _Description TBD_ <!-- TODO Describe Armor -->
