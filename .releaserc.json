@@ -25,23 +25,7 @@
       "@semantic-release/release-notes-generator",
       {
         "preset": "angular",
-        "writerOpts": {
-          "transform": {
-            "type": {
-              "feat": "Features",
-              "fix": "Fixes",
-              "perf": "Performance Improvements",
-              "revert": "Reverts",
-              "docs": "Documentation",
-              "style": "Styles",
-              "refactor": "Refactoring",
-              "test": "Tests",
-              "build": "Build System",
-              "ci": "Continuous Integration",
-              "rules": "Rule Changes"
-            }
-          }
-        }
+        "writerOpts": "./.semantic-release/release-notes-writerOpts.js"
       }
     ],
     "@semantic-release/npm",
