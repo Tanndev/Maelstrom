@@ -354,13 +354,54 @@ Merits and Flaws are a totally optional way to make your character more interest
 
 They can usually only be acquired during character creation and affect your starting experience point pool. However, if a story event had the potential to significantly affect your character in some way, the storyteller may provide an opportunity to acquire a specific merit or flaw. In these cases, it'll award or cost available experience points.
 
-##### Merits
-Merits give your character a strength or a useful quirk and cost experience points.
+These lists are not exhaustive, so work with the storyteller if you have a specific thing in mind that might make a good merit or flaw for your character. Also, the storyteller has the right to veto merits and flaws, even those on these lists, if they choose. This may be done to limit "power gaming", or to avoid story problems. For example, they may prevent you from taking the [Huge Size](#huge-size) merit if the story will heavily feature tiny fighter craft.
 
-( _This section isn't finished yet._ )
+##### Merits
+Merits give your character a strength or a useful quirk. Each merit costs the listed number of experience points.
+
+###### Acute Senses
+**2 or 5 points:** Your character has an exceptionally well honed natural sense (vision, hearing, smell, taste, etc).
+All perception rolls have -2 difficulty when using the selected sense.
+Each sense costs 2 points or get all senses for 5 points.
+
+###### Ambidexterous
+**1 point:** Your character is equally capable with either hand. You suffer no off-hand penalties.
+
+###### Exceptional Balance
+**1 point:** Your character has exceptional balance. All balance-related rolls (tightropes, narrow ledges, etc) have -2 difficulty.
+
+<!-- TODO Consider Daredevil merit -->
+
+###### Huge Size
+**4 points:** Your character is enormous, potentially over seven feet tall or in excess of 400lbs.
+This added bulk allows them to soak some additional damage. Gain one additional health level at the top of the health chart with 0 penalty.
+However, while this added bulk may make your character more resilient, it may also give them some difficulty. They will consume more oxygen and may find it difficult to fit into some vehicles, space suits, etc. More mass won't protect them from hard vacuum so consider the risks before taking this merit for the health level, and make sure to hang on to survival gear that fits.
+
+###### Strong Bond
+**4 points:** In a vast, cold galaxy your character has found another person that gives their life purpose and meaning. This might be their one true love, a close childhood friend, or someone they served with.
+This bond inspires your character to always make it home. Gain one automatic success on all willpower rolls.
+Beware, however, that the other person will exist in the story and may be vulnerable. If your character believes they are dead or lost, you will lose this merit. Sorry, Mario, your princess is in another castle.
+
+###### Common Sense
+**1 point:** Your character has an abundance of common sense and tends to make reasonable, sound decisions. This gives no direct benefit towards rolls (including Wits). Instead, the storyteller will warn you when you're about to do something that your character would consider unwise or dangerous. They may even suggest some sensible courses of action. This can be particularly useful for new players.
+
+###### Laser Focus
+**1 point:** No matter what's going on around them, your character is able to focus on the task at hand. You suffer no penalties for being distracted, disturbed, or acting in a loud or adverse environment. You may still need to roll against active interference, such as tear gas or high g-forces, but you suffer no additional penalties to your action if you succeed.
+
+###### Early Riser
+**1 point:** Some folks just need less sleep than others. Your character is one of these lucky people and only requires 4-5 hours of sleep a night. They suffer fewer penalties from sleep deprivation. They also have a bit more time to get things done during a normal day.
+
+###### Mental Mathematician
+**1 point:** Your character can do complex math in their head amazingly quickly and accurately. They can perform basic arithmetic instantly, regardless of their circumstances. You, the player, may use a calculator to solve math problems at any time, even if your character is busy, in a hurry, or in combat. Tour character can also perform advanced calculations, such as those required for orbital mechanics, without the need for a computer; though this may still require some time and focus.
+
+###### Timekeeper
+**1 point:** Unless unconscious or otherwise incapacitated, your character is always perfectly aware of elapsed time. They can keep accurate time, down to just a few seconds, for up to an hour and always know the time of day to within a few minutes. Who needs a kitchen timer?
+
+###### Eidetic Memory
+**2 points:** Your character generally remembers almost everything that happens to them and is able to memorize things in precise detail. They can perfectly recall text, sounds, and images over long periods of time and may even be able to replicate them with the appropriate skill rolls. This skill applies to almost any ordered data, but works less well on high-entropy data like encryption keys.
 
 ##### Flaws
-Flaws give your character a weakness or a harmful quick and award experience points.
+Flaws give your character a weakness or a troublesome quirk. Each flaw awards the listed number of experience points.
 
 ( _This section isn't finished yet._ )
 
