@@ -58,15 +58,13 @@ pipeline {
                     RELEASE_URL = 'https://github.com/Tanndev/Maelstrom/releases/tag/' + RELEASE_VERSION
                     echo "Version: ${RELEASE_VERSION} can be viewed at ${RELEASE_URL}"
                 }
+                slackSend channel: '#maelstrom', color: 'good', message: "Released Maelstrom ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>)"
             }
         }
 
         stage('Deploy') {
             when {
-                allOf {
-                    expression {env.RELEASE_VERSION != null }
-                    expression {env.RELEASE_URL != null }
-                }
+                branch 'master'
             }
             steps {
                 script {
@@ -78,7 +76,7 @@ pipeline {
                         sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
                     }
                 }
-                slackSend channel: '#maelstrom', color: 'good', message: "Successfully published <https://maelstrom.tanndev.com|Maelstrom> ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>)"
+                slackSend channel: '#maelstrom', color: 'good', message: "Successfully deployed <https://maelstrom.tanndev.com|Maelstrom>."
             }
         }
     }
