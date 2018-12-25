@@ -75,7 +75,7 @@ pipeline {
                         sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
                     }
 
-                    if (RELEASE_VERSION != null) {
+                    if (RELEASE_VERSION) {
                         slackSend channel: '#maelstrom', color: 'good', message: "Released <https://maelstrom.tanndev.com|Maelstrom> ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>)"
                     }
                     else {
