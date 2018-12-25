@@ -15,3 +15,23 @@ Just follow these guidelines:
 - Reference the issue (if applicable) with the [appropriate keywords](https://help.github.com/articles/closing-issues-using-keywords/).
 - For code, be sure to match the surrounding code style.
 - For rules/lore, be sure to run a spell checker and generally match the surrounding writing style.
+
+## Commit Conventions
+All commits should be in the pattern `type(scope): description`.
+
+Valid types:
+ - `feat`: Features
+ - `fix`: Bug Fixes
+ - `perf`: Performance Improvements
+ - `revert`: Reverted Commits
+ - `docs`: Documentation
+     - Use `rules` scope for rule changes
+     - Use `lore` scope for lore changes
+ - `style`: Style changes
+     - Use `rules` scope for style updates in rules
+     - Use `character sheet` scope for updates to character sheet
+     - Use `website` scope for other css changes to website
+ - `refactor`: Code Refactoring
+ - `test`: Tests
+ - `build`: Build System
+ - `ci`: Continuous Integration
