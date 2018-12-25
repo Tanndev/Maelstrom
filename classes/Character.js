@@ -54,7 +54,7 @@ class Character {
      * @return {string}
      */
     get name() {
-        return names.get(this);
+        return names.get(this) || '';
     }
 
     set name(value) {
@@ -67,7 +67,7 @@ class Character {
      * @return {string}
      */
     get concept() {
-        return concepts.get(this);
+        return concepts.get(this) || '';
     }
 
     set concept(value) {
@@ -81,7 +81,7 @@ class Character {
      * @return {string}
      */
     get campaign() {
-        return campaigns.get(this);
+        return campaigns.get(this) || '';
     }
 
     set campaign(value) {
@@ -95,7 +95,7 @@ class Character {
      * @return {string}
      */
     get player() {
-        return players.get(this);
+        return players.get(this) || '';
     }
 
     set player(value) {
@@ -123,8 +123,8 @@ class Character {
      */
     toJSON() {
         // noinspection JSUnusedLocalSymbols
-        let {...properties} = this;
-        return properties;
+        let {name, concept, campaign, player, experience, ...properties} = this;
+        return {name, concept, campaign, player,...properties};
     }
 
     /**

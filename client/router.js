@@ -44,6 +44,7 @@ router.get('/character/:id?', (req, res, next) => {
             return;
         }
         res.render('character-sheet');
+        console.log(res.locals.character);
     });
 });
 
