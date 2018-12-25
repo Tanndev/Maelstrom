@@ -4,6 +4,8 @@ const fs = require('fs');
 const path = require('path');
 const router = express.Router();
 
+const Character = require('../classes/Character');
+
 // Load documentation and provide locals.
 const documentation = require('../helpers/loadDocumentation');
 router.use((req, res, next) => {
@@ -35,7 +37,7 @@ router.get('/character/:id?', (req, res, next) => {
     fs.readFile(path.join(__dirname, '..', 'characters', `${characterId}.json`), 'utf8', (error, contents) => {
         if (error) return next(createError(404));
         try{
-            res.locals.character = JSON.parse(contents);
+            res.locals.character = new Character(JSON.parse(contents));
         }
         catch(error) {
             next(createError(error));

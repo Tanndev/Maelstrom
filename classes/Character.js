@@ -1,7 +1,4 @@
-/*
- * Copyright (c) 2018 James Tanner
- */
-
+const util = require('util');
 
 /**
  * Stores {@link Character#name} values.
