@@ -601,17 +601,17 @@ _Description TBD_ <!-- TODO Describe Weapons -->
 #### Ranged Weapons
 The table below provides some very basic stats for ranged weapons.
 
-| Weapon Type     | DMG | Range | Rate | Capacity |
-|:--------------- |:---:| -----:|:----:|:-------- |
-| Revolver, Light | 4   |    12 | 3    | 6        |
-| Revolver, Heavy | 6   |    35 | 2    | 6        |
-| Pistol, Light   | 4   |    20 | 4    | 17+1     |
-| Pistol, Heavy   | 5   |    30 | 3    | 7+1      |
-| Hunting Rifle   | 8   |   200 | 1    | 5+1      |
-| Battle Rifle    | 7   |   150 | 3    | 42+1     |
-| Sniper Rifle    | 8   |   250 | 1    | 10+1     |
-| Shotgun, Pump   | 8   |    20 | 1    | 5+1      |
-| Shotgun, Auto   | 8   |    20 | 3    | 8+1      |
+| Weapon          | Damage | Range | Rate | Capacity |
+| --------------- |:------:| -----:|:----:| -------- |
+| Revolver, Light | 4      |    12 | 3    | 6        |
+| Revolver, Heavy | 6      |    35 | 2    | 6        |
+| Pistol, Light   | 4      |    20 | 4    | 17+1     |
+| Pistol, Heavy   | 5      |    30 | 3    | 7+1      |
+| Hunting Rifle   | 8      |   200 | 1    | 5+1      |
+| Battle Rifle    | 7      |   150 | 3    | 42+1     |
+| Sniper Rifle    | 8      |   250 | 1    | 10+1     |
+| Shotgun, Pump   | 8      |    20 | 1    | 5+1      |
+| Shotgun, Auto   | 8      |    20 | 3    | 8+1      |
 
 <!-- TODO Describe weapon stats -->
 
