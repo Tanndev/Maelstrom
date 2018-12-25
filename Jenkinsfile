@@ -8,14 +8,11 @@ pipeline {
         }
     }
 
-//    environment {
-//        HOME = '.'
-//    }
+    environment {
+        RELEASE_VERSION = 'unreleased'
+    }
 
     stages {
-        environment {
-            RELEASE_VERSION = 'unreleased'
-        }
 
         stage('Build') {
             steps {
@@ -70,7 +67,6 @@ pipeline {
 
         stage('Deploy') {
             when {
-                branch 'master'
                 not {
                     environment name: RELEASE_VERSION, value: 'unreleased'
                 }
