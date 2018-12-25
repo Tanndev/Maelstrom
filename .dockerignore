@@ -1,2 +1,14 @@
+# Development and Secrets
+.*
+/*.iml
+/test
+
+# Node & NPM
 node_modules
 npm-debug.log
+.npmrc
+
+# CI/CD
+docker-compose.yml
+Dockerfile*
+Jenkinsfile
