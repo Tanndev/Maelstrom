@@ -13,6 +13,10 @@ pipeline {
 //    }
 
     stages {
+        environment {
+            RELEASE_VERSION = 'unreleased'
+        }
+
         stage('Build') {
             steps {
 //                script {
