@@ -2,6 +2,7 @@ const COMMIT_ANALYZER = [
     '@semantic-release/commit-analyzer',
     {
         preset: 'angular',
+        revertPattern: /^revert\s+"?([\s\S]*?)"?\s*This reverts commit (\w*)\.?/i,
         releaseRules: [
             {type: 'rules', release: 'minor'},
             {type: 'lore', release: 'patch'},
