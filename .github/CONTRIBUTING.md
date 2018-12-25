@@ -20,13 +20,13 @@ Just follow these guidelines:
 All commits should be in the pattern `type(scope): description`. (Note: the space after the `:` is required.)
 
 Valid types:
+ - `rules`: Rule Changes
+ - `lore`: Lore Changes
  - `feat`: Features
- - `fix`: Bug Fixes
+ - `fix`: Fixes
  - `perf`: Performance Improvements
  - `revert`: Reverted Commits
- - `docs`: Documentation
-     - Use `rules` scope for rule changes
-     - Use `lore` scope for lore changes
+ - `docs`: App documentation changes
  - `style`: Style changes
      - Use `rules` scope for style updates in rules
      - Use `character sheet` scope for updates to character sheet
