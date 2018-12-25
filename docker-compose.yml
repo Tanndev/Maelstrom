@@ -4,6 +4,7 @@ services:
   app:
     image: jftanner/maelstrom
     container_name: maelstrom_app
+    restart: on-failure:3
     ports:
       - 8080:8080
     environment:
