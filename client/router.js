@@ -26,7 +26,10 @@ router.get('/documentation/:document', (req, res, next) => {
     let document = documentation[documentName];
     if (document) {
         res.locals.document = document;
-        res.render('documentation');
+        if (req.app.settings.env === 'development'){
+            document.reload().then(()=> {res.render('documentation')});
+        }
+        else res.render('documentation');
     } else next();
 });
 router.use('/documentation', express.static(path.join(__dirname, 'documentation')));
