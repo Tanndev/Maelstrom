@@ -3,6 +3,7 @@ const COMMIT_ANALYZER = [
     {
         preset: 'angular',
         revertPattern: /^revert\s+"?([\s\S]*?)"?\s*This reverts commit (\w*)\.?/i,
+        revertCorrespondence: [`header`, `hash`],
         releaseRules: [
             {type: 'rules', release: 'minor'},
             {type: 'lore', release: 'patch'},
