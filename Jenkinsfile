@@ -8,10 +8,6 @@ pipeline {
         }
     }
 
-    environment {
-        RELEASE_VERSION = 'unreleased'
-    }
-
     stages {
 
         stage('Build') {
@@ -67,9 +63,7 @@ pipeline {
 
         stage('Deploy') {
             when {
-                not {
-                    environment name: RELEASE_VERSION, value: 'unreleased'
-                }
+                expression {env.RELEASE_VERSION != null }
             }
             steps {
                 script {
