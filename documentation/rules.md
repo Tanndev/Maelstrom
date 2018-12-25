@@ -359,7 +359,7 @@ These lists are not exhaustive, so work with the storyteller if you have a speci
 ##### Merits
 Merits give your character a strength or a useful quirk. Each merit costs the listed number of experience points.
 
-###### Acute Senses
+###### Acute Sense
 **2 or 5 points:** Your character has an exceptionally well honed natural sense (vision, hearing, smell, taste, etc).
 All perception rolls have -2 difficulty when using the selected sense.
 Each sense costs 2 points or get all senses for 5 points.
@@ -403,7 +403,59 @@ Beware, however, that the other person will exist in the story and may be vulner
 ##### Flaws
 Flaws give your character a weakness or a troublesome quirk. Each flaw awards the listed number of experience points.
 
-( _This section isn't finished yet._ )
+While some flaws may be corrected with cybernetics or prosthetics, doing so will require spending experience points as your character learns to adapt. This cost will usually equal the original number of points awarded by the flaw.
+
+###### Addict
+**1 or 3 points:** Your character is addicted to something. If they're addicted to something relatively mundane and easy to obtain, like nicotine or alcohol, this flaw is worth one point. This likely won't cause much difficulty most of the time. However, if the substance is illegal, dangerous, or exotic, the flaw is worth three points. This substance may have a more harmful withdrawal effects or just be harder to obtain. In any case, characters who are unable to obtain their chosen substance will undergo withdrawals and suffer effects to be determined by the storyteller.
+
+###### Defective Sense
+**2 points:** Your character has a natural sense which is dulled or impaired in some way. They might be hard of hearing, colorblind, or be nearsighted. All rolls have +2 difficulty when affected by the flawed sense. Be careful, as this can push some [automatic actions](#automatic-actions) to a higher difficulty and make them require a roll instead. This condition may be correctable by glasses, a hearing-aid, etc, in which case you suffer reduced penalties while wearing the aid. Also, you cannot take this flaw if you have the [Acute Sense](#acute-sense) merit in the same sense.
+<!-- TODO Add automatic-actions section -->
+
+###### Visually Impaired
+**4 points:** Your character suffers from an uncorrectable vision impairment. All rolls where vision is a factor has +2 difficulty. This flaw is used instead of [Defective Sense](#defective-sense) when the vision problem is severe and uncorrectable.
+
+###### Deaf
+**5 points:** Your character is entirely unable to hear. You fail all hearing-related rolls automatically. Additionally, many alertness rolls have +3 difficulty as your character is unable to listen out for dangers.
+
+###### Mute
+**6 points:** Your character is entirely unable to speak. Obviously, you may still communicate with other players at the table, describe your actions, etc. However, you may never speak in character. You may also get reduced experience points if you attempt to circumvent this restriction by sharing information out of character. Your character is still able to communicate if they are able to write or use sign language. (Assuming, of course, that they and the person they are communicating with both have the necessary abilities.)
+
+###### Blind
+**8 points:** Your character is entirely unable to speak. You fail all vision-related rolls automatically. Additionally, when you are able to make them at all, alertness rolls have a +3 difficulty. Beware, as this will make many actions completely impossible.
+
+###### Short
+**1 point:** Your character is significantly shorter than usual at 4.5 feet or fewer. They may have difficulty reaching objects or controls. They'll also move at a reduced speed. <!-- TODO Determine the speed loss for Short --> However, they may find it easier to navigate small spaces like the cramped maintenance shafts inside ships and stations.
+
+###### Disfigured
+**2 points:** Your character is hideously deformed or disfigured. Maybe they suffered a severe injury which can't be healed properly, or maybe it's a birth defect. Whatever it is, they are extremely memorable and will have a harder time in many social interactions. On the bright side, they may have an advantage when attempting to scare children.
+
+###### Lame
+**5 points:** Due to illness, injury, or a missing limb, your character is unable to walk without assistance. They must make use of a cane, leg brace, or other device. Their movement speed is severely reduced and they are unable to run or jump. This can be partially or fully mitigated with sufficient mechanical augmentation, though this usually requires one or more Power Armor specialties.
+
+###### Paraplegic
+**8 or 10 points:** Your character is entirely confined to a wheelchair or similar device. Without it, they are unable to move at all. Even with it, they may have severely reduced mobility and will have problem accessing many places which aren't built with them in mind. At 8 points, they still may have the ability to operate specifically-designed power armor or similar equipment. At 10 points, even this is impossible. Either option will severely affect the capabilities of your character, so take this flaw with extreme caution.
+
+###### Dark Secret
+**1 point:** Your character has something terrible in their past which will be a problem if it's discovered. Maybe they did something severely illegal or unethical, or they're not who they say they are. Whatever it is, it's likely to come up periodically and cause trouble for your character. The storyteller needs to know what the secret is, obviously, but other players might not.
+
+###### Mistaken Identity
+**1 point:** Your character looks remarkably like someone famous or legendary. People will occasionally confuse them and expect your character to be someone that they're not. This can be problematic; particularly if the person is a wanted criminal or known enemy.
+
+###### Hunted
+**4 points:** Someone wants your character very, very dead. Worse, they were willing to do it themselves or pay handsomely to see it done. A powerful bounty hunter, mercenary, or other enemy is relentlessly chasing your character and won't stop until one of them is dead. The hunter likely has no qualms about hurting other people and is a risk to your character's companions as well. This makes your character a dangerous person to be around and they may suffer some social consequences as well. Unlike most flaws, this one can sometimes be resolved without spending any experience. However, the hunter may also have allies which will continue the hunt even after you've managed to win or escape.
+
+###### Deep Sleeper
+**1 point:** Your character sleeps through anything, including alarms. Suffer +2 difficulty when trying to wake up. Additionally, suffer +1 difficulty to all rolls in the scene as your character struggles to fully shake it off and join the world of the living.
+
+###### Inept
+**2 points:** Your character is really, really bad at something even though they try it anyway. Choose an ability in which your character has at least one dot. This ability should also be something important to your character and not just a throw-away ability. (If you don't do this, the storyteller will _make_ it important to your character. Usually in a particularly unpleasant way.) Suffer +2 difficulty to all rolls with this ability.
+
+###### Soft-Hearted
+**1 point:** Your character can't stand to witness suffering of any kind. They will need to succeed a difficulty 8 [Willpower](#willpower) roll in order to participate in any situation which will cause someone emotional or physical pain.
+
+###### Phobia
+**2 points:** Your character is absolutely, completely, pants-wettingly, terrified by something relatively common. It could be snakes, spiders, tight spaces, large crowds, or open skies. Whatever it is, they'll need to make a [Willpower](#willpower) roll any time they encounter their fear. If they botch, they may be completely incapacitated by fear. If they fail, they'll attempt to leave the situation. If they are unable or unwilling to flee, they will suffer +2 difficulty on ALL rolls while continuing to face their fear. Even if they succeed their initial Willpower roll, they may need to make additional rolls over time to continue resisting their fear.
 
 ### Character Progression
 Throughout the course of the campaign, your character will earn experience which can be used to improve their traits. Experience points are earned for facing challenges, overcoming obstacles, roleplaying, finding interesting solutions, and participating in the story.
