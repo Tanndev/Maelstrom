@@ -19,7 +19,7 @@
 .character-sheet-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -28,7 +28,6 @@
 }
 
 .character-information .item {
-    width: 20rem;
     display: flex;
     flex-direction: row;
     margin: 0.5rem;
@@ -39,11 +38,12 @@
     font-weight: bold;
     font-family: 'Black Ops One', fantasy;
     margin-right: 0.5rem;
+    flex: 1;
 }
 
 .character-information .item > .field {
     border-bottom: 1px solid black;
-    flex: 1;
+    width: 15rem;
 }
 
 .character-sheet-section {
