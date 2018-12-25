@@ -12,12 +12,7 @@ pipeline {
 
         stage('Build') {
             steps {
-//                script {
-//                    currentBuild.displayName = "Some build"
-//                    currentBuild.description = "A description of that build"
-//                }
                 echo 'Building...'
-
                 // Build the image.
                 script {
                     image = docker.build("jftanner/maelstrom")
@@ -56,6 +51,10 @@ pipeline {
                     ).trim()
                     RELEASE_URL = 'https://github.com/Tanndev/Maelstrom/releases/tag/' + RELEASE_VERSION
                     echo "Version: ${RELEASE_VERSION} can be viewed at ${RELEASE_URL}"
+
+                    // Set build information
+                    currentBuild.displayName = RELEASE_VERSION
+                    currentBuild.description = RELEASE_URL
                 }
             }
         }
