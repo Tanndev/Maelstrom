@@ -49,6 +49,7 @@ pipeline {
                 withCredentials(credentials) {
                     sh 'npx semantic-release'
                 }
+                sh 'cat CHANGELOG.md'
                 script {
                     RELEASE_VERSION = sh (
                             script: "git tag --points-at",
