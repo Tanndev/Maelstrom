@@ -5,18 +5,36 @@ services:
     image: jftanner/maelstrom
     container_name: maelstrom_app
     ports:
-    - 8080:8080
+      - 8080:8080
     environment:
-    - NODE_ENV=production
-    - PORT=8080
-    - REDIS_URL=redis://redis
+      - NODE_ENV=production
+      - PORT=8080
+      - REDIS_URL=redis://redis
+      - COUCH_URL=http://couchdb
     depends_on:
-    - redis
+      - redis
+      - couchdb
+
+  couchdb:
+    image: couchdb
+    container_name: maelstrom_couch
+    volumes:
+      - couchdb-data:/opt/couchdb/data
+      - couchdb-config:/opt/couchdb/etc
+    ports:
+      - 127.0.0.1:5984:5984
+    expose:
+      - 5984
+
 
   redis:
     image: redis
     container_name: maelstrom_redis
     ports:
-    - 127.0.0.1:6379:6379
+      - 127.0.0.1:6379:6379
     expose:
-    - 6379
+      - 6379
+
+volumes:
+  couchdb-data:
+  couchdb-config:
