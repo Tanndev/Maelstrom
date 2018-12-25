@@ -535,18 +535,6 @@ Fortunately, there's actually a really easy way to figure out your result quickl
 1. If you have any botches left, you've botched.
 1. Otherwise, you've failed.
 
-### Available Actions
-_Description TBD_ <!-- TODO List example actions -->
-
-#### Personal Combat Actions
-_Examples TBD_ <!-- TODO List example personal combat actions -->
-
-#### Vehicle Combat Actions
-_Examples TBD_ <!-- TODO List example vehicle combat actions -->
-
-#### Non-combat Actions
-_Examples TBD_ <!-- TODO List example vehicle actions -->
-
 ### Storyteller Suggestions
 Sometimes it can be tricky to determine which traits should be used for an action, or what difficulty and threshold to set. This section provides some suggestions and tables to make it a little bit easier. However, it'll also vary greatly depending on what sort of game you're running and how much of a challenge you and your players want. Start with the guidelines here and then adjust to suit your story and your players.
 
