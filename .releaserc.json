@@ -24,17 +24,15 @@
     "@semantic-release/npm",
     [
       "@semantic-release/github",
-      [
-        {"successComment": "This ${issue.pull_request ? 'pull request is included' : 'issue is fixed'} in version ${nextRelease.version}"},
-        {"failTitle": "CI: The automatic release failed"},
-        {"labels": ["release pipeline"]}
-      ]
+      {
+        "successComment": "This ${issue.pull_request ? 'pull request is included' : 'issue is fixed'} in version ${nextRelease.version}",
+        "failTitle": "CI: The automatic release failed",
+        "labels": ["release pipeline"]
+      }
     ],
     [
       "semantic-release-docker",
-      [
-        {"name": "jftanner/maelstrom"}
-      ]
+      {"name": "jftanner/maelstrom"}
     ]
   ]
 }
