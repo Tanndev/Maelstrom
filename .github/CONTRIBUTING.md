@@ -17,7 +17,7 @@ Just follow these guidelines:
 - For rules/lore, be sure to run a spell checker and generally match the surrounding writing style.
 
 ## Commit Conventions
-All commits should be in the pattern `type(scope): description`.
+All commits should be in the pattern `type(scope): description`. (Note: the space after the `:` is required.)
 
 Valid types:
  - `feat`: Features
