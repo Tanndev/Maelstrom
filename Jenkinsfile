@@ -63,7 +63,10 @@ pipeline {
 
         stage('Deploy') {
             when {
-                expression {env.RELEASE_VERSION != null }
+                allOf {
+                    expression {env.RELEASE_VERSION != null }
+                    expression {env.RELEASE_URL != null }
+                }
             }
             steps {
                 script {
