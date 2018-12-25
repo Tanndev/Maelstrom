@@ -66,6 +66,7 @@ pipeline {
 
         stage('Deploy') {
             when {
+                branch 'master'
                 not {
                     environment name: RELEASE_VERSION, value: 'unreleased'
                 }
