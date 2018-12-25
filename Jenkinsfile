@@ -75,10 +75,10 @@ pipeline {
                     }
 
                     if (RELEASE_VERSION) {
-                        slackSend channel: '#maelstrom', color: 'good', message: "Released <https://maelstrom.tanndev.com|Maelstrom> ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>)"
+                        slackSend channel: '#maelstrom', color: 'good', message: "Released <https://maelstrom.tanndev.com|Maelstrom> ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>) (<${env.BUILD_URL}console|Build Console>)"
                     }
                     else {
-                        slackSend channel: '#maelstrom', color: 'good', message: "Redeployed <https://maelstrom.tanndev.com|Maelstrom>."
+                        slackSend channel: '#maelstrom', color: 'good', message: "Redeployed <https://maelstrom.tanndev.com|Maelstrom>. (<${env.BUILD_URL}console|Build Console>)"
                     }
                 }
             }
@@ -87,7 +87,7 @@ pipeline {
 
     post {
         failure {
-            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build/publish Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Console>)"
+            slackSend channel: '#maelstrom', color: 'danger', message: "Failed to build/publish Maelstrom. (<${env.JOB_URL}|Pipeline>) (<${env.BUILD_URL}console|Build Console>)"
         }
     }
 }
