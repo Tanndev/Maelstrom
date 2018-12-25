@@ -347,7 +347,8 @@ Work with your storyteller to determine reasonable starting equipment.
 <!-- TODO Add actual rules for starting equipment -->
 
 #### Merits and Flaws
-_Merits and flaws may be available later._ <!-- TODO Add merits and flaws -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/12) to add it_ )
+<!-- TODO Add merits and flaws -->
 
 ### Character Progression
 Throughout the course of the campaign, your character will earn experience which can be used to improve their traits. Experience points are earned for facing challenges, overcoming obstacles, roleplaying, finding interesting solutions, and participating in the story.
