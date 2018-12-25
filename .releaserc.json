@@ -27,18 +27,20 @@
         "preset": "angular",
         "writerOpts": {
           "transform": {
-            "commit.type": {
-              "feat": "Features",
-              "fix": "Fixes",
-              "perf": "Performance Improvements",
-              "revert": "Reverts",
-              "docs": "Documentation",
-              "style": "Styles",
-              "refactor": "Refactoring",
-              "test": "Tests",
-              "build": "Build System",
-              "ci": "Continuous Integration",
-              "rules": "Rule Changes"
+            "commit": {
+              "type": {
+                "feat": "Features",
+                "fix": "Fixes",
+                "perf": "Performance Improvements",
+                "revert": "Reverts",
+                "docs": "Documentation",
+                "style": "Styles",
+                "refactor": "Refactoring",
+                "test": "Tests",
+                "build": "Build System",
+                "ci": "Continuous Integration",
+                "rules": "Rule Changes"
+              }
             }
           }
         }
