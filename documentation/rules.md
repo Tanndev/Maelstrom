@@ -287,10 +287,7 @@ If another character is sufficiently motivating or encouraging, they may spend o
 Once a character is longer directly threatened, even if their overall situation is still tenuous and stressful, they can recover by themselves and act normally. This requires being fully out of combat for at least one turn and can usually be accomplished by finding a decent hiding spot, being fully behind sturdy solid cover, or fleeing. However, this only resolves the incapacitation and does not recover a dot of willpower. In order to recover a dot, they need to find safe place to rest.
 
 ### Health
-_Description TBD_ <!-- TODO Describe Health -->
-
-#### Wound Penalties
-_Description TBD_ <!-- TODO Describe Wound Penalties -->
+_Description TBD, pending [issue #11](https://github.com/Tanndev/Maelstrom/issues/11)_ <!-- TODO Describe Health -->
 
 ### Character Creation
 It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of attributes, abilities, and specialties.
