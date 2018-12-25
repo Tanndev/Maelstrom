@@ -3,17 +3,15 @@ const COMMIT_ANALYZER = [
     {
         preset: 'angular',
         releaseRules: [
+            {type: 'rules', release: 'minor'},
+            {type: 'lore', release: 'patch'},
             {type: 'feat', release: 'minor'},
             {type: 'fix', release: 'patch'},
             {type: 'perf', release: 'patch'},
             {type: 'revert', release: 'patch'},
-            {type: 'docs', scope: 'rules', release: 'minor'},
-            {type: 'docs', scope: 'lore', release: 'patch'},
-            {type: 'style', scope: 'rules', release: 'patch'},
-            {type: 'style', scope: 'website', release: 'patch'},
             {type: 'style', scope: '/character.*/', release: 'minor'},
-            {type: 'ci', release: 'patch'},
-            {type: 'rules', release: 'minor'}
+            {type: 'style', release: 'patch'},
+            {type: 'ci', release: 'patch'}
         ]
     }
 ];
@@ -26,6 +24,10 @@ const RELEASE_NOTES_GENERATOR = [
             "transform": {
                 "type": function (type) {
                     switch (type) {
+                        case "rules":
+                            return "Rule Changes";
+                        case "lore":
+                            return "Lore Changes";
                         case "feat":
                             return "Features";
                         case "fix":
@@ -46,8 +48,6 @@ const RELEASE_NOTES_GENERATOR = [
                             return "Build System";
                         case "ci":
                             return "Continuous Integration";
-                        case "rules":
-                            return "Rule Changes";
                         default:
                             return type;
                     }
