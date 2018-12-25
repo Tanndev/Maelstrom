@@ -5,8 +5,10 @@ const path = require('path');
 const router = express.Router();
 
 // Load documentation and provide locals.
+const version = require('../package.json').version;
 const documentation = require('../helpers/loadDocumentation');
 router.use((req, res, next) => {
+    res.locals.version = version;
     res.locals.path = req.path;
     res.locals.availableDocumentation = Object.keys(documentation).sort();
     next();
