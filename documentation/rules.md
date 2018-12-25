@@ -408,8 +408,7 @@ No plan survives contact with the enemy, but we can still learn from them.
 Award one point to each player who came up with a brilliant Plan B, adapted quickly to changing circumstances, found a new and clever way to their resources, or just flawlessly executed Plan A.
 
 #### Banking Experience
-( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/13) to add it_ )
-<!-- TODO Describe how to bank experience -->
+_Description TBD_ <!-- TODO Describe how to bank experience -->
 
 #### Spending Experience
 Experience points can be spent between chapters to gain new traits and improve existing ones.
