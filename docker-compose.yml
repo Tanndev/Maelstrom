@@ -4,7 +4,7 @@ services:
   app:
     image: jftanner/maelstrom
     container_name: maelstrom_app
-    restart: on-failure:3
+    restart: unless-stopped
     ports:
       - 8080:8080
     environment:
@@ -19,6 +19,7 @@ services:
   couchdb:
     image: couchdb
     container_name: maelstrom_couch
+    restart: unless-stopped
     volumes:
       - couchdb-data:/opt/couchdb/data
       - couchdb-config:/opt/couchdb/etc
@@ -31,6 +32,7 @@ services:
   redis:
     image: redis
     container_name: maelstrom_redis
+    restart: unless-stopped
     ports:
       - 127.0.0.1:6379:6379
     expose:
