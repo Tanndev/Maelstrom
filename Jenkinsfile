@@ -52,13 +52,12 @@ pipeline {
                 sh 'cat CHANGELOG.md'
                 script {
                     RELEASE_VERSION = sh (
-                            script: "git describe --tags",
+                            script: "git tag --points-at",
                             returnStdout: true
                     ).trim()
                     RELEASE_URL = 'https://github.com/Tanndev/Maelstrom/releases/tag/' + RELEASE_VERSION
                     echo "Version: ${RELEASE_VERSION} can be viewed at ${RELEASE_URL}"
                 }
-                slackSend channel: '#maelstrom', color: 'good', message: "Released Maelstrom ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>)"
             }
         }
 
@@ -75,8 +74,14 @@ pipeline {
                         sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose pull"'
                         sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
                     }
+
+                    if (RELEASE_VERSION != null) {
+                        slackSend channel: '#maelstrom', color: 'good', message: "Released <https://maelstrom.tanndev.com|Maelstrom> ${RELEASE_VERSION}. (<${RELEASE_URL}|Release Notes>)"
+                    }
+                    else {
+                        slackSend channel: '#maelstrom', color: 'good', message: "Redeployed <https://maelstrom.tanndev.com|Maelstrom>."
+                    }
                 }
-                slackSend channel: '#maelstrom', color: 'good', message: "Successfully deployed <https://maelstrom.tanndev.com|Maelstrom>."
             }
         }
     }
