@@ -16,7 +16,7 @@ Your character's backstory helps you flesh out that story and add depth to their
 <!-- TODO Add backgrounds -->
 
 ### Traits
-Traits define what your character is capable of and are divided into [Attributes](#attributes), [Abilities](#abilities), [Specialties](#specialties), and [Willpower](#willpower). These are what you'll use to [perform actions](#performing-actions).
+Traits define what your character is capable of and are divided into [attributes](#attributes), [abilities](#abilities), [specialties](#specialties), and [Willpower](#willpower). These are what you'll use to [perform actions](#performing-actions).
 
 #### Attributes
 Attributes are the intrinsic traits that broadly define the overall capabilities of a character. All characters have at least one dot in all attributes -- except under extreme exceptions -- with two dots being the human average. Almost all player characters will have 3-4 dots in a few attributes and some characters may have fewer than two dots in one or more attributes.
