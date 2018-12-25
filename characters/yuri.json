@@ -2,6 +2,10 @@
   "name": "Yuri \"The Wrench\" Orbichev",
   "concept": "KGB Infiltrator / Engineer",
   "campaign": "Playtest",
+  "experience": {
+    "earned": 30,
+    "free": 3
+  },
   "attributes": {
     "physical": [
       {"name": "Strength", "dots": 2},
@@ -33,7 +37,7 @@
       {"name": "Piloting", "dots": 0},
       {"name": "Remote Weapons", "dots": 0},
       {"name": "Survival", "dots": 0},
-      {"name": "Tradecraft", "dots": 3, "specialties": ["Lockpick (Adv)", "Pickpocket (Adv)", "Disarm Traps (Adv)", "Set Traps", "Weapon Concealment"]}
+      {"name": "Tradecraft", "dots": 3, "specialties": ["Lockpick (Adv)", "Pickpocket (Adv)", "Traps", "Weapon Concealment"]}
     ],
     "knowledges": [
       {"name": "Computer Science", "dots": 0},
