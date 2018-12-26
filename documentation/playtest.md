@@ -59,4 +59,4 @@ Recently, the station reported heavy pirate activity and contracted BlackStar fo
 - **Type:** Short-range Text Broadcast (Scrambled)
 - **From:** [Arcturis Station](#arcturis-research-facility)
 - **To:** [BlackStar Donager](#donager)
-- **Message:** Donag____________k_now____rates_______ijack________ommun______ns____________a___mb_________________de___________eroid_____not appr_____ _______ repeats_______es ha______acked our ________________nd set _____ ___ush ________ar side_____________oid. Do _____________
+- **Message:** Donag____________k_now____rates_______ijack________ommun______ns____________a___mb___ _____________de___________eroid_____not appr_____ _______ repeats_______es ha______acked our ________________nd set _____ ___ush ________ar side_____________oid. Do _____________
