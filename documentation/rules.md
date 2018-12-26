@@ -16,7 +16,7 @@ Your character's backstory helps you flesh out that story and add depth to their
 <!-- TODO Add backgrounds -->
 
 ### Traits
-Traits define what your character is capable of and are divided into [attributes](#attributes), [abilities](#abilities), [specialties](#specialties), and [Willpower](#willpower). These are what you'll use to [perform actions](#performing-actions).
+Traits define what your character is capable of and are divided into [attributes](#attributes), [abilities](#abilities), [specialties](#specialties), and [Willpower](#Willpower). These are what you'll use to [perform actions](#performing-actions).
 
 #### Attributes
 Attributes are the intrinsic traits that broadly define the overall capabilities of a character. All characters have at least one dot in all attributes -- except under extreme exceptions -- with two dots being the human average. Almost all player characters will have 3-4 dots in a few attributes and some characters may have fewer than two dots in one or more attributes.
@@ -261,30 +261,33 @@ General Specialties represent focus in areas that are not otherwise considered e
 Advanced Specialties represent focus in areas that are more challenging or require specialized knowledge and practice. Characters with these specialties will perform better at related tasks, similar to general specialties. However, characters without them are at a significant disadvantage. Attempting an action without an appropriate advanced specialty usually adds a [threshold](#threshold) to the roll. (See: [required specialties](#required-specialties))
 
 #### Willpower
-All characters have a willpower trait which represents their capacity to push through pain, withstand mental or emotional stress, resist torture, and remain productive in the face of impossible odds. Willpower is commonly used to temporarily resist the effects of things like tear gas, drugs, alcohol, hypoxia, intense fear, and even wounds. It's also used to more quickly recover from the incapacitating effects of tasers, flashbangs, electrocution, etc.
+All characters have a Willpower trait which represents their capacity to push through pain, withstand mental or emotional stress, resist torture, and remain productive in the face of impossible odds. Willpower is commonly used to temporarily resist the effects of things like tear gas, drugs, alcohol, hypoxia, intense fear, and even wounds. It's also used to more quickly recover from the incapacitating effects of tasers, flashbangs, electrocution, etc.
 
-Unlike other traits, willpower is on a scale from 1 to 10 and is always rolled alone. Additionally, willpower has both permanent and current ratings. A character's current dots can never exceed their permanent rating, but can be reduced and recovered through gameplay. When rolling or spending willpower, always use your character's _current_ dots, rather than their permanent rating.
+Unlike other traits, Willpower is on a scale from 1 to 10 and is always rolled alone. Additionally, Willpower is spendable, which means that it has both permanent and current ranks. A character's current rank can never exceed their permanent rank, but can be reduced and recovered through gameplay. When [purchasing more Willpower](#spending-experience), the cost depends on your character's maximum rank but they gain a dot in both their current and maximum ranks.
 
-After making a willpower roll, you may choose to [spend a willpower](#spending-willpower) dot to cancel your roll and succeed automatically. Your number of successes is set equal to your remaining willpower dots. (You may not spend your final willpower dot in this way, as doing so would result in zero successes and fail.)
+##### Rolling Willpower
+Willpower is almost always rolled at the storyteller's request in order to resist or recover from one of the negative effects listed above. The number of successes on your roll will usually determine how well, or how quickly, your character was able to resist the effect. This roll uses your character's _current_ rank rather than their permanent rank. Also, Using willpower is not considered an action, so it doesn't suffer from [wound penalties](#wound-penalties).
 
-Botching a willpower roll reduces your character's current willpower by one dot per uncancelled botch. In addition, you cannot spend willpower dots to cancel a botched roll. <!-- TODO Reconsider stacking willpower botches -->
+Fortunately, failing a Willpower roll doesn't always mean that your character succumbs. After making a Willpower roll, you may choose to [spend a Willpower](#spending-willpower) dot to cancel your roll and succeed automatically. Your number of successes is set equal to your remaining Willpower dots. (You may not spend your final Willpower dot in this way, as doing so would result in zero successes and fail.)
+
+Botching a Willpower roll reduces your character's current Willpower by one dot per uncancelled botch. In addition, you cannot spend Willpower dots to cancel a botched roll. <!-- TODO Reconsider stacking Willpower botches -->
 
 ##### Spending Willpower
-Spending a willpower dot reduces your current willpower rating by one until you recover it. This allows you to ignore wounds or guarantee success on willpower rolls, but comes at the cost of reducing the dice pools for all future willpower rolls. Spent dots can be recovered, and the dice pools increased again, but only slowly and outside of combat.
+Spending a Willpower dot reduces your current Willpower rank by one dot until you recover it. This allows you to ignore wounds or guarantee success on Willpower rolls, but comes at the cost of reducing the dice pools for all future Willpower rolls. Spent dots can be recovered, and the dice pools increased again, but only slowly and outside of combat.
 
-In addition to spending dots to automatically succeed willpower rolls, you may also spend them to ignore wound penalties. Once per turn, a character may spend one willpower dot to ignore their injuries and roll their next action without a [wound penalty](#wound-penalties). (Note: Crippled limbs cannot be used to perform actions and willpower does not remove this effect.) If a character spends their last willpower dot in this way, they don't suffer the effects of [zero willpower](#zero-willpower) until after they complete the action.
+In addition to spending dots to automatically succeed Willpower rolls, you may also spend them to ignore wound penalties. Once per turn, a character may spend one Willpower dot to ignore their injuries and roll their next action without a [wound penalty](#wound-penalties). (Note: Crippled limbs cannot be used to perform actions and Willpower does not remove this effect.) If a character spends their last Willpower dot in this way, they don't suffer the effects of [zero Willpower](#zero-willpower) until after they complete the action.
 
 ##### Recovering Willpower
-Characters recover willpower by resting in a safe, comfortable environment. If a character feels threatened or in danger, or if they are particularly uncomfortable, they are not able to recover willpower. This is up to the discretion of the storyteller but generally requires being in a place with little to no risk of being attacked, no significantly adverse environmental conditions, etc.
+Characters recover Willpower by resting in a safe, comfortable environment. If a character feels threatened or in danger, or if they are particularly uncomfortable, they are not able to recover Willpower. This is up to the discretion of the storyteller but generally requires being in a place with little to no risk of being attacked, no significantly adverse environmental conditions, etc.
 
-Once a character is able to recover willpower, if they are at zero dots, they may immediately recover the first dot. Otherwise, they will regain 1 dot every 12 hours. If they actively rest or relax for that time, they may regain 1 additional dot per success on a difficulty 8 willpower roll.
+Once a character is able to recover Willpower, if they are at zero dots, they may immediately recover the first dot. Otherwise, they will regain 1 dot every 12 hours. If they actively rest or relax for that time, they may regain 1 additional dot per success on a difficulty 8 Willpower roll.
 
 ##### Zero Willpower
-If a character is reduced to zero dots in willpower, either by botching a willpower roll or spending their last dot to resist their injuries, they no longer have the will to carry on. Characters in this state may not make any actions and are considered incapacitated. However, they will continue to act passively to keep pressure on their own wounds, hide, crawl away from danger, cooperate with other characters carrying or dragging them, etc.
+If a character is reduced to zero dots in Willpower, either by botching a Willpower roll or spending their last dot to resist their injuries, they no longer have the will to carry on. Characters in this state may not make any actions and are considered incapacitated. However, they will continue to act passively to keep pressure on their own wounds, hide, crawl away from danger, cooperate with other characters carrying or dragging them, etc.
 
-If another character is sufficiently motivating or encouraging, they may spend one dot of their own willpower to restore nearby incapacitated characters to one dot. This can only be done at the discretion of the storyteller and will usually require roleplaying the manner in which the character convinces their companions to carry on the fight.
+If another character is sufficiently motivating or encouraging, they may spend one dot of their own Willpower to restore nearby incapacitated characters to one dot. This can only be done at the discretion of the storyteller and will usually require roleplaying the manner in which the character convinces their companions to carry on the fight.
 
-Once a character is longer directly threatened, even if their overall situation is still tenuous and stressful, they can recover by themselves and act normally. This requires being fully out of combat for at least one turn and can usually be accomplished by finding a decent hiding spot, being fully behind sturdy solid cover, or fleeing. However, this only resolves the incapacitation and does not recover a dot of willpower. In order to recover a dot, they need to find safe place to rest.
+Once a character is longer directly threatened, even if their overall situation is still tenuous and stressful, they can recover by themselves and act normally. This requires being fully out of combat for at least one turn and can usually be accomplished by finding a decent hiding spot, being fully behind sturdy solid cover, or fleeing. However, this only resolves the incapacitation and does not recover a dot of Willpower. In order to recover a dot, they need to find safe place to rest.
 
 ### Health
 All characters have a certain amount of health. Attacks and other damage sources will cause your character to take damage and lose health. As they lose health, they'll begin to suffer from [wound penalties](#wound-penalties). Enough damage will eventually incapacitate them or even kill them outright.
@@ -379,7 +382,7 @@ Assign dots to your character's abilities with the following rules:
 When assigning dots, keep in mind that there is a penalty to use [skills](#skills) and [knowledges](#knowledges) are more difficult or impossible to use without any dots in them. So, while it can be tempting to put as many dots as possible into [talents](#talents), it's usually better to spread out your dots somewhat evenly. Of course, the most important thing is to make sure your character's abilities match their backstory and your style of play.
 
 #### Starting Willpower
-All characters start with 3 dots in [Willpower](#willpower).
+All characters start with 3 dots in [Willpower](#Willpower).
 
 #### Starting Specialties
 Characters don't start with any [specialties](#specialties) automatically.
@@ -387,7 +390,7 @@ Characters don't start with any [specialties](#specialties) automatically.
 #### Starting Experience
 Your character always begins with a certain amount of [experience](#character-progression) which can be [spent](#spending-experience) immediately to improve their traits further.
 
-When deciding how to spend your starting experience, consider picking up several [specialties](#specialties). These can be a very cost-effective way to improve your character's capabilities significantly. This is especially true for [advanced specialties](#advanced-specialties) because it's significantly more difficult and dangerous to perform tasks which [require](#required-specialties) them. Also consider increasing [Willpower](#willpower) by a couple points, since this too can only be increased via experience.
+When deciding how to spend your starting experience, consider picking up several [specialties](#specialties). These can be a very cost-effective way to improve your character's capabilities significantly. This is especially true for [advanced specialties](#advanced-specialties) because it's significantly more difficult and dangerous to perform tasks which [require](#required-specialties) them. Also consider increasing [Willpower](#Willpower) by a couple points, since this too can only be increased via experience.
 
 Of course, you can also just increase attributes or abilities if you prefer. Or, hang on to the points and spend them later. This is a reasonable option if you're not yet sure exactly how you want to fine-tune your character's stats. <!-- TODO Mention rerolling characters -->
 
@@ -429,7 +432,7 @@ However, while this added bulk may make your character more resilient, it may al
 
 ###### Strong Bond
 **4 points:** In a vast, cold galaxy your character has found another person that gives their life purpose and meaning. This might be their one true love, a close childhood friend, or someone they served with.
-This bond inspires your character to always make it home. Gain one automatic success on all willpower rolls.
+This bond inspires your character to always make it home. Gain one automatic success on all Willpower rolls.
 Beware, however, that the other person will exist in the story and may be vulnerable. If your character believes they are dead or lost, you will lose this merit. Sorry, Mario, your princess is in another castle.
 
 ###### Common Sense
@@ -502,10 +505,10 @@ While some flaws may be corrected with cybernetics or prosthetics, doing so will
 **2 points:** Your character is really, really bad at something even though they try it anyway. Choose an ability in which your character has at least one dot. This ability should also be something important to your character and not just a throw-away ability. (If you don't do this, the storyteller will _make_ it important to your character. Usually in a particularly unpleasant way.) Suffer +2 difficulty to all rolls with this ability.
 
 ###### Soft-Hearted
-**1 point:** Your character can't stand to witness suffering of any kind. They will need to succeed a difficulty 8 [Willpower](#willpower) roll in order to participate in any situation which will cause someone emotional or physical pain.
+**1 point:** Your character can't stand to witness suffering of any kind. They will need to succeed a difficulty 8 [Willpower](#Willpower) roll in order to participate in any situation which will cause someone emotional or physical pain.
 
 ###### Phobia
-**2 points:** Your character is absolutely, completely, pants-wettingly, terrified by something relatively common. It could be snakes, spiders, tight spaces, large crowds, or open skies. Whatever it is, they'll need to make a [Willpower](#willpower) roll any time they encounter their fear. If they botch, they may be completely incapacitated by fear. If they fail, they'll attempt to leave the situation. If they are unable or unwilling to flee, they will suffer +2 difficulty on ALL rolls while continuing to face their fear. Even if they succeed their initial Willpower roll, they may need to make additional rolls over time to continue resisting their fear.
+**2 points:** Your character is absolutely, completely, pants-wettingly, terrified by something relatively common. It could be snakes, spiders, tight spaces, large crowds, or open skies. Whatever it is, they'll need to make a [Willpower](#Willpower) roll any time they encounter their fear. If they botch, they may be completely incapacitated by fear. If they fail, they'll attempt to leave the situation. If they are unable or unwilling to flee, they will suffer +2 difficulty on ALL rolls while continuing to face their fear. Even if they succeed their initial Willpower roll, they may need to make additional rolls over time to continue resisting their fear.
 
 ### Character Progression
 Throughout the course of the campaign, your character will earn experience which can be used to improve their traits. Experience points are earned for facing challenges, overcoming obstacles, roleplaying, finding interesting solutions, and participating in the story.
