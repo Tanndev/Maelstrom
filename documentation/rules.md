@@ -287,8 +287,62 @@ If another character is sufficiently motivating or encouraging, they may spend o
 Once a character is longer directly threatened, even if their overall situation is still tenuous and stressful, they can recover by themselves and act normally. This requires being fully out of combat for at least one turn and can usually be accomplished by finding a decent hiding spot, being fully behind sturdy solid cover, or fleeing. However, this only resolves the incapacitation and does not recover a dot of willpower. In order to recover a dot, they need to find safe place to rest.
 
 ### Health
-( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/11) to add it_ )
-<!-- TODO Describe Health -->
+All characters have a certain amount of health. Attacks and other damage sources will cause your character to take damage and lose health. As they lose health, they'll begin to suffer from [wound penalties](#wound-penalties). Enough damage will eventually incapacitate them or even kill them outright.
+
+#### Taking Damage
+When your character gets hit by an attack or encounters some other hazard, they're one or more levels of damage. This damage can be [bashing](#bashing-damage), [lethal](#lethal-damage), or [aggravated](#aggravated-damage). Depending on which type of damage it is, and whether your character is wearing armor, you may then have an opportunity to reduce the damage by [soaking](#soaking-damage) it. Finally, once you know how many level of damage your character is actually taking, you'll [mark it down](#marking-damage).
+
+##### Types of Damage
+There are three types of damage. These damage types are all dealt the same way, and result in the same [wound penalties](#wound-penalties), but are [soaked](#soaking-damage) and healed differently.
+
+###### Bashing Damage
+Bashing damage represents blunt-force trauma. It can be caused by fists, sticks, clubs, and even explosions. Bashing can incapacitate a character just as quickly as other types of damage, but is far less likely to kill them and much easier to heal. It can also be [soaked](#soaking-damage) without armor.
+
+###### Lethal Damage
+Lethal damage represents cutting or piercing injuries. It's usually caused by firearms, knifes, and other edged or ranged weapons. As the name implies, lethal damage can quickly be fatal. It's slower to heal than bashing, but faster than aggravated, and it can't normally be [soaked](#soaking-damage) without armor.
+
+###### Aggravated Damage
+Aggravated damage represents burns, radiation poisoning, and other forms of wide-spread cellular destruction. It can be caused by fire, chemicals, radiation, high-current electrocution, etc. It doesn't kill any faster than lethal damage but is much harder to heal. It can only be [soaked](#soaking-damage) with certain types of armor, depending on the source of the damage.
+
+##### Soaking Damage
+Soaking allows your character to take less damage than they otherwise would. Usually, characters are only able to soak [bashing](#bashing-damage) damage, but wearing armor can also let them soak [lethal damage](#lethal-damage) as well as some forms of [aggravated damage](#aggravated-damage). Your character's armor will describe what effects it has on their ability to soak damage.
+
+Soaking damage is similar to an opposed roll against the incoming damage. Whenever your character is about to receive damage, you'll roll a certain number of soak dice. When taking bashing damage, your soak [dice pool](#dice-pool) is your character's [Strength](#strength) attribute plus any bonus from their armor. For lethal and aggravated, only the armor's rating is used. Unlike other rolls, however, soaking damage is _always_ at a difficulty 6 and isn't affected by wound penalties. In fact, you get to make soak rolls even when your character is fully incapacitated. However, you can't get [exploding 10s](#using-specialties) on soak rolls, nor can you [add experience dice](#adding-experience-dice).
+
+After rolling your soak dice, subtract your successes from the incoming damage. If you failed, botched, or couldn't roll any dice, then you take the full damage. (Botching doesn't add any additional damage or anything, but the storyteller may add an amusing description if they wish.)
+
+##### Marking Damage
+On your character sheet, there is a series of boxes representing your character's health.
+
+When your character takes damage, after potentially [soaking](#soaking-damage) it, you'll mark it down in these boxes. Each level of damage that they take fills a single box. However, they are marked in different ways:
+- [Bashing damage](#bashing-damage) is marked with a single diagonal line from one corner to another.
+- [Lethal damage](#lethal-damage) is marked with two diagonal lines, like an X.
+- [Aggravated damage](#aggravated-damage) is marked with two diagonal lines plus a vertical line, like an asterisk.
+
+Each type of damage adds a single line over the one before it and this isn't an accident: though each level of damage taken fills one box, the more serious types of damage are recorded at the top and push the less serious types down. So all your character's aggravated damage will be in the top boxes, above all their lethal damage, which is above all their bashing damage. (In practice, they'll rarely have all three types simultaneously.) This doesn't affect the total amount of damage, so wound penalties are mostly unchanged, but means that less serious damage types are healed first. Marking the damage like this makes it easy to convert a lower damage type to a higher one so you can move the lower one down.
+
+> **Example:** Your character has already taken one level of lethal damage and two levels of bashing, so their health chart looks like this: `[X][/][/][ ][ ][ ][ ][ ]`. They then take another level of lethal, which pushes the bashing damage down to look like this: `[X][X][/][/][ ][ ][ ][ ]`.
+
+#### Wound Penalties
+With the exception of the top one, each box on a character's health chart has a wound penalty listed next to it which increase in value as the character takes more damage.
+
+Whenever your character has taken damage, they suffer the wound penalty marked next to the bottom-most box they have damage in. Subtract this many **dice** from the [dice pools](#dice-pool) for all actions your character makes. (Keep in mind that [Soaking damage](#soaking-damage) and [rolling Willpower](#rolling-willpower) are not actions and are not affected by wound penalties.)
+
+Your character may ignore their wound penalty an action by [spending Willpower](#spending-willpower).
+
+> **Example:** Your character has taken three levels of damage and they are at the "Hurt" wound level. Because of this, they'll have one fewer dice on all their rolls until they heal. If they take another level of damage, they'll be at the "Injured" wound level and suffer -2 dice on all their rolls.
+
+##### Incapacitation and Death
+The bottom-most box on your character's health chart is marked "Incapacitated" with no wound penalty. If this box contains damage, your character is unconscious and unable to act at all.
+
+If this box contains bashing damage, each additional bashing damage your character receives will convert their top-most level of bashing damage to lethal. Once this box contains lethal or aggravated damage, then the next level of damage -- no matter the type -- will be fatal. It's definitely possible to beat someone to death; it just takes a bit more effort.
+
+Taking fatal damage most likely means that your character is dead and gone forever. Sometimes, the storyteller may decide to offer your follow players a chance to revive your character but, usually, dead is dead. The journey continues, though, so take this as an opportunity to try something new with a [new character](#character-creation). Sometimes, the storyteller may decide to offer your follow players a chance to revive your character.
+
+(As a storyteller, if you choose to allow the revival of a dead character, you should also add a permanent penalty to them; perhaps in the form of a new [flaw](#flaws). This is especially true if the technology used is likely to be available to them again in the future. Otherwise, death stops being meaningful, players stop experiencing any real risk, and the game gets boring.)
+
+#### Location Damage
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/15) to add it_ )
 
 ### Character Creation
 It's important to take the time to flesh out your [character](#characters)'s backstory and personality before you even start considering the numbers on you character sheet. Having an interesting character design before you start will make it a lot easier to pick out an interesting and varied selection of attributes, abilities, and specialties.
