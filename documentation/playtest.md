@@ -56,7 +56,8 @@ Recently, the station reported heavy pirate activity and contracted BlackStar fo
 
 ### Scrambled Message
 
-- **Type:** Short-range Text Broadcast (Scrambled)
+- **Type:** Short-range Text Broadcast
 - **From:** [Arcturis Station](#arcturis-research-facility)
 - **To:** [BlackStar Donager](#donager)
-- **Message:** Donag____________k_now____rates_______ijack________ommun______ns____________a___mb___ _____________de___________eroid_____not appr_____ _______ repeats_______es ha______acked our ________________nd set _____ ___ush ________ar side_____________oid. Do _____________
+- **Message:** **SCRAMBLED**
+<!-- - **Recovered:** Donager, turn back now! Pirates have hijacked our communications and set up an ambush on the far side of the asteroid. Do not approach! Message repeats: Pirates have hijacked our communications and set up an ambush on the far side of the asteroid. Do not approach! -->
