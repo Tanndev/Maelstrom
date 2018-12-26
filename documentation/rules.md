@@ -754,10 +754,12 @@ Finally, determine which [advanced specialties](#advanced-specialties) apply to 
 <!-- TODO Put in a table of average successes for die pool and difficulty -->
 
 ## Equipment
-_Description TBD_ <!-- TODO Describe Equipment -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/14) to add it_ )
+<!-- TODO Describe Equipment -->
 
 ### Weapons
-_Description TBD_ <!-- TODO Describe Weapons -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/14) to add it_ )
+<!-- TODO Describe Weapons -->
 
 #### Ranged Weapons
 The table below provides some very basic stats for ranged weapons.
@@ -790,25 +792,33 @@ The table below provides some very basic stats for melee weapons.
 | Axe             | Strength + 3 | Lethal      |
 
 ### Armor
-_Description TBD_ <!-- TODO Describe Armor -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/14) to add it_ )
+<!-- TODO Describe Armor -->
 
 ### Tools
-_Description TBD_ <!-- TODO Describe Tools -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/14) to add it_ )
+<!-- TODO Describe Tools -->
 
 ### Ships
-_Description TBD_ <!-- TODO Describe Ships -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/14) to add it_ )
+<!-- TODO Describe Ships -->
 
 ## Combat
-_Description TBD_ <!-- TODO Describe basic combat -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/16) to add it_ )
+<!-- TODO Describe basic combat -->
 
 ### Turns
-_Description TBD_ <!-- TODO Describe turn system -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/16) to add it_ )
+<!-- TODO Describe turn system -->
+
+### Initiative
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/16) to add it_ )
+<!-- TODO Describe Initiative -->
 
 ### Attacking
-_Description TBD_ <!-- TODO Describe attacking -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/16) to add it_ )
+<!-- TODO Describe attacking -->
 
 ### Evading
-_Description TBD_ <!-- TODO Describe evading -->
-
-### Taking Damage
-_Description TBD_ <!-- TODO Describe taking damage -->
+( _This section isn't ready yet. There's [an open issue](https://github.com/Tanndev/Maelstrom/issues/16) to add it_ )
+<!-- TODO Describe evading -->
