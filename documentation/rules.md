@@ -3,6 +3,11 @@ The following rules provide a framework to help storytellers and players build t
 
 <!-- toc -->
 
+## Starting a Campaign
+Roleplaying games are fun, social experiences that brings friends together, and it all begins with session zero. To ensure that everyone is one the same page about what kind of game you're going to play, it's important to have this first session to discuss the game and create characters as a group. All the players, along with the storyteller, should discuss what kind of game you want to play together and what sort of stories you'll tell. Will it be a tense, resource-constrained horror game or an action-packed combat adventure? Will your party be social and friendly or classic murder-hobos? Will sessions generally revolve around solving puzzles or blowing things up?
+
+By talking ahead of time about the kind of game you want to play, you make sure that everyone is on the same page and nobody is surprised when the wacky hack'n'slash adventure they were expecting turns out to be serious political intrigue. (Or vice-versa.) It also gives the players a chance to work together to build a balanced and cohesive party that has all the necessary skills to face the challenges ahead. Your space western game is going to be a lot less fun if it's all Simons and no Jaynes.
+
 ## Characters
 Characters make up the core of any roleplaying game. Your character is your avatar in the game world and they will define who you are and what you are able to do. They are how you interact with the story and with other players. Because of this, the characters in Maelstrom are designed to be flexible. When you [create your character](#character-creation), you'll select a set of backgrounds, traits, and equipment that will help you play the _person_ you want to play.
 
@@ -807,8 +812,3 @@ _Description TBD_ <!-- TODO Describe evading -->
 
 ### Taking Damage
 _Description TBD_ <!-- TODO Describe taking damage -->
-
-## Starting a Campaign
-Roleplaying games are fun, social experiences that brings friends together, and it all begins with session zero. To ensure that everyone is one the same page about what kind of game you're going to play, it's important to have this first session to discuss the game and create characters as a group. All the players, along with the storyteller, should discuss what kind of game you want to play together and what sort of stories you'll tell. Will it be a tense, resource-constrained horror game or an action-packed combat adventure? Will your party be social and friendly or classic murder-hobos? Will sessions generally revolve around solving puzzles or blowing things up?
-
-By talking ahead of time about the kind of game you want to play, you make sure that everyone is on the same page and nobody is surprised when the wacky hack'n'slash adventure they were expecting turns out to be serious political intrigue. (Or vice-versa.) It also gives the players a chance to work together to build a balanced and cohesive party that has all the necessary skills to face the challenges ahead. Your space western game is going to be a lot less fun if it's all Simons and no Jaynes.
