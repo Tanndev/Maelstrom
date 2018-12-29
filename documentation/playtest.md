@@ -51,13 +51,3 @@ This section lists known places in the playtest
 This small research facility is on a mid-sized (10km) asteroid near the edge of the system. The facility's research objective is currently unknown.
 
 Recently, the station reported heavy pirate activity and contracted BlackStar for immediate protection and long-term defense construction.
-
-## Communications Log
-
-### Scrambled Message
-
-- **Type:** Short-range Text Broadcast
-- **From:** [Arcturis Station](#arcturis-research-facility)
-- **To:** [BlackStar Donager](#donager)
-- **Message:** **SCRAMBLED**
-<!-- - **Recovered:** Donager, turn back now! Pirates have hijacked our communications and set up an ambush on the far side of the asteroid. Do not approach! Message repeats: Pirates have hijacked our communications and set up an ambush on the far side of the asteroid. Do not approach! -->
