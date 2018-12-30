@@ -10,8 +10,8 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=8080
-      - REDIS_URL=redis://redis
-      - COUCH_URL=http://couchdb
+      - REDIS_HOST=redis
+      - COUCH_HOST=couchdb
     depends_on:
       - redis
       - couchdb
