@@ -24,4 +24,8 @@ html
     div.footer
       a(href='https://github.com/tanndev/maelstrom' target='__blank')
         img(src='/images/octocat.png')
+      if (user)
+        span=`Welcome, ${user.id}`
+      else
+        a(href='/login') Login
       span Favicon provided by #[a(href='http://icons8.com/') Icons8]
