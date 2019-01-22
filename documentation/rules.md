@@ -71,22 +71,23 @@ Perception is the capacity to take in and process stimuli. It's used for searchi
 - **5**: Outstanding. Nothing escapes your notice. You see all.
 
 ###### Intelligence
-Intelligence is the capacity to learn and apply information. It's used for research, mathematics, logical problem solving, and other activities where the limiting factor is education or reasoning. A character with high intelligence is good at reasoning through problems and will tend to figure things out slowly and methodically. If successful, they will usually fully understand the situation and be confident in their solution.
-- **0**: Abysmal. Ogg not know how make pointy stick. (Illiterate)
-- **1**: Poor. You ain't much fer book learning. (High school or Less)
-- **2**: Average. You can do your own taxes more or less correctly. (College/Trade School)
-- **3**: Good. You can do other people's taxes correctly. (Post-Graduate/Master)
+Intelligence is the capacity to learn and apply information as well as the capacity for cleverness and intuition. It's used for research, mathematics, problem solving, and other activities where the limiting factor is education, reasoning, or the ability to think quickly.
+- **0**: Abysmal. Ogg not know how make pointy stick.
+- **1**: Poor. You ain't much fer book learning.
+- **2**: Average. You can do your own taxes more or less correctly.
+- **3**: Good. You can do other people's taxes correctly.
 - **4**: Exceptional. You're a well known and respected thinker in your field.
 - **5**: Outstanding. Hawking, Einstein, Tesla, Faraday... and you.
 
-###### Wits
-Wits is the capacity for cleverness and intuition. It's used for trial-and-error experimentation, intuitive problem solving, out-of-the-box thinking, and other activities where the limiting factor is the ability to think quickly or creatively. A character with high wits is good at thinking on their feet and will tend to figure things out quickly but imprecisely. They may be prone to flip switches without fully understanding what they do.
-- **0**: Abysmal. There's a hole in my bucket, dear Liza, dear Liza.
-- **1**: Poor. Even with a map, you always get lost.
-- **2**: Average. You can usually navigate a grocery store.
-- **3**: Good. You're pretty decent with a crossword puzzle.
-- **4**: Exceptional. Your innovative ideas revolutionize small industries.
-- **5**: Outstanding. The Enterprise crew doesn't come up with solutions as clever as yours.
+###### Unnamed Attribute
+<!-- TODO Describe Aptitude -->
+_Description TBD_
+- **0**: Abysmal. _Description TBD_
+- **1**: Poor. _Description TBD_
+- **2**: Average. _Description TBD_
+- **3**: Good. _Description TBD_
+- **4**: Exceptional. _Description TBD_
+- **5**: Outstanding. _Description TBD_
 
 #### Abilities
 Abilities are the learned or developed traits that define the specific things a character knows how to do.
@@ -112,7 +113,7 @@ Athletics represents a character's talent for physical agility. Where the physic
 
 ###### Investigation
 Investigation represents a character's talent for gathering evidence, making connections between events, and finding hidden information. It's used to conduct research, process crime scenes, analyse forensics, searching records, and other general skills that might be used to locate information. Most investigation methods require access to people, databases, or other information sources. This can often be acquired lawfully or with proper authorization. But, if not, it can sometimes be obtained via [Tradecraft](#tradecraft).
-- **Common Attributes:** Intelligence, Wits, Perception
+- **Common Attributes:** Intelligence, Perception
 - **Advanced Specialties:** Forensics, Missing Persons
 - **General Specialties:** Research, Computer Records, Crime Scenes
 
@@ -124,25 +125,26 @@ Melee represents a character's talent in a close range fight. It includes both a
 
 ###### Performance
 Performance represents a character's talent for the performing arts. It's used to sing, dance, act, play an instrument, or give a speech. While this ability can determine the quality of a performance, it does not influence the content. As with all social actions, only roleplaying will determine whether or not your speech, lie, etc is believable. Without a good reason or story, even the best actor in the galaxy won't convince a guard to let them into a restricted area.
-- **Common Attributes:** Coordination, Wits
+- **Common Attributes:** Coordination, Intelligence
 - **Advanced Specialties:** Specific Musical Instrument (Piano, Guitar, Drums, etc)
 - **General Specialties:** Dancing, Singing, Acting, Speeches
 
 ###### Stealth
 Stealth represents a character's talent in hiding, moving silently, and otherwise keeping out of sight. It's used to avoid detection in a crowd, find good hiding spots, or move silently.
-- **Common Attributes:** Wits, Coordination
+- **Common Attributes:** Coordination, Reflexes
 - **Advanced Specialties:** Power Armor
 - **General Specialties:** Terrain (Urban, Forests, Plains, etc), Surveillance
 
 ###### Streetwise
 Streetwise represents a character's talent for surviving and navigating urban environments. It is used to safely navigate unfamiliar places, find people to buy or sell illicit goods, locate information brokers, and avoid getting mugged.
-- **Common Attributes:** Wits
+- **Common Attributes:** Intelligence
 - **Advanced Specialties:** Black Markets, Criminal Networks, Megacities
 - **General Specialties:** Colonies, Outposts, Research Stations, Industrial Stations, Docks, Shipyards
 
 ###### Technology
+<!-- TODO Reconsider Technology -->
 Technology represents a character's talent for using modern technology. It's used to interact with computer systems to retrieve information, recover lost data, and gain unauthorized access. It is also used with other consumer technology such as communications, security, and navigation systems. While Technology may be used to gain access to insecure systems, or use pre-written exploits against secure ones, proper software development and hacking requires [Computer Science](#computer-science).
-- **Common Attributes:** Intelligence, Wits
+- **Common Attributes:** Aptitude
 - **Advanced Specialties:** Hacking, Data Recovery, Data Forgery, AI Modules, Remote Access
 - **General Specialties:**  Data Storage, Communications, Security Systems, Navigation Systems
 
@@ -183,19 +185,19 @@ Piloting represents a character's skill at operating both aircraft and spacecraf
 
 ###### Remote Weapons
 Remotely Weapons represents a character's skill operating remotely-operated fly-by-wire weapons systems such as those mounted on vehicles, space stations, buildings, etc. It includes both the turreted and fixed weapons of vehicles, as well any weapon which is controlled via keyboard, joystick, or other indirect control mechanism. Firing remote weapons is usually a mental task, but quickly responding to and shooting down threats can require reflexes instead.
-- **Common Attributes:** Wits, Reflexes
+- **Common Attributes:** Aptitude, Reflexes
 - **Advanced Specialties:** Defensive Fire, Power Armor, Mining Equipment, Advanced Maintenance
 - **General Specialties:** PDCs, Missiles, Torpedoes, Rail Guns
 
 ###### Survival
 Survival represents a character's skill at surviving in harsh or austere environments. It's used to build shelters, find food, decontaminate clothing, manage oxygen tanks, etc.
-- **Common Attributes:** Intelligence, Wits
+- **Common Attributes:** Intelligence
 - **Advanced Specialties:** Extreme Temperatures, Radiation, Biochemical Agents
 - **General Specialties:** Terrain (Urban, Forests, Plains, etc), Vacuum, Non-Breathable Atmosphere
 
 ###### Tradecraft
 Tradecraft represents a character's skill at breaking into placing, stealing things, and conducting espionage. It's used to pick locks, disable alarms, hide weapons, set traps, disarm traps, and carry out other clandestine activity. Conducting a heist or breaking into a records vault will usually require some level of Tradecraft. However, making useful sense of the information stolen will usually require some level of [Investigation](#investigation).
-- **Common Attributes:** Wits, Coordination
+- **Common Attributes:** Intelligence, Coordination
 - **Advanced Specialties:** Lockpick, Pickpocket
 - **General Specialties:**  Weapon Concealment, Dead Drops, Traps, Surveillance, Alarms
 
@@ -206,13 +208,13 @@ In some cases, the storyteller may allow an alternate roll or action to allow a 
 
 ###### Computer Science
 Computer Science represents a character's knowledge of computer hardware and software development. It's used to create new programs, modify or build computer systems, create algorithms, train AI, find exploits, etc. However, interacting with existing tools and systems as an end-user usually requires [Technology](#technology) instead.
-- **Common Attributes:** Intelligence
+- **Common Attributes:** Aptitude
 - **Advanced Specialties:** Hacking, AI Research, Quantum Computing
 - **General Specialties:** Encryption, Programming, Data Processing
 
 ###### Engineering
 Engineering represents a character's ability to maintain, repair, and upgrade all the various systems usually found on a ship or space station. Similar to a vehicle mechanic, ships' engineers are able to install new parts or jury rig systems to bypass damaged parts. However, creating new parts usually requires [Manufacturing](#manufacturing). However, this trait can also be used to service ground vehicles, aircraft, power armor, outposts, and other mostly electromechanical objects.
-- **Common Attributes:** Intelligence, Wits
+- **Common Attributes:** Intelligence, Aptitude
 - **Advanced Specialties:** Jury Rigging, Power Armor, Weapon Systems, Reactors, Gravitics
 - **General Specialties:**  Spacecraft, Aircraft, Stations, Ground Vehicles, Life Support, Electrical, Mining Equipment
 
@@ -224,7 +226,7 @@ Humanities represents a character's knowledge about human societies, culture, hi
 
 ###### Manufacturing
 Manufacturing represents a character's ability to create hard goods out of metals, plastics, ceramics, composites, etc. It includes both the knowledge required to properly operate manual manufacturing equipment and to create toolpaths and blueprints for autofabricators. While the goods produced by Manufacturing can be precisely machined parts and tools, they usually lack an artistic flair. For that, [Artistry](#artistry) is often used instead.
-- **Common Attributes:** Intelligence, Wits
+- **Common Attributes:** Intelligence, Aptitude, Coordination
 - **Advanced Specialties:** Mechanical Design, Electronics, Explosives, Textiles
 - **General Specialties:** Autofabrication, Manual Machining, Metals, Plastics, Ceramics, Composites
 
@@ -242,13 +244,13 @@ Natural Science represents a character's knowledge of the physical and social sc
 
 ###### Statecraft
 Statecraft represents a character's knowledge of the modern political landscape, governments, corporations, and jurisdictions. It's used to understand the relationships between the myriad governments and corporations, navigate complex jurisdictional boundaries, negotiate interplanetary or corporate deals, find legal loopholes, and cut through bureaucratic red tape. Statecraft only provides information about current and recent events, [Humanities](#humanities) is required for a true historical perspective.
-- **Common Attributes:** Intelligence, Wits
+- **Common Attributes:** Intelligence
 - **Advanced Specialties:** Statutory Law, Contracts
 - **General Specialties:** Corporate Politics, Government Politics, Specific System (Sol, Maelstrom, etc)
 
 ###### Navigation
 Navigation represents a character's knowledge orbital mechanics, trajectories, and maps. It's used to plot routes which are faster, use less fuel, avoid certain areas, limit visible engine burns, or approach the destination from a certain direction. This primarily applies to interplanetary routes, but can also be used for any planetary route long enough to warrant an aircraft. Once a satisfactory route is generated, [Piloting](#piloting) is usually required in order to correctly follow it.
-- **Common Attributes:** Intelligence
+- **Common Attributes:** Intelligence, Aptitude
 - **Advanced Specialties:** Stealth, Close Approach, Precise Arrival, Jump Plotting
 - **General Specialties:** Gravity Assists, Low Energy Transfers, Constant Thrust, Suborbital Routes
 
@@ -439,7 +441,7 @@ This bond inspires your character to always make it home. Gain one automatic suc
 Beware, however, that the other person will exist in the story and may be vulnerable. If your character believes they are dead or lost, you will lose this merit. Sorry, Mario, your princess is in another castle.
 
 ###### Common Sense
-**1 point:** Your character has an abundance of common sense and tends to make reasonable, sound decisions. This gives no direct benefit towards rolls (including Wits). Instead, the storyteller will warn you when you're about to do something that your character would consider unwise or dangerous. They may even suggest some sensible courses of action. This can be particularly useful for new players.
+**1 point:** Your character has an abundance of common sense and tends to make reasonable, sound decisions. This gives no direct benefit towards rolls. Instead, the storyteller will warn you when you're about to do something that your character would consider unwise or dangerous. They may even suggest some sensible courses of action. This can be particularly useful for new players.
 
 ###### Laser Focus
 **1 point:** No matter what's going on around them, your character is able to focus on the task at hand. You suffer no penalties for being distracted, disturbed, or acting in a loud or adverse environment. You may still need to roll against active interference, such as tear gas or high g-forces, but you suffer no additional penalties to your action if you succeed.
