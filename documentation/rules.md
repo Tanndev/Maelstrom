@@ -30,7 +30,7 @@ Attributes are the intrinsic traits that broadly define the overall capabilities
 The physical attributes define the physical capabilities of a character.
 
 ###### Strength
-Strength is pure muscle power and endurance. It's used for running, lifting, carrying, punching, and other activities where the limiting factor is the raw amount of physical effort the character is able to exert. It is also used to safely absorb certain types of damage.
+Strength represents a characters's pure muscle power and endurance. It's used for running, lifting, carrying, punching, and other activities where the limiting factor is the raw amount of physical effort the character is able to exert. It is also used to safely absorb certain types of damage.
 - **0**: Abysmal. You can barely even move under your own power. (Lift 20lbs)
 - **1**: Poor. You're a couch potato. (Lift 40lbs)
 - **2**: Average. You can probably do a couple pushups. (Lift 100lbs)
@@ -39,7 +39,7 @@ Strength is pure muscle power and endurance. It's used for running, lifting, car
 - **5**: Outstanding. You are the Mountain that Rides. (Lift 600lbs)
 
 ###### Coordination
-Coordination is hand-eye coordination and manual dexterity. It's used for acrobatics, parkour, most weapons, driving, and other activities where the limiting factor is the precision and accuracy of the character's motions.
+Coordination represents a character's hand-eye coordination and manual dexterity. It's used for acrobatics, parkour, most weapons, driving, and other activities where the limiting factor is the precision and accuracy of the character's motions.
 - **0**: Abysmal. Walking is hard. Falling down is easy.
 - **1**: Poor. You sometimes trip over perfectly smooth floors.
 - **2**: Average. You usually at least hit the dart board and you can probably cross a balance beam.
@@ -48,7 +48,7 @@ Coordination is hand-eye coordination and manual dexterity. It's used for acroba
 - **5**: Outstanding. You're Deadshot, if he was in Cirque du Soleil.
 
 ###### Reflexes
-Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodging, evasive maneuvers, and other activities where the limiting factor is reaction time.
+Reflexes represents how quickly a character reacts to unexpected events. It's used for quickdraws, dodging, evasive maneuvers, and other activities where the limiting factor is reaction time.
 - **0**: Abysmal. You're even surprised by your own actions.
 - **1**: Poor. Sloths respond faster than you.
 - **2**: Average. You can dodge a wrench (or a ball) if it's slow enough.
@@ -62,7 +62,7 @@ Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodgi
 The mental attributes define the mental capabilities of a character.
 
 ###### Perception
-Perception is the capacity to take in and process stimuli. It's used for searching, keeping watch, spotting threats, and other activities where the limiting factor is the ability to see, hear, feel, or smell.
+Perception represents how well a character can take in and process stimuli. It's used for searching, keeping watch, spotting threats, and other activities where the limiting factor is the ability to see, hear, feel, or smell.
 - **0**: Abysmal. A fire alarm can go off without you noticing it.
 - **1**: Poor. People sneak up on you without meaning to.
 - **2**: Average. You lose your phone occasionally, but usually find it again.
@@ -71,7 +71,7 @@ Perception is the capacity to take in and process stimuli. It's used for searchi
 - **5**: Outstanding. Nothing escapes your notice. You see all.
 
 ###### Intelligence
-Intelligence is the capacity to learn and apply information as well as the capacity for cleverness and intuition. It's used for research, mathematics, problem solving, and other activities where the limiting factor is education, reasoning, or the ability to think quickly.
+Intelligence represents a character's cleverness, intuition, and capacity to learn and apply information. It's used for research, mathematics, problem solving, and other activities where the limiting factor is education, reasoning, or the ability to think quickly.
 - **0**: Abysmal. Ogg not know how make pointy stick.
 - **1**: Poor. You ain't much fer book learning.
 - **2**: Average. You can do your own taxes more or less correctly.
@@ -79,15 +79,14 @@ Intelligence is the capacity to learn and apply information as well as the capac
 - **4**: Exceptional. You're a well known and respected thinker in your field.
 - **5**: Outstanding. Hawking, Einstein, Tesla, Faraday... and you.
 
-###### Unnamed Attribute
-<!-- TODO Describe Aptitude -->
-_Description TBD_
-- **0**: Abysmal. _Description TBD_
-- **1**: Poor. _Description TBD_
-- **2**: Average. _Description TBD_
-- **3**: Good. _Description TBD_
-- **4**: Exceptional. _Description TBD_
-- **5**: Outstanding. _Description TBD_
+###### Aptitude
+Aptitude represents a character's tech-savvy or proficiency with modern technology. It's used to operate computer consoles, devices, etc.
+- **0**: Abysmal. You can't even figure out how to use your phone.
+- **1**: Poor. You're the jackass who uses "reply-all" on company-wide messages.
+- **2**: Average. You're relatively comfortable with basic consumer technology.
+- **3**: Good. You change "advanced settings" without breaking things.
+- **4**: Exceptional. Your phone probably runs a modified OS because you wanted more features.
+- **5**: Outstanding. You "speak computer" so well that you might be one.
 
 #### Abilities
 Abilities are the learned or developed traits that define the specific things a character knows how to do.
@@ -155,7 +154,7 @@ In some cases, the storyteller may allow an alternate roll or action to allow a 
 
 ###### Artistry
 Artistry represents a character's skills at creating things via drawing, sculpting, sewing, etc. Unlike [Manufacturing](#manufacturing), the Artistry ability doesn't usually result in useful, precisely-engineered items. However, it can still be used to create useful soft goods such as textiles, maps, documents, and even forgeries.
-- **Common Attributes:** Varies
+- **Common Attributes:** Coordination, Intelligence
 - **Advanced Specialties:** Forgery, Electronics, Metalwork
 - **General Specialties:** Sketching, Painting, Sculpting, Photography
 
@@ -168,7 +167,7 @@ Driving represents a character's skill operating cars and other ground vehicles.
 ###### Firearms
 Firearms represents a character's skill with pistols, rifles, shotguns, and other similar weapons. It's primarily used to perform attacks with these sorts of weapons as well as to safely handle, reload, maintain them.
 - **Common Attributes:** Strength, Coordination, Reflexes
-- **Advanced Specialties:** Power Armor, Energy Weapons, Extreme Range, Advanced Maintenance
+- **Advanced Specialties:** Power Armor, Energy Weapons, Archaic Weapons, Bows, Extreme Range, Advanced Maintenance
 - **General Specialties:** Pistols, Shotguns, PDWs, Battle Rifles, Sniper Rifles, Surprise Attack
 
 ###### Heavy Weapons
@@ -179,7 +178,7 @@ Heavy Weapons represents a character's skill with grenade launchers, RPGs, missi
 
 ###### Piloting
 Piloting represents a character's skill at operating both aircraft and spacecraft. With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar and any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult. Additionally, is only used to follow a pre-set flight plan or travel within a small local area; plotting a new route to a distant location requires [Navigation](#navigation).
-- **Common Attributes:** Coordination, Reflexes
+- **Common Attributes:** Coordination, Reflexes, Aptitude
 - **Advanced Specialties:** Atmospheric Flight, Close Quarters, Fighters, Freighters, Power Armor
 - **General Specialties:** Space Flight, Shuttles, Frigates, Cruisers
 
@@ -214,7 +213,7 @@ Computer Science represents a character's knowledge of computer hardware and sof
 
 ###### Engineering
 Engineering represents a character's ability to maintain, repair, and upgrade all the various systems usually found on a ship or space station. Similar to a vehicle mechanic, ships' engineers are able to install new parts or jury rig systems to bypass damaged parts. However, creating new parts usually requires [Manufacturing](#manufacturing). However, this trait can also be used to service ground vehicles, aircraft, power armor, outposts, and other mostly electromechanical objects.
-- **Common Attributes:** Intelligence, Aptitude
+- **Common Attributes:** Intelligence, Aptitude, Coordination
 - **Advanced Specialties:** Jury Rigging, Power Armor, Weapon Systems, Reactors, Gravitics
 - **General Specialties:**  Spacecraft, Aircraft, Stations, Ground Vehicles, Life Support, Electrical, Mining Equipment
 
@@ -232,7 +231,7 @@ Manufacturing represents a character's ability to create hard goods out of metal
 
 ###### Medicine
 Medicine represents a character's knowledge about the human body, pharmaceuticals, and medical devices. It's used to diagnose, treat, and prevent injury or disease. It's also used to operate all non-automatic medical equipment and to use automatic equipment more effectively.
-- **Common Attributes:** Intelligence
+- **Common Attributes:** Intelligence, Aptitude
 - **Advanced Specialties:** Surgery, Battlefield Medicine, Zero-G, Prosthetics
 - **General Specialties:**  First Aid, Wound Management, Poisons, Radiation
 
@@ -249,8 +248,8 @@ Statecraft represents a character's knowledge of the modern political landscape,
 - **General Specialties:** Corporate Politics, Government Politics, Specific System (Sol, Maelstrom, etc)
 
 ###### Navigation
-Navigation represents a character's knowledge orbital mechanics, trajectories, and maps. It's used to plot routes which are faster, use less fuel, avoid certain areas, limit visible engine burns, or approach the destination from a certain direction. This primarily applies to interplanetary routes, but can also be used for any planetary route long enough to warrant an aircraft. Once a satisfactory route is generated, [Piloting](#piloting) is usually required in order to correctly follow it.
-- **Common Attributes:** Intelligence, Aptitude
+Navigation represents a character's knowledge of orbital mechanics, trajectories, and maps. It's used to plot routes which are faster, use less fuel, avoid certain areas, limit visible engine burns, or approach the destination from a certain direction. This primarily applies to interplanetary routes, but can also be used for any planetary route long enough to warrant an aircraft. Once a satisfactory route is generated, [Piloting](#piloting) is usually required in order to correctly follow it.
+- **Common Attributes:** Intelligence
 - **Advanced Specialties:** Stealth, Close Approach, Precise Arrival, Jump Plotting
 - **General Specialties:** Gravity Assists, Low Energy Transfers, Constant Thrust, Suborbital Routes
 
