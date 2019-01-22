@@ -357,12 +357,11 @@ It's important to take the time to flesh out your [character](#characters)'s bac
 Try to resist the urge to "min-max" your character and, instead, select the traits that most fit the personality and history of your character. Even if your character is going to be primarily a gunslinger, consider putting a couple dots in Artistry to reflect their sculpting hobby, or some dots in Law and Academics from back when they dropped out of law school. Remember, your storyteller will be able to weave those sorts of backgrounds into story hooks and challenges, but only if you have the traits to actually face them. Because of this, diverse and varied characters make the game more fun for everyone.
 
 Once you're ready to sit down and start filling out a character sheet, you'll go through a few steps:
-1. Select [starting attributes](#starting-attributes)
-1. Select [starting abilities](#starting-attributes)
+1. Allocate [starting attributes](#starting-attributes)
+1. Allocate [starting abilities](#starting-attributes)
+1. Choose [merits and flaws](#merits-and-flaws) (Optional)
 1. Spend [starting experience](#starting-experience)
 1. Purchase [starting equipment](#starting-equipment)
-
-<!-- TODO Add merits and flaws -->
 
 #### Starting Attributes
 Your character automatically starts with one dot in each of the six [attributes](#attributes). This is the minimum number for normal, healthy characters but almost all of your attributes will end up being higher than that.
@@ -392,11 +391,11 @@ All characters start with 3 dots in [Willpower](#Willpower).
 Characters don't start with any [specialties](#specialties) automatically.
 
 #### Starting Experience
-Your character always begins with a certain amount of [experience](#character-progression) which can be [spent](#spending-experience) immediately to improve their traits further.
+Your character always begins with a certain amount of [experience](#character-progression) which can be [spent](#spending-experience) immediately to improve them further. In games where the storyteller allows it, you can adjust this starting pool by taking [merits and flaws](#merits-and-flaws).
 
 When deciding how to spend your starting experience, consider picking up several [specialties](#specialties). These can be a very cost-effective way to improve your character's capabilities significantly. This is especially true for [advanced specialties](#advanced-specialties) because it's significantly more difficult and dangerous to perform tasks which [require](#required-specialties) them. Also consider increasing [Willpower](#Willpower) by a couple points, since this too can only be increased via experience.
 
-Of course, you can also just increase attributes or abilities if you prefer. Or, hang on to the points and spend them later. This is a reasonable option if you're not yet sure exactly how you want to fine-tune your character's stats. <!-- TODO Mention rerolling characters -->
+Of course, you can also just increase attributes or abilities if you prefer. Or, hang on to the points and spend them later. This is a reasonable option if you're not yet sure exactly how you want to fine-tune your character's stats. And remember: if your character isn't working out, you can always work with your storytelling to [modify them](#modifying-a-character) later.
 
 When creating characters for a new campaign, the storyteller should provide an equal amount of starting experience to all players. The exact number can vary depending how experienced the storyteller wants the starting characters to be, but 30 points is reasonable for a normal game.
 
@@ -423,7 +422,7 @@ Merits give your character a strength or a useful quirk. Each merit costs the li
 All perception rolls have -2 difficulty when using the selected sense.
 Each sense costs 2 points or get all senses for 5 points.
 
-###### Ambidexterous
+###### Ambidextrous
 **1 point:** Your character is equally capable with either hand. You suffer no off-hand penalties.
 
 ###### Exceptional Balance
