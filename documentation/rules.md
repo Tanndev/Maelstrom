@@ -38,8 +38,8 @@ Strength is pure muscle power and endurance. It's used for running, lifting, car
 - **4**: Exceptional. You win Strong Man competitions. (Lift 400lbs)
 - **5**: Outstanding. You are the Mountain that Rides. (Lift 600lbs)
 
-###### Precision
-Precision is hand-eye coordination and manual dexterity. It's used for acrobatics, parkour, thrown weapons, aimed shots, driving, and other activities where the limiting factor is the precision and accuracy of the character's motions.
+###### Coordination
+Coordination is hand-eye coordination and manual dexterity. It's used for acrobatics, parkour, most weapons, driving, and other activities where the limiting factor is the precision and accuracy of the character's motions.
 - **0**: Abysmal. Walking is hard. Falling down is easy.
 - **1**: Poor. You sometimes trip over perfectly smooth floors.
 - **2**: Average. You usually at least hit the dart board and you can probably cross a balance beam.
@@ -47,10 +47,8 @@ Precision is hand-eye coordination and manual dexterity. It's used for acrobatic
 - **4**: Exceptional. You win dart competitions and parkour across rooftops.
 - **5**: Outstanding. You're Deadshot, if he was in Cirque du Soleil.
 
-**Note:** Precise movements usually require a small amount of planning, so sudden or unexpected actions usually cannot be performed with Precision and require Reflexes instead.
-
 ###### Reflexes
-Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodging, unaimed shots, evasive maneuvers, and other activities where the limiting factor is reaction time.
+Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodging, evasive maneuvers, and other activities where the limiting factor is reaction time.
 - **0**: Abysmal. You're even surprised by your own actions.
 - **1**: Poor. Sloths respond faster than you.
 - **2**: Average. You can dodge a wrench (or a ball) if it's slow enough.
@@ -58,7 +56,7 @@ Reflexes is reacting and taking actions quickly. It's used for quickdraws, dodgi
 - **4**: Exceptional. You win speed shooting and drone racing competitions.
 - **5**: Outstanding. Your quickdraw is better than Wyatt Earp.
 
-**Note:** It's harder to do things in a hurry, so actions will usually carry a higher difficulty when performed with Reflexes instead of Precision.
+**Note:** It's harder to do things in a hurry, so actions will usually carry a higher difficulty when performed with Reflexes instead of Coordination.
 
 ##### Mental
 The mental attributes define the mental capabilities of a character.
@@ -108,7 +106,7 @@ Alertness represents a character's passive talent for being aware of their surro
 
 ###### Athletics
 Athletics represents a character's talent for physical agility. Where the physical attributes define a character's raw physical capabilities, their athletics defines their level of training and practice. This could be from physical training, sports, or other physical activities. It is used to do things like jump, climb, throw, and run, as well as for thrown weapons such as knives and grenades.
-- **Common Attributes:** Strength, Precision, Reflexes
+- **Common Attributes:** Strength, Coordination, Reflexes
 - **Advanced Specialties:** Grenades, Power Armor, Zero-G, Acrobatics, Parkour, Specific Exotic Thrown Weapon
 - **General Specialties:**  Run, Jump, Dodge, Thrown Weapons, Surprise Attack
 
@@ -120,19 +118,19 @@ Investigation represents a character's talent for gathering evidence, making con
 
 ###### Melee
 Melee represents a character's talent in a close range fight. It includes both armed and unarmed combat and is used for fists, brass knuckles, swords, hammers, polearms, riot shields, and even the occasional wrench.
-- **Common Attributes:** Strength, Precision, Reflexes
+- **Common Attributes:** Strength, Coordination, Reflexes
 - **Advanced Specialties:** Power Armor, Energy Weapons, Swords, Specific Exotic Melee Weapon
 - **General Specialties:** Clubs, Grapple, Shields, Spears, Brawling, Surprise Attack, Specific Martial Art
 
 ###### Performance
 Performance represents a character's talent for the performing arts. It's used to sing, dance, act, play an instrument, or give a speech. While this ability can determine the quality of a performance, it does not influence the content. As with all social actions, only roleplaying will determine whether or not your speech, lie, etc is believable. Without a good reason or story, even the best actor in the galaxy won't convince a guard to let them into a restricted area.
-- **Common Attributes:** Precision, Wits
+- **Common Attributes:** Coordination, Wits
 - **Advanced Specialties:** Specific Musical Instrument (Piano, Guitar, Drums, etc)
 - **General Specialties:** Dancing, Singing, Acting, Speeches
 
 ###### Stealth
 Stealth represents a character's talent in hiding, moving silently, and otherwise keeping out of sight. It's used to avoid detection in a crowd, find good hiding spots, or move silently.
-- **Common Attributes:** Wits, Precision
+- **Common Attributes:** Wits, Coordination
 - **Advanced Specialties:** Power Armor
 - **General Specialties:** Terrain (Urban, Forests, Plains, etc), Surveillance
 
@@ -161,25 +159,25 @@ Artistry represents a character's skills at creating things via drawing, sculpti
 
 ###### Driving
 Driving represents a character's skill operating cars and other ground vehicles. It's primarily used to maneuver ground vehicles but also includes fundamental user-serviceable tasks like refueling and changing tires. However, proper maintenance usually requires [Engineering](#engineering).
-- **Common Attributes:** Precision, Reflexes
+- **Common Attributes:** Coordination, Reflexes
 - **Advanced Specialties:** Motorcycles, Transport Trucks
 - **General Specialties:** Gravitic Vehicles, Cars, Trucks, Buses
 
 ###### Firearms
 Firearms represents a character's skill with pistols, rifles, shotguns, and other similar weapons. It's primarily used to perform attacks with these sorts of weapons as well as to safely handle, reload, maintain them.
-- **Common Attributes:** Strength, Precision, Reflexes
+- **Common Attributes:** Strength, Coordination, Reflexes
 - **Advanced Specialties:** Power Armor, Energy Weapons, Extreme Range, Advanced Maintenance
 - **General Specialties:** Pistols, Shotguns, PDWs, Battle Rifles, Sniper Rifles, Surprise Attack
 
 ###### Heavy Weapons
 Heavy Weapons represents a character's skill with grenade launchers, RPGs, missile launchers, mortars, cannons, and other large, physically-operated weapons. It is also used to reload, disarm, and maintain these weapons.
-- **Common Attributes:** Strength, Precision
+- **Common Attributes:** Strength, Coordination
 - **Advanced Specialties:** Power Armor, Mortars, Artillery, Advanced Maintenance
 - **General Specialties:** Grenade Launchers, Missile Launchers
 
 ###### Piloting
 Piloting represents a character's skill at operating both aircraft and spacecraft. With the ubiquity of high-efficiency aerospace thrusters, these craft are often quite similar and any character who is able to pilot one is also able to pilot the other. However, atmospheric flight -- along with some other types of maneuvers -- are generally more difficult. Additionally, is only used to follow a pre-set flight plan or travel within a small local area; plotting a new route to a distant location requires [Navigation](#navigation).
-- **Common Attributes:** Precision, Reflexes
+- **Common Attributes:** Coordination, Reflexes
 - **Advanced Specialties:** Atmospheric Flight, Close Quarters, Fighters, Freighters, Power Armor
 - **General Specialties:** Space Flight, Shuttles, Frigates, Cruisers
 
@@ -197,7 +195,7 @@ Survival represents a character's skill at surviving in harsh or austere environ
 
 ###### Tradecraft
 Tradecraft represents a character's skill at breaking into placing, stealing things, and conducting espionage. It's used to pick locks, disable alarms, hide weapons, set traps, disarm traps, and carry out other clandestine activity. Conducting a heist or breaking into a records vault will usually require some level of Tradecraft. However, making useful sense of the information stolen will usually require some level of [Investigation](#investigation).
-- **Common Attributes:** Wits, Precision
+- **Common Attributes:** Wits, Coordination
 - **Advanced Specialties:** Lockpick, Pickpocket
 - **General Specialties:**  Weapon Concealment, Dead Drops, Traps, Surveillance, Alarms
 
@@ -625,13 +623,13 @@ While most things your character does are technically actions, you generally don
 #### Dice Pool
 When you announce an action that your storyteller wants you to roll for, they'll decide which traits you'll need to use. Usually, this will be an attribute and an ability. However, occasionally be one or two attributes will be used instead. While there may sometimes be only one trait used, there should never be more than two. The number of dice you'll roll, called your dice pool, is determined by how many dots you have in each of those traits: one die per dot for each trait.
 
-> **Example:** A character is taking fire and the player decides to start his motorcycle and try to get away. The storyteller thinks that getting the key in the ignition and driving off without stalling is going to require precise movements and familiarity with the bike. She says to roll Precision + Drive. The player has three dots in Precision and two dots in Drive, so his dice pool contains a total of five dice.
+> **Example:** A character is taking fire and the player decides to start his motorcycle and try to get away. The storyteller thinks that getting the key in the ignition and driving off without stalling is going to require precise movements and familiarity with the bike. She says to roll Coordination + Drive. The player has three dots in Coordination and two dots in Drive, so his dice pool contains a total of five dice.
 
 Many actions can be accomplished in many different ways and with many different traits. Rather than just stating which action you'd like to perform, it's usually better to describe how you're trying to go about it. This will help the storyteller determine which traits to use and makes sure that your character performs the action in the way you intended. This also helps build your character's personality and demeanor in the minds of other players and leads to a richer roleplaying experience for everyone.
 
 After you declare an action, the storyteller may offer a choice of different ways of performing it. They may also tell you which traits would be used for each option. While it can be tempting to just use whichever option gives you the larger dice pool, it's important to consider your character's personality and what their objectives are. Just because you're better at doing something a certain way doesn't necessarily mean that's the right way to try and do it. Keep in mind that different approaches may have different difficulties as well, so just having more dice doesn't mean it's going to be easier.
 
-> **Example:** "I'm going to make my way through the crowd and follow the target." announces a player. The storyteller asks him if he'd like to push and shove people out of the way with Strength + Brawling or slip through gaps in the crowd with Precision + Streetwise. He knows he'd have more dice if he brute forces his way through, but he also knows that his character wouldn't want to make a big scene and draw attention. Ultimately, he decides to take the smaller dice pool and slip through the crowd instead.
+> **Example:** "I'm going to make my way through the crowd and follow the target." announces a player. The storyteller asks him if he'd like to push and shove people out of the way with Strength + Brawling or slip through gaps in the crowd with Reflexes + Streetwise. He knows he'd have more dice if he brute forces his way through, but he also knows that his character wouldn't want to make a big scene and draw attention. Ultimately, he decides to take the smaller dice pool and slip through the crowd instead.
 
 #### Difficulty
 Once you've decided what you're going to do and gotten your dice pool, the storyteller should specify a difficulty. Some storytellers will use the default difficulty for most actions and only mention it when it's different, rather than saying it every time. Your storyteller should make it clear how they intend to do this.
@@ -660,7 +658,7 @@ Finally, using at least one specialty on a roll grants the awesome power of "exp
 
 The exploding tens effect doesn't stack, so using multiple specialties is only useful when they're required, but _having_ multiple specialties can be a cost-efficient way to increase your character's effectiveness in different circumstances.
 
-> **Example:** A player is trying very long distance using a sniper rifle. The attack uses Precision + Firearms, has a difficulty of 8, and requires the Extreme Range advanced specialty. Her character has three dots in Precision and one dot in Firearms with the Pistols, Sniper Rifles, and Extreme Range specialties. Two of her specialties apply to the action, but she can only use one of them due to her rank in Firearms. She chooses to use the Extreme Range specialty so she can ignore the threshold from it.
+> **Example:** A player is trying very long distance using a sniper rifle. The attack uses Coordination + Firearms, has a difficulty of 8, and requires the Extreme Range advanced specialty. Her character has three dots in Coordination and one dot in Firearms with the Pistols, Sniper Rifles, and Extreme Range specialties. Two of her specialties apply to the action, but she can only use one of them due to her rank in Firearms. She chooses to use the Extreme Range specialty so she can ignore the threshold from it.
 >
 > She rolls her dice pool and gets [1, 4, 7, 10]. The botch and a success cancel each other out but she's still allowed to add bonus dice for the ten. She rolls her two additional dice and gets [1, 10]. The 1 is ignored, because it's on a bonus die, and the 10 adds a success plus two more bonus dice. She rolls [4, 8] on these for one more success. Thanks to her specialties, she was able get two successes on an attack which would have otherwise botched.
 
@@ -716,15 +714,6 @@ Sometimes it can be tricky to determine which traits should be used for an actio
 
 #### Selecting Traits
 To select the appropriate traits, it's important to be very familiar with the descriptions of all the [attributes](#attributes) and [abilities](#abilities). You should almost always choose one of each of these. Which ones will depend on exactly what the player is attempting to do and how they're trying to do it. Often times, there'll only be one combination that make sense. However, sometimes there will be several different options to choose from. In these cases, try to ask the player for more information about how they're trying to perform the task or let them choose which traits to use.
-
-##### Precision vs Reflexes
-Many tasks can be performed with either [precision](#precision) or [reflexes](#reflexes), depending on the preference of the player. However, they should not be treated equally.
-
-Precision should not be allowed whenever the character is reacting to something sudden or unexpected, or if they had no way to mentally prepare for the event. As a rule, precision should only be used when the character is paying attention to the task since the previous round. For attacks, this means that they need to have either aimed or shot at their target last round and that they can't have gone fully behind cover since then. (They don't necessarily need a fully unbroken line of sight, but they need to have at least watched where they went.) Alternatively, they could make precision attacks against any targets inside a _small_ area which they've been actively covering since last turn.
-
-Reflexes should always be allowed, but also generally be more difficult. Increase the difficulty by one whenever a player uses reflexes, as compared to an equivalent precision-based action. If you have players who want to primarily use reflexes for their combat actions, consider giving them equipment to mitigate this difficulty. One option is to call the increased difficulty a "Reflexive Action Penalty" and provide weapons which explicitly ignore it.
-
-As always, remember to very the described outcomes to match the traits used to achieve them. For example: a character using precision to navigate a debris cloud might be described as "gracefully gliding through, maintaining the safest possible distance from each fragment", while a character using reflexes for the same thing might be described as "darting through gaps in the wreckage and deftly dodging bits of shrapnel as they wiz past".
 
 #### Determining Difficulty
 Importantly, the difficulty should never change _after_ the dice have been rolled.
