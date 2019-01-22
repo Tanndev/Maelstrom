@@ -709,6 +709,33 @@ Fortunately, there's actually a really easy way to figure out your result quickl
 1. If you have any botches left, you've botched.
 1. Otherwise, you've failed.
 
+### Example Actions
+<!-- TODO Document Example Actions -->
+
+#### Combat Actions
+<!-- TODO Document Combat Actions -->
+
+##### Firearms & Ranged Weapons Actions
+<!-- TODO Document Firearms & Ranged Weapons Actions -->
+
+###### Single-fire Attack Action
+**[Coordination](#coordination) + [Firearms](#firearms)**: Attack with a single round from a single-fire firearm.
+
+###### Double-Tap Attack Action
+**[Coordination](#coordination) + [Firearms](#firearms)**: Attack with a two rounds from a single-fire firearm. _Bonus and Penalty TDB._
+
+###### Burst Attack Action
+**[Coordination](#coordination) + [Firearms](#firearms)**: Attack with a burst-capable firearm, firing a single burst. _Bonus and Penalty TDB._
+
+###### Full-Auto Attack Action
+**[Strength](#strength) + [Firearms](#firearms)**: Attack with a fully-automatic firearm, emptying the magazine. _Bonus and Penalty TDB._
+
+##### Melee & Close Combat Actions
+<!-- TODO Document Melee & Close Combat Actions -->
+
+#### Non-combat Actions
+<!-- TODO Document Non-combat Actions -->
+
 ### Storyteller Suggestions
 Sometimes it can be tricky to determine which traits should be used for an action, or what difficulty and threshold to set. This section provides some suggestions and tables to make it a little bit easier. However, it'll also vary greatly depending on what sort of game you're running and how much of a challenge you and your players want. Start with the guidelines here and then adjust to suit your story and your players.
 
