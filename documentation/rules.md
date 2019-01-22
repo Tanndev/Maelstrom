@@ -709,6 +709,20 @@ Fortunately, there's actually a really easy way to figure out your result quickl
 1. If you have any botches left, you've botched.
 1. Otherwise, you've failed.
 
+#### Reading Roll Descriptions
+Throughout this rulebook and accompanying materials, you may find various roll descriptions. These are short-hands for specific rolls and include the necessary traits, specialties, and other information. Item and vehicle cards will often include a list of actions, including roll descriptions, which lists the way in which the item may be used or the actions that can be performed aboard the vehicle.
+
+Roll descriptions use the following format:
+> Action Name: Attribute + Ability (Specialties), Difficulty #, Threshold #
+
+With the exception of the Attribute and ability names, everything is optional. If a particular item isn't supplied, then it either uses the default or varies depending on the context of the roll.
+
+Here are some examples:
+- [Coordination](#coordination) + [Firearms](#firearms)
+- Single-Fire: [Coordination](#coordination) + [Firearms](#firearms) (Battle Rifle)
+- Sniper Shot: [Coordination](#coordination) + [Firearms](#firearms) (Sniper Rifle, Adv: Extreme Range), Difficulty 8, Threshold 1
+- Archaic Bow: [Coordination](#coordination) + [Firearms](#firearms) (Adv: Archaic, Adv: Bow)
+
 ### Example Actions
 <!-- TODO Document Example Actions -->
 
