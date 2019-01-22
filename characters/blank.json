@@ -5,13 +5,13 @@
   "attributes": {
     "physical": [
       {"name": "Strength", "dots": 1},
-      {"name": "Precision", "dots": 1},
+      {"name": "Coordination", "dots": 1},
       {"name": "Reflexes", "dots": 1}
     ],
     "mental": [
       {"name": "Perception", "dots": 1},
       {"name": "Intelligence", "dots": 1},
-      {"name": "Wits", "dots": 1}
+      {"name": "Aptitude", "dots": 1}
     ]
   },
   "abilities": {
