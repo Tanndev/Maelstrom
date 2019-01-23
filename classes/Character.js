@@ -1,5 +1,7 @@
 const util = require('util');
 
+const DataStore = require('./DataStore');
+
 /**
  * Stores {@link Character#name} values.
  * @type {WeakMap<Character, string>}
