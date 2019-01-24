@@ -1,10 +1,13 @@
-const cookieParser = require('cookie-parser');
 const createError = require('http-errors');
 const express = require('express');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
 const path = require('path');
 
+const sessionsMiddleware = require('./middleware/sessions');
+const passport = require('./middleware/passport');
+
+const Character = require('./classes/Character');
 const Roll = require('./classes/Roll');
 
 const app = express();
@@ -19,10 +22,82 @@ app.use(express.static(path.join(__dirname, 'client/static')));
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
-app.use(cookieParser());
 
-// Route client requests.
-app.use(require('./client/router'));
+// Load documentation and provide locals.
+const documentation = require('./helpers/loadDocumentation');
+app.use((req, res, next) => {
+    res.locals.path = req.path;
+    res.locals.availableDocumentation = Object.keys(documentation).sort();
+    next();
+});
+
+// Enable sessions.
+app.use(sessionsMiddleware);
+app.use((req, res, next) => {
+    if (!req.session) next(createError("No session established."));
+    else next();
+});
+
+// Enable passport.
+app.use(passport.initialize());
+app.use(passport.session());
+app.use((req, res, next) => {
+    res.locals.user = req.user;
+    next();
+});
+
+// Serve homepage.
+app.get('/', (req, res) => {
+    res.render('home');
+});
+
+app.get('/login', (req, res) => {
+    res.render('login');
+});
+
+app.post('/login',
+    passport.authenticate('local', {failureRedirect: '/login'}),
+    (req, res) => {
+        res.redirect('/');
+    }
+);
+
+app.get('/logout', (req, res) => {
+    req.logout();
+    res.redirect('/');
+});
+
+// Serve documentation.
+app.get('/documentation', (req, res) => res.redirect('/'));
+app.get('/documentation/:document', (req, res, next) => {
+    let documentName = req.params.document;
+    let document = documentation[documentName];
+    if (document) {
+        res.locals.document = document;
+        if (req.app.settings.env === 'development') {
+            document.reload().then(() => {
+                res.render('documentation')
+            });
+        } else res.render('documentation');
+    } else next();
+});
+app.use('/documentation', express.static(path.join(__dirname, 'documentation')));
+
+// Serve character sheets.
+app.get('/character/:id?', (req, res, next) => {
+    let characterId = req.params.id || 'blank';
+    fs.readFile(path.join(__dirname, '..', 'characters', `${characterId}.json`), 'utf8', (error, contents) => {
+        if (error) return next(createError(404));
+        try {
+            res.locals.character = new Character(JSON.parse(contents));
+        } catch (error) {
+            next(createError(error));
+            return;
+        }
+        res.render('character-sheet');
+        console.log(res.locals.character);
+    });
+});
 
 // APIs
 app.get('/roll', (req, res, next) => {
