@@ -1,6 +1,7 @@
 const createError = require('http-errors');
 const express = require('express');
 const favicon = require('serve-favicon');
+const fs = require('fs');
 const logger = require('morgan');
 const path = require('path');
 
@@ -86,7 +87,7 @@ app.use('/documentation', express.static(path.join(__dirname, 'documentation')))
 // Serve character sheets.
 app.get('/character/:id?', (req, res, next) => {
     let characterId = req.params.id || 'blank';
-    fs.readFile(path.join(__dirname, '..', 'characters', `${characterId}.json`), 'utf8', (error, contents) => {
+    fs.readFile(path.join(__dirname, 'characters', `${characterId}.json`), 'utf8', (error, contents) => {
         if (error) return next(createError(404));
         try {
             res.locals.character = new Character(JSON.parse(contents));

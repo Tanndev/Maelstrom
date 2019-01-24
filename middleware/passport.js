@@ -1,6 +1,8 @@
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
+const User = require('../classes/User');
+
 // Configure the local strategy for use by Passport.
 //
 // The local strategy require a `verify` function which receives the credentials
@@ -8,16 +10,32 @@ const LocalStrategy = require('passport-local').Strategy;
 // that the password is correct and then invoke `cb` with a user object, which
 // will be set at `req.user` in route handlers after authentication.
 passport.use(new LocalStrategy((username, password, callback) => {
-    // TODO Authenticate from a database
-    if (password === 'password') callback(null, {id: username});
-    else callback(null, false);
+    User.findByUsername(username)
+        .then(user => {
+            if (user){
+                if (user.validatePassword(password)) callback(null, user);
+                else callback(null, false);
+            }
+            else callback(null, false);
+        })
+        .catch(error => {
+            callback(error);
+        });
 }));
 passport.serializeUser((user, callback) => {
-    callback(null, user.id);
+    callback(null, user.username);
 });
 
-passport.deserializeUser((id, callback) => {
-    callback(null, {id});
+passport.deserializeUser((username, callback) => {
+    // TODO Find by session ID or other, more secure option.
+    User.findByUsername(username)
+        .then(user => {
+            if (user) callback(null, user);
+            else callback(null, false);
+        })
+        .catch(error => {
+            callback(error);
+        });
 });
 
 module.exports = passport;
