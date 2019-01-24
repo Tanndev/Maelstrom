@@ -1,37 +1,50 @@
 // TODO Add database authentication instead of relying in an Admin party.
 const nano = require('nano')(process.env.COUCH_URL || "http://localhost:5984");
 
-const DATABASES = [
-    "users",
-    "characters",
-];
 
-// TODO Retry until success.
-createDatabases()
-    .then(() => {
-        console.log('Data store is ready.')
-    })
-    .catch(() => {
-        console.error('Unable to set up data store.');
-    });
+class Datastore {
+    constructor(name) {
+        if (!name || typeof name !== 'string') throw new Error("Datastore.name must be a non-empty string.");
+        // TODO Validate the input more.
 
-function createDatabases(){
-    return nano.db.list()
-        .then(existingDatabases => {
-            let databasesToCreate = DATABASES.filter(database => !existingDatabases.includes(database));
-            if (databasesToCreate){
-                let creationPromises = databasesToCreate.map(database => {
-                    return nano.db.create(database).then(() => {
-                        console.log(`Created ${database} database.`);
+        this._name = name;
+        this._database = nano.use(name);
+        this._readyPromise = this.initialize();
+    }
+
+    get name() {return this._name;}
+
+    get nanodb() {return this._database;}
+
+    get get() {return this._database.get;}
+
+    get head() {return this._database.head;}
+
+    get insert() {return this._database.insert;}
+
+    get list() {return this._database.list;}
+
+    initialize() {
+        return nano.db.list()
+            .then(existingDatabases => {
+                if (!existingDatabases.includes(this._name)) {
+                    return nano.db.create(this._name).then(() => {
+                        console.log(`Created ${this._name} database.`);
                     })
-                });
-                return Promise.all(creationPromises);
-            }
-        })
-        .then(() => {
-            console.log('All databases set up and ready.');
-        })
-        .catch(error => {
-            console.error(error);
-        });
+                }
+            })
+            .then(() => {
+                console.log(`Initialized connection to ${this._name} database.`);
+            })
+            .catch(error => {
+                console.error(`Failed to connect to ${this._name} database.`);
+                console.error(error);
+            });
+    }
+
+    get waitForReady() {
+        return this._readyPromise;
+    }
 }
+
+module.exports = Datastore;

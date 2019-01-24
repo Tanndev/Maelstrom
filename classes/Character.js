@@ -2,6 +2,13 @@ const util = require('util');
 
 const DataStore = require('./DataStore');
 
+const datastore = new DataStore('characters');
+datastore.waitForReady.then(() => {
+    datastore.list().then(results => {
+        console.log(results);
+    })
+});
+
 /**
  * Stores {@link Character#name} values.
  * @type {WeakMap<Character, string>}
