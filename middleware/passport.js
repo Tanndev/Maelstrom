@@ -23,7 +23,8 @@ passport.use(new LocalStrategy((username, password, callback) => {
         });
 }));
 passport.serializeUser((user, callback) => {
-    callback(null, user.username);
+    // TODO Do this better, as per deserializeUser.
+    callback(null, user.credentials.username);
 });
 
 passport.deserializeUser((username, callback) => {

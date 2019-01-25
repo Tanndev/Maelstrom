@@ -9,7 +9,9 @@ const sessionsMiddleware = require('./middleware/sessions');
 const passport = require('./middleware/passport');
 
 const Character = require('./classes/Character');
+const Credentials = require('./classes/Credentials');
 const Roll = require('./classes/Roll');
+const User = require('./classes/User');
 
 const app = express();
 
@@ -66,6 +68,42 @@ app.post('/login',
 app.get('/logout', (req, res) => {
     req.logout();
     res.redirect('/');
+});
+
+
+app.get('/register', (req, res) => {
+    res.render('register');
+});
+
+app.post('/register', (req, res, next) => {
+    let requestedUser = req.body;
+
+    // TODO Move validation to a more reasonable place.
+    let errors = [];
+    if (!requestedUser.username || typeof requestedUser.username !== 'string')
+        errors.push(new Error('Username is a required field.'));
+    if (!requestedUser.firstName || typeof requestedUser.firstName !== 'string')
+        errors.push(new Error('First name is a required field.'));
+    if (!requestedUser.lastName || typeof requestedUser.lastName !== 'string')
+        errors.push(new Error('Last Name is a required field.'));
+    if (!requestedUser.password || typeof requestedUser.password !== 'string')
+        errors.push(new Error('Password is a required field.'));
+    if (requestedUser.password !== requestedUser.confirmPassword)
+        errors.push(new Error('Passwords must match.'));
+
+    if (errors.length > 0){
+        res.locals.formErrors = errors;
+        res.render('register');
+    }
+    else {
+        requestedUser.credentials = new Credentials(requestedUser);
+        requestedUser.role = "User";
+        let user = new User(requestedUser);
+        req.login(user, error => {
+            if (error) next(error);
+            else res.redirect('/');
+        })
+    }
 });
 
 // Serve documentation.
