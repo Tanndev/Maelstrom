@@ -1,3 +1,5 @@
+const crypto = require('crypto');
+
 const DataStore = require('./DataStore');
 const datastore = new DataStore('users');
 
@@ -13,16 +15,10 @@ const firstNames = new WeakMap();
  */
 const lastNames = new WeakMap();
 /**
- * Stores {@link User#username} values.
- * @type {WeakMap<User, string>}
+ * Stores {@link User#credentials} values.
+ * @type {WeakMap<User, Credentials>}
  */
-const usernames = new WeakMap();
-
-/**
- * Stores {@link User#password} values.
- * @type {WeakMap<User, string>}
- */
-const passwords = new WeakMap();
+const credentials = new WeakMap();
 
 /**
  * Stores {@link User#role} values.
@@ -36,7 +32,7 @@ class User {
      * @param username
      * @returns {Promise<User>}
      */
-    static findByUsername(username){
+    static findByUsername(username) {
         // TODO Look up via a view.
         return datastore.get(username)
             .then(document => {
@@ -48,11 +44,10 @@ class User {
             })
     }
 
-    constructor({firstName, lastName, username, password, role}) {
+    constructor({firstName, lastName, role, credentials}) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.username = username;
-        this.password = password; // TODO DON'T DO THIS!
+        this.credentials = new Credentials(credentials);
         this.role = role;
     }
 
@@ -82,32 +77,6 @@ class User {
     }
 
     /**
-     * The user's username.
-     * @return {string}
-     */
-    get username() {
-        return usernames.get(this) || '';
-    }
-
-    set username(username) {
-        if (!username || typeof username !== 'string') throw new Error('User.username must be a non-empty string.');
-        usernames.set(this, username);
-    }
-
-    /**
-     * The user's password.
-     * @return {string}
-     */
-    get password() {
-        return passwords.get(this) || '';
-    }
-
-    set password(password) {
-        if (!password || typeof password !== 'string') throw new Error('User.password must be a non-empty string.');
-        passwords.set(this, password);
-    }
-
-    /**
      * The user's role(s).
      * @return {string|string[]}
      */
@@ -121,11 +90,83 @@ class User {
         roles.set(this, role);
     }
 
-    validatePassword(password){
-        // TODO DON'T DO THIS! Store a salted hash instead.
-        return this.password = password;
+    /**
+     * The user's credentials.
+     * @return {Credentials}
+     */
+    get credentials() {
+        return credentials.get(this);
     }
-    
+
+    set credentials(credentials) {
+        if (!credentials || typeof credentials !== 'object') throw new Error('User.username must be an object.');
+        credentials.set(this, credentials);
+    }
+
+    verifyCredentials(username, password) {
+        // TODO DON'T DO THIS! Store a salted hash instead.
+        return this.credentials.verify(username, password);
+    }
+
+}
+
+class Credentials {
+    static generate(username, password) {
+        // Get a new salt.
+        let salt = Credentials.getRandomSalt();
+
+        // Calculate the hash.
+        let hash = crypto.pbkdf2Sync(password, salt, 1000, 64, `sha512`).toString(`hex`);
+
+        // Create a new credential object.
+        return new Credentials({username, salt, hash});
+    }
+
+    static getRandomSalt() {
+        return crypto.randomBytes(16).toString('hex');
+    }
+
+    static calculateHash(password, salt){
+        // TODO Validate inputs.
+        return crypto.pbkdf2Sync(password, salt, 1000, 64, `sha512`).toString(`hex`);
+    }
+
+    constructor({username, salt, hash}) {
+        /**
+         * The username.
+         * TODO Validate input.
+         * @type {string}
+         */
+        this.username = username;
+
+        /**
+         * The salt used for the password hash.
+         * TODO Validate input.
+         * @type {string}
+         */
+        this.salt = salt;
+
+        /**
+         * The salted and hashed password.
+         * TODO Validate input.
+         * @type {string}
+         */
+        this.hash = hash;
+
+        // Credentials objects cannot be changed after they are created.
+        Object.freeze(this);
+    }
+
+    verify(username, password) {
+        // If the username or password isn't a string, reject them.
+        if (typeof username !== 'string' || typeof password !== 'string') return false;
+
+        // If the username doesn't match, reject it.
+        if (this.username.toLowerCase() === username.toLowerCase()) return false;
+
+        // Hash the provided password and compare it.
+        return Credentials.calculateHash(password, this.salt) === this.hash;
+    }
 }
 
 module.exports = User;

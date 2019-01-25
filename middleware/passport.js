@@ -13,7 +13,7 @@ passport.use(new LocalStrategy((username, password, callback) => {
     User.findByUsername(username)
         .then(user => {
             if (user){
-                if (user.validatePassword(password)) callback(null, user);
+                if (user.verifyCredentials(username, password)) callback(null, user);
                 else callback(null, false);
             }
             else callback(null, false);
