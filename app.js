@@ -55,11 +55,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/login', (req, res) => {
+    res.locals.loginFailure = req.query.hasOwnProperty('failed');
     res.render('login');
 });
 
 app.post('/login',
-    passport.authenticate('local', {failureRedirect: '/login'}),
+    passport.authenticate('local', {failureRedirect: '/login?failed'}),
     (req, res) => {
         res.redirect('/');
     }

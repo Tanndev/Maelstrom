@@ -10,3 +10,5 @@ block content
       input(type='password', name="password")
     div
       input(type='submit' value='Submit')
+    if loginFailure
+      div(class='error-message') Invalid login, try again.
