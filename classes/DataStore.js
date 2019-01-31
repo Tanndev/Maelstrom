@@ -24,6 +24,8 @@ class Datastore {
 
     get list() {return this._database.list;}
 
+    get view() {return this._database.view;}
+
     initialize() {
         return nano.db.list()
             .then(existingDatabases => {

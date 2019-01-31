@@ -1,3 +1,4 @@
+const createError = require('http-errors');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
@@ -24,12 +25,12 @@ passport.use(new LocalStrategy((username, password, callback) => {
 }));
 passport.serializeUser((user, callback) => {
     // TODO Do this better, as per deserializeUser.
-    callback(null, user.credentials.username);
+    callback(null, user._id);
 });
 
-passport.deserializeUser((username, callback) => {
+passport.deserializeUser((id, callback) => {
     // TODO Find by session ID or other, more secure option.
-    User.findByUsername(username)
+    User.findByID(id)
         .then(user => {
             if (user) callback(null, user);
             else callback(null, false);

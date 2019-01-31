@@ -91,18 +91,25 @@ app.post('/register', (req, res, next) => {
     if (requestedUser.password !== requestedUser.confirmPassword)
         errors.push(new Error('Passwords must match.'));
 
+    // TODO Check if the username is taken.
+
     if (errors.length > 0){
         res.locals.formErrors = errors;
         res.render('register');
     }
     else {
-        requestedUser.credentials = new Credentials(requestedUser);
-        requestedUser.role = "User";
+        requestedUser.credentials = Credentials.generate(requestedUser);
         let user = new User(requestedUser);
-        req.login(user, error => {
-            if (error) next(error);
-            else res.redirect('/');
-        })
+        user.save()
+            .then(() => {
+                req.login(user, error => {
+                    if (error) next(error);
+                    else res.redirect('/');
+                })
+            })
+            .catch(error => {
+                next(createError(error));
+            });
     }
 });
 

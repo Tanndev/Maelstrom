@@ -1,7 +1,21 @@
+const util = require('util');
+const uuid = require('uuid');
+
 const Credentials = require('./Credentials');
 const DataStore = require('./DataStore');
 const datastore = new DataStore('users');
 
+/**
+ * Stores {@link User#_id} values.
+ * @type {WeakMap<User, string>}
+ */
+const ids = new WeakMap();
+
+/**
+ * Stores {@link User#_rev} values.
+ * @type {WeakMap<User, string>}
+ */
+const revs = new WeakMap();
 /**
  * Stores {@link User#firstName} values.
  * @type {WeakMap<User, string>}
@@ -19,21 +33,14 @@ const lastNames = new WeakMap();
  */
 const credentials = new WeakMap();
 
-/**
- * Stores {@link User#role} values.
- * @type {WeakMap<User, string>}
- */
-const roles = new WeakMap();
-
 class User {
     /**
-     * Finds a user account matching the given username. If available.
-     * @param username
+     * Finds a user account matching the given ID. If available.
+     * @param {string} id
      * @returns {Promise<User>}
      */
-    static findByUsername(username) {
-        // TODO Look up via a view.
-        return datastore.get(username)
+    static findByID(id) {
+        return datastore.get(id)
             .then(document => {
                 return new User(document);
             })
@@ -43,18 +50,62 @@ class User {
             })
     }
 
-    constructor({firstName, lastName, role, credentials}) {
+    /**
+     * Finds a user account matching the given username. If available.
+     * @param {string} username
+     * @returns {Promise<User>}
+     */
+    static findByUsername(username) {
+        // TODO Look up via a view.
+        return datastore.view('userLists', 'byUsername', {include_docs: true})
+            .then(result => {
+                if (!result || !result.rows || !result.rows.length) return null;
+                if (result.rows.length > 1){
+                    throw new Error(`More than one user has the username '${username}'. Contact an admin.`);
+                }
+                return new User(result.rows[0].doc);
+            })
+    }
+
+    constructor({_id, _rev, firstName, lastName, credentials}) {
+        this._id = _id || `user:${uuid()}`;
+        if (_rev) this._rev = _rev;
         this.firstName = firstName;
         this.lastName = lastName;
         this.credentials = new Credentials(credentials);
-        this.role = role;
+    }
+
+    /**
+     * THe unique user ID.
+     * @returns {string}
+     */
+    get _id() {
+        return ids.get(this);
+    }
+
+    set _id(_id) {
+        if (!_id || typeof _id !== 'string') throw new Error('User._id must be a non-empty string.');
+        ids.set(this, _id);
+    }
+
+    /**
+     * THe unique user rev.
+     * @returns {string}
+     */
+    get _rev() {
+        return revs.get(this);
+    }
+
+    set _rev(_rev) {
+        if (!_rev || typeof _rev !== 'string') throw new Error('User._rev must be a non-empty string.');
+        revs.set(this, _rev);
     }
 
     /**
      * The user's first name.
      */
     get firstName() {
-        return firstNames.get(this) || '';
+        return firstNames.get(this);
     }
 
     set firstName(firstName) {
@@ -76,20 +127,6 @@ class User {
     }
 
     /**
-     * The user's role(s).
-     * @return {string|string[]}
-     */
-    get role() {
-        return roles.get(this) || 'User';
-    }
-
-    set role(role) {
-        // TODO Implement some type of access control.
-        if (!role || typeof role !== 'string') throw new Error('User.role must be a non-empty string.');
-        roles.set(this, role);
-    }
-
-    /**
      * The user's credentials.
      * @return {Credentials}
      */
@@ -103,10 +140,38 @@ class User {
     }
 
     verifyCredentials(username, password) {
-        // TODO DON'T DO THIS! Store a salted hash instead.
-        return this.credentials.verify(username, password);
+        let credentials = this.credentials;
+        return !!credentials && credentials.verify(username, password);
     }
 
+    save() {
+        return datastore.insert(this.toJSON())
+            .then(({id, rev}) => {
+                this._id = id;
+                this._rev = rev;
+            })
+            .catch(error => {
+                console.error(error);
+                throw error;
+            })
+    }
+
+    /**
+     * Converts this user object to a generic object.
+     * @return {object}
+     */
+    toJSON() {
+        // noinspection JSUnusedLocalSymbols
+        let {_id, firstName, lastName, credentials} = this;
+        return {_id, firstName, lastName, credentials};
+    }
+
+    /**
+     * Overrides the default util.inspect behavior to use {@link User#toJSON} instead.
+     */
+    [util.inspect.custom]() {
+        return this.toJSON();
+    }
 }
 
 module.exports = User;
