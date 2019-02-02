@@ -58,6 +58,10 @@ body {
     background: var(--navbar-current-color);
 }
 
+.navbar-seperator {
+    margin: auto;
+}
+
 .content {
     flex-grow: 1;
     display: flex;
