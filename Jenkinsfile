@@ -58,6 +58,7 @@ pipeline {
             steps {
                 script {
                     sshagent(['jenkins.ssh']) {
+                        sh 'ssh-keyscan -t rsa docker.tanndev.com > ~/.ssh/known_hosts'
                         sh 'ssh docker.tanndev.com rm -rf maelstrom'
                         sh 'ssh docker.tanndev.com mkdir maelstrom'
                         sh 'scp docker-compose.yml docker.tanndev.com:maelstrom/'
