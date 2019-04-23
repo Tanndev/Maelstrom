@@ -2,10 +2,7 @@
 
 pipeline {
     agent {
-        dockerfile {
-            filename 'Dockerfile.Jenkins-agent'
-            args '-v /var/run/docker.sock:/var/run/docker.sock -v /etc/passwd:/etc/passwd -v /var/lib/jenkins:/var/lib/jenkins'
-        }
+        label 'nodejs && docker'
     }
 
     stages {
@@ -45,16 +42,13 @@ pipeline {
                     sh 'npx semantic-release'
                 }
                 script {
-                    RELEASE_VERSION = sh (
-                            script: "git tag --points-at",
-                            returnStdout: true
-                    ).trim()
-                    RELEASE_URL = 'https://github.com/Tanndev/Maelstrom/releases/tag/' + RELEASE_VERSION
-                    echo "Version: ${RELEASE_VERSION} can be viewed at ${RELEASE_URL}"
-
-                    // Set build information
-                    currentBuild.displayName = RELEASE_VERSION
-                    currentBuild.description = RELEASE_URL
+                    RELEASE_VERSION = sh ( script: "git tag --points-at HEAD", returnStdout: true ).trim()
+                    if (RELEASE_VERSION) {
+                        RELEASE_URL = "https://github.com/tanndev/maelstrom/releases/tag/${RELEASE_VERSION}"
+                        echo "Version: ${RELEASE_VERSION} can be viewed at ${RELEASE_URL}"
+                        currentBuild.displayName = RELEASE_VERSION
+                        currentBuild.description = RELEASE_URL
+                    }
                 }
             }
         }
