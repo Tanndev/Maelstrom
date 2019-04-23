@@ -42,7 +42,7 @@ pipeline {
                     ]
                 }
                 withCredentials(credentials) {
-                    sh 'npx semantic-release'
+                    sh 'npx semantic-release --debug --dry-run'
                 }
                 script {
                     RELEASE_VERSION = sh (
