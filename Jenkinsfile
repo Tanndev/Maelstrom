@@ -58,7 +58,8 @@ pipeline {
             steps {
                 script {
                     sshagent(['jenkins.ssh']) {
-                        sh 'ssh -o StrictHostKeyChecking=no docker.tanndev.com rm -rf maelstrom'
+                        sh 'ssh-add -L'
+                        sh 'ssh -v docker.tanndev.com rm -rf maelstrom'
                         sh 'ssh docker.tanndev.com mkdir maelstrom'
                         sh 'scp docker-compose.yml docker.tanndev.com:maelstrom/'
                         sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose pull"'
