@@ -30,7 +30,7 @@
     "express-session": "^1.15.6",
     "http-errors": "^1.7.1",
     "markdown-toc": "^1.2.0",
-    "marked": "^0.5.2",
+    "marked": "^0.6.2",
     "morgan": "^1.9.1",
     "pug": "^2.0.3",
     "redis": "^2.8.0",
