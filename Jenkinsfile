@@ -2,7 +2,7 @@
 
 pipeline {
     agent {
-        label 'nodejs && docker'
+        label 'nodejs && docker && kubectl'
     }
 
     stages {
@@ -59,12 +59,14 @@ pipeline {
             }
             steps {
                 script {
-                    sshagent(['jenkins.ssh']) {
-                        sh 'ssh docker.tanndev.com rm -rf maelstrom'
-                        sh 'ssh docker.tanndev.com mkdir maelstrom'
-                        sh 'scp docker-compose.yml docker.tanndev.com:maelstrom/'
-                        sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose pull"'
-                        sh 'ssh docker.tanndev.com "cd maelstrom && docker-compose up -d"'
+                    // Deploy the app.
+                    withKubeConfig([
+                            credentialsId: 'microservices-kubernetes-token',
+                            serverUrl: "$MICROSERVICES_KUBERNETES_SERVER",
+                            namespace: 'maelstrom'
+                    ]) {
+                        sh 'kubectl apply -f manifest.yaml'
+                        sh 'kubectl rollout restart deployment/maelstrom'
                     }
 
                     if (RELEASE_VERSION) {
